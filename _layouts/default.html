@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  {%- include head.html -%}
+</head>
+<body>
+    {%- include components/header.html -%}
+
+    <main class="content" aria-label="Content">
+      <div class="content__wrapper">
+        {{ content }}
+      </div>
+    </main>
+
+    {%- include components/footer.html -%}
+
+    {%- include bottom.html -%}
+</body>
+</html>

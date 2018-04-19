@@ -1,0 +1,34 @@
+<div class="header">
+  <div class="header__wrapper">
+    
+    {%- assign default_paths = site.pages | map: "path" -%}
+    {%- assign page_paths = site.header_pages | default: default_paths -%}
+    <nav class="navigation">
+      <div class="navigation__logo">
+        <a class="navigation__logo-link" href="/">
+          <img class="navigation__logo-image" src="/images/logos/confuror_small.png" alt="Confuror">
+        </a>
+      </div>
+      {%- if page_paths -%}
+      <div class="navigation__menu">
+        <button class="navigation__menu-button" type="button" data-toggle="collapse" data-target="#navigationMenuContent" aria-controls="navigationMenuContent" aria-expanded="false" aria-label="Toggle navigation">
+          <i class="fa fa-bars"></i>
+        </button>
+        <div class="navigation__menu-content collapse navbar-collapse" id="navigationMenuContent">
+          <ul class="navigation__menu-list">
+            {%- for path in page_paths -%}
+              {%- assign page = site.pages | where: "path", path | first -%}
+              {%- if page.title and page.layout != "home" -%}
+              <li class="navigation__menu-item">
+                <a class="navigation__menu-link" href="{{ page.url | relative_url }}">{{ page.title | escape }}</a>
+              </li>
+              {%- endif -%}
+            {% endfor -%}
+          </ul>
+        </div>
+      </div>
+      {%- endif -%}
+    </nav>
+
+  </div>
+</div>
