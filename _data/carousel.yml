@@ -1,0 +1,5 @@
+base_path: /images/carousel/
+interval: 10000
+slides:
+  - confuror-51_small.jpg
+  - confuror-97_small.jpg
