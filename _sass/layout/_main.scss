@@ -1,0 +1,10 @@
+///////////////////
+//  Main layout  //
+///////////////////
+
+.header {
+  @extend .position-sticky;
+  @extend .sticky-top;
+  // @extend .position-fixed;
+  // @extend .fixed-top;
+}

@@ -1,0 +1,45 @@
+///////////////////
+//  Main layout  //
+///////////////////
+
+.navigation {
+  @extend .navbar;
+  @extend .row;
+  @extend .no-gutters;
+  @extend .navbar-expand-lg;
+  @extend .navbar-light;
+  @extend .bg-light;
+}
+
+.navigation__logo {
+  @extend .col;
+}
+
+.navigation__logo-link {
+  @extend .navbar-brand;
+}
+
+.navigation__menu {
+  @extend .col-auto;
+  padding: 0;
+}
+
+.navigation__menu-button {
+  @extend .navbar-toggler;
+  @extend .bg-primary;
+  @extend .text-secondary;
+  @extend .border-0;
+}
+
+.navigation__menu-list {
+  @extend .navbar-nav;
+  @extend .mr-auto;
+}
+
+.navigation__menu-item {
+  @extend .nav-item;
+}
+
+.navigation__menu-link {
+  @extend .nav-link;
+}

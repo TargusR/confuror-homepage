@@ -1,0 +1,21 @@
+/////////////////////////////////////
+//  Color variables and overrides  //
+/////////////////////////////////////
+
+// Howling Gala theme colors
+$hg-paper: #FFFBE9;
+$hg-ink: #3A3831;
+$hg-paper-shadow: #A8A394;
+$hg-golden: #A57D2D;
+$hg-blue: #0D2B69;
+$hg-blue-shadow: #04103A;
+
+// Override bootstrap default colors
+$primary:       $hg-blue !default;
+$secondary:     $hg-paper !default;
+$success:       $hg-blue-shadow !default;
+$info:          $hg-golden !default;
+$warning:       $hg-ink !default;
+$danger:        $hg-paper-shadow !default;
+// $light:         $gray-100 !default;
+// $dark:          $gray-800 !default;

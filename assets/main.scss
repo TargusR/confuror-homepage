@@ -1,0 +1,21 @@
+---
+# Main Template Header File
+---
+
+// User defined variables and overrides
+@import "variables/color";
+
+// Libraries and External imports
+// @import "minima";
+@import "bootstrap/scss/bootstrap";
+$fa-font-path: "/assets/vendor/fontawesome/fonts";
+@import "font-awesome/scss/font-awesome";
+
+// User defined mixins
+// @import "mixins/*"
+
+// Project components
+@import "components/navigation-bar";
+@import "layout/main";
+
+
