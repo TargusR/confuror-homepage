@@ -1,0 +1,14 @@
+{
+  "name": "confuror_homepage",
+  "version": "1.0.0",
+  "description": "Landing home page for Confuror mexican furry convention",
+  "main": "index.html",
+  "author": "TargusR",
+  "license": "MIT",
+  "dependencies": {
+    "bootstrap": "^4.1.0",
+    "font-awesome": "^4.7.0",
+    "jquery": "1.9.1 - 3",
+    "popper.js": "^1.14.0"
+  }
+}
