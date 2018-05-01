@@ -1,0 +1,49 @@
+///////////////////////
+//  Themeing Mixins  //
+///////////////////////
+
+@mixin addShadow($style:'light') {
+  @if $style == 'light' {
+    box-shadow: 0px 0px 8px 4px rgba($dark, 0.3);
+  } @else if $style == 'super-light' {
+    box-shadow: 0px 0px 6px 2px rgba($dark, 0.2);
+  } @else if $style == 'drop' {
+    box-shadow: 0px 3px 4px 0px rgba($dark, 0.1);
+  }
+}
+
+@mixin addTextShadow($style:'light') {
+  @if $style == 'light' {
+    text-shadow: 0px 0px 8px rgba($dark, 0.6);
+  }
+  @if $style == 'heavy' {
+    text-shadow: 0px 0px 5px $dark;
+  }
+}
+
+@mixin roundBorders($value-top-left: 4px, $value-top-right:'nil', $value-bottom-right:'nil', $value-bottom-left:'nil') {
+  @if ($value-top-right == 'nil' or $value-bottom-right == 'nil' or $value-bottom-left == 'nil') {
+    -webkit-border-radius: $value-top-left;
+    -moz-border-radius: $value-top-left;
+    border-radius: $value-top-left;
+  }
+  @else {
+    -webkit-border-top-left-radius: $value-top-left;
+    -webkit-border-top-right-radius: $value-top-right;
+    -webkit-border-bottom-right-radius: $value-bottom-right;
+    -webkit-border-bottom-left-radius: $value-bottom-left;
+    -moz-border-radius-topleft: $value-top-left;
+    -moz-border-radius-topright: $value-top-right;
+    -moz-border-radius-bottomright: $value-bottom-right;
+    -moz-border-radius-bottomleft: $value-bottom-left;
+    border-top-left-radius: $value-top-left;
+    border-top-right-radius: $value-top-right;
+    border-bottom-right-radius: $value-bottom-right;
+    border-bottom-left-radius: $value-bottom-left;
+  }
+}
+
+@mixin card() {
+  @include roundBorders(3px);
+  @include addShadow('drop');
+}

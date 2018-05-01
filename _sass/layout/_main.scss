@@ -2,6 +2,22 @@
 //  Main layout  //
 ///////////////////
 
+body {
+  background-color: $hg-paper;
+  color: $hg-ink;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Bebas Neue', arial !important;
+  letter-spacing: 0.1em;
+}
+
+p {
+  font-family: 'American typewriter', serif !important;
+  line-height: 1.6em;
+  letter-spacing: 0.04em;
+}
+
 .header {
   @extend .position-sticky;
   @extend .sticky-top;

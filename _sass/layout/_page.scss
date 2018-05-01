@@ -1,0 +1,14 @@
+///////////////////
+//  Page layout  //
+///////////////////
+
+.page {
+  @extend .mx-auto;
+  max-width: 1024px;
+}
+
+.page__wrapper {
+  @extend .container-fluid;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}

@@ -1,0 +1,71 @@
+//////////////////////
+//  Document Index  //
+//////////////////////
+
+.document-index {
+  @extend .mx-auto;
+  max-width: 1024px;
+}
+
+.document-index__wrapper {
+  @extend .container-fluid;
+  @extend .row;
+  @extend .no-gutters;
+  padding: 0;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.document-index__column {
+  @extend .col-md-3;
+}
+
+.document-index__list {
+  @extend .nav;
+  @extend .flex-column;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.document-index__item {
+  @extend .nav-item;
+}
+
+.document-index__link {
+  @extend .nav-link;
+  color: $hg-paper-shadow;
+}
+
+.document-index__link:visited {
+  color: $hg-paper-shadow;
+}
+
+.document-index__link.is-active {
+  @extend .active;
+  @extend .rounded;
+  @extend .text-secondary;
+  background-color: $hg-ink;
+}
+
+.document-index__content {
+  @extend .col-md-9;
+}
+
+.document-index__header {
+  @extend .jumbotron;
+  background-color: $hg-paper-shadow;
+  color: $light;
+}
+.document-index__header {
+  hr {
+    border-color: $hg-ink;
+  }
+}
+
+.document-index__title {
+  @extend .text-secondary;
+}
+
+.document-index__body {
+  @extend .text-justify;
+}
