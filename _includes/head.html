@@ -1,8 +1,8 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <title>{{ page.title }}</title>
+<link rel="stylesheet" href="/assets/font-families.css">
 <link rel="stylesheet" href="/assets/main.css">
-<link href="https://fonts.googleapis.com/css?family=Libre+Baskerville|Lobster" rel="stylesheet">
 
 <!-- :: Favicon conf :: -->
 <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
@@ -18,5 +18,5 @@
 {%- if page.description -%}
 <meta property="og:description" content="{{ page.description }}">
 {%- else -%}
-<meta property="og:description" content="{{ site.description }}">
+<meta property="og:description" content="{{ site.description[page.lang] }}">
 {%- endif -%}
