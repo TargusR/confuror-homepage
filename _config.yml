@@ -1,8 +1,12 @@
 title: Confuror 2018
 email: vidafur.reg@gmail.com
-description: >- # this means to ignore newlines until "baseurl:"
-  Confuror is a furry convention based in Mexico, hosted in the city of Guadalajara, Jalisco.
-  Is the annual main event supported by the furry local comunity Vidafur. "The howling gala" is 2018 theme, and will be held in October 12, 13 and 14 at Laffayette Hotel.
+description:
+  en: >-
+    Confuror is a furry convention based in Mexico, hosted in the city of Guadalajara, Jalisco.
+    Is the annual main event supported by the furry local comunity Vidafur. "The howling gala" is 2018 theme, and will be held in October 12, 13 and 14 at Laffayette Hotel.
+  es: >-
+    Confuror es una convención furry con sede en Mexico, realizandose en la ciudad de Guadalajara, Jalisco.
+    Es el evento anual realizado por la comunidad furry de Vidafur. "The howling gala" es el tema del 2018, y se llevará a cabo el 12, 13 y 14 de Octubre en el hotel Laffayette.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 
