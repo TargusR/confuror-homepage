@@ -12,7 +12,8 @@ $fa-font-path: "/assets/vendor/fontawesome/fonts";
 @import "font-awesome/scss/font-awesome";
 
 // User defined mixins
-// @import "mixins/*"
+@import "mixins/position";
+@import "mixins/theming";
 
 // Project layouts
 @import "layout/main";
@@ -21,8 +22,11 @@ $fa-font-path: "/assets/vendor/fontawesome/fonts";
 
 // Project components
 @import "components/navigation-bar";
+@import "components/language-switch";
 @import "components/banner";
-@import "components/early-bird";
+@import "components/registration";
 @import "components/footer";
+@import "components/invitation";
+@import "components/counter";
 
 
