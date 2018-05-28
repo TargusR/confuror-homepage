@@ -1,0 +1,8 @@
+es:
+  id: es
+  label: Español
+  short: Esp
+en:
+  id: en
+  label: English
+  short: Eng
