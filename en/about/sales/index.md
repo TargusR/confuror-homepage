@@ -10,6 +10,8 @@ list_id: about_documents
 list_weight: 2
 ---
 
+<a name="general_terms"></a>
+
 ## General terms
 
 Exhibition will only be permitted inside the designated selling areas. Displaying merchandise outside assigned areas may result in the removal of the access badge.
@@ -24,6 +26,8 @@ Any applicant for a sale space must submit a form as specified in each edition o
 In order to sell merchandise of any kind it is required to have an approved application and an assigned space. The Confuror staff reserves the right to evaluate sale requests according to their criteria and in accordance with the event policies.
 
 ---
+
+<a name="accepted_content"></a>
 
 ## Content and accepted merchandise
 
@@ -41,6 +45,8 @@ Authorship and originality:
 > *It is considered Furry themed anything that contains elements or characters with zoomorphic aesthetic, or animal derived, real or fantastic species included. As well as artifacts or devices designed explicitly for the fandom.
 
 ---
+
+<a name="space_characteristics"></a>
 
 ## About the application and the characteristics of sale spaces
 

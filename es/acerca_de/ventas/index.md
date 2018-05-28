@@ -10,6 +10,8 @@ list_id: about_documents
 list_weight: 2
 ---
 
+<a name="terminos_generales"></a>
+
 ## Términos generales
 
 Solo se permitirá la exhibición de artículos a la venta en los espacios designados dentro del evento. Montar exhibición de venta fuera de las áreas asignadas puede provocar la remoción del badge de acceso.
@@ -24,6 +26,8 @@ Todo aspirante a un espacio de venta deberá presentar una solicitud en el tiemp
 Para vender mercancía de cualquier tipo es necesario contar con una solicitud aprobada y un espacio de venta asignado. El staff de Confuror se reserva el derecho de evaluar las solicitudes de venta según su criterio, apegado a las políticas del evento.
 
 ---
+
+<a name="contenido_aceptado"></a>
 
 ## Sobre el contenido y mercancía aceptada
 
@@ -41,6 +45,8 @@ Autoría y originalidad:
 > *Se define como temática furry todo aquello que contenga elementos o personajes con estética zoomorfa, o derivados de animales, incluyendo especies reales o fantásticas. Así como artefactos o dispositivos diseñados explícitamente para el Fandom.
 
 ---
+
+<a name="caracteristicas_espacio"></a>
 
 ## Sobre la solicitud y las características de los espacios de venta
 
