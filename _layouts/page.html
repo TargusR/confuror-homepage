@@ -1,6 +1,13 @@
 ---
 layout: default
 ---
+
+{%- if page.banner_src -%}
+{%- assign banner_src = page.banner_src -%}
+{%- assign banner_alt = page.banner_alt -%}
+{%- include components/banner.html -%}
+{%- endif -%}
+
 <article class="page">
   <div class="page__wrapper">
     <header class="page__header">
