@@ -1,0 +1,21 @@
+{%- assign languages = site.data.languages -%}
+{%- assign eq_pages = site.pages | where: "id", page.id -%}
+
+<div class="language-switch">
+  <div class="language-switch__button" type="button" data-toggle="collapse" data-target="#language-switch-list" aria-expanded="false" aria-controls="language-switch-list">
+    <span class="language-switch__label">{{ languages[page.lang].short }}</span>
+    <i class="fa fa-angle-down"></i>
+  </div>
+
+  <ul class="language-switch__list collapse" id="language-switch-list">
+    {%- for item in languages -%}
+    {%- assign language = item[1] -%}
+    {%- assign eq_page = eq_pages | where: "lang", language.id | first -%}
+    <li class="language-switch__list-item">
+      <a class="language-switch__list-link {% if language.id == page.lang %}is-active{% endif %}" href="{{ eq_page.url }}">
+        {{ language.label }}
+      </a>
+    </li>
+    {%- endfor -%}
+  </ul>
+</div>

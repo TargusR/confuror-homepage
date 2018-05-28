@@ -1,0 +1,16 @@
+{%- assign invitation_data = site.data.invitation -%}
+{%- assign register_page = site.pages | where: "id", "registration" | where: "lang", page.lang | first -%}
+
+<div class="invitation">
+  <div class="invitation__wrapper">
+    <div class="invitation__card">
+      <img src="/images/logos/howling_gala_card.png" alt="The howling gala" class="invitation__img">
+    </div>
+    <div class="invitation__col">
+      {{ invitation_data.greetings[page.lang] }}
+    </div>
+    <div class="invitation__col">
+      <a href="{{ register_page.url }}" class="invitation__button">{{ invitation_data.register_now[page.lang] }}</a>
+    </div>
+  </div>
+</div>

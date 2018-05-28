@@ -1,0 +1,18 @@
+{%- assign registration_data = site.data.registration[page.lang] -%}
+
+<div class="registration__intro">
+  <p>{{ registration_data.intro }}</p>
+</div>
+
+<ol class="registration__step-list">
+  {%- for step in registration_data.steps -%}
+  <li class="registration__step-item">
+    <p>{{ step }}</p>
+  </li>
+  {%- endfor -%}
+</ol>
+<h3 class="clock-counter__intro">OWO *notices countdown*</h3>
+<h4 class="clock-counter" data-limit="1526360400000"></h4>
+<div class="registration__form-button-container clock-counter__hide">
+  <a href="{{ registration_data.form_link }}" target="_blank" class="registration__form-button">{{ registration_data.register_now_label }}</a>
+</div>
