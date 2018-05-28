@@ -18,6 +18,12 @@ p {
   letter-spacing: 0.04em;
 }
 
+blockquote {
+  margin-left: 3em;
+  padding-left: 1em;
+  border-left: 10px solid $hg-paper-shadow;
+}
+
 .header {
   @extend .position-sticky;
   @extend .sticky-top;

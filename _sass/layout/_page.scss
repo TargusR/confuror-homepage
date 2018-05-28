@@ -12,3 +12,16 @@
   padding-top: 50px;
   padding-bottom: 50px;
 }
+
+.page__content {
+  a {
+    text-decoration: underline;
+  }
+
+  li {
+    line-height: 1.6em;
+    letter-spacing: 0.04em;
+    padding-bottom: 1em;
+    padding-left: 1em;
+  }
+}
