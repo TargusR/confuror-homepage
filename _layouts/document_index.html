@@ -1,0 +1,34 @@
+---
+layout: default
+---
+
+{%- assign document_list = site.pages | where: "list_id", page.list_id | where: "lang", page.lang | sort: "list_weight" -%}
+
+<article class="document-index">
+  <div class="document-index__wrapper">
+    <div class="document-index__column">
+      <ul class="document-index__list">
+        {%- for document in document_list -%}
+        <li class="document-index__item">
+          <a class="document-index__link {% if document.id == page.id %}is-active{% endif %}" href="{{ document.url }}">{{ document.label }}</a>
+        </li>
+        {%- endfor -%}
+      </ul>
+    </div>
+    <div class="document-index__content">
+      <header class="document-index__header">
+        {%- if page.title -%}
+        <h1 class="document-index__title">{{ page.title | escape }}</h1>
+        {%- endif -%}
+        {%- if page.description -%}
+        <hr class="my-4">
+        <p class="document-index__description">{{ page.description | escape }}</p>
+        {%- endif -%}
+      </header>
+
+      <div class="document-index__body">
+        {{ content }}
+      </div>
+    </div>
+  </div>
+</article>
