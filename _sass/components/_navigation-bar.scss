@@ -1,14 +1,15 @@
-///////////////////
-//  Main layout  //
-///////////////////
+//////////////////////
+//  Navigation bar  //
+//////////////////////
 
 .navigation {
   @extend .navbar;
   @extend .row;
   @extend .no-gutters;
   @extend .navbar-expand-lg;
-  @extend .navbar-light;
-  @extend .bg-light;
+  @extend .navbar-dark;
+  @extend .bg-primary;
+  background: linear-gradient(to bottom, $hg-blue, $hg-blue-shadow);
 }
 
 .navigation__logo {
@@ -17,6 +18,7 @@
 
 .navigation__logo-link {
   @extend .navbar-brand;
+  @extend .text-secondary;
 }
 
 .navigation__menu {
@@ -42,4 +44,15 @@
 
 .navigation__menu-link {
   @extend .nav-link;
+}
+
+.navigation__lang {}
+  
+.navigation__separator {
+  display: block;
+  height: 10px;
+  border: 0;
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(to right, $hg-golden-light, $hg-golden-shadow);
 }

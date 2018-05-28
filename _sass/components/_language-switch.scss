@@ -1,0 +1,43 @@
+///////////////////////
+//  Language switch  //
+///////////////////////
+
+.language-switch {
+  @extend .position-relative;
+}
+
+.language-switch__button {
+  @extend .btn;
+  @extend .btn-sm;
+  @extend .text-light;
+}
+
+.language-switch__list {
+  @extend .position-absolute;
+  @extend .nav;
+  @extend .flex-column;
+  @extend .bg-secondary;
+  @extend .border;
+  @extend .rounded;
+  right: 0;
+  color: $hg-ink;
+  border-color: $hg-paper-shadow!important;
+  overflow: hidden;
+  @include addShadow('drop');
+}
+
+.language-switch__list-item {
+  @extend .nav-item;
+}
+
+.language-switch__list-link {
+  display: block;
+  padding: 0 20px;
+  line-height: 30px;
+}
+
+.language-switch__list-link.is-active {
+  @extend .active;
+  color: $hg-paper;
+  background-color: $hg-paper-shadow;
+}

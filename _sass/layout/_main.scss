@@ -21,6 +21,7 @@ p {
 .header {
   @extend .position-sticky;
   @extend .sticky-top;
+  @include addShadow('drop');
   // @extend .position-fixed;
   // @extend .fixed-top;
 }

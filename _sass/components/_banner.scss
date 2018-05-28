@@ -1,0 +1,15 @@
+//////////////////
+//  Banner bar  //
+//////////////////
+
+.banner {
+  @extend .container-fluid;
+  padding: 0;
+}
+
+.banner__wrapper {}
+
+.banner__img {
+  width: 100%;
+  height: auto;
+}

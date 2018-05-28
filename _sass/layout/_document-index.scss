@@ -66,6 +66,10 @@
   @extend .text-secondary;
 }
 
+.document-index__description {
+  margin: 0;
+}
+
 .document-index__body {
   @extend .text-justify;
 }

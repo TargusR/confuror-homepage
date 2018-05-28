@@ -1,0 +1,35 @@
+//////////////////
+//  Footer bar  //
+//////////////////
+
+.footer {
+  @extend .container-fluid;
+  @extend .text-light;
+  background-color: $hg-ink;
+}
+
+.footer__wrapper {
+  @extend .row;
+  @extend .mx-auto;
+  padding-top: 60px;
+  padding-bottom: 30px;
+  max-width: 1024px;
+}
+
+.footer__column {
+  @extend .col;
+}
+
+.footer__contact-heading {
+  margin: 0;
+  line-height: 40px;
+}
+
+.footer__contact-email {
+  @extend .btn;
+  @extend .btn-secondary;
+}
+
+.footer__description {
+  font-size: 10pt;
+}

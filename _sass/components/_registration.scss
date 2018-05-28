@@ -1,0 +1,24 @@
+////////////////////
+//  Registration  //
+////////////////////
+
+
+.registration__intro {}
+
+.registration__form-button-container {
+  @extend .container-fluid;
+  text-align: center;
+}
+
+.registration__form-button {
+  @extend .btn;
+  @extend .btn-primary;
+  @extend .mx-auto;
+  @extend .text-secondary;
+  @extend .border-info;
+  font-family: 'Bebas Neue', arial !important;
+  font-size: 2em;
+  letter-spacing: 0.1em;
+  padding-left: 20px;
+  padding-right: 20px;
+}

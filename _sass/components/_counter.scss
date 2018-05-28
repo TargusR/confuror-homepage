@@ -1,0 +1,38 @@
+///////////////
+//  Counter  //
+///////////////
+
+.clock-counter {
+  @extend h1;
+  width: 100%;
+  font-size: 4em;
+  text-align: center !important;
+  position: relative;
+  max-height: 100px;
+  transition: transform 0.6s, max-height 0.4s;
+}
+
+.clock-counter__intro {
+  width: 100%;
+  text-align: center;
+  font-size: 2em;
+  padding-top: 40px;
+  max-height: 100px;
+  transition: transform 0.6s, max-height 0.4s;
+}
+
+.clock-counter__hide {
+  // display: none;
+  transition: transform 0.6s;
+  transform: scale(0);
+}
+
+.clock-counter__hide.is-shown {
+  transform: scale(1);
+}
+
+.clock-counter.is-hidden,
+.clock-counter__intro.is-hidden {
+  transform: scale(0);
+  max-height: 0;
+}

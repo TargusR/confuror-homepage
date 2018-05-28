@@ -1,0 +1,65 @@
+//////////////////////
+//  Invitation bar  //
+//////////////////////
+
+.invitation {
+  @extend .container-fluid;
+  background-color: $hg-paper-shadow;
+}
+
+.invitation__wrapper {
+  @extend .row;
+  @extend .no-gutters;
+  @extend .mx-auto;
+  position: relative;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  max-width: 1024px;
+}
+
+.invitation__card {
+  @extend .col-sm-2;
+  position: relative;
+}
+
+.invitation__img {
+  @include centerThis("left");
+  left: -40%;
+}
+
+.invitation__col {
+  @extend .col-sm-5;
+}
+
+.invitation__button {
+  @extend .btn;
+  @extend .btn-outline-secondary;
+  padding: 0;
+  width: 280px;
+  height: 50px;
+  @include centerThis();
+  font-family: 'Bebas Neue', arial !important;
+  font-size: 2em;
+  line-height: 50px;
+}
+
+@include media-breakpoint-down(sm) {
+  .invitation__col {
+    margin-left: 20%;
+    background-color: rgba($hg-paper-shadow, 0.6);
+    padding: 10px;
+  }
+
+  .invitation__card {
+    width: 30%;
+    @include centerThis("left");
+  }
+
+  .invitation__img {
+    @include centerThis(); 
+  }
+
+  .invitation__button {
+    position: relative;
+  }
+}
