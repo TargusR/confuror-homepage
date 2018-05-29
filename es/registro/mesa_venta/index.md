@@ -9,7 +9,7 @@ banner_src: /images/banners/sale_tables_banner_web_esp.png
 banner_alt: Convocatoria para Artist Alley & Dealers Den
 ---
 
-Bienvenidos sean todos los artistas y vendedores a la Confuror 2018, para obtener un lugar en en nuestros espacios de venta es necesario seguir los pasos indicados en esta convocatoria. Les recomendamos leer atentamente las instrucciones, el tiempo en que respondan a esta convocatoria no es tan importante como el contenido de sus respuestas. ¡Adelante!
+Bienvenidos sean todos los artistas y vendedores a la Confuror 2018, para obtener un lugar en nuestros espacios de venta es necesario seguir los pasos indicados en esta convocatoria. Les recomendamos leer atentamente las instrucciones, el tiempo en que respondan a esta convocatoria no es tan importante como el contenido de sus respuestas. ¡Adelante!
 
 1. Revisa que el material que vayas a presentar a la Confuror 2018 cumpla con los requisitos expuestos en nuestro reglamento de venta vigente. Puedes consultar el apartado correspondiente [aquí](/es/acerca_de/ventas/#contenido_aceptado).
 2. ¡Nos gustaría conocer tu talento! Ten a la mano links a tus galerías en línea: Instagram, Twitter, Tumblr, Deviant Art, Furaffinity, etcétera; cualquiera es válida mientras podamos acceder a su contenido para revisión. No es requerido que todo el material que tengas publicado cumpla con los requisitos mencionados en el punto anterior, solo indícanos los ejemplos que se aproximen más a lo que presentarás a la Confuror en el espacio correspondiente del formulario de la convocatoria.
