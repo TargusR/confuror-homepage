@@ -1,0 +1,133 @@
+//////////////////
+//  Footer bar  //
+//////////////////
+
+.hotel-card {
+  @extend .rounded;
+  padding: 20px;
+  background: $hg-ink;
+  color: $hg-paper;
+  margin: 30px 0;
+}
+
+.hotel-card__data {
+  @extend .row;
+}
+
+.hotel-card__data-column-items {
+  @extend .col;
+}
+
+.hotel-card__data-column-image {
+  // @extend .col-lg-3;
+  @extend .col-md-4;
+  @extend .col-sm-5;
+  @extend .col-12;
+}
+
+.hotel-card__data-item {
+  margin-bottom: 20px;
+}
+
+.hotel-card__data-item p {
+  margin: 0;
+  padding: 0 25px;
+  font-size: small;
+}
+
+.hotel-card__data-format-clear {
+  font-family: $font-family-sans-serif;
+}
+
+.hotel-card__name {
+  border-bottom: 3px solid $hg-paper;
+  margin-bottom: 30px;
+}
+
+.hotel-card__name-title {}
+
+.hotel-card__hotel-link {
+  @extend .btn;
+  @extend .btn-sm;
+  @extend .btn-secondary;
+  margin: 8px 25px;
+  font-weight: bold;
+  text-decoration: none !important;
+}
+
+.hotel-card__phone-list li {
+  padding: 0;
+}
+
+.hotel-card__image {
+  @extend .rounded;
+  width: 100%;
+  overflow: hidden;
+}
+
+.hotel-card__image-img {
+  width: 100%;
+  height: auto;
+}
+
+
+.hotel-promo {
+  max-width: 700px;
+  margin: 30px auto;
+  padding: 30px;
+  border: 1px dotted $hg-ink;
+}
+
+.hotel-promo__tagline {
+  border-bottom: 1px dotted $hg-ink;
+}
+
+.hotel-promo__fares {
+  @extend .row;
+}
+
+.hotel-promo__fares-numbers {
+  @extend .col;
+}
+
+.hotel-promo__fares-combos {
+  @extend .col-md-6;
+  @extend .col-sm-5;
+  @extend .col-12;
+}
+
+.hotel-promo__fare-number {
+  font-weight: bold;
+  font-size: 4em;
+}
+
+.hotel-promo__fare-number--extra {
+  font-size: 3em;
+}
+
+.hotel-promo__fares-combos-table {
+  @extend .table;
+  @extend .table-striped;
+  margin-top: 20px;
+  font-size: small;
+}
+
+.hotel-promo__fares-combos-table th {
+  padding: 4px 6px;
+}
+
+.hotel-promo__fares-combos-table-header tr {
+  @extend .thead-dark;
+  background-color: $hg-ink;
+}
+
+// .hotel-promo__fares-combos-table-body {}
+
+.hotel-promo__notes {
+  margin-top: 20px;
+}
+
+.hotel-promo__notes p {
+  margin: 0;
+  font-size: small;
+}
