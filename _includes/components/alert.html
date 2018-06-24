@@ -1,0 +1,7 @@
+{%- unless alert_mode -%}
+{%- assign alert_mode = "primary" -%}
+{%- endunless -%}
+
+<div class="alert alert-{{ alert_mode }}" role="alert">
+  {{ alert_message }}
+</div>

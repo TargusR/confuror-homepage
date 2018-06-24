@@ -2,16 +2,21 @@
 
 <footer class="footer">
   <div class="footer__wrapper">
-    <div class="footer__column">
+    <div class="footer__column footer__column--index">
+      {%- include components/full-index.html -%}
+    </div>
+    <div class="footer__column footer__column--contact">
+      {%- include components/social-networks.html -%}
       <h4 class="footer__contact-heading">{{ footer_data.strings[page.lang].contact }}</h4>
       <a class="footer__contact-email" href="mailto:{{ site.email }}">
         <i class="fa fa-envelope"></i>
         {{ site.email }}
       </a>
     </div>
-    <div class="footer__column">
+    <div class="footer__column footer__column--description">
       <div class="footer__description">
-        <p>{{- site.description[page.lang] -}}</p>
+        <p>{{ site.description[page.lang] }}</p>
+        <p>@ 2008 - 2018 Vidafur</p>
       </div>
     </div>
   </div>

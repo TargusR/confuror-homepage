@@ -1,0 +1,9 @@
+<div class="social-network-bar">
+  {%- for network in site.data.social-networks -%}
+  <div class="social-network-bar__item">
+    <a href="{{ network.link }}" class="social-network-bar__link" target="_blank" title="{{ network.label }}">
+      <i class="fa fa-{{ network.icon }}"></i>
+    </a>
+  </div>
+  {% endfor %}
+</div>
