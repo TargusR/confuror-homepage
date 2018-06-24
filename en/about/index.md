@@ -9,4 +9,6 @@ lang: en
 featured: true
 list_id: about_documents
 list_weight: 0
+category: cat_about
+category_weight: 0
 ---

@@ -8,6 +8,8 @@ lang: es
 featured: false
 list_id: about_documents
 list_weight: 3
+category: cat_about
+category_weight: 3
 ---
 
 La siguiente redacción presenta puntos de acuerdo que el asistente se compromete a leer y que está aceptando al concretar el pago por su acceso.

@@ -9,6 +9,8 @@ lang: es
 featured: true
 banner_src: /images/banners/reserva_hotel_esp.png
 banner_alt: Reservas en el hotel sede
+category: cat_attend
+category_weight: 1
 ---
 
 Confuror 2018 se realiza en las instalaciones del [**Hotel Laffayette**](https://hotellaffayette.com/), ubicado en una de las zonas más atractivas de la ciudad de Guadalajara. Reserva tu habitación en el hotel y experimenta la convención durante todo el día, además de disfrutar de la vida nocturna del _paseo Chapultepec_.

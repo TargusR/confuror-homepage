@@ -8,6 +8,8 @@ lang: es
 featured: false
 list_id: about_documents
 list_weight: 1
+category: cat_about
+category_weight: 1
 ---
 
 Cada miembro de Confuror acepta cumplir con las reglas listadas en este documento como condición para asistir a la convención y recibir su badge de asistente. El cumplimiento de estos lineamientos asegura que tanto tú como los demás asistentes tengan la mejor experiencia posible. Estas reglas aplican para todo miembro en la convención y sus alrededores sin importar si el evento no ha comenzado o ya termino. Confuror da la bienvenida a toda persona con interés en animales antropomórficos; sin embargo, el Comité Organizador se reserva el derecho de negar o revocar la membresía a cualquier individuo en cualquier momento si a su criterio lo ve necesario. También se reserva el derecho de modificar estas reglas en cualquier momento sin previo aviso.

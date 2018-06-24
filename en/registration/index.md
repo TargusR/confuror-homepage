@@ -3,8 +3,12 @@ layout: page
 id: registration
 title: Presale Registration
 label: Register now
+description: >-
+  Know more about how to register and attend Confuror 2018
 lang: en
 featured: true
+category: cat_attend
+category_weight: 0
 ---
 
 {%- include components/registration.html -%}

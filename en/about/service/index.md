@@ -8,6 +8,8 @@ lang: en
 featured: false
 list_id: about_documents
 list_weight: 3
+category: cat_about
+category_weight: 3
 ---
 
 The next document contains a list of terms that attendees must read and agree, when completing payment for access to the event the agreement is considered accepted.

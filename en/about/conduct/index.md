@@ -8,6 +8,8 @@ lang: en
 featured: false
 list_id: about_documents
 list_weight: 1
+category: cat_about
+category_weight: 1
 ---
 
 Every member of Confuror agrees to abide by the Confuror Code of Conduct as a condition of attending the event and receiving a badge. Following the policies below ensures that you and the people around you have a safe and enjoyable convention experience. This code of conduct applies to members of the convention at all event premises, regardless of whether the convention has officially begun or ended. Confuror welcomes all parties with an interest in anthropomorphic animals; however, the convention's management reserves the right to deny or revoke the membership of any individual at any time for any reason. Confuror also reserves the right to amend these rules at any time without prior or posted notice and reserves the sole right of interpretation.

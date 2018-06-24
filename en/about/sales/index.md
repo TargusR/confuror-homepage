@@ -8,6 +8,8 @@ lang: en
 featured: true
 list_id: about_documents
 list_weight: 2
+category: cat_about
+category_weight: 2
 ---
 
 <a name="general_terms"></a>
@@ -52,14 +54,18 @@ Authorship and originality:
 
 Only one application could be submitted by any Confuror attendee, and only one sale space can be requested per application. It is not required to cover entrance cost to submit your sale application, but once approved it is mandatory to pay both your entrance and the sale space fee, otherwise the application will be canceled.
 
-Description and sample pictures of any article pretended to sale at the convention must be included in the sale space application, as long as possible.
+Description and sample pictures of any article pretended to sale at the convention must be included in the sale space application, as long as possible. Designation between Artist Alley or Dealers Den will be defined by this description.
 
-Every designated spot includes table space and two chairs; only a maximum of two sellers will be allowed to stay per sale space at any moment, but sellers could be replaced freely at their will. Individual registration and access payment is required for every seller or assistant in order to attend the event.
+Inside **Dealers Den**, every designated spot includes table space and two chairs; only a maximum of two sellers will be allowed to stay per sale space at any moment, but sellers could be replaced freely at their will. Under **Artist Alley**, every designated spot includes table space and one chair; only one artist will be allowed per spot at any moment, but it may also take turns with an asistant or another artist under preference of the spot owner. Individual registration and access payment is required for every seller or assistant in order to attend the event.
 
-Sale spaces had the following measures: 1.3 meters large and 70 centimeters wide (half of large table). Mounting vertical structures over the table or behind it will be allowed, as long as it’s base dimensions do not exceed the same area of the table space, and it’s height do not exceed 2 meters.
+Sale spaces had the following measures:
+* **Dealers Den**: 120cm large and 70cm wide (half of large table). Mounting vertical structures over the table or behind it will be allowed, as long as it’s base dimensions do not exceed the same area of the table space, and it’s height do not exceed 2 meters.
+* **Artist Alley**: 80cm large and 70cm wide (third of a large table). Any structure mounted over this space will require to be disasembled at the end of the day, but it might be stored under the area, as long as the staff personel is notified.
 
-In order to mount larger exhibition stands, designated space could be combined for groups of artist or sellers, as long as every seller or artist application for a sale space is approved. It is required to contact the Confuror staff by mail, indicating the names of the sellers or artist interested in mixing their spaces, once every one of them had received their confirmation emails. As a space distribution matter, the possibility of assigning more than two contiguous spaces is not guaranteed, but we will try our best.
+Inside **Dealers Den** in order to mount larger exhibition stands, designated space could be combined for groups of artist or sellers, as long as every seller or artist application for a sale space is approved. It is required to contact the Confuror staff by mail, indicating the names of the sellers or artist interested in mixing their spaces, once every one of them had received their confirmation emails. As a space distribution matter, the possibility of assigning more than two contiguous spaces is not guaranteed, but we will try our best.
 
-Stands may remain assembled at the end of the operating hours of the sales area, every seller is responsible for manage their inventories and ensure the safety of their goods. Assigned rooms will be locked after everything is packed for the night and vendors leave.
+Stands inside **Dealers Den** may remain assembled at the end of the operating hours of the sales area, every seller is responsible for manage their inventories and ensure the safety of their goods. Assigned rooms will be locked after everything is packed for the night and vendors leave.
+
+Tables for artists inside **Artist Alley** will not be designated permanently. The table every artist will use for the day will be asignated at the moment of their check in.
 
 Confuror is not responsible for the management of inventories, prices or profit recovery. We value the entrepreneurship and the will to sell in our event, enriching the convention experience; unfortunately our space is limited and we can not guarantee a place for everyone, but we recommend to follow the terms indicated in this document to ensure a positive evaluation.
