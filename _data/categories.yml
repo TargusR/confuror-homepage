@@ -1,0 +1,24 @@
+- id: cat_attend
+  label:
+    en: "Attend"
+    es: "Asiste"
+  weight: 0
+  hidden: false
+- id: cat_contribute
+  label:
+    en: "Contribute"
+    es: "Participa"
+  weight: 1
+  hidden: false
+- id: cat_contents
+  label:
+    en: "Contents"
+    es: "Contenidos"
+  weight: 2
+  hidden: false
+- id: cat_about
+  label:
+    en: "About"
+    es: "Acerca de"
+  weight: 3
+  hidden: false

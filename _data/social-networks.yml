@@ -1,0 +1,12 @@
+- label: Facebook
+  icon: facebook
+  weight: 0
+  link: https://www.facebook.com/Confuror
+- label: Twitter
+  icon: twitter
+  weight: 1
+  link: https://twitter.com/ConFuror
+- label: Telegram
+  icon: telegram
+  weight: 2
+  link: https://t.me/ConFurorOficial
