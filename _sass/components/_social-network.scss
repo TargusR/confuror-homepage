@@ -1,0 +1,24 @@
+//////////////////////////
+//  Social Network Bar  //
+//////////////////////////
+
+.social-network-bar {
+  @extend .container;
+  padding: 0;
+  text-align: left;
+}
+
+.social-network-bar__item {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+.social-network-bar__link {
+  font-size: 2em;
+  color: $hg-paper-shadow;
+  transition: color 0.2s;
+}
+
+.social-network-bar__link:hover {
+  color: $hg-paper;
+}

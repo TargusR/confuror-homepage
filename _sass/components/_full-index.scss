@@ -1,0 +1,37 @@
+//////////////////
+//  Full index  //
+//////////////////
+
+.full-index__wrapper {
+  padding: 30px 0;
+  text-align: center;
+}
+
+.full-index__category {
+  display: inline-block;
+  margin: 0 20px;
+  vertical-align: top;
+  text-align: left;
+}
+
+.full-index__category-title {}
+
+.full-index__category-list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.full-index__category-list-item {
+  padding: 5px 0;
+}
+
+.full-index__category-list-link {
+  font-size: smaller;
+  color: $hg-paper-shadow;
+  transition: color 0.2s;
+}
+
+.full-index__category-list-link:hover {
+  color: $hg-paper;
+}

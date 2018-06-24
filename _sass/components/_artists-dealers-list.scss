@@ -1,0 +1,26 @@
+////////////////////
+//  Vendors list  //
+////////////////////
+
+.vendors-table__wrapper {
+  width: 100%;
+  overflow: auto;
+}
+
+.vendors-table--schedule,
+.vendors-table--dealers-den,
+.vendors-table--artist-alley, {
+  @extend .table;
+  @extend .table-striped;
+  margin: 20px auto;
+  font-size: small;
+  max-width: 600px;
+}
+
+.vendors-table--schedule {
+  text-align: center;
+
+  td {
+    vertical-align: middle;
+  }
+}
