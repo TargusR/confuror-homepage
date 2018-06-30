@@ -15,7 +15,7 @@
     en: "Contents"
     es: "Contenidos"
   weight: 2
-  hidden: false
+  hidden: true
 - id: cat_about
   label:
     en: "About"
