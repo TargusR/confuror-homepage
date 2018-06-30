@@ -4,12 +4,17 @@
 
 .language-switch {
   @extend .position-relative;
+  @extend .rounded;
+  background-color: $hg-blue;
 }
 
 .language-switch__button {
-  @extend .btn;
-  @extend .btn-sm;
+  @extend .nav-link;
   @extend .text-light;
+  padding-left: 8px;
+  padding-right: 8px;
+  font-size: small;
+  text-align: center;
 }
 
 .language-switch__list {
@@ -40,4 +45,10 @@
   @extend .active;
   color: $hg-paper;
   background-color: $hg-paper-shadow;
+}
+
+@include media-breakpoint-down(md) {
+  .language-switch {
+    background-color: transparent;
+  }
 }

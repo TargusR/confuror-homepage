@@ -8,27 +8,35 @@
 }
 
 .invitation__wrapper {
-  @extend .row;
-  @extend .no-gutters;
   @extend .mx-auto;
   position: relative;
   padding-top: 30px;
   padding-bottom: 30px;
+  padding-left: 250px;
   max-width: 1024px;
 }
 
 .invitation__card {
-  @extend .col-sm-2;
-  position: relative;
+  position: absolute;
+  width: 250px;
+  height: 104px;
+  @include centerThis('left');
 }
 
 .invitation__img {
-  @include centerThis("left");
-  left: -40%;
+  @include centerThis('left');
+  left: -60px;
+}
+
+.invitation__content {
+  @extend .row;
+  @extend .no-gutters;
 }
 
 .invitation__col {
-  @extend .col-sm-5;
+  @extend .col-12;
+  @extend .col-md-6;
+  position: relative;
 }
 
 .invitation__button {
@@ -43,23 +51,51 @@
   line-height: 50px;
 }
 
+@include media-breakpoint-down(md) {
+  .invitation__button {
+    width: 200px;
+    font-size: 1.6em;
+  }
+}
+
 @include media-breakpoint-down(sm) {
-  .invitation__col {
-    margin-left: 20%;
-    background-color: rgba($hg-paper-shadow, 0.6);
-    padding: 10px;
+  .invitation__wrapper {
+    padding-left: 200px;
   }
 
   .invitation__card {
-    width: 30%;
-    @include centerThis("left");
+    width: 200px;
   }
 
   .invitation__img {
-    @include centerThis(); 
+    left: -40px;
   }
 
   .invitation__button {
     position: relative;
+  }
+}
+
+@include media-breakpoint-down(xs) {
+  .invitation__wrapper {
+    padding-left: 100px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+
+  .invitation__card {
+    width: 100px;
+  }
+
+  .invitation__img {
+    width: 150px;
+  }
+
+  .invitation__content {
+    font-size: small;
+  }
+
+  .invitation__button {
+    width: 160px;
   }
 }

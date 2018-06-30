@@ -6,12 +6,21 @@
   @extend .container-fluid;
   @extend .text-light;
   background-color: $hg-ink;
+
+  a {
+    color: $hg-paper-shadow;
+    transition: color 0.2s;
+  }
+
+  a:hover {
+    color: $hg-paper;
+  }
 }
 
 .footer__wrapper {
   @extend .row;
   @extend .mx-auto;
-  padding-top: 80px;
+  padding-top: 60px;
   padding-bottom: 30px;
   max-width: 1024px;
 }
@@ -38,11 +47,19 @@
   line-height: 40px;
 }
 
-.footer__contact-email {
-  @extend .btn;
-  @extend .btn-secondary;
-}
+.footer__contact-email {}
 
 .footer__description {
   font-size: 10pt;
+  text-align: justify;
+}
+
+.footer__copyright {
+  text-align: right;
+}
+
+@include media-breakpoint-down(sm) {
+  .footer__wrapper {
+    padding-top: 40px;
+  }
 }
