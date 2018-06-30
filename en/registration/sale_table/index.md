@@ -6,7 +6,6 @@ label: Artist & Dealers
 description: >-
   Application closed. Know the list of selected artist and vendors for Confuror 2018
 lang: en
-featured: true
 banner_src: /images/banners/sale_tables_banner_web_eng.png
 banner_alt: Artist and Dealers application
 category: cat_contribute

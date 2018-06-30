@@ -5,7 +5,6 @@ title: Attende Code of Conduct
 label: Code of conduct
 description: Last update april 2018
 lang: en
-featured: false
 list_id: about_documents
 list_weight: 1
 category: cat_about

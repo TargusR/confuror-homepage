@@ -6,7 +6,6 @@ description: >-
   Reserva tu habitación en el Hotel sede de Confuror 2018, el Laffayette Guadalajara. Más detalles aquí.
 label: Hospedaje
 lang: es
-featured: true
 banner_src: /images/banners/reserva_hotel_esp.png
 banner_alt: Reservas en el hotel sede
 category: cat_attend

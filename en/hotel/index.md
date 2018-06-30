@@ -6,7 +6,6 @@ description: >-
   Book your rooms in the Confuror 2018 venue hotel, the Laffayette in Guadalajara. More details here.
 label: Hotel booking
 lang: en
-featured: true
 banner_src: /images/banners/reserva_hotel_eng.png
 banner_alt: Hotel room reservation
 category: cat_attend

@@ -2,7 +2,7 @@
 layout: page
 id: registration
 title: Registro Preventa
-label: Registrarse
+label: Regístrate
 description: >-
   Conoce aquí los detalles para registrarte y asistir a Confuror 2018
 lang: es

@@ -5,7 +5,6 @@ title: Regulation for sales inside Confuror
 label: Sales regulation
 description: If you want to apply for a sale space inside Confuror, we recommend you to read carefully this regulation and be prepared for the announcement.
 lang: en
-featured: true
 list_id: about_documents
 list_weight: 2
 category: cat_about

@@ -5,7 +5,6 @@ title: Terms of Service
 label: TOS
 description: Last update May 2018
 lang: en
-featured: false
 list_id: about_documents
 list_weight: 3
 category: cat_about

@@ -6,7 +6,6 @@ label: Mesas de venta
 description: >-
   Convocatoria cerrada. Conoce los resultados de la convocatoria para mesas de venta en Confuror 2018
 lang: es
-featured: true
 banner_src: /images/banners/sale_tables_banner_web_esp.png
 banner_alt: Convocatoria para Artist Alley & Dealers Den
 category: cat_contribute

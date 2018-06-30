@@ -5,7 +5,6 @@ title: Reglamento para ventas dentro de Confuror
 label: Reglamento de venta
 description: En Confuror disponemos de un área de venta. Si estás interesado en participar en ella, te recomendamos leer atentamente este reglamento y estar preparado para la convocatoria.
 lang: es
-featured: true
 list_id: about_documents
 list_weight: 2
 category: cat_about
