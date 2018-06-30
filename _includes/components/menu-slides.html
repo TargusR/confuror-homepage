@@ -1,0 +1,64 @@
+<div class="menu-slides__wrapper">
+  <!-- :: Main slide :: -->
+  <div class="menu-slides__slide menu-slides__slide--main" id="menu_main">
+    <div class="menu-slides__slide-content">
+      <div class="slide-content__return-button">
+        <a href="#" class="slide-content__return-link menu-slide-trigger" data-menu-id="main">
+          <i class="fa fa-times"></i>
+        </a>
+      </div>
+
+      <div class="slide-content__content">
+        <!-- :: Featured Links :: -->
+        {%- assign featured_paths = site.pages | where: "lang", page.lang | where: "featured", true | map: "path" -%}
+        {%- if featured_paths | size > 0 -%}
+        <ul class="navigation-mobile-featured-menu__list">
+          {%- for path in featured_paths -%}
+            {%- assign featured_page = site.pages | where: "path", path | first -%}
+            {%- if featured_page.id != "home" -%}
+            <li class="navigation-mobile-featured-menu__item">
+              <a class="navigation-mobile-featured-menu__link" href="{{ featured_page.url | relative_url }}">{{ featured_page.label | escape }}</a>
+            </li>
+            {%- endif -%}
+          {% endfor -%}
+        </ul>
+        {%- endif -%}
+        <!-- :: Category Links :: -->
+        {%- assign categories = site.data.categories | where: "hidden", false | sort: "weight" -%}
+        <ul class="slide-content__list">
+        {%- for category in categories -%}
+          <li class="slide-content__list-item">
+            <a class="slide-content__list-link menu-slide-trigger" href="#" data-menu-id="{{ category.id }}">{{ category.label[page.lang] | escape }}</a>
+          </li>
+        {% endfor %}
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <!-- :: Category slides :: -->
+  {%- assign categories = site.data.categories | where: "hidden", false | sort: "weight" -%}
+  {%- for category in categories -%}
+  <div class="menu-slides__slide menu-slides__slide--category" id="menu_{{ category.id }}"> 
+    <div class="menu-slides__slide-content">
+      <div class="slide-content__return-button">
+        <a href="#" class="slide-content__return-link menu-slide-trigger" data-menu-id="{{ category.id }}">
+          <i class="fa fa-times"></i>
+        </a>
+      </div>
+      <div class="slide-content__content">
+      <h4 class="slide-content__category-title">{{ category.label[page.lang] | escape }}</h4>
+        <ul class="slide-content__list">
+          {%- assign category_pages = site.pages | where: "category", category.id | where: "lang", page.lang | sort: "category_weight" -%}
+          {%- for category_page in category_pages -%}
+          <li class="slide-content__list-item">
+            <a href="{{ category_page.url | relative_url }}" class="slide-content__list-link">{{ category_page.label }}</a>
+          </li>
+          {%- endfor -%}
+        </ul>
+      </div>
+    </div>
+  </div>
+  {% endfor %}
+
+</div>

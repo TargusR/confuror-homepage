@@ -1,38 +1,49 @@
 <div class="header">
   <div class="header__wrapper">
-    
-    {%- assign default_paths = site.pages | map: "path" -%}
-    {%- assign page_paths = site.header_pages | default: default_paths -%}
+  
     <nav class="navigation">
       <div class="navigation__logo">
         <a class="navigation__logo-link" href="/{{ page.lang }}">
           <img class="navigation__logo-image" src="/images/logos/confuror_small.png" alt="Confuror">
         </a>
       </div>
-      {%- if page_paths -%}
+      
+      <!-- :: Desktop navigation menu :: -->
       <div class="navigation__menu">
-        <div class="navigation__menu-content collapse navbar-collapse" id="navigationMenuContent">
-          <ul class="navigation__menu-list">
-            {%- for path in page_paths -%}
-              {%- assign menu_page = site.pages | where: "path", path | first -%}
-              {%- if menu_page.id != "home" and menu_page.lang == page.lang and menu_page.featured == true -%}
-              <li class="navigation__menu-item">
-                <a class="navigation__menu-link" href="{{ menu_page.url | relative_url }}">{{ menu_page.label | escape }}</a>
-              </li>
-              {%- endif -%}
-            {% endfor -%}
-          </ul>
-        </div>
+        <ul class="navigation__menu-list">
+          <!-- :: Category Links :: -->
+          {%- assign categories = site.data.categories | where: "hidden", false | sort: "weight" -%}
+          {%- for category in categories -%}
+            <li class="navigation__menu-item" id="menuItem_menu_{{ category.id }}">
+              <a class="navigation__menu-link menu-slide-trigger" href="#" data-menu-id="{{ category.id }}">{{ category.label[page.lang] | escape }}</a>
+            </li>
+          {% endfor %}
+          <!-- :: Featured Links :: -->
+          {%- assign featured_paths = site.pages | where: "lang", page.lang | where: "featured", true | map: "path" -%}
+          {%- for path in featured_paths -%}
+            {%- assign featured_page = site.pages | where: "path", path | first -%}
+            {%- if featured_page.id != "home" -%}
+            <li class="navigation__menu-item">
+              <a class="navigation__menu-link navigation__menu-link--featured" href="{{ featured_page.url | relative_url }}">{{ featured_page.label | escape }}</a>
+            </li>
+            {%- endif -%}
+          {% endfor -%}
+        </ul>
       </div>
-      {%- endif -%}
+
       <div class="navigation__lang">
         {% include components/language-switch.html %}
       </div>
-      <button class="navigation__menu-button" type="button" data-toggle="collapse" data-target="#navigationMenuContent" aria-controls="navigationMenuContent" aria-expanded="false" aria-label="Toggle navigation">
+
+      <div class="navigation__mobile-menu-button">
+        <button class="navigation__menu-button menu-slide-trigger" type="button" data-menu-id="main">
           <i class="fa fa-bars"></i>
         </button>
+      </div>
     </nav>
     <hr class="navigation__separator">
-
   </div>
 </div>
+
+<!-- :: Menu slides :: -->
+{%- include components/menu-slides.html -%}

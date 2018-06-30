@@ -1,24 +1,16 @@
 <div class="full-index__wrapper">
-  {%- assign categories = site.data.categories | sort: "weight" -%}
+  {%- assign categories = site.data.categories | where: "hidden", false | sort: "weight" -%}
   {%- for category in categories -%}
-  {%- unless category.hidden -%}
   <div class="full-index__category">
     <h5 class="full-index__category-title">{{ category.label[page.lang] }}</h5>
     <ul class="full-index__category-list">
       {%- assign category_pages = site.pages | where: "category", category.id | where: "lang", page.lang | sort: "category_weight" -%}
-      {%- if category_pages.size > 0 -%}
-        {%- for category_page in category_pages -%}
-        <li class="full-index__category-list-item">
-          <a href="{{ category_page.url | relative_url }}" class="full-index__category-list-link">{{ category_page.label }}</a>
-        </li>
-        {%- endfor -%}
-      {%- else -%}
-        <li class="full-index__category-list-item">
-          <span class="full-index__category-list-link">Próximamente / Coming soon</span>
-        </li>
-      {%- endif -%}
+      {%- for category_page in category_pages -%}
+      <li class="full-index__category-list-item">
+        <a href="{{ category_page.url | relative_url }}" class="full-index__category-list-link">{{ category_page.label }}</a>
+      </li>
+      {%- endfor -%}
     </ul>
   </div>
-  {%- endunless -%}
   {% endfor %}
 </div>
