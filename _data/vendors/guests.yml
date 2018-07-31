@@ -1,0 +1,24 @@
+- name: Señor Nutria
+  group: ""
+  active: false
+- name: KoidelCoyote
+  group: ""
+  active: true
+- name: Paco Panda
+  group: ""
+  active: true
+- name: Sander The Black Cat
+  group: ""
+  active: true
+- name: GamutFeathers
+  group: ""
+  active: true
+- name: CatMan
+  group: ""
+  active: true
+- name: Siekfried
+  group: ""
+  active: true
+- name: Keovi
+  group: ""
+  active: false

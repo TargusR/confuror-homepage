@@ -15,10 +15,16 @@
     en: "Contents"
     es: "Contenidos"
   weight: 2
-  hidden: true
+  hidden: false
+- id: cat_conbook
+  label:
+    en: "Conbook"
+    es: "Conbook"
+  weight: 3
+  hidden: false
 - id: cat_about
   label:
     en: "About"
     es: "Acerca de"
-  weight: 3
+  weight: 4
   hidden: false

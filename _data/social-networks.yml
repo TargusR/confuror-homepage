@@ -2,11 +2,19 @@
   icon: facebook
   weight: 0
   link: https://www.facebook.com/Confuror
+  lang: [en, es]
 - label: Twitter
   icon: twitter
   weight: 1
   link: https://twitter.com/ConFuror
+  lang: [en, es]
 - label: Telegram
   icon: telegram
   weight: 2
-  link: https://t.me/ConFurorOficial
+  link: https://t.me/ConFurorOficialEsp
+  lang: [es]
+- label: Telegram
+  icon: telegram
+  weight: 2
+  link: https://t.me/ConFurorOficialEng
+  lang: [en]
