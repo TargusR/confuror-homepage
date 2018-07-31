@@ -6,9 +6,10 @@ label: Selected vendors
 description: >-
   Check here the list of the selected artist and vendors for Confuror 2018 Artist Alley and Dealers Den.
 lang: en
-featured: false
 banner_src: /images/banners/sale_tables_banner_web_eng.png
 banner_alt: Artist and Dealers application
+category: cat_contents
+category_weight: 1
 ---
 
 Thanks to every artist and vendor interested in being part of Confuror 2018. The applications where evaluated and asigned on our sale spaces based on the offered product or service characteristics. "Artist Alley" or "Dealers Den" asignation it's unappealable, due to space limitations. The vendors area will operate from **11:00am to 7:00pm**, and the days are distributed as follows:
@@ -68,54 +69,14 @@ Selected vendors for "Dealers Den" will get a spot with the following dimensions
       </tr>
     </thead>
     <tbody>
+      {%- assign dealers_list = site.data.vendors.dealers | where: "active", true | sort: "name" -%}
+      {%- assign unset_label = "(Pending)" -%}
+      {%- for dealer in dealers_list -%}
       <tr>
-        <td>An Ju Hope</td>
-        <td>(pending)</td>
+        <td>{{ dealer.name }}</td>
+        <td>{{ dealer.table | default: unset_label }}</td>
       </tr>
-      <tr>
-        <td>El Arcano</td>
-        <td>(pending)</td>
-      </tr>
-      <tr>
-        <td>FurArmy</td>
-        <td>(pending)</td>
-      </tr>
-      <tr>
-        <td>Gab Shiba</td>
-        <td>(pending)</td>
-      </tr>
-      <tr>
-        <td>HenryJDoe</td>
-        <td>(pending)</td>
-      </tr>
-      <tr>
-        <td>Kakasbal</td>
-        <td>(pending)</td>
-      </tr>
-      <tr>
-        <td>Keetty</td>
-        <td>(pending)</td>
-      </tr>
-      <tr>
-        <td>Lava Alley</td>
-        <td>(pending)</td>
-      </tr>
-      <tr>
-        <td>Mary kimer</td>
-        <td>(pending)</td>
-      </tr>
-      <tr>
-        <td>Toxic-Beast Custom Creations</td>
-        <td>(pending)</td>
-      </tr>
-      <tr>
-        <td>Working paws</td>
-        <td>(pending)</td>
-      </tr>
-      <tr>
-        <td>Zhiibe Colorai</td>
-        <td>(pending)</td>
-      </tr>
+      {% endfor %}
     </tbody>
   </table>
 </div>
@@ -128,143 +89,19 @@ Selected artists for "Artist Alley" will be asigned to groups randomly. There wi
   <table class="vendors-table--artist-alley">
     <thead>
       <tr>
-        <th>Artists</th>
+        <th>Artist</th>
         <th>Group</th>
       </tr>
     </thead>
     <tbody>
+      {%- assign artists_list = site.data.vendors.artists | where: "active", true | sort: "name" -%}
+      {%- assign unset_label = "(Pending)" -%}
+      {%- for artist in artists_list -%}
       <tr>
-        <td>BlakeFox</td>
-        <td>(pending)</td>
+        <td>{{ artist.name }}</td>
+        <td>{{ artist.group | default: unset_label }}</td>
       </tr>
-      <tr>
-        <td>Carlos "Toon" Gonzalez</td>
-        <td>(pending)</td>
-      </tr>
-      <tr>
-        <td>Chibifa</td>
-        <td>(pending)</td>
-      </tr>
-      <tr>
-        <td>Cinna</td>
-        <td>(pending)</td>
-      </tr>
-      <tr>
-        <td>EdwinAlexander</td>
-        <td>(pending)</td>
-      </tr>
-      <tr>
-        <td>ElTravis</td>
-        <td>(pending)</td>
-      </tr>
-      <tr>
-        <td>Floky el caballito</td>
-        <td>(pending)</td>
-      </tr>
-      <tr>
-        <td>GaruryKai</td>
-        <td>(pending)</td>
-      </tr>
-      <tr>
-        <td>Genachii</td>
-        <td>(pending)</td>
-      </tr>
-      <tr>
-        <td>inuHein</td>
-        <td>(pending)</td>
-      </tr>
-      <tr>
-        <td>Jakensitou</td>
-        <td>(pending)</td>
-      </tr>
-      <tr>
-        <td>Jocesara</td>
-        <td>(pending)</td>
-      </tr>
-      <tr>
-        <td>Kiminukii</td>
-        <td>(pending)</td>
-      </tr>
-      <tr>
-        <td>Licographics</td>
-        <td>(pending)</td>
-      </tr>
-      <tr>
-        <td>Loco fur</td>
-        <td>(pending)</td>
-      </tr>
-      <tr>
-        <td>Lomstat Woolf</td>
-        <td>(pending)</td>
-      </tr>
-      <tr>
-        <td>Lowemond</td>
-        <td>(pending)</td>
-      </tr>
-      <tr>
-        <td>LS Kuroyami</td>
-        <td>(pending)</td>
-      </tr>
-      <tr>
-        <td>MangoLynx</td>
-        <td>(pending)</td>
-      </tr>
-      <tr>
-        <td>Momo</td>
-        <td>(pending)</td>
-      </tr>
-      <tr>
-        <td>Nathan d xolotl</td>
-        <td>(pending)</td>
-      </tr>
-      <tr>
-        <td>Noir Glass</td>
-        <td>(pending)</td>
-      </tr>
-      <tr>
-        <td>Owlie</td>
-        <td>(pending)</td>
-      </tr>
-      <tr>
-        <td>Raya</td>
-        <td>(pending)</td>
-      </tr>
-      <tr>
-        <td>Remulle</td>
-        <td>(pending)</td>
-      </tr>
-      <tr>
-        <td>Riisago</td>
-        <td>(pending)</td>
-      </tr>
-      <tr>
-        <td>Rookie Bear/Maki Dogville</td>
-        <td>(pending)</td>
-      </tr>
-      <tr>
-        <td>Sakary</td>
-        <td>(pending)</td>
-      </tr>
-      <tr>
-        <td>Team Huslion</td>
-        <td>(pending)</td>
-      </tr>
-      <tr>
-        <td>That Yellow Cherry</td>
-        <td>(pending)</td>
-      </tr>
-      <tr>
-        <td>Tigerlion Moikana</td>
-        <td>(pending)</td>
-      </tr>
-      <tr>
-        <td>What is Fur?</td>
-        <td>(pending)</td>
-      </tr>
-      <tr>
-        <td>White Dreams</td>
-        <td>(pending)</td>
-      </tr>
+      {% endfor %}
     </tbody>
   </table>
 </div>

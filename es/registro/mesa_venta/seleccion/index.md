@@ -6,9 +6,10 @@ label: Vendedores seleccionados
 description: >-
   Consulta aquí la lista de vendedores seleccionados en nuestras categorías de Artist Alley y Dealers Den.
 lang: es
-featured: false
 banner_src: /images/banners/sale_tables_banner_web_esp.png
 banner_alt: Convocatoria para Artist Alley & Dealers Den
+category: cat_contents
+category_weight: 1
 ---
 
 Muchas gracias a todos los artistas y vendedores interesados en participar en Confuror 2018. Las solicitudes fueron clasificadas en función de las características del material propuesto. La asignación a "Artist Alley" o "Dealers Den" es inapelable debido al cupo limitado. El horario de operación del área de ventas será de **11:00am a 7:00pm** y los días se distribuyen según la siguiente tabla:
@@ -68,54 +69,14 @@ Los seleccionados para "Dealers Den" serán acreedores a un espacio con las sigu
       </tr>
     </thead>
     <tbody>
+      {%- assign dealers_list = site.data.vendors.dealers | where: "active", true | sort: "name" -%}
+      {%- assign unset_label = "(Pendiente)" -%}
+      {%- for dealer in dealers_list -%}
       <tr>
-        <td>An Ju Hope</td>
-        <td>(pendiente)</td>
+        <td>{{ dealer.name }}</td>
+        <td>{{ dealer.table | default: unset_label }}</td>
       </tr>
-      <tr>
-        <td>El Arcano</td>
-        <td>(pendiente)</td>
-      </tr>
-      <tr>
-        <td>FurArmy</td>
-        <td>(pendiente)</td>
-      </tr>
-      <tr>
-        <td>Gab Shiba</td>
-        <td>(pendiente)</td>
-      </tr>
-      <tr>
-        <td>HenryJDoe</td>
-        <td>(pendiente)</td>
-      </tr>
-      <tr>
-        <td>Kakasbal</td>
-        <td>(pendiente)</td>
-      </tr>
-      <tr>
-        <td>Keetty</td>
-        <td>(pendiente)</td>
-      </tr>
-      <tr>
-        <td>Lava Alley</td>
-        <td>(pendiente)</td>
-      </tr>
-      <tr>
-        <td>Mary kimer</td>
-        <td>(pendiente)</td>
-      </tr>
-      <tr>
-        <td>Toxic-Beast Custom Creations</td>
-        <td>(pendiente)</td>
-      </tr>
-      <tr>
-        <td>Working paws</td>
-        <td>(pendiente)</td>
-      </tr>
-      <tr>
-        <td>Zhiibe Colorai</td>
-        <td>(pendiente)</td>
-      </tr>
+      {% endfor %}
     </tbody>
   </table>
 </div>
@@ -133,138 +94,14 @@ Los artistas seleccionados para "Artist Alley" serán asignados a grupos por sor
       </tr>
     </thead>
     <tbody>
+      {%- assign artists_list = site.data.vendors.artists | where: "active", true | sort: "name" -%}
+      {%- assign unset_label = "(Pendiente)" -%}
+      {%- for artist in artists_list -%}
       <tr>
-        <td>BlakeFox</td>
-        <td>(pendiente)</td>
+        <td>{{ artist.name }}</td>
+        <td>{{ artist.group | default: unset_label }}</td>
       </tr>
-      <tr>
-        <td>Carlos "Toon" Gonzalez</td>
-        <td>(pendiente)</td>
-      </tr>
-      <tr>
-        <td>Chibifa</td>
-        <td>(pendiente)</td>
-      </tr>
-      <tr>
-        <td>Cinna</td>
-        <td>(pendiente)</td>
-      </tr>
-      <tr>
-        <td>EdwinAlexander</td>
-        <td>(pendiente)</td>
-      </tr>
-      <tr>
-        <td>ElTravis</td>
-        <td>(pendiente)</td>
-      </tr>
-      <tr>
-        <td>Floky el caballito</td>
-        <td>(pendiente)</td>
-      </tr>
-      <tr>
-        <td>GaruryKai</td>
-        <td>(pendiente)</td>
-      </tr>
-      <tr>
-        <td>Genachii</td>
-        <td>(pendiente)</td>
-      </tr>
-      <tr>
-        <td>inuHein</td>
-        <td>(pendiente)</td>
-      </tr>
-      <tr>
-        <td>Jakensitou</td>
-        <td>(pendiente)</td>
-      </tr>
-      <tr>
-        <td>Jocesara</td>
-        <td>(pendiente)</td>
-      </tr>
-      <tr>
-        <td>Kiminukii</td>
-        <td>(pendiente)</td>
-      </tr>
-      <tr>
-        <td>Licographics</td>
-        <td>(pendiente)</td>
-      </tr>
-      <tr>
-        <td>Loco fur</td>
-        <td>(pendiente)</td>
-      </tr>
-      <tr>
-        <td>Lomstat Woolf</td>
-        <td>(pendiente)</td>
-      </tr>
-      <tr>
-        <td>Lowemond</td>
-        <td>(pendiente)</td>
-      </tr>
-      <tr>
-        <td>LS Kuroyami</td>
-        <td>(pendiente)</td>
-      </tr>
-      <tr>
-        <td>MangoLynx</td>
-        <td>(pendiente)</td>
-      </tr>
-      <tr>
-        <td>Momo</td>
-        <td>(pendiente)</td>
-      </tr>
-      <tr>
-        <td>Nathan d xolotl</td>
-        <td>(pendiente)</td>
-      </tr>
-      <tr>
-        <td>Noir Glass</td>
-        <td>(pendiente)</td>
-      </tr>
-      <tr>
-        <td>Owlie</td>
-        <td>(pendiente)</td>
-      </tr>
-      <tr>
-        <td>Raya</td>
-        <td>(pendiente)</td>
-      </tr>
-      <tr>
-        <td>Remulle</td>
-        <td>(pendiente)</td>
-      </tr>
-      <tr>
-        <td>Riisago</td>
-        <td>(pendiente)</td>
-      </tr>
-      <tr>
-        <td>Rookie Bear/Maki Dogville</td>
-        <td>(pendiente)</td>
-      </tr>
-      <tr>
-        <td>Sakary</td>
-        <td>(pendiente)</td>
-      </tr>
-      <tr>
-        <td>Team Huslion</td>
-        <td>(pendiente)</td>
-      </tr>
-      <tr>
-        <td>That Yellow Cherry</td>
-        <td>(pendiente)</td>
-      </tr>
-      <tr>
-        <td>Tigerlion Moikana</td>
-        <td>(pendiente)</td>
-      </tr>
-      <tr>
-        <td>What is Fur?</td>
-        <td>(pendiente)</td>
-      </tr>
-      <tr>
-        <td>White Dreams</td>
-        <td>(pendiente)</td>
-      </tr>
+      {% endfor %}
     </tbody>
   </table>
 </div>
