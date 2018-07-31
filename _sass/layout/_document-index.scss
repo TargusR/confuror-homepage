@@ -68,8 +68,14 @@
 
 .document-index__description {
   margin: 0;
+  letter-spacing: 0.06em;
+  font-size: 1.2em;
 }
 
 .document-index__body {
   @extend .text-justify;
+
+  h1, h2, h3, h4, h5, h6 {
+    margin-top: 1.2em;
+  }
 }
