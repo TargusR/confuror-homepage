@@ -2,7 +2,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <title>{{ page.title }}</title>
 <link rel="stylesheet" href="/assets/font-families.css">
-<link rel="stylesheet" href="/assets/main.css?v=1.2">
+<link rel="stylesheet" href="/assets/main.css?v=1.3.2">
 
 <!-- :: Favicon conf :: -->
 <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
@@ -13,7 +13,11 @@
 <meta name="theme-color" content="#ffffff">
 
 <!-- :: Open graph settings :: -->
-<meta property="og:image" content="/images/logos/og-preview.png">
+{%- if page.banner_src -%}
+<meta property="og:image" content="{{ page.banner_src }}">
+{%- else -%}
+<meta property="og:image" content="/images/logos/og_preview.png">
+{%- endif -%}
 <meta property="og:title" content="{{ page.title }}">
 {%- if page.description -%}
 <meta property="og:description" content="{{ page.description }}">
