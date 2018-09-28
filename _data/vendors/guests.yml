@@ -1,24 +1,40 @@
 - name: Señor Nutria
-  group: ""
-  active: false
+  sale:
+    en: "(Not selling)"
+    es: "(Sin venta)"
+  active: true
 - name: KoidelCoyote
-  group: ""
+  sale:
+    en: "Artist Alley, Group C"
+    es: "Artist Alley, Grupo C"
   active: true
 - name: Paco Panda
-  group: ""
+  sale:
+    en: "Artist Alley, Group A"
+    es: "Artist Alley, Grupo A"
   active: true
 - name: Sander The Black Cat
-  group: ""
+  sale:
+    en: "Artist Alley, Group C"
+    es: "Artist Alley, Grupo C"
   active: true
 - name: GamutFeathers
-  group: ""
+  sale:
+    en: "Dealers Den, Table 4"
+    es: "Dealers Den, Mesa 4"
   active: true
 - name: CatMan
-  group: ""
+  sale:
+    en: "Artist Alley, Group A"
+    es: "Artist Alley, Grupo A"
   active: true
 - name: Siekfried
-  group: ""
+  sale:
+    en: "Artist Alley, Group C"
+    es: "Artist Alley, Grupo C"
   active: true
 - name: Keovi
-  group: ""
+  sale:
+    en: ""
+    es: ""
   active: false

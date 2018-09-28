@@ -4,9 +4,9 @@
     es: "Asiste"
   weight: 0
   hidden: false
-- id: cat_contribute
+- id: cat_participate
   label:
-    en: "Contribute"
+    en: "Participate"
     es: "Participa"
   weight: 1
   hidden: false

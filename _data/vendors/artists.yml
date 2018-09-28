@@ -1,99 +1,99 @@
 - name: BlakeFox
-  group: ""
+  group: "A"
   active: true
 - name: Carlos "Toon" Gonzalez
-  group: ""
+  group: "C"
   active: true
 - name: Chibifa
-  group: ""
+  group: "B"
   active: true
 - name: Cinna
-  group: ""
+  group: "A"
   active: true
 - name: EdwinAlexander
-  group: ""
+  group: "C"
   active: true
 - name: ElTravis
-  group: ""
+  group: "A"
   active: true
 - name: Floky el caballito
-  group: ""
+  group: "C"
   active: true
 - name: GaruryKai
-  group: ""
-  active: true
+  group: "A"
+  active: false
 - name: Genachii
-  group: ""
+  group: "C"
   active: true
 - name: InuHein
-  group: ""
+  group: "A"
   active: true
 - name: Jakensitou
-  group: ""
+  group: "A"
   active: true
 - name: Jocesara
-  group: ""
+  group: "B"
   active: true
 - name: Kiminukii
-  group: ""
+  group: "A"
   active: true
 - name: Licographics
-  group: ""
+  group: "C"
   active: true
 - name: Loco fur
-  group: ""
+  group: "B"
   active: true
 - name: Lomstat Woolf
-  group: ""
+  group: "A"
   active: true
 - name: Lowemond
-  group: ""
+  group: "C"
   active: true
 - name: LS Kuroyami
-  group: ""
+  group: "B"
   active: true
 - name: MangoLynx
-  group: ""
+  group: "B"
   active: true
 - name: Momo
-  group: ""
+  group: "B"
   active: true
 - name: Nathan d xolotl
-  group: ""
+  group: "B"
   active: true
 - name: Noir Glass
   group: ""
   active: false
 - name: Owlie
-  group: ""
+  group: "B"
   active: true
 - name: Raya
-  group: ""
+  group: "A"
   active: true
 - name: Remulle
-  group: ""
+  group: "A"
   active: true
 - name: Riisago
   group: ""
   active: false
 - name: Rookie Bear/Maki Dogville
   group: ""
-  active: true
+  active: false
 - name: Sakary
-  group: ""
+  group: "B"
   active: true
 - name: Team Huslion
-  group: ""
+  group: "B"
   active: true
 - name: That Yellow Cherry
-  group: ""
+  group: "A"
   active: true
 - name: Tigerlion Moikana
-  group: ""
+  group: "B"
   active: true
 - name: What is Fur?
-  group: ""
+  group: "C"
   active: true
 - name: White Dreams
-  group: ""
+  group: "B"
   active: true

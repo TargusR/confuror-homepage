@@ -1,0 +1,10 @@
+- name: MagoLobo
+  sale:
+    en: "Dealers Den, Table 11"
+    es: "Dealers Den, Mesa 11"
+  active: true
+- name: Khazoo
+  sale:
+    en: "Dealers Den, Table 12"
+    es: "Dealers Den, Mesa 12"
+  active: true

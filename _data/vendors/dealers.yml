@@ -1,36 +1,45 @@
+- name: Rescate Zarigüeyal (Charity / Caridad)
+  table: 1
+  active: true
+- name: La Caravana
+  table: 8
+  active: true
 - name: An Ju Hope
-  table: ""
+  table: 14
   active: true
 - name: El Arcano
-  table: ""
+  table: 16
   active: true
-- name: FurArmy
-  table: ""
+- name: FurArmy para los suits
+  table: 7
   active: true
 - name: Gab Shiba
-  table: ""
+  table: 3
+  active: true
+- name: GaruryKai
+  table: 5
   active: true
 - name: HenryJDoe
-  table: ""
+  table: 15
   active: true
 - name: Kakasbal
-  table: ""
+  table: 10
   active: true
-- name: Keetty
-  table: ""
+- name: Keetty & Nahuar
+  table: 13
   active: true
 - name: Lava Alley
-  table: ""
+  table: 6
   active: true
 - name: Mary kimer
-  table: ""
+  table: 18
   active: true
 - name: Toxic-Beast Custom Creations
-  table: ""
+  table: 9
   active: true
 - name: Working paws
-  table: ""
+  table: 17
   active: true
 - name: Dynamic Cats Studio
-  table: ""
+  table: 2
   active: true
