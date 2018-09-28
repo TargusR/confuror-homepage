@@ -8,8 +8,8 @@ description: >-
 lang: en
 banner_src: /images/banners/sale_tables_banner_web_eng.png
 banner_alt: Artist and Dealers application
-category: cat_contribute
-category_weight: 0
+category: cat_participate
+category_weight: 2
 ---
 
 {%- capture alert_message -%}

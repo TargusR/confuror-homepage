@@ -12,7 +12,7 @@ list_id: panels_details
 list_weight: 0
 category: cat_contents
 category_weight: 0
-featured: true
+featured: false
 ---
 
 ## ¿Qué es un panel?

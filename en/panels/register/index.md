@@ -10,9 +10,15 @@ banner_src: /images/banners/panels_banner_eng.png
 banner_alt: Confuror paneles y tallers 2018
 list_id: panels_details
 list_weight: 1
-category: cat_contribute
+category: cat_participate
 category_weight: 1
 ---
+
+{%- capture alert_message -%}
+  <p><b>Panel registration closed!</b> We are giving the final touches on the panel shcedule and soon it will be pulished. If you registered a panel, a mail confirmation will be received. If you have any questions you can send a mail to <a href="mailto:vidafur.reg@gmail.com">vidafur.reg@gmail.com</a></p>
+{%- endcapture -%}
+{%- assign alert_mode = "warning" -%}
+{%- include components/alert.html -%}
 
 Become an exhibitor and show us your abilities, share your work and trajectory or comunicate your ideas to the atendees of Confuror 2018. If you are reade, fill up the form behind the link at the bottom of this page, detailing the content of your panel, as well as any material required.
 

@@ -10,9 +10,15 @@ banner_src: /images/banners/panels_banner_esp.png
 banner_alt: Confuror paneles y tallers 2018
 list_id: panels_details
 list_weight: 1
-category: cat_contribute
+category: cat_participate
 category_weight: 1
 ---
+
+{%- capture alert_message -%}
+  <p><b>¡Registro de paneles cerrado!</b> Estamos terminando la asignación de horarios para paneles y muy pronto se darán a conocer. Si registraste un panel, recibirás confirmación via correo electrónico sobre tu asignación. Si tienes alguna duda puedes comunicarte a <a href="mailto:vidafur.reg@gmail.com">vidafur.reg@gmail.com</a></p>
+{%- endcapture -%}
+{%- assign alert_mode = "warning" -%}
+{%- include components/alert.html -%}
 
 Conviertete en un expositor y muestranos tus habilidades, compartenos tu trabajo y trayectoria o comunica tus ideas frente al público de la Confuror 2018. Si estás listo, llena el formulario que encontrarás al final de esta página detallando el contenido de tu panel, así como los materiales e insumos requeridos.
 
