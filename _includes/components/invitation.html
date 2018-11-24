@@ -7,12 +7,17 @@
       <img src="/images/logos/howling_gala_card.png" alt="The howling gala" class="invitation__img">
     </div>
     <div class="invitation__content">
-      <div class="invitation__col">
+      <!-- <div class="invitation__col">
         {{ invitation_data.greetings[page.lang] }}
       </div>
       <div class="invitation__col">
         <a href="{{ register_page.url }}" class="invitation__button">{{ invitation_data.register_now[page.lang] }}</a>
-      </div>
+      </div> -->
+      <!-- <div class="invitation__col"> -->
+          <h5 class="clock-counter__intro">{{ invitation_data.counter_intro[page.lang] }}</h3>
+          <h4 class="clock-counter" data-limit="1539360000000"></h4>
+          <h2 class="invitation__howling clock-counter__hide">AWOOOOOOOOOOOO!</h2>
+      <!-- </div> -->
     </div>
   </div>
 </div>
