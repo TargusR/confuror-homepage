@@ -51,6 +51,15 @@
   line-height: 50px;
 }
 
+.invitation__howling {
+  text-align: center;
+  display: block;
+  width: 100%;
+  font-size: 4em;
+  position: absolute;
+  left: 120px;
+}
+
 @include media-breakpoint-down(md) {
   .invitation__button {
     width: 200px;

@@ -15,3 +15,63 @@
   height: auto;
   margin: 0 auto;
 }
+
+.rescate-zarigueyal__contact-list {
+  @extend .list-group;
+}
+
+.rescate-zarigueyal__contact-item {
+  @extend .list-group-item;
+}
+
+.rescate-zarigueyal__contact-link {
+  @extend .btn;
+  @extend .btn-primary;
+  @extend .btn-sm;
+}
+
+
+// Generic images
+
+figure {
+  margin: 20px;
+
+  img {
+    @extend .rounded;
+    width: 400px;
+  }
+}
+
+figure.centered {
+  text-align: center;
+  
+  img {
+    width: 500px;
+  }
+}
+
+figure.right {
+  float: right;
+  margin-top: 0;
+  margin-right: 0;
+}
+
+figure.left {
+  float: left;
+  margin-top: 0;
+  margin-left: 0;
+}
+
+@include media-breakpoint-down(sm) {
+  figure.right,
+  figure.left,
+  figure.centered {
+    float: none;
+    margin: 20px;
+    text-align: center;
+
+    img {
+      width: 100%;
+    }
+  }
+}
