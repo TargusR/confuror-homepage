@@ -56,7 +56,7 @@ Muchas gracias a todos los artistas y vendedores interesados en participar en Co
   </table>
 </div>
 
-## Schedule and map
+## Mapa y horario
 
 Los asistentes con paquete Sponsor y Super Sponsor tendrán ventaja para entrar al área de ventas. En algún punto del día, visitantes sin registro podrán acceder al área de ventas únicamente si dan una donación a la caridad en la mesa de la caridad que tendremos instalada. El área de ventas operará con el siguiente horario:
 

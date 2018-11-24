@@ -6,7 +6,7 @@ label: Become a DJ
 description: >-
   Would you like to be one of our DJs in Confuror 2018? Keep reading to know the details.
 lang: en
-featured: true
+featured: false
 banner_src: /images/banners/dj_banner_eng.png
 banner_alt: Rave party DJ application
 category: cat_participate

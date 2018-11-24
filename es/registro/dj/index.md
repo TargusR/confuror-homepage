@@ -6,7 +6,7 @@ label: Registro DJ
 description: >-
   ¿Te gustaría ser DJ durante las Rave Party de Confuror 2018? sigue leyendo para conocer los detalles.
 lang: es
-featured: true
+featured: false
 banner_src: /images/banners/dj_banner_esp.png
 banner_alt: Registro de DJ para Rave Party
 category: cat_participate
