@@ -6,9 +6,8 @@
 
 $fontPath: '/assets/fonts/';
 
-@include fontFace('Bebas Neue', $fontPath, 'BebasNeue-Regular', 400, normal);
-@include fontFace('American Typewriter', $fontPath, 'AmericanTypewriter-Regular', 400, normal);
-@include fontFace('Abril Fatface', $fontPath, 'AbrilFatface-Regular', 400, normal);
-
-
-
+// @include fontFace('Bebas Neue', $fontPath, 'BebasNeue-Regular', 400, normal);
+// @include fontFace('American Typewriter', $fontPath, 'AmericanTypewriter-Regular', 400, normal);
+// @include fontFace('Abril Fatface', $fontPath, 'AbrilFatface-Regular', 400, normal);
+@include fontFace('Roboto', $fontPath, 'Roboto-Regular', 400, normal);
+@include fontFace('Archivo Black', $fontPath, 'ArchivoBlack-Regular', 400, normal);
