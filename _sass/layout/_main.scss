@@ -3,17 +3,17 @@
 ///////////////////
 
 body {
-  background-color: $hg-paper;
-  color: $hg-ink;
+  background-color: $cf-light;
+  color: $cf-dark;
+  font-family: 'Roboto', Arial, Helvetica, sans-serif !important;
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: 'Bebas Neue', arial !important;
-  letter-spacing: 0.1em;
+  font-family: 'Archivo Black', arial !important;
 }
 
 p {
-  font-family: 'American typewriter', serif !important;
+  // font-family: 'American typewriter', serif !important;
   line-height: 1.6em;
   letter-spacing: 0.04em;
 }
@@ -25,7 +25,7 @@ p {
 blockquote {
   margin-left: 3em;
   padding-left: 1em;
-  border-left: 10px solid $hg-paper-shadow;
+  border-left: 10px solid $cf-gray;
 }
 
 .header {

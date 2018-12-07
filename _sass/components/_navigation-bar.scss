@@ -9,7 +9,7 @@
   @extend .navbar-expand-lg;
   @extend .navbar-dark;
   @extend .bg-primary;
-  background: linear-gradient(to bottom, $hg-blue, $hg-blue-shadow);
+  background: linear-gradient(to bottom, $cf-blue, $cf-blue-shadow);
 }
 
 .navigation__logo {
@@ -53,23 +53,23 @@
 .navigation__menu-link {
   @extend .nav-link;
   position: relative;
-  font-family: 'Bebas Neue', arial !important;
-  letter-spacing: 0.1em;
-  font-size: 1.2em;
-  color: $hg-paper !important;
+  font-family: 'Archivo Black', arial !important;
+  font-size: 1.1em;
+  text-transform: uppercase;
+  color: $cf-light !important;
   opacity: 0.8;
   transition: opacity 0.2s;
 }
 
 .navigation__menu-link--featured {
-  color: $hg-golden !important;
+  color: $cf-red-light !important;
 }
 
 .navigation__menu-link:before {
   content: '';
   display: block;
   width: 90%;
-  border-bottom: 4px solid $hg-golden;
+  border-bottom: 4px solid $cf-red-light;
   @include centerThis(top);
   transform: translate(0, -20px);
   opacity: 0;
@@ -97,7 +97,7 @@
   border: 0;
   margin: 0;
   padding: 0;
-  background: linear-gradient(to right, $hg-golden-light, $hg-golden-shadow);
+  background: linear-gradient(to left, $cf-red-light, $cf-red);
 }
 
 @include media-breakpoint-down(md) {

@@ -12,12 +12,29 @@ $hg-golden-shadow: #764B16;
 $hg-blue: #0D2B69;
 $hg-blue-shadow: #04103A;
 
+// Generic Confuror colors
+$cf-blue-ligth: #4283e9;
+$cf-blue: #3071d7;
+$cf-blue-shadow: #3171d2;
+$cf-purple: #6c2f7d;
+$cf-purple-shadow: #582368;
+$cf-red-light: #fa8686;
+$cf-red: #f76f6f;
+$cf-green-light: #91f200;
+$cf-green: #7dc210;
+$cf-yellow: #ffd400;
+$cf-yellow-shadow: #ffbc2f;
+$cf-gray: #afc5d2;
+$cf-light: #f9f8f9;
+$cf-dark: #4d4d4d;
+
+
 // Override bootstrap default colors
-$primary:       $hg-blue !default;
-$secondary:     $hg-paper !default;
-// $success:       $hg-blue-shadow !default;
-$info:          $hg-paper-shadow !default;
-// $warning:       $hg-paper-shadow !default;
-// $danger:        $hg-golden !default;
-// $light:         $gray-100 !default;
-// $dark:          $gray-800 !default;
+$primary:       $cf-blue !default;
+$secondary:     $cf-purple !default;
+$success:       $cf-green !default;
+$info:          $cf-gray !default;
+$warning:       $cf-yellow !default;
+$danger:        $cf-red !default;
+$light:         $cf-light !default;
+$dark:          $cf-dark !default;
