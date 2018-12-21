@@ -1,98 +1,46 @@
 ---
-layout: page
+layout: document_index
 id: hotel
-title: Room reservation
+title: Fiesta Americana Guadalajara is Confuror's new venue
 description: >-
-  Book your rooms in the Confuror 2018 venue hotel, the Laffayette in Guadalajara. More details here.
-label: Hotel booking
+  Meet the new venue for Confuror 2019, the great Fiesta Americana Guadalajara. Keep reading to know more.
+label: Hotel Venue
 lang: en
-banner_src: /images/banners/reserva_hotel_eng.png
-banner_alt: Hotel room reservation
-category: cat_attend
-category_weight: 1
+list_id: hotel_details
+list_weight: 0
+banner_src: /images/banners/nueva_sede_banner_eng.png
+banner_alt: Confuror 2019 new venue
+category: cat_hotel
+category_weight: 0
 ---
 
-Confuror 2018 is held in the [**Laffayette hotel**](https://hotellaffayette.com/), located in one of the most attractive areas in Guadalajara city. Reserve your room today and experience the convention all day long, as well as enjoy the nightlife of the _Chapultepec boulevard_.
+Confuror 2019 tiene nueva sede, el hotel [**Fiesta Americana Guadalajara**](https://www.fiestamericana.com/web/fiesta-americana-guadalajara), ubicado frente a la emblemática glorieta de **La Minerva** y a pocos minutos del _paseo Chapultepec_, área recreativa en dónde se llevó acabo la primera edición de Confuror.
 
-<div class="hotel-promo">
-  <div class="hotel-promo__tagline">
-    <h4>Rooms starting at:</h4>
-  </div>
-  <div class="hotel-promo__fares">
-    <div class="hotel-promo__fares-numbers">
-      <div class="hotel-promo__fare">
-        <span class="hotel-promo__fare-number">$51</span> USD per night*
-      </div>
-      <div class="hotel-promo__fare">
-        <span class="hotel-promo__fare-number hotel-promo__fare-number--extra">$8.50</span> USD aditional guest
-      </div>
-    </div>
-    <div class="hotel-promo__fares-combos">
-      <table class="hotel-promo__fares-combos-table">
-        <thead class="hotel-promo__fares-combos-table-header">
-          <tr>
-            <th>Guests</th>
-            <th>Price</th>
-          </tr>
-        </thead>
-        <tbody class="hotel-promo__fares-combos-table-body">
-          <tr>
-            <th>1</th>
-            <th>$51 USD</th>
-          </tr>
-          <tr>
-            <th>2</th>
-            <th>$51 USD</th>
-          </tr>
-          <tr>
-            <th>3</th>
-            <th>$59.5 USD</th>
-          </tr>
-          <tr>
-            <th>4</th>
-            <th>$68 USD</th>
-          </tr>
-        </tbody>
-      </table>
-    </div>
-  </div>
-  <div class="hotel-promo__notes">
-    <p>*Double or single rooms, two guests included, third or more are considered additional guest by the hotel. Due to room capacity, it is not recomended to host more than 4 guests. USD prices may vary due to currency fluctuation.</p>
-  </div>
+<div class="container text-center">
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3732.902335815756!2d-103.39141904932883!3d20.673551986124092!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8428ae71e6b99a17%3A0x5185c5481c56db17!2sFiesta+Americana+Guadalajara!5e0!3m2!1ses-419!2smx!4v1545375492051" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
 </div>
 
-To book your room with the convention fares call the numbers displayed in the following card and ask the operator for the reservation deparment; indicate that you want to book a room for _Confuror (or Vidafur event)_. You can also book via **email** at the address [ldiaz@hotellaffayette.com](mailto:ldiaz@hotellaffayette.com). Reservations through the hotel website do not handle the price shown here.
+### Más espacio, más comodidad y más cerca de la diversión
 
-<div class="hotel-card">
-  <div class="hotel-card__data">
-    <div class="hotel-card__data-column-items">
-      <div class="hotel-card__data-item hotel-card__name">
-        <h3 class="hotel-card__name-title">Laffayette Hotel</h3>
-      </div>
-      <div class="hotel-card__data-item">
-        <h5><i class="fa fa-map-marker"></i> Address:</h5>
-        <p>Av. la paz no. 2055, Esq. Chapultepec, Colonia Americana.</p>
-        <p>C.P. 44140. Guadalajara, jal.</p>
-      </div>
-      <div class="hotel-card__data-item">
-        <h5><i class="fa fa-phone"></i> Telephone (international code included):</h5>
-        <ul class="hotel-card__phone-list">
-          <li>(011 52) (33) 36-69-50-50</li>
-          <li>(011 52) (33) 36-15-02-52</li>
-        </ul>
-      </div>
-      <div class="hotel-card__data-item">
-        <h5><i class="fa fa-envelope-o"></i> E-mail contact and website:</h5>
-        <p>Contact with specialized agent: <span class="hotel-card__data-format-clear">ldiaz@hotellaffayette.com</span></p>
-        <a href="https://hotellaffayette.com/" class="hotel-card__hotel-link" target="_blank">Oficial hotel website <i class="fa fa-external-link"></i></a>
-      </div>
-    </div>
-    <div class="hotel-card__data-column-image">
-      <div class="hotel-card__image">
-        <img src="/images/pictures/laffayette_dab.jpg" alt="" class="hotel-card__image-img">
-      </div>
-    </div>
-  </div>
+Buscando mejorar la experiencia de lo que será Confuror 2019, decidimos dar un gran salto apenas se nos presentó la oportunidad y cambiamos la sede anteriormente elegida. Ahora disponemos de aún más espacio que en el Hotel Hilton, para que nadie se quede fuera este año.
+
+<div class="container text-center">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/n1m5c2YWOEU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
-> If you have already booked a room by other means, we recommend you to call and indicate that you are attending the event, so the hotel can assign your room in the convention block and get you closer to everything.
+### Nuevas formas de obtener tu habitación
+
+Este año ponemos a tu disposición dos métodos para obtener una habitación en el hotel sede. Puedes reservar a traves del **bloque exclusivo de Confuror 2019** mediante el link oficial que te mostraremos a continuación o adquirir un paquete **Confuror Club Pass**, el cual no solo te dará acceso al evento como asistente general a ti y a un acompañante, sino que además incluirá una habitación pagada por tres noches en nuestro piso hospitalario Fiesta Club, un regalo especial con sabor a méxico, una invitación personalizada a la fiesta exclusiva en la suite presidencial y la posibilidad de estar cerca del mejor ambiente nocturno en la convención.
+
+<div class="container text-center">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/MIo2xpVIGBQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+
+Conoce más detalles sobre ambos métodos siguiendo los links a continuación:
+
+[links]
+
+<br>
+<br>
+
+> Si ya tenías una reservación en el hotel elegido anteriormente, solicita una cancelación a la brevedad. Te recomendamos seguir los métodos oficiales para reservar habitación en los bloques de la convención y así mantenerte cerca del evento.

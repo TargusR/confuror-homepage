@@ -1,7 +1,7 @@
 ---
 layout: page
 id: registration
-title: Presale Registration
+title: Early Bird Registration
 label: Register now
 description: >-
   Know more about how to register and attend Confuror 2018
@@ -12,7 +12,7 @@ category_weight: 0
 ---
 
 {%- capture alert_message -%}
-  <p><b>Registry closed!</b> We have reached our venue limit for this year. If you are already registered and have any doubts send a mail to <a href="mailto:vidafur.reg@gmail.com">vidafur.reg@gmail.com</a></p>
+  <p><b>¡Proxima Apertura!</b> Pronto anunciaremos la fecha para registro Early Bird. Mientras tanto puedes revisar los contenidos y precios de nuestros paquetes. Te recomendamos visitar esta página con frecuencia para conocer actualizaciones sobre el evento. Si tienes alguna duda sobre la información mostrada puedes comunicarte por correo electrónico a <a href="mailto:vidafur.reg@gmail.com">vidafur.reg@gmail.com</a> o a travez de nuestras redes sociales.</p>
 {%- endcapture -%}
 {%- assign alert_mode = "warning" -%}
 {%- include components/alert.html -%}
