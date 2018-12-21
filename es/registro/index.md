@@ -6,8 +6,8 @@ label: Regístrate
 description: >-
   Conoce aquí los detalles para registrarte y asistir a Confuror 2018
 lang: es
-featured: false
-category: cat_attend
+featured: true
+category: cat_participate
 category_weight: 0
 ---
 

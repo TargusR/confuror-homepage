@@ -6,8 +6,8 @@ label: Register now
 description: >-
   Know more about how to register and attend Confuror 2018
 lang: en
-featured: false
-category: cat_attend
+featured: true
+category: cat_participate
 category_weight: 0
 ---
 
