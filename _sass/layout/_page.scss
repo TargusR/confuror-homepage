@@ -14,6 +14,8 @@
 }
 
 .page__content {
+  @extend .text-justify;
+  
   a {
     text-decoration: underline;
   }
@@ -23,5 +25,11 @@
     letter-spacing: 0.04em;
     padding-bottom: 1em;
     padding-left: 1em;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    color: $cf-blue-shadow;
+    margin-top: 3em;
+    margin-bottom: 2em;
   }
 }

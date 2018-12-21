@@ -3,12 +3,7 @@
 //////////////////////
 
 .navigation {
-  @extend .navbar;
-  @extend .row;
-  @extend .no-gutters;
-  @extend .navbar-expand-lg;
-  @extend .navbar-dark;
-  @extend .bg-primary;
+  @extend .navbar, .row, .no-gutters, .navbar-expand-lg, .navbar-dark, .bg-primary;
   background: linear-gradient(to bottom, $cf-blue, $cf-blue-shadow);
 }
 
@@ -17,8 +12,7 @@
 }
 
 .navigation__logo-link {
-  @extend .navbar-brand;
-  @extend .text-secondary;
+  @extend .navbar-brand, .text-secondary;
 }
 
 .navigation__logo-image {
@@ -40,14 +34,11 @@
 }
 
 .navigation__menu-button {
-  @extend .bg-primary;
-  @extend .text-secondary;
-  @extend .border-0;
+  @extend .bg-primary, .text-secondary, .border-0;
 }
 
 .navigation__menu-list {
-  @extend .navbar-nav;
-  @extend .mr-auto;
+  @extend .navbar-nav, .mr-auto;
 }
 
 .navigation__menu-item {

@@ -15,7 +15,7 @@
 }
 
 .featured-videos__icon-col {
-  @extend .col-md-3;
+  @extend .col-md-3, .col-sm-6;
 }
 
 .featured-videos__icon-link {
@@ -24,9 +24,11 @@
 }
 
 .featured-videos__video {
-  @extend .col-md-3;
+  @extend .col-md-3, .col-sm-6;
 
   iframe {
+    @extend .rounded;
+    overflow: hidden;
     max-width: 100%;
   }
 }

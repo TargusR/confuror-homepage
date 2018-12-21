@@ -7,6 +7,30 @@
   background-color: $cf-blue-shadow;
   padding-top: 30px;
   padding-bottom: 40px;
+  position: relative;
+  overflow: hidden;
+}
+
+.goh__wrapper:before {
+  display: block;
+  content: '';
+  background-image: url('/images/ui/paws_decoration_left.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 140px;
+  height: 600px;
+  @include centerThis('left');
+}
+
+.goh__wrapper:after {
+  display: block;
+  content: '';
+  background-image: url('/images/ui/paws_decoration_right.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 140px;
+  height: 600px;
+  @include centerThis('right');
 }
 
 .goh {

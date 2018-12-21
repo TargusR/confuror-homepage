@@ -2,37 +2,7 @@
 //  Generic contents classes  //
 ////////////////////////////////
 
-.area-map,
-.schedule-map {
-  width: 100%;
-  padding: 20px;
-  text-align: center;
-}
-
-.area-map__img,
-.schedule-map__img {
-  width: 100%;
-  height: auto;
-  margin: 0 auto;
-}
-
-.rescate-zarigueyal__contact-list {
-  @extend .list-group;
-}
-
-.rescate-zarigueyal__contact-item {
-  @extend .list-group-item;
-}
-
-.rescate-zarigueyal__contact-link {
-  @extend .btn;
-  @extend .btn-primary;
-  @extend .btn-sm;
-}
-
-
 // Generic images
-
 figure {
   margin: 20px;
 

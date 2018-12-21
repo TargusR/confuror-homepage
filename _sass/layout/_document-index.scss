@@ -8,9 +8,7 @@
 }
 
 .document-index__wrapper {
-  @extend .container-fluid;
-  @extend .row;
-  @extend .no-gutters;
+  @extend .container-fluid, .row, .no-gutters;
   padding: 0;
   padding-top: 50px;
   padding-bottom: 50px;
@@ -21,8 +19,7 @@
 }
 
 .document-index__list {
-  @extend .nav;
-  @extend .flex-column;
+  @extend .nav, .flex-column;
   margin-top: 30px;
   margin-bottom: 30px;
 }
@@ -33,18 +30,16 @@
 
 .document-index__link {
   @extend .nav-link;
-  color: $hg-paper-shadow;
+  color: $cf-gray;
 }
 
-.document-index__link:visited {
-  color: $hg-paper-shadow;
-}
+// .document-index__link:visited {
+//   color: $hg-paper-shadow;
+// }
 
 .document-index__link.is-active {
-  @extend .active;
-  @extend .rounded;
-  @extend .text-secondary;
-  background-color: $hg-ink;
+  @extend .active, .rounded, .text-light;
+  background-color: $cf-blue;
 }
 
 .document-index__content {
@@ -53,17 +48,17 @@
 
 .document-index__header {
   @extend .jumbotron;
-  background-color: $hg-paper-shadow;
-  color: $light;
+  background-color: $white;
+  color: $cf-gray;
 }
 .document-index__header {
   hr {
-    border-color: $hg-ink;
+    border-color: $cf-red;
   }
 }
 
 .document-index__title {
-  @extend .text-secondary;
+  color: $cf-red;
 }
 
 .document-index__description {
@@ -75,7 +70,16 @@
 .document-index__body {
   @extend .text-justify;
 
+  li {
+    line-height: 1.6em;
+    letter-spacing: 0.04em;
+    padding-bottom: 1em;
+    padding-left: 1em;
+  }
+
   h1, h2, h3, h4, h5, h6 {
-    margin-top: 1.2em;
+    color: $cf-blue-shadow;
+    margin-top: 2em;
+    margin-bottom: 1em;
   }
 }
