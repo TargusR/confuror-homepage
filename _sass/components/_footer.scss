@@ -3,43 +3,35 @@
 //////////////////
 
 .footer {
-  @extend .container-fluid;
-  @extend .text-light;
-  background-color: $hg-ink;
+  @extend .container-fluid, .text-light, .bg-dark;
 
   a {
-    color: $hg-paper-shadow;
+    color: $cf-gray;
     transition: color 0.2s;
   }
 
   a:hover {
-    color: $hg-paper;
+    color: $cf-light;
   }
 }
 
 .footer__wrapper {
-  @extend .row;
-  @extend .mx-auto;
+  @extend .row, .mx-auto;
   padding-top: 60px;
   padding-bottom: 30px;
   max-width: 1024px;
 }
 
 .footer__column--index {
-  @extend .col-12;
   @extend .container-fluid;
 }
 
 .footer__column--contact {
-  @extend .col-md-4;
-  @extend .col-sm-6;
-  @extend .col-12;
+  @extend .col-md-4, .col-sm-6, .col-12;
 }
 
 .footer__column--description {
-  @extend .col-md-8;
-  @extend .col-sm-6;
-  @extend .col-12;
+  @extend .col-md-8, .col-sm-6, .col-12;
 }
 
 .footer__contact-heading {

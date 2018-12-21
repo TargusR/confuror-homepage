@@ -1,0 +1,41 @@
+//////////////////////
+//  Guest of honor  //
+//////////////////////
+
+.goh__wrapper {
+  @extend .container-fluid, .text-light;
+  background-color: $cf-blue-shadow;
+  padding-top: 30px;
+  padding-bottom: 40px;
+}
+
+.goh {
+  @extend .text-center;
+}
+
+.goh__header {
+  @extend .jumbotron-fluid;
+}
+
+.goh__header-line-1 {
+  @extend .display-4;
+}
+
+.goh__header-line-2 {
+  @extend .lead;
+}
+
+.goh__body {
+  @extend .row;
+  max-width: 600px;
+  margin: auto;
+}
+
+.goh__guest {
+  @extend .col-md-6;
+}
+
+.goh__guest-picture {
+  max-width: 80%;
+  height: auto;
+}

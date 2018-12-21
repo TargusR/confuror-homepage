@@ -3,48 +3,57 @@
 ///////////////////////
 
 .language-switch {
-  @extend .position-relative;
-  @extend .rounded;
-  background-color: $hg-blue;
+  @extend .position-relative, .rounded, .bg-light, .text-primary;
 }
 
 .language-switch__button {
-  @extend .nav-link;
-  @extend .text-light;
+  @extend .nav-link, .text-primary;
   padding-left: 8px;
   padding-right: 8px;
   font-size: small;
   text-align: center;
 }
 
-.language-switch__list {
-  @extend .position-absolute;
-  @extend .nav;
-  @extend .flex-column;
-  @extend .bg-secondary;
-  @extend .border;
-  @extend .rounded;
+.language-switch__float {
+  @extend .position-absolute, .flex-column;
+  top: 130%;
   right: 0;
-  color: $hg-ink;
-  border-color: $hg-paper-shadow!important;
+}
+
+.language-switch__float:after {
+  display: block;
+  content: '';
+  width: 0px;
+  height: 0px;
+  border: 10px solid $cf-light;
+  border-top-color: transparent;
+  border-right-color: transparent;
+  border-left-color: transparent;
+  position: absolute;
+  top: -19px;
+  right: 3px;
+}
+
+.language-switch__list {
+  @extend .nav, .border, .rounded, .bg-light;
   overflow: hidden;
   @include addShadow('drop');
 }
 
 .language-switch__list-item {
   @extend .nav-item;
+  width: 100%;
 }
 
 .language-switch__list-link {
+  @extend .text-info;
   display: block;
   padding: 0 20px;
   line-height: 30px;
 }
 
 .language-switch__list-link.is-active {
-  @extend .active;
-  color: $hg-paper;
-  background-color: $hg-paper-shadow;
+  @extend .active, .bg-primary, .text-light;
 }
 
 @include media-breakpoint-down(md) {

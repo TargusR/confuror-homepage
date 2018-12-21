@@ -21,6 +21,10 @@
   @extend .text-secondary;
 }
 
+.navigation__logo-image {
+  height: 50px;
+}
+
 .navigation__menu {
   @extend .col-auto;
   padding: 0;
@@ -54,11 +58,11 @@
   @extend .nav-link;
   position: relative;
   font-family: 'Archivo Black', arial !important;
-  font-size: 1.1em;
+  font-size: 0.9em;
   text-transform: uppercase;
   color: $cf-light !important;
-  opacity: 0.8;
-  transition: opacity 0.2s;
+  // opacity: 0.9;
+  // transition: opacity 0.2s;
 }
 
 .navigation__menu-link--featured {
@@ -77,9 +81,9 @@
 }
 
 .navigation__menu-item.is-selected .navigation__menu-link,
-.navigation__menu-link:hover {
-  opacity: 1;
-}
+// .navigation__menu-link:hover {
+//   opacity: 1;
+// }
 
 .navigation__menu-item.is-selected .navigation__menu-link:before,
 .navigation__menu-link:hover:before {

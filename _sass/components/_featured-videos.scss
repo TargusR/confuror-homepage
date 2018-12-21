@@ -1,0 +1,32 @@
+///////////////////////
+//  Featured videos  //
+///////////////////////
+
+.featured-videos__wrapper {
+  @extend .container-fluid, .text-light;
+  background-color: $cf-red;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.featured-videos {
+  @extend .row, .text-center;
+  margin: auto;
+}
+
+.featured-videos__icon-col {
+  @extend .col-md-3;
+}
+
+.featured-videos__icon-link {
+  @extend .text-light;
+  font-size: 6em;
+}
+
+.featured-videos__video {
+  @extend .col-md-3;
+
+  iframe {
+    max-width: 100%;
+  }
+}
