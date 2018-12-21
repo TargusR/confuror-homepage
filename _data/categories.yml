@@ -1,27 +1,33 @@
-- id: cat_attend
+- id: cat_hotel
   label:
-    en: "Attend"
-    es: "Asiste"
+    en: "Hotel"
+    es: "Hotel"
   weight: 0
   hidden: false
 - id: cat_participate
   label:
-    en: "Participate"
+    en: "Take part"
     es: "Participa"
   weight: 1
+  hidden: true
+- id: cat_vendors
+  label:
+    en: "Artist & Vendors"
+    es: "Artistas y Vendedores"
+  weight: 2
   hidden: false
 - id: cat_contents
   label:
     en: "Contents"
     es: "Contenidos"
   weight: 2
-  hidden: false
+  hidden: true
 - id: cat_conbook
   label:
     en: "Conbook"
     es: "Conbook"
   weight: 3
-  hidden: false
+  hidden: true
 - id: cat_about
   label:
     en: "About"
