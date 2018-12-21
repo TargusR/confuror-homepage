@@ -15,7 +15,7 @@
     en: "Artist & Vendors"
     es: "Artistas y Vendedores"
   weight: 2
-  hidden: false
+  hidden: true
 - id: cat_contents
   label:
     en: "Contents"
