@@ -34,7 +34,8 @@
 }
 
 .navigation__menu-button {
-  @extend .bg-primary, .text-secondary, .border-0;
+  @extend .bg-primary, .border-0;
+  color: $cf-red;
 }
 
 .navigation__menu-list {
