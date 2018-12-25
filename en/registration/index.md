@@ -2,7 +2,7 @@
 layout: page
 id: registration
 title: Early Bird Registration
-label: Register now
+label: Registration
 description: >-
   Know more about how to register and attend Confuror 2018
 lang: en
@@ -12,11 +12,16 @@ category_weight: 0
 ---
 
 {%- capture alert_message -%}
-  <p><b>¡Proxima Apertura!</b> Pronto anunciaremos la fecha para registro Early Bird. Mientras tanto puedes revisar los contenidos y precios de nuestros paquetes. Te recomendamos visitar esta página con frecuencia para conocer actualizaciones sobre el evento. Si tienes alguna duda sobre la información mostrada puedes comunicarte por correo electrónico a <a href="mailto:vidafur.reg@gmail.com">vidafur.reg@gmail.com</a> o a travez de nuestras redes sociales.</p>
+  <p><b>Opening soon!</b> Early bird registration dates will be announced soon. You can check our available access fees and content below. Return here later to get more updates for the event. If you have any doubts concerning this information, please send a mail to <a href="mailto:vidafur.reg@gmail.com">vidafur.reg@gmail.com</a> or contact us trough our social networks.</p>
 {%- endcapture -%}
 {%- assign alert_mode = "warning" -%}
 {%- include components/alert.html -%}
 
 <!-- {%- include components/registration.html -%} -->
 
-> All information provided through this form and/or the linked pictures on it are confidential and users can ask for its removal after the event has concluded. Confuror does not share any data with others or uses them for purposes unrelated to the event.
+{%- include components/access-fees.html -%}
+
+- Cheaper fees displayed here are Early bird discounts, availability is limited. Early bird registration dates will be anounced soon.
+- Vendor table fees will be anounced soon.
+
+<!-- > All information provided through this form and/or the linked pictures on it are confidential and users can ask for its removal after the event has concluded. Confuror does not share any data with others or uses them for purposes unrelated to the event. -->

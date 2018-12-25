@@ -32,13 +32,25 @@ Buscando mejorar la experiencia de lo que será Confuror 2019, decidimos dar un 
 
 Este año ponemos a tu disposición dos métodos para obtener una habitación en el hotel sede. Puedes reservar a traves del **bloque exclusivo de Confuror 2019** mediante el link oficial que te mostraremos a continuación o adquirir un paquete **Confuror Club Pass**, el cual no solo te dará acceso al evento como asistente general a ti y a un acompañante, sino que además incluirá una habitación pagada por tres noches en nuestro piso hospitalario Fiesta Club, un regalo especial con sabor a méxico, una invitación personalizada a la fiesta exclusiva en la suite presidencial y la posibilidad de estar cerca del mejor ambiente nocturno en la convención.
 
+Conoce más detalles sobre ambos métodos siguiendo los links a continuación:
+
+<div class="container">
+  <div class="row">
+    <div class="col-md-6">
+      <a href="/es/hotel/reserva/"><img class="img-fluid" src="/images/ui/btn_reserva.png" alt="Reservas en el Hotel"></a>
+    </div>
+    <div class="col-md-6">
+      <a href="/es/hotel/club_pass/"><img class="img-fluid" src="/images/ui/btn_club-pass.png" alt="Confuror Club Pass"></a>
+    </div>
+  </div>
+</div>
+
+<br>
+
 <div class="container text-center">
 <iframe width="560" height="315" src="https://www.youtube.com/embed/MIo2xpVIGBQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
-Conoce más detalles sobre ambos métodos siguiendo los links a continuación:
-
-[links]
 
 <br>
 <br>

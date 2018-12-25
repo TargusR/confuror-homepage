@@ -19,4 +19,9 @@ category_weight: 0
 
 <!-- {%- include components/registration.html -%} -->
 
-> Toda la información proporcionada mediante el formulario y el contenido de las imágenes referenciadas es confidencial y los usuarios pueden solicitar su eliminación por correo electrónico una vez que se concluya el proceso. Confuror no comparte ningún dato con terceros ni los utiliza para fines que no se relacionen con el evento.
+{%- include components/access-fees.html -%}
+
+- Los precios tachados en rojo reflejan los precios de venta final. El precio más económico es el precio de lanzamiento Early Bird con existencias limitadas. La fecha de apertura de venta para Early bird se anunciará pronto.
+- Las tarifas de las mesas de venta se anunciarán pronto.
+
+<!-- > Toda la información proporcionada mediante el formulario y el contenido de las imágenes referenciadas es confidencial y los usuarios pueden solicitar su eliminación por correo electrónico una vez que se concluya el proceso. Confuror no comparte ningún dato con terceros ni los utiliza para fines que no se relacionen con el evento. -->

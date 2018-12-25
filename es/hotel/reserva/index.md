@@ -18,10 +18,10 @@ Si deseas reservar una habitación en el hotel sede y vivir la experiencia de Co
 
 ## Reserva a través de la página web
 
-1. Accede al sistema de reservaciones del Fiesta Americana mediate este link: [https://www.fiestamericana.com/es/grupos_reservacion](https://www.fiestamericana.com/es/grupos_reservacion)
+1. Accede al sistema de reservaciones del Fiesta Americana mediante este link: [https://www.fiestamericana.com/es/grupos_reservacion](https://www.fiestamericana.com/es/grupos_reservacion)
 2. En el campo **"¿Donde quieres viajar?"** escribe **"Guadalajara"** y selecciona: **Fiesta Americana Guadalajara**
 3. Elige las fechas de reservación que más te convengan **entre el 9 de Octubre y el 14 de Octubre**. recuerda que el evento será el 11, 12 y 13 de octubre.
-4. Selecciona la cantidad de personas y habitaciones a reservar.
+4. Selecciona la cantidad de personas y habitaciones que deseas incluir en tu reservación.
 5. Ingresa el código de grupo: **G1BHRK@FAG**
 6. Presiona en el botón **RESERVAR**
 7. En el menú que se muestra después, elige el tipo de habitación que deseas y da click en **"Reservar ahora"**
