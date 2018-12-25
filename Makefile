@@ -39,7 +39,7 @@ include-yarn-deps:
 	cp -r node_modules/font-awesome/fonts $(VENDOR_DIR)/fontawesome
 
 build: install include-yarn-deps
-	$(JEKYLL) build
+	JEKYLL_ENV=production $(JEKYLL) build
 
 serve: install include-yarn-deps
-	JEKYLL_ENV=production $(JEKYLL) serve
+	$(JEKYLL) serve
