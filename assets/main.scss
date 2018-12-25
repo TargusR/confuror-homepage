@@ -23,6 +23,7 @@ $fa-font-path: "/assets/vendor/fontawesome/fonts";
 // Project components
 @import "components/navigation-bar";
 @import "components/language-switch";
+@import "components/edition-label";
 @import "components/banner";
 @import "components/menu-slides";
 @import "components/footer";
@@ -33,6 +34,7 @@ $fa-font-path: "/assets/vendor/fontawesome/fonts";
 @import "components/featured-videos";
 // @import "components/invitation";
 @import "components/registration";
+@import "components/access-fees";
 @import "components/counter";
 // @import "components/conbook";
 // @import "components/hotel-card";
