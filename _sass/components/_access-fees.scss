@@ -1,0 +1,74 @@
+///////////////////
+//  Access Fees  //
+///////////////////
+
+.access-fees__wrapper {
+  @extend .container;
+  padding: 3em 0;
+}
+
+.access-fees {
+  @extend .row;
+}
+
+.access-fees__fee-container {
+  @extend .col-md-4;
+  margin-bottom: 1em;
+}
+
+.access-fees__fee {
+  @extend .card, .text-light;
+}
+
+.access-fees__fee--general {
+  @extend .bg-primary;
+}
+
+.access-fees__fee--sponsor {
+  @extend .bg-success;
+}
+
+.access-fees__fee--super-sponsor {
+  @extend .bg-secondary;
+}
+
+.access-fees__fee-header {
+  @extend .text-center, .card-header;
+}
+
+.access-fees__fee-stars {}
+
+.access-fees__fee-body {
+  @extend .card-body;
+}
+
+.access-fees__fee-name {
+  @extend .card-title, .text-light;
+  margin: 0 !important;
+}
+
+.access-fees__fee-includes {
+  @extend .list-group, .list-group-flush, .rounded, .text-left;
+  padding-top: 1em;
+}
+
+.access-fees__fee-item {
+  @extend .list-group-item;
+  background-color: rgba($cf-light,0.1);
+  font-size: 0.9em;
+}
+
+.access-fees__fee-footer {
+  @extend .card-body;
+}
+
+.access-fees__fee-from {
+  @extend .text-danger;
+  text-decoration: line-through;
+  display: block;
+}
+
+.access-fees__fee-to {
+  @extend .h4;
+  display: block;
+}

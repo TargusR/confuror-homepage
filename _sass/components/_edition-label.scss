@@ -1,0 +1,40 @@
+/////////////////////
+//  Edition Label  //
+/////////////////////
+
+.edition-label__wrapper {
+  position: absolute;
+  bottom: -30px;
+  left: 5px;
+}
+
+.edition-label {
+  @extend .bg-dark, .text-light, .rounded-bottom;
+  @include addShadow('drop');
+  height: 30px;
+  padding: 0 10px;
+  border-top: 3px solid $black;
+}
+
+.edition-label__text {
+  font-size: 0.7em;
+}
+
+@include media-breakpoint-down(sm) {
+  .edition-label__wrapper {
+    position: relative;
+    bottom: 0;
+    left: 0;
+  }
+
+  .edition-label {
+    // @extend .rounded-0;
+    border-bottom-right-radius: unset !important;
+    border-bottom-left-radius: unset !important;
+    @include addShadow('none');
+  }
+
+  .edition-label__text {
+    font-size: 0.8em;
+  }
+}
