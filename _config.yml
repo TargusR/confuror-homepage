@@ -7,6 +7,9 @@ description:
   es: >-
     Confuror es una convención furry con sede en México, realizandose en la ciudad de Guadalajara, Jalisco.
     Es el evento anual realizado por la comunidad furry de Vidafur. Regresa en 2019 con su segunda edición el 11, 12 y 13 de Octubre en el hotel Fiesta Americana Guadalajara.
+edition_label:
+  en: October 11, 12 & 13 | Guadalajara, México
+  es: 11, 12 y 13 de Octubre | Guadalajara, México
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 

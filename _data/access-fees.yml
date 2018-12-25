@@ -1,0 +1,57 @@
+general:
+  content:
+    es:
+      - Acceso general al evento por 3 días
+      - Paquete básico de bienvenida a la Convención
+    en:
+      - General access for the three day convention
+      - Basic goodies
+  prices:
+    current:
+      es: $519 mxn
+      en: $29 usd
+    original:
+      es: $969 mxn
+      en: $54 usd
+sponsor:
+  content:
+    es:
+      - Todo lo incluido en entrada General
+      - Reconocimiento por su patrocinio al evento
+      - Acceso anticipado al área de venta
+      - Regalos exclusivos para Sponsor
+      - 1 Boleto para la rifa de regalos
+    en:
+      - Everything included in General Access
+      - Credits for sponsorship
+      - Early access to vendors room
+      - Exclusive gifts for Sponsors
+      - 1 ticket for the gift raffle
+  prices:
+    current:
+      es: $799 mxn
+      en: $45 usd
+    original:
+      es: $1,359 mxn
+      en: $76 usd
+super_sponsor:
+  content:
+    es:
+      - Todo lo incluido en entrada Sponsor
+      - Regalos exclusivos para Super Sponsor
+      - Desayuno privado Super Sponsor Meet and Greet
+      - Playera oficial del evento
+      - 2 boletos para la rifa de regalos
+    en:
+      - Everything included in Sponsor Access
+      - Exclusive gifts for Super Sponsors
+      - Private Super Sponsor Meet and Greet breakfast
+      - Event official shirt
+      - 2 tickets for the gift raffle
+  prices:
+    current:
+      es: $999 mxn
+      en: $56 usd
+    original:
+      es: $1,739 mxn
+      en: $97 usd
