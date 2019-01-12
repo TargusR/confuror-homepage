@@ -10,6 +10,16 @@
   position: relative;
   max-height: 100px;
   transition: transform 0.6s, max-height 0.4s;
+  margin-top: 10px !important;
+  margin-bottom: 10px !important;
+}
+
+.clock-counter__intro,
+.clock-counter__outro {
+  @extend h4;
+  display: block;
+  margin-top: 10px !important;
+  margin-bottom: 10px !important;
 }
 
 .clock-counter__intro {
