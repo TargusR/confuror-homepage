@@ -32,3 +32,5 @@ Una vez completado lo anterior tendrás ya tu habitación reservada en la sede d
 ### Reserva por telefono
 
 Si vives en méxico, también puedes reservar tus habitaciones de forma guiada con un operador por teléfono llamando al **01 800 504 5000** y mencionando el nombre de *Convención Confuror 2019*.
+
+**Es importante mencionar que la herramienta que utilizan las operadoras solo permite registrar a dos personas por habitación**. Huespedes adicionales en una misma habitación podrán ser registrados cubriendo los costos correspondientes en la recepción del hotel al hacer el check-in.

@@ -12,7 +12,7 @@ category_weight: 0
 ---
 
 {%- capture alert_message -%}
-  <p><b>¡Proxima Apertura!</b> Pronto anunciaremos la fecha para registro Early Bird. Mientras tanto puedes revisar los contenidos y precios de nuestros paquetes. Te recomendamos visitar esta página con frecuencia para conocer actualizaciones sobre el evento. Si tienes alguna duda sobre la información mostrada puedes comunicarte por correo electrónico a <a href="mailto:vidafur.reg@gmail.com">vidafur.reg@gmail.com</a> o a travez de nuestras redes sociales.</p>
+  <p><b>¡Apertura 15 enero!</b> Preparate para adquirir tus entradas al mejor precio en la etapa Early Bird; recuerda que las existencias para esta etapa son limitadas. Revisa los contenidos de nuestros paquetes y su precio mientras tanto. Te recomendamos visitar esta página con frecuencia para conocer actualizaciones sobre el evento. Si tienes alguna duda sobre la información mostrada puedes comunicarte por correo electrónico a <a href="mailto:vidafur.reg@gmail.com">vidafur.reg@gmail.com</a> o a travez de nuestras redes sociales.</p>
 {%- endcapture -%}
 {%- assign alert_mode = "warning" -%}
 {%- include components/alert.html -%}
@@ -20,6 +20,12 @@ category_weight: 0
 <!-- {%- include components/registration.html -%} -->
 
 {%- include components/access-fees.html -%}
+
+<div class="container text-center">
+  <span class="clock-counter__intro">OWO!! Apertura Early Bird</span>
+  <span class="clock-counter" data-limit="1547600400000"></span>
+  <span class="clock-counter__hide clock-counter__outro">(inserte link aquí)</span>
+</div>
 
 - Los precios tachados en rojo reflejan los precios de venta final. El precio más económico es el precio de lanzamiento Early Bird con existencias limitadas. La fecha de apertura de venta para Early bird se anunciará pronto.
 - Las tarifas de las mesas de venta se anunciarán pronto.
