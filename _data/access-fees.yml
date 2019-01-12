@@ -20,12 +20,14 @@ sponsor:
       - Reconocimiento por su patrocinio al evento
       - Acceso anticipado al área de venta
       - Regalos exclusivos para Sponsor
+      - Playera oficial de Confuror 2019
       - 1 Boleto para la rifa de regalos
     en:
       - Everything included in General Access
       - Credits for sponsorship
       - Early access to vendors room
       - Exclusive gifts for Sponsors
+      - Confuror 2019 Official shirt
       - 1 ticket for the gift raffle
   prices:
     current:
@@ -40,13 +42,13 @@ super_sponsor:
       - Todo lo incluido en entrada Sponsor
       - Regalos exclusivos para Super Sponsor
       - Desayuno privado Super Sponsor Meet and Greet
-      - Playera oficial del evento
+      - Playera adicional con diseño excluisvo de Super Sponsor
       - 2 boletos para la rifa de regalos
     en:
       - Everything included in Sponsor Access
       - Exclusive gifts for Super Sponsors
       - Private Super Sponsor Meet and Greet breakfast
-      - Event official shirt
+      - Exclusive Super Sponsor aditional shirt
       - 2 tickets for the gift raffle
   prices:
     current:
