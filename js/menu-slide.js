@@ -22,8 +22,8 @@ $(function() {
     ev.preventDefault();
     menuSlideId = getMenuSlideId($(ev.currentTarget));
     if(menuSlideId != "menu_main") {
-      toogleMenuIndicator(menuSlideId)
+      toogleMenuIndicator(menuSlideId);
     }
-    toogleMenuSlide(menuSlideId)
+    toogleMenuSlide(menuSlideId);
   })
 });
