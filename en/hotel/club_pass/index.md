@@ -15,9 +15,9 @@ category_weight: 2
 ---
 
 {%- capture alert_message -%}
-  <p><b>Preparing next stage!</b> We are about to launch a second stage of Confuror Club Pass sales. We just unlocked a new group of rooms in this exclusive area and soon they will be available for you. Stay in touch for more details by joining the telegram group described in this page.</p>
+  <p><b>Club pass is sold out!</b> We have sold out all rooms available in the fiesta club floor. Thank you for your interest in this feature. If you have any questions regarding this topic you can sent them to <a href="mailto:vidafur.reg@gmail.com">vidafur.reg@gmail.com</a></p>
 {%- endcapture -%}
-{%- assign alert_mode = "success" -%}
+{%- assign alert_mode = "warning" -%}
 {%- include components/alert.html -%}
 
 Confuror 2019 comes with a brand new and exclusive access category. **Confuror Club Pass** is the convention full experience, with general admission included for you and a companion, plus a room for three nights in an exclusive area of ​​the hotel, **the Fiesta Club floor**.

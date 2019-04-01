@@ -1,9 +1,9 @@
 ---
 layout: document_index
 id: sales_reg
-title: Reglamento para ventas dentro de Confuror
+title: Reglamento para ventas dentro de Confuror 2019
 label: Reglamento de venta
-description: En Confuror disponemos de un área de venta. Si estás interesado en participar en ella, te recomendamos leer atentamente este reglamento y estar preparado para la convocatoria.
+description: Si estás interesado en participar en las dinámicas de Artist Alley o Dealers Den deberás leer atentamente este reglamento. Revisión Febrero 2019.
 lang: es
 list_id: about_documents
 list_weight: 2
@@ -11,60 +11,51 @@ category: cat_about
 category_weight: 2
 ---
 
+El siguiente reglamento presenta las condiciones, beneficios y limitaciones a las que someten los vendedores que deseen participar en el área de ventas de Confuror, así como a cualquier persona que participe en las dinámicas ahí se presenten.
+
+**La participación de vendedores y artistas en el área de ventas está condicionada a la aceptación y acato de este reglamento, sin excepciones**.
+
+El *“área de ventas”* hace referencia al espacio designado en el recinto de la convención para montaje de stands y exhibición de arte. Dicho espacio estará dividido en dos categorías o dinámicas: *“Dealers Den”* y *“Artist alley”*, mismas que se diferencian en características ofrecidas y objetivos. Así mismo, se considera *“exhibición”* al conjunto de materiales dispuestos para venta o presentación en los espacios delimitados, sin importar su formato.
+
+---
+
 <a name="terminos_generales"></a>
 
-## Términos generales
+## 1. Términos generales
 
-Solo se permitirá la exhibición de artículos a la venta en los espacios designados dentro del evento. Montar exhibición de venta fuera de las áreas asignadas puede provocar la remoción del badge de acceso.
+- **1.1** Todo aspirante a las dinámicas ofrecidas por el área de ventas de Confuror deberá presentar una solicitud en tiempo y forma según los lineamientos de las convocatorias correspondientes. La aceptación de dicha solicitud queda sujeta a los términos de este reglamento y a la evaluación de la misma. Confuror se reserva el derecho de admitir o rechazar cualquier solicitud según su naturaleza, material presentado, o a conveniencia del evento. La decisión del comité responsable de esta evaluación será inapelable.
 
-Los espacios de venta se rigen según las siguientes dos categorías:
+- **1.2** No se permitirá la venta de artículos o arte exhibido fuera del área de venta. Cualquier exhibición con propósito de venta montada fuera de las áreas asignadas será retirada y podrá causar la remoción del badge de acceso a la convención. Quedan exentas las entregas o intercambios acordados por medios electrónicos.
 
-* __Artist Alley:__ Es un espacio de venta enfocado principalmente a ilustradores y productores gráficos en el que podrán vender obras originales, impresiones, derivados de sus obras u ofrecer comisiones mientras cumplan con los requisitos estipulados en este reglamento.
-* __Dealers Den:__ Es un espacio de venta enfocado a Crafters, Fursuit Makers, Prop Makers o vendedores de artículos variados que cumplan con los requisitos estipulados en este reglamento.
+- **1.3** Se deberá respetar el espacio asignado dentro del área de venta. El montaje no podrá exceder las dimensiones permitidas o invadir espacios aledaños, ni deberá atentar contra las normas de instalación en el recinto. Si el montaje requiere materiales adhesivos o perforantes, se deberá consultar al staff antes de su instalación. Cualquier daño al mobiliario del recinto causado por el montaje u operación de la exhibición deberá ser cubierto por el titular de la solicitud al área de ventas.
 
-Todo aspirante a un espacio de venta deberá presentar una solicitud en el tiempo y la forma que se especifique en cada edición del evento.
+- **1.4** Los materiales que conformen la exhibición deberán apegarse a los lineamientos descritos en el apartado de “Materiales permitidos”, de lo contrario, se solicitará su remoción de inmediato. La reincidencia podrá causar una suspensión al derecho de montaje de la exhibición.
 
-Para vender mercancía de cualquier tipo es necesario contar con una solicitud aprobada y un espacio de venta asignado. El staff de Confuror se reserva el derecho de evaluar las solicitudes de venta según su criterio, apegado a las políticas del evento.
-
----
-
-<a name="contenido_aceptado"></a>
-
-## Sobre el contenido y mercancía aceptada
-
-Las siguientes cláusulas se aplican a la mercancía presentada en las solicitudes de venta, así como a la que se pretenda exhibir en el evento y no se le haya hecho mención durante la solicitud. El staff de Confuror se reserva el derecho de solicitar retirar de exhibición la mercancía que a su criterio no cumpla con estas cláusulas:
-
-Que sea Furry*:
-: La mercancía presentada debe ser de temática Furry* o relacionarse de alguna forma con el Furry Fandom, esto incluye cualquier tipo de prop que pueda ser usado por un fursuiter. Las reglas sobre artículos prohibidos especificadas en el código de conducta aplican también a los artículos de venta, sin excepción.
-
-Para todas las edades:
-: No se permite la venta o exhibición de artículos con propósito o contenido para adultos. Toda la mercancía en existencia durante el evento debe ser apta para todas las edades y poder exhibirse en cualquier momento. El artista o vendedor podrá ofertar comisiones con contenido para adultos únicamente de forma privada, sin exhibir material gráfico explícito en su stand.
-
-Autoría y originalidad:
-: Los vendedores deben poseer los derechos autorales o la autorización explícita para explotar los recursos gráficos, diseños y creaciones que presenten como mercancía o estén incluídos en la misma. Los artículos que contengan impresiones de escenas de obras registradas o ilustraciones de terceros están prohibidos. Confuror se deslinda de cualquier conflicto derivado del uso inapropiado del copyright en la mercancía que los vendedores introduzcan al evento.
-
-> *Se define como temática furry todo aquello que contenga elementos o personajes con estética zoomorfa, o derivados de animales, incluyendo especies reales o fantásticas. Así como artefactos o dispositivos diseñados explícitamente para el Fandom.
+- **1.5** Los titulares y participantes del área de ventas aceptan cumplir los lineamientos descritos en este reglamento y acatar las indicaciones del staff respecto al montaje u operación de su exhibición. Confuror se reserva el derecho de suspender cualquier exhibición que a nuestro criterio no cumpla con este reglamento, sin responsabilidad de retribución alguna.
 
 ---
 
-<a name="caracteristicas_espacio"></a>
+<a name="materiales_permitidos"></a>
 
-## Sobre la solicitud y las características de los espacios de venta
+## 2. Materiales permitidos
 
-Solo se podrá presentar una solicitud de venta por asistente a Confuror y en dicha solicitud sólo se podrá aspirar a un espacio de venta. No es necesario que el costo de la entrada esté cubierto al momento de presentar la solicitud, pero una vez aprobada es necesario pagar tanto la tarifa de mesa de venta como el acceso al evento del solicitante, de lo contrario se perderá la aprobación.
+- **2.1** Para poder ser admitidos y mantener vigente su autorización, los materiales que presenten los aspirantes en su solicitud y exhibición deberán cumplir con las siguientes características fundamentales:
+  - **2.1.a Que sea Furry;** los materiales presentados deberán ser de temática Furry o relacionarse de alguna forma con el Furry Fandom. Definiéndose como temática furry todo aquello que contenga elementos o personajes con estética zoomorfa, o derivados de animales, incluyendo especies reales o fantásticas. Así como artefactos o dispositivos que cumplan algún propósito en el Fandom, esto incluye cualquier tipo de prop que pueda ser usado por un fursuiter.
+  - **2.1.b Para todas las edades;** no se permite la exhibición de materiales con propósito o contenido para adultos. El material expuesto en todo momento deberá ser apto para todo el público. Para más detalles consulte el apartado de *“Contenido Sensible”*.
+  - **2.1.c Autoría y originalidad;** los titulares deberán poseer los derechos autorales o la autorización explícita para explotar los recursos gráficos, diseños y creaciones que presenten como mercancía o estén incluídos en la misma, así como de cualquier material que forme parte de su exhibición. Los artículos que contengan impresiones de escenas de obras registradas o ilustraciones de terceros están prohibidos. Confuror se deslinda de cualquier conflicto derivado del uso inapropiado del copyright en los materiales que los vendedores o artistas introduzcan al evento.
+- **2.2** Las reglas sobre artículos prohibidos indicadas en el Código de Conducta del evento aplican también a los artículos de venta, sin excepción. Estará prohibido cualquier material cuya operación represente un riesgo de seguridad o salud para los asistentes.
+- **2.3** Se dará preferencia a las solicitudes que contengan material de creación original. Las solicitudes que presenten artículos de fábrica o de naturaleza meramente comercial se mantendrán en espera y Confuror se reservará el derecho de autorizarlas.
 
-En la solicitud de venta se debe incluir descripciones e imágenes de toda la mercancía que se pretenda vender, en medida de lo posible. Se asignará un lugar dentro de la categoría más adecuada según esta descripción.
+---
 
-En **Dealers Den**, cada lugar asignado incluye mesa y dos sillas; se permitirá la presencia de máximo dos vendedores por lugar asignado en todo momento, pero podrán rotarse libremente según criterio propio. En **Artist Alley**, cada lugar asignado incluye mesa y una silla, solo se permitirá la presencia de un artista por lugar asignado en todo momento, pero igual podrá rotar su espacio con otros artistas o ayudantes según la necesidad y preferencia del artista asignado en dicho espacio. Todos los vendedores o ayudantes deben contar con su acceso pagado para poder presentarse al evento.
+<a name="contenido_sensible"></a>
 
-Los lugares de venta tienen las siguientes dimensiones aproximadas:
-* **Dealers Den**: 120cm de largo por 70 cm de ancho (medio tablón grande). Se permitirá montar cualquier estructura vertical que quepa sobre este espacio o detrás de él, mientras no supere el mismo largo y ancho y su altura no exceda los dos metros.
-* **Artist Alley**: 80cm de largo por 70cm de ancho (un tercio de tablón grande). Cualquier estructura montada sobre este espacio requerirá ser desmontada al final del día, sin embargo podrá almacenarse en el área de venta siempre y cuando se haga conocimiento de ello al staff encargado.
+## 3. Contenido sensible
 
-Dentro del **Dealers Den** se permitirá combinar el espacio asignado con el de otro artista o vendedor cuya solicitud también haya sido aprobada para montar una exhibición más grande. Para ello es necesario contactar vía correo electrónico al staff de Confuror indicando los nombres de los vendedores interesados en combinar su espacio una vez que todos hayan sido aprobados en el evento. Por distribución dentro de las áreas de la sede, no se garantiza la posibilidad de asignar más de dos espacios contiguos.
-
-Los espacios de venta en el **Dealers Den** podrán permanecer montados al finalizar el horario de operación del área, es responsabilidad de cada vendedor gestionar sus inventarios y procurar la seguridad de sus mercancías. Los salones asignados se cerrarán con llave después de que todo se empaque para la noche y los vendedores se retiren.
-
-Los espacios para artistas dentro del **Artist Alley** no se asignarán de manera fija. Cada artista tendrá un lugar reservado según una asignación por día, la mesa que ocuparán durante el día será seleccionada al momento de su llegada al área de ventas.
-
-Confuror no se hace responsable por la gestión de inventarios, precios o recuperación de ganancias por venta. Valoramos el emprendimiento y la voluntad de vender en nuestro evento enriqueciendo la experiencia de la convención; no podemos garantizar un lugar para todos debido a que el espacio es limitado pero recomendamos seguir los términos indicados en este documento para asegurar una evaluación positiva.
+- **3.1** Se consideran de naturaleza sensible todos los contenidos que incluyan desnudos totales o parciales, así como elementos eróticos, sexualidad explícita, violencia extrema o uso de estupefacientes.
+- **3.2** El material gráfico usado en la decoración de la exhibición o que resulte expuesto en los materiales de la misma, deberá ser apto para todo el público y no ser de naturaleza sensible, según la descripción anterior.
+- **3.2** Obras como libros, comics, fanzines o revistas cuyo contenido esté enfocado para adultos o sea de naturaleza sensible podrán ser autorizadas únicamente sí se encuentran empacadas en todo momento y la portada y contraportada de las mismas no se antepone al punto anterior, o se encuentra censurada en su totalidad, con dicha censura sellada al empaque. Estas publicaciones deberán ofrecerse únicamente a mayores de edad debidamente identificados y no se podrán hojear en el recinto de la convención.
+- **3.3** No se podrán exhibir ni vender impresiones individuales cuyo contenido sea de naturaleza sensible aunque esté censurado de forma superficial. 
+- **3.4** Se permitirá el material gráfico que haya sido retocado digitalmente para ser exhibido a todo el público siempre y cuando el resultado de la edición favorezca este punto.
+- **3.5** Está prohibida la venta o exhibición de artefactos que tengan una finalidad meramente erótica o fetichista.
+- **3.6** No se permitirá anunciar de ninguna forma la oferta de comisiones con contenido sensible en el área de ventas. Comisiones de esta naturaleza deberán tratarse en privado y no deberán trabajarse en el recinto de la convención.

@@ -15,9 +15,9 @@ category_weight: 2
 ---
 
 {%- capture alert_message -%}
-  <p><b>¡Preparando la segunda etapa!</b> Estamos a punto de lanzar una segunda etapa de venta de Confuror Club Pass. Hemos conseguido negociar nuevas habitaciones en este espacio exclusivo y muy pronto se pondrán a la venta. Mantente en contacto para conocer más detalles uniéndote al grupo de telegram que se describe en esta página.</p>
+  <p><b>¡Club pass agotado!</b> Hemos agotado todas las habitaciones disponibles en el piso Fiesta Club. Muchas grácias por tu interés en esta modalidad de acceso a la convención. Si tienes alguna duda respecto a Club pass o reservaciones puedes comunicarte a <a href="mailto:vidafur.reg@gmail.com">vidafur.reg@gmail.com</a></p>
 {%- endcapture -%}
-{%- assign alert_mode = "success" -%}
+{%- assign alert_mode = "warning" -%}
 {%- include components/alert.html -%}
 
 Confuror 2019 viene con todo y estrena un paquete completamente nuevo y exclusivo. **Confuror Club Pass** es el acceso completo a la experiencia Confuror, con entrada general incluída para ti y un acompañante, además de una habitación por tres noches en un área exclusiva del hotel, **el piso Fiesta Club**.
