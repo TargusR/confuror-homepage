@@ -12,13 +12,10 @@ banner_src: /images/banners/nueva_sede_banner_esp.png
 banner_alt: Nueva sede Confuror 2019
 category: cat_hotel
 category_weight: 1
----
-
-{%- capture alert_message -%}
+alert_message: >-
   <p><b>Nota de Marzo/20/19:</b> El link para hacer reservaciones en línea fue actualizado por la administración del hotel, esta página se encuentra con la información al día para realizar tu reservación sin problemas.</p>
-{%- endcapture -%}
-{%- assign alert_mode = "success" -%}
-{%- include components/alert.html -%}
+alert_mode: success
+---
 
 Si deseas reservar una habitación en el hotel sede y vivir la experiencia de Confuror 24 horas, sigue estos pasos para entrar dentro del bloque oficial del evento y no perderte de nada.
 

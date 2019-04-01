@@ -12,13 +12,10 @@ banner_src: /images/banners/nueva_sede_banner_eng.png
 banner_alt: Confuror 2019 new venue
 category: cat_hotel
 category_weight: 1
----
-
-{%- capture alert_message -%}
+alert_message: >-
   <p><b>Note on March/20/19:</b> Link for reservations has been updated by the hotel online platform managment, this page is up to date with the new link; all instructions are current and should work properly.</p>
-{%- endcapture -%}
-{%- assign alert_mode = "success" -%}
-{%- include components/alert.html -%}
+alert_mode: success
+---
 
 If you want to book a room in the main hotel and live the Confuror experience 24 hours, follow these steps to enter the official room block of the convention.
 

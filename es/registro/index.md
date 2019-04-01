@@ -9,13 +9,10 @@ lang: es
 featured: true
 category: cat_participate
 category_weight: 0
----
-
-{%- capture alert_message -%}
+alert_message: >-
   <p><b>¡Apertura 1ro de febrero!</b> Preparate para registrarte y adquirir tu acceso a Confuror 2019. Revisa los contenidos de nuestros paquetes y su precio mientras tanto. Si tienes alguna duda sobre la información mostrada puedes comunicarte por correo electrónico a <a href="mailto:vidafur.reg@gmail.com">vidafur.reg@gmail.com</a> o a travez de nuestras redes sociales.</p>
-{%- endcapture -%}
-{%- assign alert_mode = "warning" -%}
-{%- include components/alert.html -%}
+alert_mode: warning
+---
 
 {%- include components/access-fees.html -%}
 

@@ -12,13 +12,10 @@ banner_src: /images/banners/nueva_sede_banner_eng.png
 banner_alt: Confuror 2019 new venue
 category: cat_hotel
 category_weight: 2
----
-
-{%- capture alert_message -%}
+alert_message: >-
   <p><b>Club pass is sold out!</b> We have sold out all rooms available in the fiesta club floor. Thank you for your interest in this feature. If you have any questions regarding this topic you can sent them to <a href="mailto:vidafur.reg@gmail.com">vidafur.reg@gmail.com</a></p>
-{%- endcapture -%}
-{%- assign alert_mode = "warning" -%}
-{%- include components/alert.html -%}
+alert_mode: warning
+---
 
 Confuror 2019 comes with a brand new and exclusive access category. **Confuror Club Pass** is the convention full experience, with general admission included for you and a companion, plus a room for three nights in an exclusive area of ​​the hotel, **the Fiesta Club floor**.
 
