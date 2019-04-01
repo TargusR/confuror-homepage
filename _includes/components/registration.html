@@ -9,8 +9,11 @@
   <li class="registration__step-item">{{ step }}</li>
   {%- endfor -%}
 </ol>
-<h3 class="clock-counter__intro">OWO *notices countdown*</h3>
-<h4 class="clock-counter" data-limit="1526360400000"></h4>
-<div class="registration__form-button-container clock-counter__hide">
-  <a href="{{ registration_data.form_link }}" target="_blank" class="registration__form-button">{{ registration_data.register_now_label }}</a>
+
+<div class="container text-center">
+  <span class="clock-counter__intro">OWO!! *notices counter*</span>
+  <span class="clock-counter" data-limit="1549069200000"></span>
+  <span class="clock-counter__hide clock-counter__outro">
+    <a class="btn btn-primary" href="{{ registration_data.form_link }}">{{ registration_data.register_now_label }}</a>
+  </span>
 </div>
