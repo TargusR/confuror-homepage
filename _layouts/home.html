@@ -6,8 +6,16 @@ layout: default
 
 <div class="home">
   <div class="home__wrapper">
+    {%- if page.alert_message -%}
+    <div class="page__alerts">
+      {%- include components/alert.html -%}
+    </div>
+    {%- endif -%}
+
     {{ content }}
+
     {%- include components/guest-of-honor.html -%}
+
     {%- include components/featured-videos.html -%}
   </div>
 </div>

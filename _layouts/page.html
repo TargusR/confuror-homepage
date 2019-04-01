@@ -10,6 +10,12 @@ layout: default
       {%- endif -%}
     </header>
 
+    {%- if page.alert_message -%}
+    <div class="page__alerts">
+      {%- include components/alert.html -%}
+    </div>
+    {%- endif -%}
+
     <div class="page__content">
       {{ content }}
     </div>

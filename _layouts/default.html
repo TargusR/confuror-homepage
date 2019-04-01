@@ -8,11 +8,10 @@
 
     <main class="content" aria-label="Content">
       <div class="content__wrapper">
-
         {%- if page.banner_src -%}
-        {%- assign banner_src = page.banner_src -%}
-        {%- assign banner_alt = page.banner_alt -%}
-        {%- include components/banner.html -%}
+          {%- assign banner_src = page.banner_src -%}
+          {%- assign banner_alt = page.banner_alt -%}
+          {%- include components/banner.html -%}
         {%- endif -%}
 
         {{ content }}

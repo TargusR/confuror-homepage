@@ -1,5 +1,13 @@
+{%- if page.alert_mode -%}
+  {%- assign alert_mode = page.alert_mode -%}
+{%- endif -%}
+
+{%- if page.alert_message -%}
+  {%- assign alert_message = page.alert_message -%}
+{%- endif -%}
+
 {%- unless alert_mode -%}
-{%- assign alert_mode = "primary" -%}
+  {%- assign alert_mode = "primary" -%}
 {%- endunless -%}
 
 <div class="alert alert-{{ alert_mode }}" role="alert">

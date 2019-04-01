@@ -26,6 +26,12 @@ layout: default
         {%- endif -%}
       </header>
 
+      {%- if page.alert_message -%}
+      <div class="document-index__alerts">
+        {%- include components/alert.html -%}
+      </div>
+      {%- endif -%}
+
       <div class="document-index__body">
         {{ content }}
       </div>
