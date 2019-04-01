@@ -12,10 +12,10 @@
   hidden: true
 - id: cat_vendors
   label:
-    en: "Artist & Vendors"
+    en: "Artist & Dealers"
     es: "Artistas y Vendedores"
   weight: 2
-  hidden: true
+  hidden: false
 - id: cat_contents
   label:
     en: "Contents"

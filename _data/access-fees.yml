@@ -8,11 +8,11 @@ general:
       - Basic goodies
   prices:
     current:
-      es: $519 mxn
-      en: $29 usd
+      es: $619 mxn
+      en: $35 usd
     original:
-      es: $969 mxn
-      en: $54 usd
+      es: $829 mxn
+      en: $47 usd
 sponsor:
   content:
     es:
@@ -31,11 +31,11 @@ sponsor:
       - 1 ticket for the gift raffle
   prices:
     current:
-      es: $799 mxn
-      en: $45 usd
+      es: $1,049 mxn
+      en: $59 usd
     original:
-      es: $1,359 mxn
-      en: $76 usd
+      es: $1,299 mxn
+      en: $73 usd
 super_sponsor:
   content:
     es:
@@ -52,8 +52,8 @@ super_sponsor:
       - 2 tickets for the gift raffle
   prices:
     current:
-      es: $999 mxn
-      en: $56 usd
+      es: $1,419 mxn
+      en: $79 usd
     original:
-      es: $1,739 mxn
-      en: $97 usd
+      es: $1,659 mxn
+      en: $93 usd
