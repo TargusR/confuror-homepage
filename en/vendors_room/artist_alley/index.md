@@ -49,3 +49,46 @@ If you are an artist who plans to offer commissions, display your work or sell p
     </div>
   </div>
 </div>
+
+### Selected Artists
+
+The artists selected so far to participate in Artist Alley during Confuror 2019 are listed below. Participation days for the selected artists will be assigned by groups later.
+
+#### Selection I, April 1st
+
+<div class="row">
+  <div class="col-md-6">
+    <ul>
+      <li><a href="https://www.furaffinity.net/user/3lly-b0rk/" target="_blank">3lly-b0rk</a></li>
+      <li><a href="http://www.furaffinity.net/user/blakefox/" target="_blank">BlakeFox</a></li>
+      <li><a href="https://www.instagram.com/cat_man09/" target="_blank">Catman</a></li>
+      <li><a href="https://twitter.com/Chakisuu" target="_blank">Chakisuu</a></li>
+      <li><a href="http://www.furaffinity.net/user/chutkat/" target="_blank">Chutkat</a></li>
+      <li><a href="https://www.facebook.com/FloffoCinna/" target="_blank">Cinna</a></li>
+      <li><a href="https://twitter.com/drawsenrique" target="_blank">Enrique Ramírez</a></li>
+      <li><a href="http://www.furaffinity.net/user/genachiiku/" target="_blank">Genachii</a></li>
+      <li><a href="https://www.furaffinity.net/user/9utsy/" target="_blank">Gutsy</a></li>
+      <li><a href="https://www.furaffinity.net/user/kamui-shirow/" target="_blank">Kamui</a></li>
+    </ul>
+  </div>
+  <div class="col-md-6">
+    <ul>
+      <li><a href="https://twitter.com/karydraws" target="_blank">Kary Draws</a></li>
+      <li><a href="https://twitter.com/Kiminukii" target="_blank">Kiminukii</a></li>
+      <li><a href="https://twitter.com/KoidelCoyote" target="_blank">KoidelCoyote</a></li>
+      <li><a href="https://licographics.com/" target="_blank">Licos</a></li>
+      <li><a href="http://www.furaffinity.net/user/rookiebear/" target="_blank">Maki Dogville</a></li>
+      <li><a href="http://www.furaffinity.net/user/pacopanda/" target="_blank">Paco Panda</a></li>
+      <li><a href="http://www.furaffinity.net/user/almagiczora/" target="_blank">Perros de Agua Tampico</a></li>
+      <li><a href="https://twitter.com/Rileykeller_art" target="_blank">RileyKeller</a></li>
+      <li><a href="http://www.furaffinity.net/user/siekfried/" target="_blank">Siekfried</a></li>
+      <li><a href="http://www.furaffinity.net/user/zhenghu/" target="_blank">Zhenghu Maolong</a></li>
+    </ul>
+  </div>
+</div>
+
+> If you sent an application between February 15 and March 15, and do not appear in the previous list, **your application participates in the next selection**. Keep an eye on this page and our social networks for more information.
+
+#### Selection II, July 1st
+
+Soon. If you wish to participate send your request between April 15 and May 15. All pending applications of the previous announcement participate in this selection.
