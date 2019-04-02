@@ -30,7 +30,7 @@
 
 .document-index__link {
   @extend .nav-link;
-  color: $cf-gray;
+  color: $mm-blue-light;
 }
 
 // .document-index__link:visited {
@@ -39,7 +39,7 @@
 
 .document-index__link.is-active {
   @extend .active, .rounded, .text-light;
-  background-color: $cf-blue;
+  background-color: $mm-purple;
 }
 
 .document-index__content {
@@ -48,17 +48,17 @@
 
 .document-index__header {
   @extend .jumbotron;
-  background-color: $white;
-  color: $cf-gray;
+  background-color: $cf-light;
+  color: $mm-aqua;
 }
 .document-index__header {
   hr {
-    border-color: $cf-red;
+    border-color: $mm-blue;
   }
 }
 
 .document-index__title {
-  color: $cf-red;
+  color: $mm-red;
 }
 
 .document-index__description {
@@ -69,6 +69,7 @@
 
 .document-index__body {
   @extend .text-justify;
+  font-family: 'American Typewriter', 'Times', sans-serif;
 
   li {
     line-height: 1.6em;
@@ -78,8 +79,13 @@
   }
 
   h1, h2, h3, h4, h5, h6 {
-    color: $cf-blue-shadow;
+    font-family: 'Roboto Slab', serif !important;
+    color: $mm-red-light;
     margin-top: 2em;
     margin-bottom: 1em;
+  }
+
+  h4, h5, h6 {
+    color: $mm-aqua-light;
   }
 }

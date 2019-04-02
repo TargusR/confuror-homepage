@@ -3,9 +3,17 @@
 ///////////////////
 
 body {
-  background-color: $cf-light;
-  color: $cf-dark;
+  background-color: $mm-yellow-light;
+  color: $mm-purple;
   font-family: 'Roboto', Arial, Helvetica, sans-serif !important;
+}
+
+a {
+  color: $mm-aqua;
+}
+
+a:hover {
+  color: $mm-aqua-light;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -25,7 +33,7 @@ p {
 blockquote {
   margin-left: 3em;
   padding-left: 1em;
-  border-left: 10px solid $cf-gray;
+  border-left: 10px solid $mm-aqua;
 }
 
 .header {

@@ -6,12 +6,12 @@
   @extend .container-fluid, .text-light, .bg-dark;
 
   a {
-    color: $cf-gray;
+    color: $mm-yellow;
     transition: color 0.2s;
   }
 
   a:hover {
-    color: $cf-light;
+    color: $mm-yellow-light;
   }
 }
 

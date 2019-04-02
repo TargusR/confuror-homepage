@@ -4,9 +4,12 @@
 
 .featured-videos__wrapper {
   @extend .container-fluid, .text-light;
-  background-color: $cf-red;
+  background-color: $mm-red-dark;
+  // background: linear-gradient(to right, $mm-red-light, $mm-red-dark);
   padding-top: 30px;
   padding-bottom: 30px;
+  // border-top: 12px solid $mm-aqua-light;
+  // border-bottom: 8px solid $mm-aqua-light;
 }
 
 .featured-videos {

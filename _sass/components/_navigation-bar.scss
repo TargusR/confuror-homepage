@@ -4,7 +4,7 @@
 
 .navigation {
   @extend .navbar, .row, .no-gutters, .navbar-expand-lg, .navbar-dark, .bg-primary;
-  background: linear-gradient(to bottom, $cf-blue, $cf-blue-shadow);
+  background: linear-gradient(to bottom, $mm-blue, $mm-purple);
 }
 
 .navigation__logo {
@@ -34,8 +34,13 @@
 }
 
 .navigation__menu-button {
-  @extend .bg-primary, .border-0;
-  color: $cf-red;
+  @extend .bg-primary, .border-0, .rounded;
+  color: $mm-blue;
+  background-color: $mm-aqua-light !important;
+}
+
+.navigation__menu-button:hover {
+  background-color: $mm-aqua !important;
 }
 
 .navigation__menu-list {
@@ -65,7 +70,7 @@
   content: '';
   display: block;
   width: 90%;
-  border-bottom: 4px solid $cf-red-light;
+  border-bottom: 4px solid $mm-blue-light;
   @include centerThis(top);
   transform: translate(0, -20px);
   opacity: 0;
@@ -93,7 +98,7 @@
   border: 0;
   margin: 0;
   padding: 0;
-  background: linear-gradient(to left, $cf-red-light, $cf-red);
+  background: linear-gradient(to left, $mm-yellow-light, $mm-aqua);
 }
 
 @include media-breakpoint-down(md) {

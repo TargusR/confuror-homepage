@@ -3,14 +3,29 @@
 /////////////////////////////////////
 
 // Howling Gala theme colors
-$hg-paper: #FFFBE9;
-$hg-ink: #3A3831;
-$hg-paper-shadow: #A8A394;
-$hg-golden: #A57D2D;
-$hg-golden-light: #C89F3E;
-$hg-golden-shadow: #764B16;
-$hg-blue: #0D2B69;
-$hg-blue-shadow: #04103A;
+// $hg-paper: #FFFBE9;
+// $hg-ink: #3A3831;
+// $hg-paper-shadow: #A8A394;
+// $hg-golden: #A57D2D;
+// $hg-golden-light: #C89F3E;
+// $hg-golden-shadow: #764B16;
+// $hg-blue: #0D2B69;
+// $hg-blue-shadow: #04103A;
+
+// Carnival colors
+$mm-red: #E50514;
+$mm-red-light: #DC3535;
+$mm-red-dark: #720103;
+$mm-aqua: #02958E;
+$mm-aqua-light: #7EB29C;
+$mm-blue: #0D384A;
+$mm-blue-light: #7EA5B2;
+$mm-purple-light: #971739;
+$mm-purple: #3B1F2F;
+$mm-purple-dark: #20091C;
+$mm-yellow: #ECCF96;
+$mm-yellow-light: rgb(255, 246, 233);
+
 
 // Generic Confuror colors
 $cf-blue-ligth: #4283e9;
@@ -30,11 +45,11 @@ $cf-dark: #4d4d4d;
 
 
 // Override bootstrap default colors
-$primary:       $cf-blue !default;
-$secondary:     $cf-purple !default;
-$success:       $cf-green !default;
+$primary:       $mm-red-dark !default;
+$secondary:     $mm-yellow !default;
+$success:       $mm-aqua !default;
 $info:          $cf-gray !default;
 $warning:       $cf-yellow !default;
-$danger:        $cf-red !default;
+$danger:        $mm-red-light !default;
 $light:         $cf-light !default;
 $dark:          $cf-dark !default;

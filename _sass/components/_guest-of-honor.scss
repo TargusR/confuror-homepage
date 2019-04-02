@@ -4,11 +4,13 @@
 
 .goh__wrapper {
   @extend .container-fluid, .text-light;
-  background-color: $cf-blue-shadow;
+  // background-color: $mm-aqua;
+  background: linear-gradient(to bottom, $mm-purple-light, $mm-purple);
   padding-top: 30px;
   padding-bottom: 40px;
   position: relative;
   overflow: hidden;
+  // border-top: 12px solid $mm-aqua;
 }
 
 .goh__wrapper:before {

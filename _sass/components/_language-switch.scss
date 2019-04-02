@@ -7,17 +7,19 @@
 }
 
 .language-switch__button {
-  @extend .nav-link, .text-primary;
+  @extend .nav-link;
   padding-left: 8px;
   padding-right: 8px;
   font-size: small;
   text-align: center;
+  color: $mm-blue;
 }
 
 .language-switch__float {
   @extend .position-absolute, .flex-column;
   top: 130%;
   right: 0;
+  z-index: 11;
 }
 
 .language-switch__float:after {
@@ -50,10 +52,12 @@
   display: block;
   padding: 0 20px;
   line-height: 30px;
+  color: $mm-aqua-light;
 }
 
 .language-switch__list-link.is-active {
-  @extend .active, .bg-primary, .text-light;
+  @extend .active, .text-light;
+  background-color: $mm-aqua;
 }
 
 @include media-breakpoint-down(md) {
