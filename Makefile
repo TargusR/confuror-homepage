@@ -32,7 +32,7 @@ include-yarn-deps:
 	mkdir -p $(VENDOR_DIR)/jquery
 	cp node_modules/jquery/dist/jquery.min.js $(VENDOR_DIR)/jquery
 	mkdir -p $(VENDOR_DIR)/popper
-	cp node_modules/popper.js/dist/popper.min.js $(VENDOR_DIR)/popper
+	cp node_modules/popper.js/dist/umd/popper.min.js $(VENDOR_DIR)/popper
 	mkdir -p $(VENDOR_DIR)/bootstrap
 	cp node_modules/bootstrap/dist/js/bootstrap.min.js $(VENDOR_DIR)/bootstrap
 	mkdir -p $(VENDOR_DIR)/fontawesome
