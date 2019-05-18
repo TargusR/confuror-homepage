@@ -1,0 +1,92 @@
+{%- assign featured_artists_data = site.data.featured-artists -%}
+
+<div class="featured-artists__wrapper">
+    <div class="featured-artists">
+        <div class="featured-artists__header">
+            <h4 class="featured-artists__header-line-1">{{ featured_artists_data.header_line_1[page.lang] }}</h4>
+            <p class="featured-artists__header-line-2">{{ featured_artists_data.header_line_2[page.lang] }}</p>
+        </div>
+        <div class="featured-artists__body">
+            {%- for artist in featured_artists_data.artists_list -%}
+                <div class="featured-artists__artist is-{% cycle 'odd', 'even' %}">
+                    <div class="featured-artists__artist-row">
+                        {%- if artist.enabled -%}
+                        <div class="featured-artists__artist-image-col">
+                            <div class="featured-artists__artist-image">
+                                <img src="{{ artist.picture }}" alt="{{ artist.name }}" class="featured-artists__artist-image-picture">
+                            </div>   
+                        </div>
+                        <div class="featured-artists__artist-data-col">
+                            <div class="featured-artists__artist-name-row">
+                                <h5 class="featured-artists__artist-name">{{ artist.name }}</h5>
+                            </div>
+                            <div class="featured-artists__artist-info-row">
+                                <div class="featured-artists__artist-country-col">
+                                    <span class="flag-icon flag-icon-{{ artist.country_iso }}"></span>
+                                </div>
+                                <div class="featured-artists__artist-follow-col">
+                                    <ul class="featured-artists__artist-follow-list">
+                                        {%- if artist.twitter -%}
+                                            <li class="featured-artists__artist-follow-item">
+                                                <a href="{{ artist.twitter }}" class="featured-artists__artist-follow-link" title="Twitter">
+                                                    <i class="fa fa-twitter" aria-hidden="true"></i>
+                                                </a>
+                                            </li>
+                                        {%- endif -%}
+                                        {%- if artist.furaffinity -%}
+                                            <li class="featured-artists__artist-follow-item">
+                                                <a href="{{ artist.furaffinity }}" class="featured-artists__artist-follow-link" title="Furaffinity">
+                                                    <i class="fa fa-paw" aria-hidden="true"></i>
+                                                </a>
+                                            </li>
+                                        {%- endif -%}
+                                        {%- if artist.instagram -%}
+                                            <li class="featured-artists__artist-follow-item">
+                                                <a href="{{ artist.instagram }}" class="featured-artists__artist-follow-link" title="Instagram">
+                                                    <i class="fa fa-instagram" aria-hidden="true"></i>
+                                                </a>
+                                            </li>
+                                        {%- endif -%}
+                                        {%- if artist.patreon -%}
+                                            <li class="featured-artists__artist-follow-item">
+                                                <a href="{{ artist.patreon }}" class="featured-artists__artist-follow-link" title="Patreon">
+                                                    <i class="fa fa-circle" aria-hidden="true"></i>
+                                                </a>
+                                            </li>
+                                        {%- endif -%}
+                                        {%- if artist.twitch -%}
+                                            <li class="featured-artists__artist-follow-item">
+                                                <a href="{{ artist.twitch }}" class="featured-artists__artist-follow-link" title="Twitch">
+                                                    <i class="fa fa-twitch" aria-hidden="true"></i>
+                                                </a>
+                                            </li>
+                                        {%- endif -%}
+                                        {%- if artist.facebook -%}
+                                            <li class="featured-artists__artist-follow-item">
+                                                <a href="{{ artist.facebook }}" class="featured-artists__artist-follow-link" title="Facebook">
+                                                    <i class="fa fa-facebook-official" aria-hidden="true"></i>
+                                                </a>
+                                            </li>
+                                        {%- endif -%}
+                                        {%- if artist.webpage -%}
+                                            <li class="featured-artists__artist-follow-item">
+                                                <a href="{{ artist.webpage }}" class="featured-artists__artist-follow-link" title="Webpage">
+                                                    <i class="fa fa-globe" aria-hidden="true"></i>
+                                                </a>
+                                            </li>
+                                        {%- endif -%}
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        {%- else -%}
+                        <div class="featured-artists__artist-date-reveal-col">
+                            <div class="featured-artists__artist-date-reveal">{{ artist.date_revealed }}</div>
+                        </div>
+                        {%- endif -%}
+                    </div>
+                </div>
+            {%- endfor -%}
+        </div>
+    </div>
+</div>
