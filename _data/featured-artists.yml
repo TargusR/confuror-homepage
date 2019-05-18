@@ -1,0 +1,112 @@
+header_line_1:
+  en: Featured Artists
+  es: Artistas Invitados
+header_line_2:
+  en: Along with the Guests of Honor, the following artists will be present at Confuror 2019, sharing their work and experiences.
+  es: Junto a los invitados de honor, los siguientes artistas estarán presentes en Confuror 2019 compartiendo su obra y experiencias.
+artists_list:
+  - picture: /images/featured_artists/stigmata_profile_web.png
+    name: Jonathan Vair Duncan
+    country: United States of America
+    country_iso: us
+    enabled: true
+    date_revealed: 17/05/2019
+    twitter: https://twitter.com/jonathanvair
+    furaffinity: http://furaffinity.net/user/stigmata
+    instagram: https://instagram.com/jonathanvair
+    patreon: null
+    twitch: null
+    facebook: null
+    webpage: http://jonathanvair.com
+  - picture: /images/featured_artists/sasha_profile_web.png
+    name: Sasha R. Jones
+    country: United States of America
+    country_iso: us
+    enabled: true
+    date_revealed: 17/05/2019
+    twitter: https://twitter.com/SashaRJones
+    furaffinity: https://www.furaffinity.net/user/sasharjones/
+    instagram: null
+    patreon: null
+    twitch: https://www.twitch.tv/sasharjones
+    facebook: null
+    webpage: http://www.sasharjones.com/
+  - picture: /images/featured_artists/rama_profile_web.png
+    name: Rama
+    country: Chile
+    country_iso: cl
+    enabled: false
+    date_revealed: 19/05/2019
+    twitter: https://twitter.com/XxAnungUnRamaxX
+    furaffinity: http://www.furaffinity.net/user/xxringoxx/
+    instagram: null
+    patreon: https://www.patreon.com/AnungUnRama
+    twitch: null
+    facebook: null
+    webpage: null
+  - picture: /images/featured_artists/franko_profile_web.png
+    name: Franko
+    country: Chile
+    country_iso: cl
+    enabled: false
+    date_revealed: 19/05/2019
+    twitter: https://twitter.com/frankothelion
+    furaffinity: http://www.furaffinity.net/user/negger/
+    instagram: https://www.instagram.com/frankothelion/
+    patreon: null
+    twitch: null
+    facebook: null
+    webpage: null
+  - picture: /images/featured_artists/art_chickle_profile_web.png
+    name: Arty & Chikle
+    country: México
+    country_iso: mx
+    enabled: false
+    date_revealed: 21/05/2019
+    twitter: https://twitter.com/artyandchikle 
+    furaffinity: null
+    instagram: https://www.instagram.com/arty_and_Chikle/
+    patreon: null
+    twitch: null
+    facebook: https://www.facebook.com/artyandchikle/
+    webpage: null
+  - picture: /images/featured_artists/tigerlion_profile_web.png
+    name: Tigerlion Moikana
+    country: México
+    country_iso: mx
+    enabled: false
+    date_revealed: 21/05/2019
+    twitter: https://twitter.com/TigerLion_Art
+    furaffinity: https://www.furaffinity.net/user/tigerlion-moikana/
+    instagram: null
+    patreon: null
+    twitch: null
+    facebook: https://www.facebook.com/TigerLion.Moikana/
+    webpage: null
+  - picture: /images/featured_artists/henry_profile_web.png
+    name: Henry J. Doe
+    country: México
+    country_iso: mx
+    enabled: false
+    date_revealed: 23/05/2019
+    twitter: https://twitter.com/HenryJDoe
+    furaffinity: http://www.furaffinity.net/user/henryjdoe/
+    instagram: null
+    patreon: null
+    twitch: null
+    facebook: https://www.facebook.com/henryjaydoe/
+    webpage: null
+  - picture: /images/featured_artists/eclipticafusion_profile_web.png
+    name: Eclipticafusión
+    country: México
+    country_iso: mx
+    enabled: false
+    date_revealed: 23/05/2019
+    twitter: https://twitter.com/eclipticafusion
+    furaffinity: http://www.furaffinity.net/user/eclipsewolf/
+    instagram: null
+    patreon: null
+    twitch: null
+    facebook: null
+    webpage: null
+    
