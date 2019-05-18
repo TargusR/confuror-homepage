@@ -16,7 +16,7 @@ url: "" # the base hostname & protocol for your site, e.g. http://example.com
 # Build settings
 markdown: kramdown
 theme: minima
-version: 2.1.1
+version: 2.2.0
 
 sass:
   load_paths:
