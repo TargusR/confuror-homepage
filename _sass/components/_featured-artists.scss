@@ -1,0 +1,170 @@
+////////////////////////
+//  Featured Artists  //
+////////////////////////
+
+.featured-artists__wrapper {
+    @extend .text-light;
+    background: linear-gradient(to bottom, $mm-aqua-light, $mm-aqua);
+    padding-top: 30px;
+    padding-bottom: 40px;
+    position: relative;
+    overflow: hidden;
+}
+
+.featured-artists__wrapper:before {
+    display: block;
+    content: '';
+    background-image: url('/images/ui/paws_decoration_left.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 140px;
+    height: 600px;
+    @include centerThis('left');
+}
+  
+.featured-artists__wrapper:after {
+    display: block;
+    content: '';
+    background-image: url('/images/ui/paws_decoration_right.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 140px;
+    height: 600px;
+    @include centerThis('right');
+}
+
+.featured-artists {
+    @extend .container, .text-center;
+}
+
+.featured-artists__header {
+    @extend .jumbotron-fluid;
+}
+
+.featured-artists__header-line-1 {
+    @extend .display-4;
+}
+
+.featured-artists__header-line-2 {
+    @extend .lead;
+}
+
+.featured-artists__body {
+    @extend .row, .justify-content-center;
+}
+
+.featured-artists__artist {
+    @extend .col-lg-4, .col-md-6, .text-left;
+    margin-bottom: 40px;
+}
+
+.featured-artists__artist-row {
+    @extend .row;
+    align-items: center;
+}
+
+.featured-artists__artist-image-col {
+    @extend .col-sm-5;
+    padding: 0 !important;
+}
+
+.featured-artists__artist-data-col {
+    @extend .col-sm-7;
+}
+
+.featured-artists__artist-date-reveal-col {
+    @extend .col-12;
+}
+
+.featured-artists__artist-date-reveal {
+    width: 150px;
+    height: 150px;
+    margin: 0 auto;
+    line-height: 150px;
+    border-radius: 75px;
+    background-color: rgba($mm-purple, 0.6);
+    color: $mm-yellow-light;
+    text-align: center;
+    font-family: 'Archivo Black', arial;
+    font-size: 1.25em;
+}
+
+.featured-artists__artist-image {
+    width: 100%;
+    max-width: 200px;
+    height: auto;
+    margin: auto;
+    overflow: hidden;
+    border-radius: 100px;
+    border: 8px solid $mm-yellow;
+}
+
+.featured-artists__artist-image-picture {
+    @extend .img-fluid;
+}
+
+.featured-artists__artist-name {
+    color: $mm-yellow-light;
+}
+
+.featured-artists__artist-info-row {
+    @extend .row;
+}
+
+.featured-artists__artist-country-col {
+    @extend .col-2;
+
+    .flag-icon {
+        font-size: 1.25em;
+        line-height: 1.5;
+    }
+}
+
+.featured-artists__artist-follow-col {
+    @extend .col;
+}
+
+.featured-artists__artist-follow-list {
+    @extend .nav;
+}
+
+.featured-artists__artist-follow-item {
+    @extend .nav-item;
+}
+
+.featured-artists__artist-follow-link {
+    @extend .nav-link;
+    color: $cf-light !important;
+    padding: 0 10px;
+    font-size: 1.25em;
+}
+
+.featured-artists__artist.is-even {
+    .featured-artists__artist-image {
+        border-color: $mm-purple-light;
+    }
+}
+
+@include media-breakpoint-down(sm) {
+    .featured-artists__artist {
+        margin-bottom: 20px;
+    }
+
+    .featured-artists__artist.is-even {
+        .featured-artists__artist-row {
+            flex-direction: row-reverse;
+        }
+    }
+}
+
+@include media-breakpoint-down(xs) {
+    .featured-artists__artist-data-col {
+        text-align: center;
+        padding-top: 20px;
+    }
+
+    .featured-artists__artist-info-row {
+        width: 230px;
+        margin: auto;
+    }
+}

@@ -7,9 +7,15 @@
 
 // Libraries and External imports
 // @import "minima";
+// Bootstrap
 @import "bootstrap/scss/bootstrap";
-$fa-font-path: "/assets/vendor/fontawesome/fonts";
+// Fontawesome
+$fa-font-path: "/assets/vendor/fontawesome/fonts" !default;
 @import "font-awesome/scss/font-awesome";
+// Flag Icons
+$flag-icon-css-path: "/assets/vendor/flag-icon-css/flags" !default;
+@import "flag-icon-css/sass/flag-icon";
+
 
 // User defined mixins
 @import "mixins/position";
@@ -31,8 +37,8 @@ $fa-font-path: "/assets/vendor/fontawesome/fonts";
 @import "components/social-network";
 @import "components/full-index";
 @import "components/guest-of-honor";
+@import "components/featured-artists";
 @import "components/featured-videos";
-// @import "components/invitation";
 @import "components/registration";
 @import "components/access-fees";
 @import "components/counter";
