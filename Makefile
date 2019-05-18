@@ -37,6 +37,8 @@ include-yarn-deps:
 	cp node_modules/bootstrap/dist/js/bootstrap.min.js $(VENDOR_DIR)/bootstrap
 	mkdir -p $(VENDOR_DIR)/fontawesome
 	cp -r node_modules/font-awesome/fonts $(VENDOR_DIR)/fontawesome
+	mkdir -p $(VENDOR_DIR)/flag-icon-css
+	cp -r node_modules/flag-icon-css/flags $(VENDOR_DIR)/flag-icon-css/
 
 build: install include-yarn-deps
 	JEKYLL_ENV=production $(JEKYLL) build
