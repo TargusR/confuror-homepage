@@ -2,65 +2,65 @@
 //  Conbook  //
 ///////////////
 
-.conbook__related-row {
-  @extend .row;
-}
+// .conbook__related-row {
+//   @extend .row;
+// }
 
-.conbook__related-col {
-  @extend .col-md-6
-}
+// .conbook__related-col {
+//   @extend .col-md-6
+// }
 
-.conbook__related-content-button {
-  @extend .rounded;
-  height: 200px;
-  display: block;
-  padding: 40px;
-  margin: 10px 0;
-  padding-left: 200px;
-  font-family: 'Bebas Neue', arial !important;
-  font-size: 1.6em;
-  text-align: right;
-  color: $hg-paper !important;
-}
+// .conbook__related-content-button {
+//   @extend .rounded;
+//   height: 200px;
+//   display: block;
+//   padding: 40px;
+//   margin: 10px 0;
+//   padding-left: 200px;
+//   font-family: 'Bebas Neue', arial !important;
+//   font-size: 1.6em;
+//   text-align: right;
+//   color: $hg-paper !important;
+// }
 
-.conbook__related-content-button--about {
-  background-color: $white;
-  color: $hg-ink !important;
-  background-image: url('/images/pictures/conbook_button_bg_about.png');
-  background-position: center left;
-  background-repeat: no-repeat;
-}
+// .conbook__related-content-button--about {
+//   background-color: $white;
+//   color: $hg-ink !important;
+//   background-image: url('/images/pictures/conbook_button_bg_about.png');
+//   background-position: center left;
+//   background-repeat: no-repeat;
+// }
 
-.conbook__related-content-button--contents {
-  background-color: $hg-ink;
-  background-image: url('/images/pictures/conbook_button_bg_content.png');
-  background-position: center left;
-  background-repeat: no-repeat;
-}
+// .conbook__related-content-button--contents {
+//   background-color: $hg-ink;
+//   background-image: url('/images/pictures/conbook_button_bg_content.png');
+//   background-position: center left;
+//   background-repeat: no-repeat;
+// }
 
-.conbook__related-content-button--adverts {
-  background-color: $hg-blue;
-  background-image: url('/images/pictures/conbook_button_bg_flyer.png');
-  background-position: center left;
-  background-repeat: no-repeat;
-}
+// .conbook__related-content-button--adverts {
+//   background-color: $hg-blue;
+//   background-image: url('/images/pictures/conbook_button_bg_flyer.png');
+//   background-position: center left;
+//   background-repeat: no-repeat;
+// }
 
-.conbook__contact {
-  @extend .row;
-  font-size: 2em;
-  margin: 30px;
-}
+// .conbook__contact {
+//   @extend .row;
+//   font-size: 2em;
+//   margin: 30px;
+// }
 
-.conbook__contact-icon {
-  @extend .col-auto;
-}
+// .conbook__contact-icon {
+//   @extend .col-auto;
+// }
 
-.conbook__contact-content {
-  @extend .col;
-}
+// .conbook__contact-content {
+//   @extend .col;
+// }
 
-@include media-breakpoint-down(sm) {
-  .conbook__contact {
-    font-size: 1em;
-  }
-}
+// @include media-breakpoint-down(sm) {
+//   .conbook__contact {
+//     font-size: 1em;
+//   }
+// }

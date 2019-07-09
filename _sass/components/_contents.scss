@@ -2,36 +2,6 @@
 //  Generic contents classes  //
 ////////////////////////////////
 
-// Generic images
-figure {
-  margin: 20px;
-
-  img {
-    @extend .rounded;
-    width: 400px;
-  }
-}
-
-figure.centered {
-  text-align: center;
-  
-  img {
-    width: 500px;
-  }
-}
-
-figure.right {
-  float: right;
-  margin-top: 0;
-  margin-right: 0;
-}
-
-figure.left {
-  float: left;
-  margin-top: 0;
-  margin-left: 0;
-}
-
 @include media-breakpoint-down(sm) {
   figure.right,
   figure.left,

@@ -68,7 +68,7 @@
 }
 
 .document-index__body {
-  @extend .text-justify;
+  @extend .text-justify, .cfr-text-formatted;
   font-family: 'American Typewriter', 'Times', sans-serif;
 
   li {

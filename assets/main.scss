@@ -21,6 +21,9 @@ $flag-icon-css-path: "/assets/vendor/flag-icon-css/flags" !default;
 @import "mixins/position";
 @import "mixins/theming";
 
+// Global styles
+@import "global/contents";
+
 // Project layouts
 @import "layout/main";
 @import "layout/page";
