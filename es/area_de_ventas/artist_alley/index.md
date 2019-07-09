@@ -60,7 +60,7 @@ A continuación se enlistan los artistas seleccionados hasta el momento para par
   <div class="col-md-6">
     <ul>
       <li><a href="https://www.furaffinity.net/user/3lly-b0rk/" target="_blank">3lly-b0rk</a></li>
-      <!-- <li><a href="http://www.furaffinity.net/user/blakefox/" target="_blank">BlakeFox</a></li> -->
+      <li><a href="http://www.furaffinity.net/user/blakefox/" target="_blank">BlakeFox</a></li>
       <li><a href="https://www.instagram.com/cat_man09/" target="_blank">Catman</a></li>
       <!-- <li><a href="https://twitter.com/Chakisuu" target="_blank">Chakisuu</a></li> -->
       <li><a href="http://www.furaffinity.net/user/chutkat/" target="_blank">Chutkat</a></li>
@@ -87,8 +87,39 @@ A continuación se enlistan los artistas seleccionados hasta el momento para par
   </div>
 </div>
 
-> Si enviaste solicitud entre el 15 de febrero y 15 de marzo, y no apareces en la lista anterior, **tu solicitud continua participando** y podrás aparecer en el siguiente dictamen. Mantente al pendiente de nuestras redes para más información.
+#### Dictamen II, 15 Junio
 
-#### Dictamen II, 1ro Junio
+<div class="row">
+  <div class="col-md-6">
+    <ul>
+      <li><a href="https://www.furaffinity.net/user/toon-ca7/" target="_blank">Carlos "Toon" Gonzales</a></li>
+      <li><a href="https://www.furaffinity.net/user/chibifa/" target="_blank">Chibifa</a></li>
+      <li><a href="https://www.furaffinity.net/user/nameless00/" target="_blank">Cleini</a></li>
+      <li><a href="http://familiausaka.com/comics/abshurdo/" target="_blank">Familia Usaka</a></li>
+      <li><a href="https://www.instagram.com/ivanobichverduzco/" target="_blank">Ivanobich</a></li>
+      <li><a href="https://www.furaffinity.net/user/jakenwolfy/" target="_blank">Jakensitou</a></li>
+      <li><a href="https://www.instagram.com/jocesara_unicart/" target="_blank">Jocesara</a></li>
+      <li><a href="http://www.lobbocomics.com/" target="_blank">Lobbo Comics!</a></li>
+      <li><a href="http://www.furaffinity.net/gallery/locofur/" target="_blank">Loco Fur</a></li>
+    </ul>
+  </div>
+  <div class="col-md-6">
+    <ul>
+      <li><a href="https://www.furaffinity.net/user/markwulfgar/" target="_blank">Mark Wulfgar</a></li>
+      <li><a href="https://twitter.com/MauroxyBofoxez" target="_blank">Mauroxy Bofoxez</a></li>
+      <li><a href="http://www.furaffinity.net/gallery/kingxolotl/" target="_blank">Nathan DXolotl</a></li>
+      <li><a href="https://www.furaffinity.net/user/sakaryyoliztli/ " target="_blank">Sakary</a></li>
+      <li><a href="http://www.furaffinity.net/user/soul-silver-dragon/" target="_blank">Silver Dragon</a></li>
+      <li><a href="https://www.facebook.com/Steel-Honey-358812954540940/" target="_blank">Steel & Honey</a></li>
+      <li><a href="http://www.furaffinity.net/user/lowemond/" target="_blank">Tiago Y Lino</a></li>
+      <li><a href="https://twitter.com/mefernanda03" target="_blank">WhiteDreams</a></li>
+    </ul>
+  </div>
+</div>
 
-Próximamente, sí deseas participar envía tu solicitud entre el 15 de abril y el 15 de mayo. Todas las solicitudes pendientes del dictamen anterior participan.
+
+> Si enviaste solicitud entre el 15 de febrero y 10 de junio, y no apareces en las listas anteriores, **tu solicitud continua participando** y podrás aparecer en el siguiente dictamen. Mantente al pendiente de nuestras redes para más información.
+
+#### Dictamen III, 10 Julio
+
+Próximamente, sí deseas participar envía tu solicitud entre el 10 de junio y el 1ro de julio. Todas las solicitudes pendientes del dictamen anterior participan.

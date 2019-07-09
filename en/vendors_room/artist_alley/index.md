@@ -87,8 +87,38 @@ The artists selected so far to participate in Artist Alley during Confuror 2019 
   </div>
 </div>
 
-> If you sent an application between February 15 and March 15, and do not appear in the previous list, **your application participates in the next selection**. Keep an eye on this page and our social networks for more information.
+#### Selection II, June 15
 
-#### Selection II, July 1st
+<div class="row">
+  <div class="col-md-6">
+    <ul>
+      <li><a href="https://www.furaffinity.net/user/toon-ca7/" target="_blank">Carlos "Toon" Gonzales</a></li>
+      <li><a href="https://www.furaffinity.net/user/chibifa/" target="_blank">Chibifa</a></li>
+      <li><a href="https://www.furaffinity.net/user/nameless00/" target="_blank">Cleini</a></li>
+      <li><a href="http://familiausaka.com/comics/abshurdo/" target="_blank">Familia Usaka</a></li>
+      <li><a href="https://www.instagram.com/ivanobichverduzco/" target="_blank">Ivanobich</a></li>
+      <li><a href="https://www.furaffinity.net/user/jakenwolfy/" target="_blank">Jakensitou</a></li>
+      <li><a href="https://www.instagram.com/jocesara_unicart/" target="_blank">Jocesara</a></li>
+      <li><a href="http://www.lobbocomics.com/" target="_blank">Lobbo Comics!</a></li>
+      <li><a href="http://www.furaffinity.net/gallery/locofur/" target="_blank">Loco Fur</a></li>
+    </ul>
+  </div>
+  <div class="col-md-6">
+    <ul>
+      <li><a href="https://www.furaffinity.net/user/markwulfgar/" target="_blank">Mark Wulfgar</a></li>
+      <li><a href="https://twitter.com/MauroxyBofoxez" target="_blank">Mauroxy Bofoxez</a></li>
+      <li><a href="http://www.furaffinity.net/gallery/kingxolotl/" target="_blank">Nathan DXolotl</a></li>
+      <li><a href="https://www.furaffinity.net/user/sakaryyoliztli/ " target="_blank">Sakary</a></li>
+      <li><a href="http://www.furaffinity.net/user/soul-silver-dragon/" target="_blank">Silver Dragon</a></li>
+      <li><a href="https://www.facebook.com/Steel-Honey-358812954540940/" target="_blank">Steel & Honey</a></li>
+      <li><a href="http://www.furaffinity.net/user/lowemond/" target="_blank">Tiago Y Lino</a></li>
+      <li><a href="https://twitter.com/mefernanda03" target="_blank">WhiteDreams</a></li>
+    </ul>
+  </div>
+</div>
 
-Soon. If you wish to participate send your request between April 15 and May 15. All pending applications of the previous announcement participate in this selection.
+> If you sent an application between February 15 and June 10, and do not appear in the previous list, **your application participates in the next selection**. Keep an eye on this page and our social networks for more information.
+
+#### Selection III, July 10
+
+If you wish to participate send your request between June 10 and July 1st. All pending applications of the previous announcement participate in this selection.
