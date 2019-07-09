@@ -35,7 +35,7 @@ artists_list:
     name: Rama
     country: Chile
     country_iso: cl
-    enabled: false
+    enabled: true
     date_revealed: 19/05/2019
     twitter: https://twitter.com/XxAnungUnRamaxX
     furaffinity: http://www.furaffinity.net/user/xxringoxx/
@@ -45,10 +45,10 @@ artists_list:
     facebook: null
     webpage: null
   - picture: /images/featured_artists/franko_profile_web.png
-    name: Franko
+    name: Negg / Franko
     country: Chile
     country_iso: cl
-    enabled: false
+    enabled: true
     date_revealed: 19/05/2019
     twitter: https://twitter.com/frankothelion
     furaffinity: http://www.furaffinity.net/user/negger/
@@ -61,7 +61,7 @@ artists_list:
     name: Arty & Chikle
     country: México
     country_iso: mx
-    enabled: false
+    enabled: true
     date_revealed: 21/05/2019
     twitter: https://twitter.com/artyandchikle 
     furaffinity: null
@@ -70,24 +70,24 @@ artists_list:
     twitch: null
     facebook: https://www.facebook.com/artyandchikle/
     webpage: null
-  - picture: /images/featured_artists/tigerlion_profile_web.png
-    name: Tigerlion Moikana
+  - picture: /images/featured_artists/eclipticafusion_profile_web.png
+    name: Eclipticafusión
     country: México
     country_iso: mx
-    enabled: false
+    enabled: true
     date_revealed: 21/05/2019
-    twitter: https://twitter.com/TigerLion_Art
-    furaffinity: https://www.furaffinity.net/user/tigerlion-moikana/
+    twitter: https://twitter.com/eclipticafusion
+    furaffinity: http://www.furaffinity.net/user/eclipsewolf/
     instagram: null
     patreon: null
     twitch: null
-    facebook: https://www.facebook.com/TigerLion.Moikana/
+    facebook: null
     webpage: null
   - picture: /images/featured_artists/henry_profile_web.png
     name: Henry J. Doe
     country: México
     country_iso: mx
-    enabled: false
+    enabled: true
     date_revealed: 23/05/2019
     twitter: https://twitter.com/HenryJDoe
     furaffinity: http://www.furaffinity.net/user/henryjdoe/
@@ -96,17 +96,17 @@ artists_list:
     twitch: null
     facebook: https://www.facebook.com/henryjaydoe/
     webpage: null
-  - picture: /images/featured_artists/eclipticafusion_profile_web.png
-    name: Eclipticafusión
+  - picture: /images/featured_artists/tigerlion_profile_web.png
+    name: Tigerlion Moikana
     country: México
     country_iso: mx
-    enabled: false
+    enabled: true
     date_revealed: 23/05/2019
-    twitter: https://twitter.com/eclipticafusion
-    furaffinity: http://www.furaffinity.net/user/eclipsewolf/
+    twitter: https://twitter.com/TigerLion_Art
+    furaffinity: https://www.furaffinity.net/user/tigerlion-moikana/
     instagram: null
     patreon: null
     twitch: null
-    facebook: null
+    facebook: https://www.facebook.com/TigerLion.Moikana/
     webpage: null
     
