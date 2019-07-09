@@ -6,3 +6,4 @@ vendor
 node_modules
 assets/vendor
 _scripts
+.DS_Store
