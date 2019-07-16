@@ -8,7 +8,7 @@ label: Confuror Club Pass
 lang: es
 list_id: hotel_details
 list_weight: 2
-banner_src: /images/banners/nueva_sede_banner_esp.png
+banner_src: /images/banners/nueva_sede_banner_es.png
 banner_alt: Nueva sede Confuror 2019
 category: cat_hotel
 category_weight: 2
