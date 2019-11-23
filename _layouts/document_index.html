@@ -28,7 +28,12 @@ layout: default
 
       {%- if page.alert_message -%}
       <div class="document-index__alerts">
-        {%- include components/alert.html -%}
+        {%-
+          include components/alert.html
+          mode=page.alert_mode
+          heading=page.alert_heading
+          message=page.alert_message
+        -%}
       </div>
       {%- endif -%}
 

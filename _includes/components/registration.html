@@ -4,16 +4,29 @@
   <p>{{ registration_data.intro }}</p>
 </div>
 
+{%
+  include {{ site.formats.inline_alert }}
+  mode="info"
+  message=registration_data.upgrade_alert
+%}
+
 <ol class="registration__step-list">
   {%- for step in registration_data.steps -%}
   <li class="registration__step-item">{{ step }}</li>
   {%- endfor -%}
 </ol>
 
-<div class="container text-center">
+<!-- <div class="container text-center">
   <span class="clock-counter__intro">OWO!! *notices counter*</span>
   <span class="clock-counter" data-limit="1549069200000"></span>
   <span class="clock-counter__hide clock-counter__outro">
-    <a class="btn btn-primary" href="{{ registration_data.form_link }}">{{ registration_data.register_now_label }}</a>
+    <a class="btn btn-primary" style="font-size: 1.8rem" href="{{ registration_data.form_link }}">{{ registration_data.register_now_label }}</a>
   </span>
-</div>
+</div> -->
+
+{%
+  include {{ site.formats.cta_button }}
+  text=registration_data.register_now_label
+  url=registration_data.form_link
+  disabled=true
+%}

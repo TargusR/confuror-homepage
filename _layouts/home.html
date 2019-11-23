@@ -8,13 +8,20 @@ layout: default
   <div class="home__wrapper">
     {%- if page.alert_message -%}
     <div class="page__alerts">
-      {%- include components/alert.html -%}
+      {%-
+        include components/alert.html
+        mode=page.alert_mode
+        heading=page.alert_heading
+        message=page.alert_message
+      -%}
     </div>
     {%- endif -%}
 
     {{ content }}
 
     {%- include components/guest-of-honor.html -%}
+    
+    {%- include components/home-cta.html -%}
 
     {%- include components/featured-artists.html -%}
 

@@ -1,0 +1,29 @@
+{%- if include.faq_id -%}
+  {%- assign faq = site.data.faq[include.faq_id][page.lang] -%}
+{%- else -%}
+  {%- assign faq = site.data.faq['general-faq'][page.lang] -%}
+{%- endif -%}
+
+{%- if include.heading -%}
+  {%- assign heading = include.heading -%}
+{%- else -%}
+  {%- assign heading = faq.title -%}
+{%- endif -%}
+
+<div class="inline-faq">
+  <div class="inline-faq__heading">
+    <h3>{{ heading }}</h3>
+  </div>
+  <ul class="inline-faq__list">
+    {% for item in faq.list %}
+    <li class="inline-faq__item">
+      <div class="inline-faq__question">
+        {{ item.question }}
+      </div>
+      <div class="inline-faq__answer">
+          {{ item.answer }}
+      </div>
+    </li>
+    {% endfor %}
+  </ul>
+</div>

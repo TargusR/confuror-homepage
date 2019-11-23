@@ -1,15 +1,12 @@
-{%- if page.alert_mode -%}
-  {%- assign alert_mode = page.alert_mode -%}
+{%- if include.mode -%}
+  {%- assign mode = include.mode -%}
+{%- else -%}
+  {%- assign mode = "primary" -%}
 {%- endif -%}
 
-{%- if page.alert_message -%}
-  {%- assign alert_message = page.alert_message -%}
-{%- endif -%}
-
-{%- unless alert_mode -%}
-  {%- assign alert_mode = "primary" -%}
-{%- endunless -%}
-
-<div class="alert alert-{{ alert_mode }}" role="alert">
-  {{ alert_message }}
+<div class="alert alert-{{ mode }}" role="alert">
+  {%- if include.heading -%}
+  <div class="alert-heading">{{ include.heading }}</div>
+  {%- endif -%}
+  <div class="alert-message">{{ include.message }}</div>
 </div>
