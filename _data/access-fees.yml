@@ -1,7 +1,11 @@
 general:
+  label:
+    es: General (En línea)
+    en: General (Online pre-reg)
   content:
     es:
       - Acceso general al evento por 3 días
+      - Conbook
       - Paquete básico de bienvenida a la Convención
     en:
       - General access for the three day convention
@@ -14,6 +18,9 @@ general:
       es: $829 mxn
       en: $47 usd
 sponsor:
+  label:
+    es: Sponsor
+    en: Sponsor
   content:
     es:
       - Todo lo incluido en entrada General
@@ -37,12 +44,15 @@ sponsor:
       es: $1,299 mxn
       en: $73 usd
 super_sponsor:
+  label:
+    es: Super Sponsor
+    en: Super Sponsor
   content:
     es:
       - Todo lo incluido en entrada Sponsor
       - Regalos exclusivos para Super Sponsor
       - Desayuno privado Super Sponsor Meet and Greet
-      - Playera adicional con diseño excluisvo de Super Sponsor
+      - Playera adicional con diseño exclusivo de Super Sponsor
       - 2 boletos para la rifa de regalos
     en:
       - Everything included in Sponsor Access

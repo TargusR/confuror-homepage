@@ -1,0 +1,76 @@
+es:
+  # - title: ¡Regístrate como voluntario!
+  #   image: /images/pictures/volunteers_teaser.png
+  #   body: >-
+  #     <p>Llena nuestro formulario y vuélvete voluntario en Confuror 2019, ayúdanos a dar lo mejor de Confuror 2019 y recibe beneficios especiales. Más información en el link.</p>
+  #   link_label: Seguir leyendo
+  #   link_url: /es/registro/voluntarios/
+  # - title: ¡Inscríbete al Concurso de baile!
+  #   image: /images/pictures/fursuit_dance_teaser.png
+  #   body: >-
+  #     <p>¡Llegó la hora de mover el cuerpo en la pista de baile y triunfar! Inscríbete hoy a nuestro <strong>Concurso de baile</strong> en Fursuit. ¡Varias categorías para participar!</p>
+  #   link_label: Seguir leyendo
+  #   link_url: /es/actividades/fursuit_dance/
+  # - title: ¡Participa en el Show de talentos!
+  #   image: /images/pictures/talent_show_teaser.png
+  #   body: >-
+  #     <p>Súbete al escenario de Confuror y realiza una presentación inolvidable. Inscríbete hoy al <strong>Show de talentos</strong> y demuestra tus habilidades, ¡tu público te espera!</p>
+  #   link_label: Seguir leyendo
+  #   link_url: /es/actividades/talent_show/
+  # - title: ¡Regístrate como DJ para nuestras Rave Parties!
+  #   image: /images/pictures/rave_djs_teaser.png
+  #   body: >-
+  #     <p>Toma el control de la fiesta en las noches de Confuror 2019, pon el ritmo y vuelve las Rave Parties inolvidables.</p>
+  #   link_label: ¡Llena tu solicitud hoy!
+  #   link_url: /es/actividades/rave_party_djs/
+  - title: ¡Participa en nuestra Galería!
+    image: /images/pictures/gallery_teaser.png
+    body: >-
+      <p>¡Inscribe tus obras, elige subastar y apoya a la UMA! Podrás exhibir tus mejores piezas en Confuror y si eliges subastarlas, apoyarás al lobo gris Mexicano. Sigue leyendo para conocer más.</p>
+    link_label: Seguir leyendo
+    link_url: /es/actividades/galeria/
+  - title: ¡Conoce nuestra caridad!
+    image: /images/pictures/teaser_uma.jpg
+    body: >-
+      <p>Confuror 2019 apoya la conservación del lobo mexicano y otras especies de fauna silvestre a través de la <strong>UMA Coatepec de Harinas</strong>. Sigue leyendo para conocer más.</p>
+    link_label: Seguir leyendo
+    link_url: /es/acerca_de/caridad/
+en:
+  # - title: Become a volunteer today!
+  #   image: /images/pictures/volunteers_teaser.png
+  #   body: >-
+  #     <p>Fill our form (in Spanish) or contact us via email to register yourself as a volunteer in Confuror 2019! More information on the link.</p>
+  #   link_label: Read more
+  #   link_url: /en/registration/volunteering/
+  # - title: Sign in for the Fusuit Dance Competition!
+  #   image: /images/pictures/fursuit_dance_teaser.png
+  #   body: >-
+  #     <p>It's time to move your body on the dance floor and rock! Dance solo or with your group. Sign up for our <strong>Fursuit dance competition</strong> today!</p>
+  #   link_label: Read more!
+  #   link_url: /en/activities/fursuit_dance/
+  # - title: Sign in for the Talent Show!
+  #   image: /images/pictures/talent_show_teaser.png
+  #   body: >-
+  #     <p>Jump over Confuror stage and make an unforgettable presentation. Sign up for the <strong>Talent Show</strong> today and express your skills, your audience is waiting for you!</p>
+  #   link_label: Read more!
+  #   link_url: /en/activities/talent_show/
+  # - title: Become a Rave Party DJ!
+  #   image: /images/pictures/rave_djs_teaser.png
+  #   body: >-
+  #     <p>Join us at our Rave Parties as a DJ and set the beat for Confuror’s nights, making an unforgettable performance.</p>
+  #   link_label: Fill the application today!
+  #   link_url: /es/actividades/rave_party_djs/
+  - title: Bring your artwork to our gallery!
+    image: /images/pictures/gallery_teaser.png
+    body: >-
+      <p>Register your artworks, choose to auction and support the UMA! Pick your best artwork for our Gallery and support the Mexican gray wolf by putting it to auction. Keep reading to learn more.</p>
+    link_label: Keep reading
+    link_url: /en/activities/gallery/
+  - title: Support the Mexican gray wolf conservation!
+    image: /images/pictures/teaser_uma.jpg
+    body: >-
+      <p>Confuror 2019 supports the conservation of the <strong>Mexican wolf</strong> and other wildlife species through the UMA Coatepec de Harinas. Keep reading to learn more.</p>
+    link_label: Keep reading
+    link_url: /en/about/charity/
+
+    
