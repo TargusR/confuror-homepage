@@ -4,6 +4,8 @@
 
 // User defined variables and overrides
 @import "variables/color";
+@import "variables/font-alias";
+@import "variables/text-sizes";
 
 // Libraries and External imports
 // @import "minima";
@@ -22,10 +24,15 @@ $flag-icon-css-path: "/assets/vendor/flag-icon-css/flags" !default;
 @import "mixins/theming";
 
 // Global styles
-@import "global/contents";
+@import "global/main";
+@import "global/content-styles";
+@import "global/button-styles";
+@import "global/alert-styles";
+@import "global/text-styles";
+@import "global/faq-styles";
+@import "global/carousel-styles";
 
 // Project layouts
-@import "layout/main";
 @import "layout/page";
 @import "layout/document-index";
 
@@ -36,7 +43,6 @@ $flag-icon-css-path: "/assets/vendor/flag-icon-css/flags" !default;
 @import "components/banner";
 @import "components/menu-slides";
 @import "components/footer";
-@import "components/contents";
 @import "components/social-network";
 @import "components/full-index";
 @import "components/guest-of-honor";
@@ -45,6 +51,7 @@ $flag-icon-css-path: "/assets/vendor/flag-icon-css/flags" !default;
 @import "components/registration";
 @import "components/access-fees";
 @import "components/counter";
+@import "components/home-cta";
 // @import "components/conbook";
 // @import "components/hotel-card";
 // @import "components/vendors-and-artists";
