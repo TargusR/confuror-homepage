@@ -12,7 +12,20 @@ list_weight: 2
 # banner_alt: Nueva sede Confuror 2019
 category: cat_vendors
 category_weight: 2
+alert_heading: ¡Registro de Artist Alley cerrado!
+alert_message: >-
+  <p>Gracias por tu interés en participar en el Artist Alley de Confuror 2019. Consulta en esta página la lista final de Artistas y los días en los que estarán presentes. Para cualquier aclaración, comunicate a <a href="mailto:vidafur.reg@gmail.com">vidafur.reg@gmail.com</a></p>
+alert_mode: warning
 ---
+
+## Lista final de Artistas con asignación por día
+
+<div class="container">
+  <a href="/images/pictures/artistalley_web.jpg" data-featherlight="image">
+    <img class="img-fluid" src="/images/pictures/artistalley_web.jpg" alt="Confuror 2019 - Artist Alley list">
+  </a>
+</div>
+<br>
 
 Si eres un artista que planea ofrecer comisiones, exhibir su trabajo o vender impresiones de tus ilustraciones, Artist Alley es perfecto para ti.
 
@@ -42,19 +55,18 @@ Si eres un artista que planea ofrecer comisiones, exhibir su trabajo o vender im
 - g) Los espacios disponibles en el área de Artist Alley serán asignados en orden de llegada al recinto. No se permitirá apartar lugares.
 - h) Deberás desmontar tu exhibición al cierre, no se permitirá dejar artículos en el área de Artist Alley aún si tu grupo asignado participará al día siguiente.
 
-<div class="container text-center">
-  <div class="row">
-    <div class="col-12">
-      <a href="https://goo.gl/forms/pL9ljn3EK652O8VH2" class="btn btn-primary btn-block">¡Inscríbete Ahora!</a>
-    </div>
-  </div>
-</div>
+{%
+  include {{ site.formats.cta_button }}
+  text="Registro de artistas cerrado"
+  url="https://goo.gl/forms/pL9ljn3EK652O8VH2"
+  disabled=true
+%}
 
 ### Artistas seleccionados
 
 A continuación se enlistan los artistas seleccionados hasta el momento para participar en Artist Alley durante Confuror 2019. Los días para la participación de los artistas seleccionados se asignarán por grupos más adelante.
 
-#### Dictamen I, 1ro Abril
+#### Dictamen I, Abril
 
 <div class="row">
   <div class="col-md-6">
@@ -87,7 +99,7 @@ A continuación se enlistan los artistas seleccionados hasta el momento para par
   </div>
 </div>
 
-#### Dictamen II, 15 Junio
+#### Dictamen II, Junio
 
 <div class="row">
   <div class="col-md-6">
@@ -117,9 +129,27 @@ A continuación se enlistan los artistas seleccionados hasta el momento para par
   </div>
 </div>
 
+<!-- > Si enviaste solicitud entre el 15 de febrero y 10 de junio, y no apareces en las listas anteriores, **tu solicitud continua participando** y podrás aparecer en el siguiente dictamen. Mantente al pendiente de nuestras redes para más información. -->
 
-> Si enviaste solicitud entre el 15 de febrero y 10 de junio, y no apareces en las listas anteriores, **tu solicitud continua participando** y podrás aparecer en el siguiente dictamen. Mantente al pendiente de nuestras redes para más información.
+#### Dictamen III, Septiembre
 
-#### Dictamen III, 10 Julio
-
-Próximamente, sí deseas participar envía tu solicitud entre el 10 de junio y el 1ro de julio. Todas las solicitudes pendientes del dictamen anterior participan.
+<div class="row">
+  <div class="col-md-6">
+    <ul>
+      <li><a href="https://facebook.com/alikeiartwork" target="_blank">Alikei Brand</a></li>
+      <li><a href="https://www.deviantart.com/demyxanthony">Demyx Anthony</a></li>
+      <li><a href="https://www.furaffinity.net/user/doodleax/" target="_blank">Doodleax</a></li>
+      <li><a href="https://www.instagram.com/naissen_rott/" target="_blank">ID</a></li>
+      <li><a href="https://www.furaffinity.net/user/javierkopaloboso20/" target="_blank">Kopa Loboso rojo arts</a></li>
+    </ul>
+  </div>
+  <div class="col-md-6">
+    <ul>
+      <li><a href="http://www.furaffinity.net/gallery/nekori/" target="_blank">Nekori Snowfield</a></li>
+      <li><a href="https://www.furaffinity.net/user/messkaeri/" target="_blank">Rumble Mess</a></li>
+      <li><a href="https://twitter.com/SanderTheCat" target="_blank">Sander the Black cat</a></li>
+      <li><a href="https://twitter.com/DiJaguarun/media" target="_blank">Seb Banni</a></li>
+      <li><a href="https://www.furaffinity.net/gallery/viejillox/" target="_blank">Viejillox</a></li>
+    </ul>
+  </div>
+</div>

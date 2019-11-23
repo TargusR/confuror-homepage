@@ -12,8 +12,9 @@ banner_src: /images/banners/nueva_sede_banner_es.png
 banner_alt: Nueva sede Confuror 2019
 category: cat_hotel
 category_weight: 1
+alert_headding: Nota de Marzo/20/19
 alert_message: >-
-  <p><b>Nota de Marzo/20/19:</b> El link para hacer reservaciones en línea fue actualizado por la administración del hotel, esta página se encuentra con la información al día para realizar tu reservación sin problemas.</p>
+  <p>El link para hacer reservaciones en línea fue actualizado por la administración del hotel, esta página se encuentra con la información al día para realizar tu reservación sin problemas.</p>
 alert_mode: success
 ---
 

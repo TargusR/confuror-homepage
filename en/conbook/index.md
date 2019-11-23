@@ -4,7 +4,7 @@ id: conbook_about
 title: Conbook 2019
 description: >-
   Confuror 2019 has a full color printed Conbook! And your work or your project can be inside.
-label: About the Conbook
+label: About
 lang: en
 list_id: conbook
 list_weight: 0

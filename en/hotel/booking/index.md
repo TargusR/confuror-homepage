@@ -12,8 +12,9 @@ banner_src: /images/banners/nueva_sede_banner_en.png
 banner_alt: Confuror 2019 new venue
 category: cat_hotel
 category_weight: 1
+alert_heading: Note on March/20/19
 alert_message: >-
-  <p><b>Note on March/20/19:</b> Link for reservations has been updated by the hotel online platform managment, this page is up to date with the new link; all instructions are current and should work properly.</p>
+  <p>Link for reservations has been updated by the hotel online platform managment, this page is up to date with the new link; all instructions are current and should work properly.</p>
 alert_mode: success
 ---
 

@@ -4,7 +4,7 @@ id: vendors_room
 title: Área de ventas Confuror 2019
 description: >-
   Participa en el Artist Alley o Dealers Den de Confuror 2019. Más detalles aquí.
-label: Artistas y Vendedores
+label: Conoce más
 lang: es
 list_id: vendors_details
 list_weight: 0
@@ -18,7 +18,7 @@ category_weight: 0
 
 ¡Dos convocatorias entre las que puedes elegir! [Artist Alley](/es/area_de_ventas/artist_alley) y [Dealers Den](/es/area_de_ventas/dealers_den), elige la que mejor se adapte a tus necesidades, solo podrás participar en una a la vez.
 
-<div class="container text-center">
+<!-- <div class="container text-center">
 <img src="/images/pictures/mapa_area_ventas.png" alt="Mapa área de ventas Confuror 2019" class="img-fluid">
 <span>Mapa de Área de Ventas, Confuror 2019</span>
 </div>
@@ -31,11 +31,11 @@ Hemos invertido mucho esfuerzo en proveer un espacio mucho más grande y cómodo
 <div class="container text-center"><img src="/images/pictures/salon_stelaris_promo.png" alt="Salón Stelaris - Fiesta Americana Guadalajara" class="img-fluid"></div>
 <br>
 
-El salón Stelaris del Hotel Fiesta Americana Guadalajara es un lugar histórico y en donde este año nuestros artistas invitados e invitados de honor te acompañaran a ti en esta gran exposición de talento en la comunidad Furry.
+El salón Stelaris del Hotel Fiesta Americana Guadalajara es un lugar histórico y en donde este año nuestros artistas invitados e invitados de honor te acompañaran a ti en esta gran exposición de talento en la comunidad Furry. -->
 
-## ¡Inscribete ahora!
+## Conoce más
 
-¡Esperamos verte ahí! Conoce más sobre lo que necesitas hacer para participar leyendo las convocatorias mediante los siguientes links.
+¡Esperamos verte ahí! Conoce más sobre cada espacio de venta y sus participantes mediante los siguientes links.
 
 <div class="container text-center">
   <div class="row">

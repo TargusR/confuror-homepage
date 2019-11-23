@@ -12,7 +12,20 @@ list_weight: 2
 # banner_alt: Nueva sede Confuror 2019
 category: cat_vendors
 category_weight: 2
+alert_heading: Artist Alley registration closed!
+alert_message: >-
+  <p>Thank you for your interest in becoming part of our Artist Alley at Confuror 2019. Find below the final list of Artists grouped by day. For any clarification, contact <a href="mailto:vidafur.reg@gmail.com">vidafur.reg@gmail.com</a></p>
+alert_mode: warning
 ---
+
+## Final artists list grouped by days
+
+<div class="container">
+  <a href="/images/pictures/artistalley_web.jpg" data-featherlight="image">
+    <img class="img-fluid" src="/images/pictures/artistalley_web.jpg" alt="Confuror 2019 - Artist Alley list">
+  </a>
+</div>
+<br>
 
 If you are an artist who plans to offer commissions, display your work or sell prints of your illustrations, Artist Alley is perfect for you.
 
@@ -42,19 +55,18 @@ If you are an artist who plans to offer commissions, display your work or sell p
 - g) Available spaces in the Artist Alley zone shall be assigned in the order of arrival to the venue. No saving places for others is permitted.
 - h) You must unmount your stand by the end of the day. No items are allowed to be left behind in the Artist Alley area even if your assigned group will participate next day.
 
-<div class="container text-center">
-  <div class="row">
-    <div class="col-12">
-      <a href="https://goo.gl/forms/ROi0pOiY4R3Okvtf1" class="btn btn-primary btn-block">Register Now!</a>
-    </div>
-  </div>
-</div>
+{%
+  include {{ site.formats.cta_button }}
+  text="Artists registration closed"
+  url="https://goo.gl/forms/ROi0pOiY4R3Okvtf1"
+  disabled=true
+%}
 
 ### Selected Artists
 
 The artists selected so far to participate in Artist Alley during Confuror 2019 are listed below. Participation days for the selected artists will be assigned by groups later.
 
-#### Selection I, April 1st
+#### Selection I, April
 
 <div class="row">
   <div class="col-md-6">
@@ -87,7 +99,7 @@ The artists selected so far to participate in Artist Alley during Confuror 2019 
   </div>
 </div>
 
-#### Selection II, June 15
+#### Selection II, June
 
 <div class="row">
   <div class="col-md-6">
@@ -117,8 +129,29 @@ The artists selected so far to participate in Artist Alley during Confuror 2019 
   </div>
 </div>
 
-> If you sent an application between February 15 and June 10, and do not appear in the previous list, **your application participates in the next selection**. Keep an eye on this page and our social networks for more information.
+<!-- > If you sent an application between February 15 and June 10, and do not appear in the previous list, **your application participates in the next selection**. Keep an eye on this page and our social networks for more information. -->
 
-#### Selection III, July 10
+#### Selection III, September
 
-If you wish to participate send your request between June 10 and July 1st. All pending applications of the previous announcement participate in this selection.
+<!-- If you wish to participate send your request between June 10 and July 1st. All pending applications of the previous announcement participate in this selection. -->
+
+<div class="row">
+  <div class="col-md-6">
+    <ul>
+      <li><a href="https://facebook.com/alikeiartwork" target="_blank">Alikei Brand</a></li>
+      <li><a href="https://www.deviantart.com/demyxanthony">Demyx Anthony</a></li>
+      <li><a href="https://www.furaffinity.net/user/doodleax/" target="_blank">Doodleax</a></li>
+      <li><a href="https://www.instagram.com/naissen_rott/" target="_blank">ID</a></li>
+      <li><a href="https://www.furaffinity.net/user/javierkopaloboso20/" target="_blank">Kopa Loboso rojo arts</a></li>
+    </ul>
+  </div>
+  <div class="col-md-6">
+    <ul>
+      <li><a href="http://www.furaffinity.net/gallery/nekori/" target="_blank">Nekori Snowfield</a></li>
+      <li><a href="https://www.furaffinity.net/user/messkaeri/" target="_blank">Rumble Mess</a></li>
+      <li><a href="https://twitter.com/SanderTheCat" target="_blank">Sander the Black cat</a></li>
+      <li><a href="https://twitter.com/DiJaguarun/media" target="_blank">Seb Banni</a></li>
+      <li><a href="https://www.furaffinity.net/gallery/viejillox/" target="_blank">Viejillox</a></li>
+    </ul>
+  </div>
+</div>

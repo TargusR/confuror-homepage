@@ -12,7 +12,20 @@ list_weight: 1
 # banner_alt: Nueva sede Confuror 2019
 category: cat_vendors
 category_weight: 1
+alert_heading: Dealers Den registration closed!
+alert_message: >-
+  <p>Thank you for your interest in becoming part of our Dealers Den at Confuror 2019. Find below the map and list of Artists and Dealers that will be waiting for you at the vendors room. For any clarification, contact <a href="mailto:vidafur.reg@gmail.com">vidafur.reg@gmail.com</a></p>
+alert_mode: warning
 ---
+
+## Dealers Den map and members list
+
+<div class="container">
+  <a href="/images/pictures/dealersden_web.jpg" data-featherlight="image">
+    <img class="img-fluid" src="/images/pictures/dealersden_web.jpg" alt="Confuror 2019 - Dealers Den map">
+  </a>
+</div>
+<br>
 
 If you have a large stock of products or belong to a collective of artists, Dealers Den is your choice.
 
@@ -43,10 +56,9 @@ If you have a large stock of products or belong to a collective of artists, Deal
 - g) A larger art collective may request more than one table if the amount of exhibitors to be present will exceed the maximum amount of permitted operators per exhibition.
 - h) The materials presented in this event must coincide, in the best possible way, with what has been presented in the request. In case that more exhibitors are added to the exhibition after the request has been approved, it must be notified via e-mail to our staff to keep them up to date.
 
-<div class="container text-center">
-  <div class="row">
-    <div class="col-12">
-      <a href="https://goo.gl/forms/gexQncucu06l0F4G2" class="btn btn-primary btn-block">Register Now!</a>
-    </div>
-  </div>
-</div>
+{%
+  include {{ site.formats.cta_button }}
+  text="Dealers den registration closed"
+  url="https://goo.gl/forms/gexQncucu06l0F4G2"
+  disabled=true
+%}

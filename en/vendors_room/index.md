@@ -4,7 +4,7 @@ id: vendors_room
 title: Vendors Room for Confuror 2019
 description: >-
   Be part of the Artist Alley or Dealers Den in Confuror 2019. Keep reading to know more details.
-label: Artist & Dealers
+label: About
 lang: en
 list_id: vendors_details
 list_weight: 0
@@ -18,7 +18,7 @@ category_weight: 0
 
 Choose your best option! [Artist Alley](/en/vendors_room/artist_alley) or [Dealers Den](/en/vendors_room/dealers_den) have different features to offer, for different artist or vendors; pick the one right for you.
 
-<div class="container text-center">
+<!-- <div class="container text-center">
 <img src="/images/pictures/mapa_area_ventas.png" alt="Room map, Confuror 2019" class="img-fluid">
 <span>Vendors Room map, Confuror 2019</span>
 </div>
@@ -31,7 +31,7 @@ We have invested a lot of effort in providing a much larger and more comfortable
 <div class="container text-center"><img src="/images/pictures/salon_stelaris_promo.png" alt="Stelaris Room - Fiesta Americana Guadalajara" class="img-fluid"></div>
 <br>
 
-The Stelaris room at the Fiesta Americana Guadalajara Hotel is a historic place and this year our guest artists and guests of honor will accompany you in this great exhibition of talent in the Furry community.
+The Stelaris room at the Fiesta Americana Guadalajara Hotel is a historic place and this year our guest artists and guests of honor will accompany you in this great exhibition of talent in the Furry community. -->
 
 ## Send your application today!
 

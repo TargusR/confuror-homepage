@@ -4,7 +4,7 @@ id: conbook_about
 title: Conbook 2019
 description: >-
   ¡Confuror 2019 tiene un Conbook impreso a todo color! Y tu trabajo o tu proyecto puede aparecer en él.
-label: Sobre el Conbook
+label: Conoce más
 lang: es
 list_id: conbook
 list_weight: 0
