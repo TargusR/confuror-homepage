@@ -68,11 +68,11 @@
 }
 
 .document-index__body {
-  @extend .text-justify, .cfr-text-formatted;
-  font-family: 'American Typewriter', 'Times', sans-serif;
+  @extend .text-justify, .cfr-text-formatted, .body-text;
+  // font-family: 'American Typewriter', 'Times', sans-serif;
 
   li {
-    line-height: 1.6em;
+    // line-height: 1.6em;
     letter-spacing: 0.04em;
     padding-bottom: 1em;
     padding-left: 1em;

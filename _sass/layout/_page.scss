@@ -14,7 +14,7 @@
 }
 
 .page__content {
-  @extend .text-justify;
+  @extend .cfr-text-formatted-base;
   
   a {
     text-decoration: underline;
@@ -23,12 +23,11 @@
   li {
     line-height: 1.6em;
     letter-spacing: 0.04em;
-    padding-bottom: 1em;
     padding-left: 1em;
   }
 
   h1, h2, h3, h4, h5, h6 {
-    color: $cf-blue-shadow;
+    color: $mm-aqua;
     margin-top: 2em;
     margin-bottom: 1em;
   }

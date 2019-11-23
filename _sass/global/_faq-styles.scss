@@ -1,0 +1,27 @@
+////////////////////////
+//  FAQ lists styles  //
+////////////////////////
+
+.inline-faq {}
+
+.inline-faq__heading {}
+
+.inline-faq__list {}
+
+.inline-faq__item {}
+
+.inline-faq__question {
+  @extend .body-text;
+  font-style: italic;
+  margin-bottom: 0.5em;
+}
+
+.inline-faq__answer {
+  @extend .body-text-sm;
+  padding-left: 1em;
+
+  &:before {
+    content: 'R.';
+    font-weight: bold;
+  }
+}

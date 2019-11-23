@@ -9,6 +9,7 @@
 
 .access-fees {
   @extend .row;
+  justify-content: center;
 }
 
 .access-fees__fee-container {
@@ -22,6 +23,10 @@
 
 .access-fees__fee--general {
   @extend .bg-primary;
+}
+
+.access-fees__fee--one-day {
+  background-color: $mm-blue !important;
 }
 
 .access-fees__fee--sponsor {
@@ -45,6 +50,7 @@
 .access-fees__fee-name {
   @extend .card-title, .text-light;
   margin: 0 !important;
+  min-height: 2.5em;
 }
 
 .access-fees__fee-includes {
@@ -56,10 +62,19 @@
   @extend .list-group-item;
   background-color: rgba($cf-light,0.1);
   font-size: 0.9em;
+  margin: 0 !important;
 }
 
 .access-fees__fee-footer {
   @extend .card-body;
+
+  h5 {
+    @extend .text-light;
+    margin-top: 0;
+    margin-bottom: 0.2em;
+    font-size: 1em;
+    opacity: 0.7;
+  }
 }
 
 .access-fees__fee-from {

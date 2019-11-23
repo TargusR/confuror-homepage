@@ -1,0 +1,60 @@
+///////////////////////
+//  Home cta styles  //
+///////////////////////
+
+
+.home-cta__wrapper {
+  background: linear-gradient(to top, $mm-purple, $mm-purple-dark);
+}
+
+.home-cta {
+  @extend .container;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.home-cta__inner-wrapper {
+  @extend .row;
+}
+
+.home-cta__indicator-column {
+  @extend .col-md-4;
+}
+
+.home-cta__text-column {
+  @extend .col-md-8;
+  display: flex;
+  align-items: center;
+  
+}
+
+.home-cta__picture {
+  width: 100%;
+  border-radius: 40px;
+  border: 6px solid $mm-yellow-light;
+  overflow: hidden;
+}
+
+.home-cta__picture-img {
+  @extend .img-fluid;
+}
+
+.home-cta__text-block {
+  @extend .text-light;
+  padding: 0 60px;
+
+  h3 {
+    margin-bottom: 1em;
+  }
+
+  .cta-link {
+    @extend .btn, .btn-success, .btn-sm;
+  }
+}
+
+@include media-breakpoint-down(sm) {
+  .home-cta__indicator-column,
+  .home-cta__text-column {
+    margin-bottom: 30px;
+  }
+}

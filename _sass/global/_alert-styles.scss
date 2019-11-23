@@ -1,0 +1,23 @@
+////////////////////////////
+//  Alert styles classes  //
+////////////////////////////
+
+.alert {
+  margin-bottom: 30px;
+  margin-top: 30px;
+  padding: 30px 40px;
+}
+
+.alert-message {
+  @extend .root-text;
+
+  p {
+    margin: 0;
+  }
+}
+
+.alert-heading {
+  @extend .label-text;
+  font-weight: bold;
+  margin-bottom: 0.5em;
+}

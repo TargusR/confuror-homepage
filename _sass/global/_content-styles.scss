@@ -2,7 +2,17 @@
 //  Global contents classes  //
 ///////////////////////////////
 
+.cfr-text-formatted-base {
+    p,
+    li {
+        max-width: 50em;
+        margin: 10px auto;
+    }
+}
+
 .cfr-text-formatted {
+    @extend .cfr-text-formatted-base;
+
     table {
         @extend .table;
     }
@@ -36,4 +46,24 @@
         margin-top: 0;
         margin-left: 0;
     }
+
+    p img {
+        @extend .img-fluid;
+    }
 }
+
+@include media-breakpoint-down(sm) {
+    .cfr-text-formatted {
+        figure.right,
+        figure.left,
+        figure.centered {
+        float: none;
+        margin: 20px;
+        text-align: center;
+    
+        img {
+            width: 100%;
+        }
+        }
+    }
+  }

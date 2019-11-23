@@ -3,9 +3,10 @@
 ///////////////////
 
 body {
+  @extend .root-text;
   background-color: $mm-yellow-light;
   color: $mm-purple;
-  font-family: 'Roboto', Arial, Helvetica, sans-serif !important;
+  // font-family: 'Roboto', Arial, Helvetica, sans-serif !important;
 }
 
 a {
@@ -24,10 +25,6 @@ p {
   // font-family: 'American typewriter', serif !important;
   line-height: 1.6em;
   letter-spacing: 0.04em;
-}
-
-.alert p {
-  margin: 0;
 }
 
 blockquote {

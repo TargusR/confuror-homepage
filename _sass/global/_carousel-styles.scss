@@ -1,0 +1,53 @@
+/////////////////////////////////////
+//  Carousel styles and overrides  //
+/////////////////////////////////////
+
+.carousel {
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+.slick-dots {
+  @extend .carousel-indicators;
+
+  button {
+    display: none;
+  }
+}
+
+.slick-active {
+  @extend .active;
+}
+
+.carousel-control {
+  background: transparent;
+  border: none;
+  color: transparent;
+
+  &:hover {
+    color: transparent;
+  }
+  
+  &:before,
+  &:after {
+    display: block;
+    content: '';
+    margin: 0 10px;
+  }
+}
+
+.slick-prev {
+  @extend .carousel-control, .carousel-control-prev;
+  
+  &:before {
+    @extend .carousel-control-prev-icon;
+  }
+}
+
+.slick-next {
+  @extend .carousel-control, .carousel-control-next;
+  
+  &:after {
+    @extend .carousel-control-next-icon;
+  }
+}

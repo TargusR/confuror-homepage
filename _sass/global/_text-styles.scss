@@ -1,0 +1,124 @@
+//////////////////////////
+//  Global text styles  //
+//////////////////////////
+
+.root-text {
+  font-family: $font-main;
+  font-weight: 400;
+  font-size: $text-size-root;
+  letter-spacing: 0.01em;
+  line-height: $line-height;
+}
+
+
+// Titles
+
+.title {
+  font-family: $font-display;
+  font-weight: bold;
+}
+
+.title-lg {
+  @extend .title;
+  font-size: $text-size-07;
+  letter-spacing: 0.02em;
+}
+
+.title-md {
+  @extend .title;
+  font-size: $text-size-05;
+  letter-spacing: 0.03em;
+}
+
+.title-sm {
+  @extend .title;
+  font-size: $text-size-04;
+  letter-spacing: 0.04em;
+}
+
+@include media-breakpoint-down(sm) {
+  .title-lg {
+      font-size: $text-size-05;
+  }
+
+  .title-md {
+      font-size: $text-size-04;
+  }
+
+  .title-sm {
+      font-size: $text-size-03;
+  }
+}
+
+
+// Featured texts
+
+.featured-text-lg {
+  font-family: $font-main;
+  font-size: $text-size-06 !important;
+}
+
+.featured-text-md {
+  font-family: $font-lecture;
+  font-size: $text-size-05 !important;
+}
+
+.featured-text-sm {
+  font-family: $font-lecture;
+  font-size: $text-size-04 !important;
+}
+
+@include media-breakpoint-down(sm) {
+  .featured-text-lg {
+      font-size: $text-size-04 !important;
+  }
+  
+  .featured-text-md,
+  .featured-text-sm {
+      font-size: $text-size-03 !important;
+  }
+}
+
+@include media-breakpoint-down(xs) {
+  .featured-text-lg {
+      font-size: $text-size-03 !important;
+  }
+  
+  .featured-text-md,
+  .featured-text-sm {
+      font-size: $text-size-02 !important;
+  }
+}
+
+
+// Misc
+
+.body-text {
+  font-family: $font-lecture;
+  font-size: $text-size-03;
+}
+
+.body-text-sm {
+  @extend .body-text;
+  font-size: $text-size-02;
+}
+
+.label-text {
+  font-family: $font-main;
+  font-size: $text-size-02;
+}
+
+.tag-text {
+  font-family: $font-main;
+  font-size: $text-size-01;
+}
+
+@include media-breakpoint-down(sm) {
+  .body-text {
+      font-size: $text-size-02;
+  }
+
+  .tag-text {
+      font-size: $text-size-02;
+  }
+}
