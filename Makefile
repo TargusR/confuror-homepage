@@ -1,7 +1,8 @@
 SHELL := /bin/bash
 BUNDLE := bundle
 YARN := yarn
-VENDOR_DIR = assets/vendor/
+VENDOR_DIR = assets/vendor
+NODE_MODULES := node_modules
 JEKYLL := $(BUNDLE) exec jekyll
 
 PROJECT_DEPS := Gemfile package.json
@@ -30,15 +31,21 @@ include-yarn-deps:
 	rm -rf $(VENDOR_DIR)
 	mkdir -p $(VENDOR_DIR)
 	mkdir -p $(VENDOR_DIR)/jquery
-	cp node_modules/jquery/dist/jquery.min.js $(VENDOR_DIR)/jquery
+	cp $(NODE_MODULES)/jquery/dist/jquery.min.js $(VENDOR_DIR)/jquery
 	mkdir -p $(VENDOR_DIR)/popper
-	cp node_modules/popper.js/dist/umd/popper.min.js $(VENDOR_DIR)/popper
+	cp $(NODE_MODULES)/popper.js/dist/umd/popper.min.js $(VENDOR_DIR)/popper
 	mkdir -p $(VENDOR_DIR)/bootstrap
-	cp node_modules/bootstrap/dist/js/bootstrap.min.js $(VENDOR_DIR)/bootstrap
+	cp $(NODE_MODULES)/bootstrap/dist/js/bootstrap.min.js $(VENDOR_DIR)/bootstrap
 	mkdir -p $(VENDOR_DIR)/fontawesome
-	cp -r node_modules/font-awesome/fonts $(VENDOR_DIR)/fontawesome
+	cp -r $(NODE_MODULES)/font-awesome/fonts $(VENDOR_DIR)/fontawesome
 	mkdir -p $(VENDOR_DIR)/flag-icon-css
-	cp -r node_modules/flag-icon-css/flags $(VENDOR_DIR)/flag-icon-css/
+	cp -r $(NODE_MODULES)/flag-icon-css/flags $(VENDOR_DIR)/flag-icon-css/
+	mkdir -p $(VENDOR_DIR)/slick
+	cp $(NODE_MODULES)/slick-carousel/slick/slick.min.js $(VENDOR_DIR)/slick/
+	cp $(NODE_MODULES)/slick-carousel/slick/slick.css $(VENDOR_DIR)/slick/
+	mkdir -p $(VENDOR_DIR)/featherlight
+	cp $(NODE_MODULES)/featherlight/release/featherlight.min.js $(VENDOR_DIR)/featherlight/
+	cp $(NODE_MODULES)/featherlight/release/featherlight.min.css $(VENDOR_DIR)/featherlight/
 
 build: install include-yarn-deps
 	JEKYLL_ENV=production $(JEKYLL) build

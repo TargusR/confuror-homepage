@@ -16,12 +16,18 @@ url: "" # the base hostname & protocol for your site, e.g. http://example.com
 # Build settings
 markdown: kramdown
 theme: minima
-version: 2.2.1
+version: 2.4.2
 
 sass:
   load_paths:
     - _sass
     - node_modules
+
+# Format templates
+formats:
+  cta_button: components/cta-button.html
+  inline_alert: components/alert.html
+  inline_faq: components/inline-faq.html
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
