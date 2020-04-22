@@ -1,69 +1,122 @@
 general:
   label:
-    es: General (En línea)
-    en: General (Online pre-reg)
+    es: General
+    en: General
+  description:
+    es: Obtén acceso a todas las actividades de Confuror 2020 durante el viernes, sábado y domingo, además de una copia de nuestro conbook y un kit de convención.
+    en: Attend every Confuror 2020 activities during friday, saturday and sunday, plus a copy of our Conbook and a convention kit.
   content:
     es:
       - Acceso general al evento por 3 días
       - Conbook
-      - Paquete básico de bienvenida a la Convención
+      - Tríptico con mapa
+      - Kit de Convención
     en:
-      - General access for the three day convention
-      - Basic goodies
+      - General access for the whole weekend
+      - Conbook
+      - Handy convention map
+      - Basic convention kit
   prices:
     current:
-      es: $619 mxn
-      en: $35 usd
+      es: $779 mxn
+      en: $42 usd
     original:
-      es: $829 mxn
-      en: $47 usd
+      es: $929 mxn
+      en: $50 usd
+    date:
+      es: Hasta Junio 30
+      en: Until June 30
 sponsor:
   label:
     es: Sponsor
     en: Sponsor
+  description:
+    es: Ayudanos a realizar Confuror 2020 aportando un poco más por tu acceso y obtén a cambio beneficios adicionales, además de algunos souvenirs.
+    en: Become a patron for Confuror 2020 and get extra benefits and souvenirs with this membership.
   content:
     es:
       - Todo lo incluido en entrada General
       - Reconocimiento por su patrocinio al evento
-      - Acceso anticipado al área de venta
+      - Acceso anticipado al área de ventas
+      - Registro exprés
+      - Playera oficial de Confuror 2020
       - Regalos exclusivos para Sponsor
-      - Playera oficial de Confuror 2019
-      - 1 Boleto para la rifa de regalos
     en:
-      - Everything included in General Access
+      - Everything included in General membership
       - Credits for sponsorship
       - Early access to vendors room
+      - Express Check-in
+      - Confuror 2020 Official shirt
       - Exclusive gifts for Sponsors
-      - Confuror 2019 Official shirt
-      - 1 ticket for the gift raffle
   prices:
     current:
-      es: $1,049 mxn
-      en: $59 usd
+      es: $1,399 mxn
+      en: $75 usd
     original:
-      es: $1,299 mxn
-      en: $73 usd
+      es: $1,649 mxn
+      en: $88 usd
+    date:
+      es: Hasta Junio 30
+      en: Until June 30
 super_sponsor:
   label:
     es: Super Sponsor
     en: Super Sponsor
+  description:
+    es: ¡Te encanta Confuror! Y a nosotros nos encanta que formes parte de la experiencia como Super Sponsor. A cambio recibirás beneficios exclusivos y souvenirs de lujo.
+    en: You love Confuror! And we love that you become part of this great experience by getting a Super Sponsor membership. You will receive exclusive benefits and exclusive gifts.
   content:
     es:
       - Todo lo incluido en entrada Sponsor
+      - Cena VIP Meet & Greet para Super Sponsor
+      - Sudadera oficial Confuror 2020
       - Regalos exclusivos para Super Sponsor
-      - Desayuno privado Super Sponsor Meet and Greet
-      - Playera adicional con diseño exclusivo de Super Sponsor
-      - 2 boletos para la rifa de regalos
     en:
-      - Everything included in Sponsor Access
+      - Everything included in Sponsor membership
+      - VIP Super Sponsor Meet & Greet dinner
+      - Confuror 2020 official hoodie
       - Exclusive gifts for Super Sponsors
-      - Private Super Sponsor Meet and Greet breakfast
-      - Exclusive Super Sponsor aditional shirt
-      - 2 tickets for the gift raffle
   prices:
     current:
-      es: $1,419 mxn
-      en: $79 usd
+      es: $1,829 mxn
+      en: $98 usd
     original:
-      es: $1,659 mxn
-      en: $93 usd
+      es: $2,159 mxn
+      en: $115 usd
+    date:
+      es: Hasta Junio 30
+      en: Until June 30
+club_pass:
+  label:
+    es: Club Pass
+    en: Club Pass
+  description:
+    es: ¡Super Sponsor y lo que le sigue! Únete al club y hóspedate con un acompañante en nuestro piso reservado del hotel sede por tres noches. Podrás invitar a un amigo o a esa persona especial a la convención y llevarlo a todos los eventos VIP a los que tendrás acceso como miembro Club Pass.
+    en: Much more than just a Super Sponsor patron! Join the club and get a room for two guests at our private floor in the hotel venue, three nights included. Also bring a friend or that special someone to the convention and VIP events with the aditional General membership and extra tickets included in your Club Pass membership.
+  content:
+    es:
+      - Todo lo incluido en entrada Super Sponsor
+      - Entrada general extra para un acompañante
+      - Boleto extra para la cena VIP Meet & Greet de Super Sponsor para el acompañante
+      - Acceso al Drink and Draw con barra libre para dos personas (Jueves)
+      - Hospedaje por tres noches en el hotel sede para dos personas
+      - Cupones para desayuno durante los días de la convención
+      - Regalos exclusivos en kit de bienvenida Club Pass
+    en:
+      - Everything included in Super Sponsor membership
+      - Extra general membership coupon for a guest
+      - Extra ticket for the VIP Super Sponsor Meet & Greet dinner
+      - 2 tickets for the Drink and Draw night (Thursday)
+      - 3 night lodging room (2 guests)
+      - Breakfast coupons
+      - Mexican welcome kit and exclusive Club Pass gifts
+  prices:
+    current:
+      es: $12,499 mxn
+      en: $655 usd
+    original:
+      es: $12,499 mxn
+      en: $655 usd
+    date:
+      es: Hasta agotar existencias
+      en: Limited stock
