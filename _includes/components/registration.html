@@ -4,11 +4,21 @@
   <p>{{ registration_data.intro }}</p>
 </div>
 
+{% if registration_data.early_bird_state %}
+{%
+  include {{ site.formats.inline_alert }}
+  mode="info"
+  message=registration_data.early_bird_alert
+%}
+{% endif %}
+
+<!--
 {%
   include {{ site.formats.inline_alert }}
   mode="info"
   message=registration_data.upgrade_alert
 %}
+-->
 
 <ol class="registration__step-list">
   {%- for step in registration_data.steps -%}
@@ -16,17 +26,35 @@
   {%- endfor -%}
 </ol>
 
-<!-- <div class="container text-center">
+<!--
+<div class="clock-counter__container">
   <span class="clock-counter__intro">OWO!! *notices counter*</span>
-  <span class="clock-counter" data-limit="1549069200000"></span>
-  <span class="clock-counter__hide clock-counter__outro">
-    <a class="btn btn-primary" style="font-size: 1.8rem" href="{{ registration_data.form_link }}">{{ registration_data.register_now_label }}</a>
-  </span>
-</div> -->
+  <span class="clock-counter" data-limit="1579572000000"></span>
+  <div class="clock-counter__hide clock-counter__outro">
+  </div>
+</div>
+-->
+<!-- 1579572000000 -->
+<!-- 1579140000000 -->
 
 {%
   include {{ site.formats.cta_button }}
   text=registration_data.register_now_label
   url=registration_data.form_link
-  disabled=true
+  disabled=false
+%}
+
+<h4>{{ registration_data.upgrade_subtitle }}</h4>
+
+<ol class="registration__step-list">
+  {%- for step in registration_data.upgrade_steps -%}
+  <li class="registration__step-item">{{ step }}</li>
+  {%- endfor -%}
+</ol>
+
+{%
+  include {{ site.formats.cta_button }}
+  text=registration_data.upgrade_link_label
+  url=registration_data.upgrade_link_url
+  disabled=false
 %}

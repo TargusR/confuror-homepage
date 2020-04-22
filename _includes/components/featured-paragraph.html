@@ -1,0 +1,7 @@
+{%- if include.size -%}
+  {%- assign size = include.size -%}
+{%- else -%}
+  {%- assign size = "sm" -%}
+{%- endif -%}
+
+<p class="featured featured--{{ size }}">{{ include.content }}</p>

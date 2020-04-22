@@ -1,0 +1,13 @@
+{%- assign edition-info = site.data.edition-info[page.lang] -%}
+
+<div class="edition-info">
+  <div class="edition-info__place">
+    <span>{{ edition-info.place }}</span>
+  </div>
+  <div class="edition-info__month-year">
+    <span>{{ edition-info.month_year }}</span>
+  </div>
+  <div class="edition-info__days">
+    <span>{{ edition-info.days }}</span>
+  </div>
+</div>

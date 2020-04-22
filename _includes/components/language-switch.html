@@ -1,8 +1,9 @@
 {%- assign languages = site.data.languages -%}
-{%- assign eq_pages = site.pages | where: "id", page.id -%}
+{%- assign eq_pages = site.pages | where: "name", page.name -%}
 
 <div class="language-switch">
   <div class="language-switch__button" data-toggle="collapse" data-target="#language-switch-float" aria-expanded="false" aria-controls="language-switch-list">
+    <i class="fa fa-globe"></i>
     <span class="language-switch__label">{{ languages[page.lang].short }}</span>
     <i class="fa fa-angle-down"></i>
   </div>

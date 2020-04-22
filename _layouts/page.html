@@ -6,7 +6,14 @@ layout: default
   <div class="page__wrapper">
     <header class="page__header">
       {%- if page.title -%}
-      <h1 class="page__title">{{ page.title | escape }}</h1>
+      <div class="page__title">
+        <h1>{{ page.title | escape }}</h1>
+      </div>
+      {%- endif -%}
+      {%- if page.description -%}
+      <div class="page__description">
+        <span>{{ page.description | escape }}</span>
+      </div>
       {%- endif -%}
     </header>
 

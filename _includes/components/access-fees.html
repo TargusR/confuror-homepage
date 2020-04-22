@@ -2,70 +2,98 @@
 
 <div class="access-fees__wrapper">
   <div class="access-fees">
-    <div class="access-fees__fee-container">
-      <div class="access-fees__fee access-fees__fee--general">
-        <div class="access-fees__fee-header">
-          <div class="access-fees__fee-stars">
-            <i class="fa fa-star"></i>
-          </div>
-        </div>
-        <div class="access-fees__fee-body">
-          <h3 class="access-fees__fee-name">{{ fees_data.general.label[page.lang] }}</h3>
-          <ul class="access-fees__fee-includes">
-            {% for item in fees_data.general.content[page.lang] %}
-              <li class="access-fees__fee-item">{{ item }}</li>
-            {% endfor %}
-          </ul>
-        </div>
-        <div class="access-fees__fee-footer">
-          <!-- <span class="access-fees__fee-from">{{ fees_data.general.prices.original[page.lang] }}</span>
-          <span class="access-fees__fee-to">{{ fees_data.general.prices.current[page.lang] }}</span> -->
-          <span class="access-fees__fee-to">{{ fees_data.general.prices.original[page.lang] }}</span>
-        </div>
+    <div class="access-fees__fee access-fees__fee--general">
+      <div class="access-fees__fee-header">
+        <span class="access-fees__fee-name">{{ fees_data.general.label[page.lang] }}</span>
+        <span class="access-fees__fee-stars">
+          <i class="fa fa-star"></i>
+        </span>
+      </div>
+      <div class="access-fees__fee-body">
+        <p class="access-fees__fee-description">
+          {{ fees_data.general.description[page.lang] }}
+        </p>
+        <ul class="access-fees__fee-includes">
+          {% for item in fees_data.general.content[page.lang] %}
+            <li class="access-fees__fee-item">{{ item }}</li>
+          {% endfor %}
+        </ul>
+      </div>
+      <div class="access-fees__fee-footer">
+        <span class="access-fees__fee-from">{{ fees_data.general.prices.original[page.lang] }}</span>
+        <span class="access-fees__fee-to">{{ fees_data.general.prices.current[page.lang] }}</span>
+        <span class="access-fees__fee-date">({{ fees_data.general.prices.date[page.lang] }})</span>
+        <!-- <span class="access-fees__fee-to">{{ fees_data.general.prices.original[page.lang] }}</span> -->
       </div>
     </div>
-    <div class="access-fees__fee-container">
-      <div class="access-fees__fee access-fees__fee--sponsor">
-        <div class="access-fees__fee-header">
-          <div class="access-fees__fee-stars">
-            <i class="fa fa-star"></i><i class="fa fa-star"></i>
-          </div>
-        </div>
-        <div class="access-fees__fee-body">
-          <h3 class="access-fees__fee-name">{{ fees_data.sponsor.label[page.lang] }}</h3>
-          <ul class="access-fees__fee-includes">
-            {% for item in fees_data.sponsor.content[page.lang] %}
-              <li class="access-fees__fee-item">{{ item }}</li>
-            {% endfor %}
-          </ul>
-        </div>
-        <div class="access-fees__fee-footer">
-          <!-- <span class="access-fees__fee-from">{{ fees_data.sponsor.prices.original[page.lang] }}</span>
-          <span class="access-fees__fee-to">{{ fees_data.sponsor.prices.current[page.lang] }}</span> -->
-          <span class="access-fees__fee-to">{{ fees_data.sponsor.prices.original[page.lang] }}</span>
-        </div>
+    <div class="access-fees__fee access-fees__fee--sponsor">
+      <div class="access-fees__fee-header">
+        <span class="access-fees__fee-name">{{ fees_data.sponsor.label[page.lang] }}</span>
+        <span class="access-fees__fee-stars">
+          <i class="fa fa-star"></i><i class="fa fa-star"></i>
+        </span>
+      </div>
+      <div class="access-fees__fee-body">
+        <p class="access-fees__fee-description">
+          {{ fees_data.sponsor.description[page.lang] }}
+        </p>
+        <ul class="access-fees__fee-includes">
+          {% for item in fees_data.sponsor.content[page.lang] %}
+            <li class="access-fees__fee-item">{{ item }}</li>
+          {% endfor %}
+        </ul>
+      </div>
+      <div class="access-fees__fee-footer">
+        <span class="access-fees__fee-from">{{ fees_data.sponsor.prices.original[page.lang] }}</span>
+        <span class="access-fees__fee-to">{{ fees_data.sponsor.prices.current[page.lang] }}</span>
+        <span class="access-fees__fee-date">({{ fees_data.sponsor.prices.date[page.lang] }})</span>
+        <!-- <span class="access-fees__fee-to">{{ fees_data.sponsor.prices.original[page.lang] }}</span> -->
       </div>
     </div>
-    <div class="access-fees__fee-container">
-      <div class="access-fees__fee access-fees__fee--super-sponsor">
-        <div class="access-fees__fee-header">
-          <div class="access-fees__fee-stars">
-            <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i>
-          </div>
-        </div>
-        <div class="access-fees__fee-body">
-          <h3 class="access-fees__fee-name">{{ fees_data.super_sponsor.label[page.lang] }}</h3>
-          <ul class="access-fees__fee-includes">
-            {% for item in fees_data.super_sponsor.content[page.lang] %}
-              <li class="access-fees__fee-item">{{ item }}</li>
-            {% endfor %}
-          </ul>
-        </div>
-        <div class="access-fees__fee-footer">
-          <!-- <span class="access-fees__fee-from">{{ fees_data.super_sponsor.prices.original[page.lang] }}</span>
-          <span class="access-fees__fee-to">{{ fees_data.super_sponsor.prices.current[page.lang] }}</span> -->
-          <span class="access-fees__fee-to">{{ fees_data.super_sponsor.prices.original[page.lang] }}</span>
-        </div>
+    <div class="access-fees__fee access-fees__fee--super-sponsor">
+      <div class="access-fees__fee-header">
+        <span class="access-fees__fee-name">{{ fees_data.super_sponsor.label[page.lang] }}</span>
+        <span class="access-fees__fee-stars">
+          <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i>
+        </span>
+      </div>
+      <div class="access-fees__fee-body">
+        <p class="access-fees__fee-description">
+          {{ fees_data.super_sponsor.description[page.lang] }}
+        </p>
+        <ul class="access-fees__fee-includes">
+          {% for item in fees_data.super_sponsor.content[page.lang] %}
+            <li class="access-fees__fee-item">{{ item }}</li>
+          {% endfor %}
+        </ul>
+      </div>
+      <div class="access-fees__fee-footer">
+        <span class="access-fees__fee-from">{{ fees_data.super_sponsor.prices.original[page.lang] }}</span>
+        <span class="access-fees__fee-to">{{ fees_data.super_sponsor.prices.current[page.lang] }}</span>
+        <span class="access-fees__fee-date">({{ fees_data.super_sponsor.prices.date[page.lang] }})</span>
+        <!-- <span class="access-fees__fee-to">{{ fees_data.super_sponsor.prices.original[page.lang] }}</span> -->
+      </div>
+    </div>
+    <div class="access-fees__fee access-fees__fee--club-pass">
+      <div class="access-fees__fee-header">
+        <span class="access-fees__fee-name">{{ fees_data.club_pass.label[page.lang] }}</span>
+        <span class="access-fees__fee-stars">
+          <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i>
+        </span>
+      </div>
+      <div class="access-fees__fee-body">
+        <p class="access-fees__fee-description">
+          {{ fees_data.club_pass.description[page.lang] }}
+        </p>
+        <ul class="access-fees__fee-includes">
+          {% for item in fees_data.club_pass.content[page.lang] %}
+            <li class="access-fees__fee-item">{{ item }}</li>
+          {% endfor %}
+        </ul>
+      </div>
+      <div class="access-fees__fee-footer">
+        <span class="access-fees__fee-to">{{ fees_data.club_pass.prices.current[page.lang] }}</span>
+        <span class="access-fees__fee-date">({{ fees_data.club_pass.prices.date[page.lang] }})</span>
       </div>
     </div>
   </div>
