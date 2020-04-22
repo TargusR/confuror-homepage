@@ -6,6 +6,7 @@
 @import "variables/color";
 @import "variables/font-alias";
 @import "variables/text-sizes";
+@import "variables/spacers";
 
 // Libraries and External imports
 // @import "minima";
@@ -24,7 +25,9 @@ $flag-icon-css-path: "/assets/vendor/flag-icon-css/flags" !default;
 @import "mixins/theming";
 
 // Global styles
-@import "global/main";
+@import "global/main-styles";
+@import "global/margin-styles";
+@import "global/image-styles";
 @import "global/content-styles";
 @import "global/button-styles";
 @import "global/alert-styles";
@@ -37,7 +40,8 @@ $flag-icon-css-path: "/assets/vendor/flag-icon-css/flags" !default;
 @import "layout/document-index";
 
 // Project components
-@import "components/navigation-bar";
+@import "components/header";
+@import "components/navigation";
 @import "components/language-switch";
 @import "components/edition-label";
 @import "components/banner";
@@ -45,13 +49,14 @@ $flag-icon-css-path: "/assets/vendor/flag-icon-css/flags" !default;
 @import "components/footer";
 @import "components/social-network";
 @import "components/full-index";
-@import "components/guest-of-honor";
-@import "components/featured-artists";
-@import "components/featured-videos";
-@import "components/registration";
+@import "components/homepage";
+// @import "components/guest-of-honor";
+// @import "components/featured-artists";
+// @import "components/featured-videos";
+// @import "components/registration";
 @import "components/access-fees";
 @import "components/counter";
-@import "components/home-cta";
+// @import "components/home-cta";
 // @import "components/conbook";
 // @import "components/hotel-card";
 // @import "components/vendors-and-artists";

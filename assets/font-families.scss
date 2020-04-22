@@ -6,8 +6,9 @@
 
 $fontPath: '/assets/fonts/';
 
-// @include fontFace('Bebas Neue', $fontPath, 'BebasNeue-Regular', 400, normal);
-@include fontFace('American Typewriter', $fontPath, 'AmericanTypewriter-Regular', 400, normal);
-// @include fontFace('Abril Fatface', $fontPath, 'AbrilFatface-Regular', 400, normal);
-@include fontFace('Roboto', $fontPath, 'Roboto-Regular', 400, normal);
-@include fontFace('Archivo Black', $fontPath, 'ArchivoBlack-Regular', 400, normal);
+@include fontFace('Open Sans', $fontPath, 'OpenSans-Regular', 400, normal);
+@include fontFace('Open Sans', $fontPath, 'OpenSans-RegularItalic', 400, italic);
+@include fontFace('Open Sans', $fontPath, 'OpenSans-ExtraBold', 800, normal);
+@include fontFace('Open Sans', $fontPath, 'OpenSans-ExtraBoldItalic', 800, italic);
+@include fontFace('Woodstamp', $fontPath, 'WoodStamp', 400, normal);
+@include fontFace('Woodstamp', $fontPath, 'WoodStamp', 400, italic);
