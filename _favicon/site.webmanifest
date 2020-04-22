@@ -1,6 +1,6 @@
 {
-    "name": "Confuror 2019",
-    "short_name": "Confuror 2019",
+    "name": "",
+    "short_name": "",
     "icons": [
         {
             "src": "/android-chrome-192x192.png",
@@ -13,7 +13,7 @@
             "type": "image/png"
         }
     ],
-    "theme_color": "#720103",
-    "background_color": "#720103",
+    "theme_color": "#ffffff",
+    "background_color": "#ffffff",
     "display": "standalone"
 }
