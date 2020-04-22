@@ -3,8 +3,9 @@
 ///////////////////
 
 .access-fees__wrapper {
-  @extend .container;
-  padding: 3em 0;
+  @extend .container-fluid, .wrapper-responsive-overflow-margin;
+  margin-top: $spacer-lg;
+  width: auto;
 }
 
 .access-fees {
@@ -12,69 +13,57 @@
   justify-content: center;
 }
 
-.access-fees__fee-container {
-  @extend .col-md-4;
-  margin-bottom: 1em;
-}
-
 .access-fees__fee {
-  @extend .card, .text-light;
-}
-
-.access-fees__fee--general {
-  @extend .bg-primary;
-}
-
-.access-fees__fee--one-day {
-  background-color: $mm-blue !important;
-}
-
-.access-fees__fee--sponsor {
-  @extend .bg-success;
-}
-
-.access-fees__fee--super-sponsor {
-  @extend .bg-secondary;
+  @extend .col-md-6;
+  margin-bottom: $spacer-lg;
 }
 
 .access-fees__fee-header {
-  @extend .text-center, .card-header;
-}
-
-.access-fees__fee-stars {}
-
-.access-fees__fee-body {
-  @extend .card-body;
+  border-top-left-radius: $spacer-xs;
+  border-top-right-radius: $spacer-xs;
+  background-color: $ll-yellow;
+  padding: $spacer-xs;
+  text-align: center;
 }
 
 .access-fees__fee-name {
-  @extend .card-title, .text-light;
-  margin: 0 !important;
-  min-height: 2.5em;
+  @extend .title-md, .text-primary;
+  display: block;
+  color: $primary;
+  // margin-right: $spacer-sm;
+}
+
+.access-fees__fee-stars {
+  @extend .featured-text-sm, .text-secondary;
+  // display: inline-block;
+}
+
+.access-fees__fee-body {
+  @extend .text-light;
+  background-color: $ll-purple;
+  padding: $spacer-sm;
+  border-bottom-left-radius: $spacer-xs;
+  border-bottom-right-radius: $spacer-xs;
+  margin-top: $spacer-xs;
+  margin-bottom: $spacer-xs;
+}
+
+.access-fees__fee-description {
+  @extend .tag-text;
+  padding: $spacer-sm;
 }
 
 .access-fees__fee-includes {
-  @extend .list-group, .list-group-flush, .rounded, .text-left;
-  padding-top: 1em;
-}
-
-.access-fees__fee-item {
-  @extend .list-group-item;
-  background-color: rgba($cf-light,0.1);
-  font-size: 0.9em;
-  margin: 0 !important;
+  margin: 0;
 }
 
 .access-fees__fee-footer {
-  @extend .card-body;
-
-  h5 {
-    @extend .text-light;
-    margin-top: 0;
-    margin-bottom: 0.2em;
-    font-size: 1em;
-    opacity: 0.7;
-  }
+  padding: $spacer-sm;
+  background-color: $ll-cream;
+  border: 4px dashed $ll-brown;
+  border-radius: $spacer-lg;
+  transform: rotate(-5deg) translateY(-10px);
+  text-align: center;
 }
 
 .access-fees__fee-from {
@@ -84,6 +73,38 @@
 }
 
 .access-fees__fee-to {
-  @extend .h4;
+  @extend .featured-text-sm;
   display: block;
+  color: $ll-brown;
 }
+
+.access-fees__fee-date {
+  @extend .tag-text;
+  color: $ll-blue;
+}
+
+// .access-fees__fee--general {
+//   .access-fees__fee-body {
+//     border-top: 6px $ll-blue solid;
+//   }
+// }
+
+// .access-fees__fee--one-day {}
+
+// .access-fees__fee--sponsor {
+//   .access-fees__fee-body {
+//     border-top: 6px $ll-peach solid;
+//   }
+// }
+
+// .access-fees__fee--super-sponsor {
+//   .access-fees__fee-body {
+//     border-top: 6px $ll-red solid;
+//   }
+// }
+
+// .access-fees__fee--club-pass {
+//   .access-fees__fee-body {
+//     border-top: 6px $cf-light solid;
+//   }
+// }

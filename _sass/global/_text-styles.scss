@@ -15,56 +15,61 @@
 
 .title {
   font-family: $font-display;
-  font-weight: bold;
 }
+
+$title-text-size-correction:  0.8rem;
 
 .title-lg {
   @extend .title;
-  font-size: $text-size-07;
-  letter-spacing: 0.02em;
+  font-size: $text-size-07 + $title-text-size-correction;
+  letter-spacing: 0.01em;
 }
 
 .title-md {
   @extend .title;
-  font-size: $text-size-05;
-  letter-spacing: 0.03em;
+  font-size: $text-size-05 + $title-text-size-correction;
+  letter-spacing: 0.01em;
 }
 
 .title-sm {
   @extend .title;
-  font-size: $text-size-04;
-  letter-spacing: 0.04em;
+  font-size: $text-size-04  + $title-text-size-correction;
 }
 
 @include media-breakpoint-down(sm) {
   .title-lg {
-      font-size: $text-size-05;
+      font-size: $text-size-05 + $title-text-size-correction;
   }
 
   .title-md {
-      font-size: $text-size-04;
+      font-size: $text-size-04 + $title-text-size-correction;
   }
 
   .title-sm {
-      font-size: $text-size-03;
+      font-size: $text-size-04;
   }
 }
 
 
 // Featured texts
 
-.featured-text-lg {
+.featured-text {
   font-family: $font-main;
+  font-weight: 800;
+}
+
+.featured-text-lg {
+  @extend .featured-text;
   font-size: $text-size-06 !important;
 }
 
 .featured-text-md {
-  font-family: $font-lecture;
+  @extend .featured-text;
   font-size: $text-size-05 !important;
 }
 
 .featured-text-sm {
-  font-family: $font-lecture;
+  @extend .featured-text;
   font-size: $text-size-04 !important;
 }
 

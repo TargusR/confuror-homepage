@@ -3,25 +3,24 @@
 //////////////////////
 
 .document-index {
-  @extend .mx-auto;
-  max-width: 1024px;
+  @extend .container;
 }
 
 .document-index__wrapper {
-  @extend .container-fluid, .row, .no-gutters;
-  padding: 0;
-  padding-top: 50px;
-  padding-bottom: 50px;
+  @extend .row;
+  flex-direction: row-reverse;
+  padding-top: $spacer-xl;
+  padding-bottom: $spacer-xxl;
 }
 
 .document-index__column {
-  @extend .col-md-3;
+  @extend .col-lg-3;
 }
 
 .document-index__list {
   @extend .nav, .flex-column;
-  margin-top: 30px;
-  margin-bottom: 30px;
+  margin-top: $spacer-md;
+  margin-bottom: $spacer-md;
 }
 
 .document-index__item {
@@ -30,62 +29,43 @@
 
 .document-index__link {
   @extend .nav-link;
-  color: $mm-blue-light;
 }
-
-// .document-index__link:visited {
-//   color: $hg-paper-shadow;
-// }
 
 .document-index__link.is-active {
   @extend .active, .rounded, .text-light;
-  background-color: $mm-purple;
+  background-color: $ll-blue;
 }
 
 .document-index__content {
-  @extend .col-md-9;
+  @extend .col-lg-9, .wrapper-responsive-padding--sm;
+
+  .container-overflow {
+    @extend .wrapper-responsive-overflow-margin--sm;
+  }
 }
 
 .document-index__header {
-  @extend .jumbotron;
-  background-color: $cf-light;
-  color: $mm-aqua;
-}
-.document-index__header {
-  hr {
-    border-color: $mm-blue;
-  }
+  margin-bottom: $spacer-xl;
 }
 
 .document-index__title {
-  color: $mm-red;
+  &, * {
+    @extend .title-lg;
+    color: $ll-blue;
+    margin: 0;
+    line-height: initial;
+  }
 }
 
 .document-index__description {
-  margin: 0;
-  letter-spacing: 0.06em;
-  font-size: 1.2em;
+  &, * {
+    @extend .title-sm;
+    color: $ll-red;
+    margin: 0;
+    line-height: initial;
+  }
 }
 
 .document-index__body {
-  @extend .text-justify, .cfr-text-formatted, .body-text;
-  // font-family: 'American Typewriter', 'Times', sans-serif;
-
-  li {
-    // line-height: 1.6em;
-    letter-spacing: 0.04em;
-    padding-bottom: 1em;
-    padding-left: 1em;
-  }
-
-  h1, h2, h3, h4, h5, h6 {
-    font-family: 'Roboto Slab', serif !important;
-    color: $mm-red-light;
-    margin-top: 2em;
-    margin-bottom: 1em;
-  }
-
-  h4, h5, h6 {
-    color: $mm-aqua-light;
-  }
+  @extend .cfr-text-formatted;
 }

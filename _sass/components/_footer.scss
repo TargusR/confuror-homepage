@@ -4,49 +4,52 @@
 
 .footer {
   @extend .container-fluid, .text-light, .bg-dark;
-
-  a {
-    color: $mm-yellow;
-    transition: color 0.2s;
-  }
-
-  a:hover {
-    color: $mm-yellow-light;
-  }
 }
 
 .footer__wrapper {
-  @extend .row, .mx-auto;
-  padding-top: 60px;
-  padding-bottom: 30px;
-  max-width: 1024px;
+  @extend .container;
+  padding-top: $spacer-lg;
 }
 
-.footer__column--index {
-  @extend .container-fluid;
+.footer__index-row {
+  margin-bottom: $spacer-lg;
 }
 
-.footer__column--contact {
+.footer__signature-row {
+  @extend .row, .text-dark;
+  background-color: $ll-peach;
+  padding: $spacer-sm;
+  padding-bottom: 0;
+  outline: $spacer-sm solid $ll-peach;
+  border: 6px dashed $ll-brown;
+  border-bottom: 0;
+}
+
+.footer__contact-column {
   @extend .col-md-4, .col-sm-6, .col-12;
 }
 
-.footer__column--description {
+.footer__description-column {
   @extend .col-md-8, .col-sm-6, .col-12;
 }
 
 .footer__contact-heading {
-  margin: 0;
-  line-height: 40px;
+  @extend .title-sm;
+  margin-bottom: $spacer-xs;
 }
 
-.footer__contact-email {}
+.footer__contact-email {
+  @extend .tag-text, .text-dark;
+}
 
 .footer__description {
-  font-size: 10pt;
+  @extend .tag-text;
   text-align: justify;
+  line-height: 1.6em;
 }
 
 .footer__copyright {
+  @extend .tag-text;
   text-align: right;
 }
 

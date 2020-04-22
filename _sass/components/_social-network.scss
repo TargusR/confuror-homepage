@@ -10,9 +10,11 @@
 
 .social-network-bar__item {
   display: inline-block;
-  margin: 0 10px;
+  margin: $spacer-sm;
+  margin-left: 0;
 }
 
 .social-network-bar__link {
-  font-size: 2em;
+  @extend .text-dark;
+  font-size: $text-size-04;
 }

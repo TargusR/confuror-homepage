@@ -1,0 +1,147 @@
+/////////////////////
+//  Header styles  //
+/////////////////////
+
+.header__wrapper {
+  @extend .position-sticky, .sticky-top;
+}
+
+.header {
+  @extend .container-fluid;
+}
+
+.header__brand-row {
+  @extend .row;
+  background-color: theme-color('primary');
+  background-image: url("/assets/ui/header_bg.svg"), linear-gradient(to right, $ll-blue 50%, $ll-brown 50%);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 180px;
+  transition: transform 0.3s;
+}
+
+.header__navigation-row {
+  @extend .row;
+  min-height: 50px;
+  background-color: $ll-red;
+  transition: transform 0.3s;
+}
+
+.header__brand-logo-col {
+  @extend .col-6;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.header__brand-edition-col {
+  @extend .col-6;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.header.is-shrinked {
+  .header__brand-row,
+  .header__navigation-row {
+    transform: translateY(-180px);
+
+    .navigation__home,
+    .navigation__featured-links {
+      transform: translateX(0);
+    }
+  }
+}
+
+.header.is-locked {
+  .header__brand-row,
+  .header__navigation-row {
+    transform: none !important;
+
+    .navigation__home,
+    .navigation__featured-links {
+      transform: translateX(-$spacer-lg) !important;
+    }
+  }
+}
+
+// Site logo
+.site-logo {
+  margin-left: $spacer-sm;
+}
+
+.site-logo__link {}
+
+.site-logo__image {
+  width: auto;
+  height: 80px;
+}
+
+
+// Edition info
+.edition-info {
+  @extend .text-light;
+  text-align: right;
+  margin-right: $spacer-sm;
+}
+
+.edition-info__place {
+  @extend .tag-text;
+}
+
+.edition-info__month-year {
+  @extend .featured-text-sm;
+}
+
+.edition-info__days {
+  @extend .label-text;
+}
+
+
+// Responsive
+@include media-breakpoint-up(lg) {
+  .header__brand-row {
+    background-size: 100% 250px;
+  }
+}
+
+@include media-breakpoint-up(xl) {
+  .header__brand-row {
+    background-size: 100% 400px;
+  }
+}
+
+@include media-breakpoint-down(md) {
+  .header.is-shrinked {
+    .header__brand-row,
+    .header__navigation-row {
+      transform: translateY(-160px);
+    }
+  }
+
+  .header__brand-row {
+    height: 160px;
+  }
+
+  .site-logo__image {
+    height: 70px;
+  }
+}
+
+@include media-breakpoint-down(sm) {
+  .header.is-shrinked {
+    .header__brand-row,
+    .header__navigation-row {
+      transform: translateY(-120px);
+    }
+  }
+
+  .header__brand-row {
+    height: 120px;
+  }
+
+  .site-logo__image {
+    height: 60px;
+  }
+}

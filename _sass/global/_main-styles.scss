@@ -1,0 +1,17 @@
+///////////////////
+//  Main layout  //
+///////////////////
+
+body {
+  @extend .root-text;
+  background-color: $ll-cream;
+  color: theme-color('dark');
+}
+
+a {
+  color: theme-color('secondary');
+
+  &:hover {
+    color: theme-color-level('secondary', -5);
+  }
+}

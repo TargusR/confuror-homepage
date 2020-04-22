@@ -3,32 +3,41 @@
 ///////////////////
 
 .page {
-  @extend .mx-auto;
-  max-width: 1024px;
+  @extend .container;
 }
 
 .page__wrapper {
-  @extend .container-fluid;
-  padding-top: 50px;
-  padding-bottom: 50px;
+  @extend .wrapper-responsive-padding;
+  padding-top: $spacer-xl;
+  padding-bottom: $spacer-xxl;
+
+  .container-overflow {
+    @extend .wrapper-responsive-overflow-margin;
+  }
+}
+
+.page__header {
+  margin-bottom: $spacer-xl;
+}
+
+.page__title {
+  &, * {
+    @extend .title-lg;
+    color: $ll-blue;
+    margin: 0;
+    line-height: initial;
+  }
+}
+
+.page__description {
+  &, * {
+    @extend .title-sm;
+    color: $ll-red;
+    margin: 0;
+    line-height: initial;
+  }
 }
 
 .page__content {
-  @extend .cfr-text-formatted-base;
-  
-  a {
-    text-decoration: underline;
-  }
-
-  li {
-    line-height: 1.6em;
-    letter-spacing: 0.04em;
-    padding-left: 1em;
-  }
-
-  h1, h2, h3, h4, h5, h6 {
-    color: $mm-aqua;
-    margin-top: 2em;
-    margin-bottom: 1em;
-  }
+  @extend .cfr-text-formatted;
 }

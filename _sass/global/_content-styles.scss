@@ -5,65 +5,78 @@
 .cfr-text-formatted-base {
     p,
     li {
+        @extend .body-text;
         max-width: 50em;
         margin: 10px auto;
     }
 }
 
 .cfr-text-formatted {
-    @extend .cfr-text-formatted-base;
+    @extend .cfr-text-formatted-base, .cfr-text-formatted-images;
+
+    h2, h3, h4, h5, h6 {
+        margin-top: 2em;
+        margin-bottom: 1em;
+    }
+
+    h2, h3 {
+        @extend .title-sm;
+        color: $ll-red;
+    }
+    
+    h4, h5, h6 {
+        @extend .featured-text-sm;
+        color: $ll-blue;
+    }
+
+    p {
+        line-height: 1.6em;
+        letter-spacing: 0.04em;
+    }
+
+    a {
+        text-decoration: underline;
+    }
 
     table {
         @extend .table;
     }
 
-    // Generic images
-    figure {
-        margin: 20px;
-    
-        img {
-        @extend .rounded;
-        width: 400px;
-        }
-    }
-    
-    figure.centered {
-        text-align: center;
-        
-        img {
-        width: 500px;
-        }
-    }
-    
-    figure.right {
-        float: right;
-        margin-top: 0;
-        margin-right: 0;
-    }
-    
-    figure.left {
-        float: left;
-        margin-top: 0;
-        margin-left: 0;
+    blockquote {
+        margin-left: 3em;
+        padding-left: 1em;
+        border-left: 10px solid $ll-blue;
     }
 
-    p img {
-        @extend .img-fluid;
+    li {
+        line-height: 1.6em;
+        letter-spacing: 0.04em;
+        padding-left: 1em;
+        margin-bottom: 1em;
+    }
+
+    .featured {
+        line-height: 1.4;
+        margin-bottom: 2em;
+    }
+
+    .featured--lg {
+        @extend .featured-text-lg;
+    }
+
+    .featured--md {
+        @extend .featured-text-md;
+    }
+
+    .featured--sm {
+        @extend .featured-text-sm;
+    }
+
+    .signature {
+        @extend .tag-text;
+        margin-top: 3em;
+        margin-bottom: 6em;
+        text-align: right;
+        font-style: italic;
     }
 }
-
-@include media-breakpoint-down(sm) {
-    .cfr-text-formatted {
-        figure.right,
-        figure.left,
-        figure.centered {
-        float: none;
-        margin: 20px;
-        text-align: center;
-    
-        img {
-            width: 100%;
-        }
-        }
-    }
-  }

@@ -26,6 +26,15 @@ $mm-purple-dark: #20091C;
 $mm-yellow: #ECCF96;
 $mm-yellow-light: rgb(255, 246, 233);
 
+// Lucha libre colors
+$ll-purple: #332265;
+$ll-blue: #212b5A;
+$ll-brown: #2A0E06;
+$ll-yellow: #E4C14B;
+$ll-red: #B72027;
+$ll-peach: #E6B77F;
+$ll-cream: #E2DEC0;
+$ll-black: #000000;
 
 // Generic Confuror colors
 $cf-blue-ligth: #4283e9;
@@ -45,11 +54,11 @@ $cf-dark: #4d4d4d;
 
 
 // Override bootstrap default colors
-$primary:       $mm-red-dark !default;
-$secondary:     $mm-yellow !default;
-$success:       $mm-aqua !default;
+$primary:       $ll-blue !default;
+$secondary:     $ll-red !default;
+$success:       $cf-green !default;
 $info:          $cf-gray !default;
-$warning:       $cf-yellow !default;
-$danger:        $mm-red-light !default;
-$light:         $cf-light !default;
-$dark:          $cf-dark !default;
+$warning:       $ll-yellow !default;
+$danger:        $cf-red !default;
+$light:         $ll-cream !default;
+$dark:          $ll-brown !default;

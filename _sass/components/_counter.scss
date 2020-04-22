@@ -1,38 +1,26 @@
 ///////////////
 //  Counter  //
 ///////////////
-
-.clock-counter {
-  @extend h1;
-  width: 100%;
-  font-size: 4em;
-  text-align: center !important;
-  position: relative;
-  max-height: 100px;
-  transition: transform 0.6s, max-height 0.4s;
-  margin-top: 10px !important;
-  margin-bottom: 10px !important;
+.clock-counter__container {
+  @extend .container;
+  padding-top: $spacer-md;
 }
 
-.clock-counter__intro,
-.clock-counter__outro {
-  @extend h4;
+.clock-counter {
+  @extend .featured-text-lg;
   display: block;
-  margin-top: 10px !important;
-  margin-bottom: 10px !important;
+  text-align: center;
+  transition: transform 0.6s, max-height 0.4s;
 }
 
 .clock-counter__intro {
-  width: 100%;
+  @extend .featured-text-sm;
+  display: block;
   text-align: center;
-  font-size: 2em;
-  padding-top: 40px;
-  max-height: 100px;
   transition: transform 0.6s, max-height 0.4s;
 }
 
 .clock-counter__hide {
-  // display: none;
   transition: transform 0.6s;
   transform: scale(0);
 }

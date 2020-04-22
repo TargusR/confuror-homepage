@@ -2,44 +2,36 @@
 //  Language switch  //
 ///////////////////////
 
-.language-switch {
-  @extend .position-relative, .rounded, .bg-light, .text-primary;
-}
+// .language-switch {}
 
 .language-switch__button {
-  @extend .nav-link;
-  padding-left: 8px;
-  padding-right: 8px;
-  font-size: small;
+  @extend .nav-link, .tag-text;
+  padding: 0;
   text-align: center;
-  color: $mm-blue;
+  color: theme-color('light');
+  cursor: pointer;
+}
+
+.language-switch__label {
+  padding: 0 $spacer-xxs;
+  font-weight: 800;
 }
 
 .language-switch__float {
   @extend .position-absolute, .flex-column;
-  top: 130%;
+  top: 100%;
   right: 0;
   z-index: 11;
 }
 
-.language-switch__float:after {
-  display: block;
-  content: '';
-  width: 0px;
-  height: 0px;
-  border: 10px solid $cf-light;
-  border-top-color: transparent;
-  border-right-color: transparent;
-  border-left-color: transparent;
-  position: absolute;
-  top: -19px;
-  right: 3px;
-}
-
 .language-switch__list {
-  @extend .nav, .border, .rounded, .bg-light;
+  @extend .nav;
   overflow: hidden;
-  @include addShadow('drop');
+  border: 1px solid rgba($ll-cream, 0.2);
+  border-top-color: $ll-cream;
+  border-right: 0;
+  background: linear-gradient(to bottom, $ll-blue, $ll-purple);
+  padding: $spacer-sm * 2;
 }
 
 .language-switch__list-item {
@@ -48,20 +40,21 @@
 }
 
 .language-switch__list-link {
-  @extend .text-info;
+  @extend .text-info, .text-light;
   display: block;
   padding: 0 20px;
   line-height: 30px;
-  color: $mm-aqua-light;
+  border: 1px solid transparent;
 }
 
 .language-switch__list-link.is-active {
-  @extend .active, .text-light;
-  background-color: $mm-aqua;
-}
+  @extend .active;
+  border-color: theme-color('light');
+  opacity: 0.8;
+  cursor: default;
 
-@include media-breakpoint-down(md) {
-  .language-switch {
-    background-color: transparent;
+  &:hover {
+    color: theme-color('light');
+    text-decoration: none;
   }
 }

@@ -1,0 +1,90 @@
+////////////////////////////
+//  Margin layout styles  //
+////////////////////////////
+
+// Use the following just in single column content pages
+.wrapper-responsive-padding {
+  padding-left: $spacer-xxl;
+  padding-right: $spacer-xxl;
+}
+
+@include media-breakpoint-down(lg) {
+  .wrapper-responsive-padding {
+    padding-left: $spacer-lg;
+    padding-right: $spacer-lg;
+  }
+}
+
+@include media-breakpoint-down(sm) {
+  .wrapper-responsive-padding {
+    padding-left: $spacer-sm;
+    padding-right: $spacer-sm;
+  }
+}
+
+
+// Use the following inside a container that with
+// the class .wrapper-responsive-padding applied
+// to overflow its content
+.wrapper-responsive-overflow-margin {
+  margin-left: -$spacer-xxl;
+  margin-right: -$spacer-xxl;
+}
+
+@include media-breakpoint-down(lg) {
+  .wrapper-responsive-overflow-margin {
+    margin-left: -$spacer-lg;
+    margin-right: -$spacer-lg;
+  }
+}
+
+@include media-breakpoint-down(sm) {
+  .wrapper-responsive-overflow-margin {
+    margin-left: -$spacer-sm;
+    margin-right: -$spacer-sm;
+  }
+}
+
+
+// Use the following in other content layouts (since it's small)
+.wrapper-responsive-padding--sm {
+  padding-left: $spacer-lg;
+  padding-right: $spacer-lg;
+}
+
+@include media-breakpoint-down(lg) {
+  .wrapper-responsive-padding--sm {
+    padding-left: $spacer-md;
+    padding-right: $spacer-md;
+  }
+}
+
+@include media-breakpoint-down(sm) {
+  .wrapper-responsive-padding--sm {
+    padding-left: $spacer-sm;
+    padding-right: $spacer-sm;
+  }
+}
+
+
+// Use the following inside a container that with
+// the class .wrapper-responsive-padding applied
+// to overflow its content
+.wrapper-responsive-overflow-margin--sm {
+  margin-left: -$spacer-lg;
+  margin-right: -$spacer-lg;
+}
+
+@include media-breakpoint-down(lg) {
+  .wrapper-responsive-overflow-margin--sm {
+    margin-left: -$spacer-md;
+    margin-right: -$spacer-md;
+  }
+}
+
+@include media-breakpoint-down(sm) {
+  .wrapper-responsive-overflow-margin--sm {
+    margin-left: -$spacer-sm;
+    margin-right: -$spacer-sm;
+  }
+}
