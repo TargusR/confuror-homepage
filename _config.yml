@@ -1,30 +1,36 @@
-title: Confuror 2019
-email: vidafur.reg@gmail.com
+title: Confuror 2020
+email: info@confuror.org
 description:
   en: >-
     Confuror is a furry convention based in Mexico, hosted in the city of Guadalajara, Jalisco.
-    Is the annual main event supported by the furry local comunity Vidafur. It's comming in 2019 with its second edition held in October 11, 12 and 13 at Fiesta Americana Guadalajara Hotel.
+    Is the annual main event supported by the furry local comunity Vidafur. It's comming in 2020 with its third edition held in October 9, 10 and 11 at Fiesta Americana Guadalajara Hotel.
   es: >-
-    Confuror es una convención furry con sede en México, realizandose en la ciudad de Guadalajara, Jalisco.
-    Es el evento anual realizado por la comunidad furry de Vidafur. Regresa en 2019 con su segunda edición el 11, 12 y 13 de Octubre en el hotel Fiesta Americana Guadalajara.
+    Confuror es una convención furry con sede en Guadalajara, Jalisco, México; organizado por la comunidad furry de Vidafur de forma anual. Llega en 2020 con su tercera edición el 9, 10 y 11 de Octubre en el hotel Fiesta Americana Guadalajara.
 edition_label:
-  en: October 11, 12 & 13 2019 | Guadalajara, México
-  es: 11, 12 y 13 de Octubre 2019 | Guadalajara, México
+  en: October 9, 10 & 11 2020 | Guadalajara, México
+  es: 9, 10 y 11 de Octubre 2020 | Guadalajara, México
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 
 # Build settings
 markdown: kramdown
 theme: minima
-version: 2.4.2
+version: 3.1.0
 
+# Sass configuration
 sass:
   load_paths:
     - _sass
     - node_modules
 
+# Collections
+collections:
+  pages:
+    output: true
+
 # Format templates
 formats:
+  featured_paragraph: components/featured-paragraph.html
   cta_button: components/cta-button.html
   inline_alert: components/alert.html
   inline_faq: components/inline-faq.html
