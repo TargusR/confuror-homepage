@@ -9,7 +9,7 @@ es:
   steps:
     - Llena cuidadosamente el formulario que se muestra en el link al final de esta página. Si deseas registrar a más de una persona, usa la opción "Add Registrant" después de guardar los datos del primer asistente. Deberás ingresar información real para todos los asistentes. Se ignorarán los registros duplicados.
     - Una vez completado el formulario selecciona "Continuar al pago" para pasar a la pantalla de pago. Podrás pagar al instante con tarjeta de crédito o débito, o pagar offline mediante depósito, transferencia bancara o invoice de Paypal.
-    - Si pagas por depósito o transferencia, deberás enviar tu comprobante a reg@confufor.org en un lapso no mayor a 2 días hábiles o el registro se cancelará. Instrucciones más avanzadas sobre cómo enviar tu comprobante aparecerán en el formulario al seleccionar esta opción de pago. Una vez que validemos el pago, tu ficha de registro llegará a tu correo.
+    - Si pagas por depósito o transferencia, deberás enviar tu comprobante a reg@confuror.org en un lapso no mayor a 2 días hábiles o el registro se cancelará. Instrucciones más avanzadas sobre cómo enviar tu comprobante aparecerán en el formulario al seleccionar esta opción de pago. Una vez que validemos el pago, tu ficha de registro llegará a tu correo.
     - Si pagas al instante con tarjeta de crédito o débito, el sistema te mostrará de inmediato tu ficha de registro con un ID de asistente y un QR para que hagas Check In en el evento en Octubre.
     - Preséntate al evento con tu ficha de registro y una identificación para validar tu nombre y fecha de nacimiento. Si eres menor de edad, lleva además tu carta de consentimiento de padres según el caso que aplique. Más información sobre este documento te llegará por correo.
   upgrade_subtitle: Actualiza tus datos o realiza un Upgrade
@@ -21,6 +21,18 @@ es:
     - Si tienes problemas siguiendo los pasos anteriores, envíanos un correo a reg@confuror.org
   upgrade_link_label: Administra tu registro
   upgrade_link_url: https://confuror.account.webconnex.com/
+  vendor_subtitle: Regístrate como Artista o Vendedor
+  vendor_steps:
+    - Consulta nuestras <a href="/es/artistas-y-vendedores/" target="_blank">categorías disponibles</a> y elige las que más te convengan.
+    - <strong>Si ya cuentas con registro para asistir al evento</strong>, sigue los pasos de arriba para activar tu cuenta de administración y una vez que la tengas (o si ya la tienes) edita tu registro para indicar que deseas participar como Artista o Vendedor y selecciona las opciones de tu preferencia.
+    - <strong>Si aún NO cuentas con registro para asistir al evento</strong>, comienza tu registro <a href="https://confuror.regfox.com/confuror-2020-preregistro" target="_blank">aquí</a> y en el proceso indica que deseas participar como Artista o Vendedor y selecciona las opciones de tu preferencia.
+    - Una vez que hayas finalizado de registrarte o de editar tu registro seleccionando las opciones de Artistas o Vendedores, estarás en lista de espera. En los próximos días te llegará un correo con otro formulario a llenar para complementar los datos de tu solicitud, incluyendo tu portafolio y más información sobre tu exhibición.
+    - Una vez que tu solicitud sea aceptada, se realizará el cobro de las tarifas correspondientes para participar en las categorías que hayas seleccionado, usando los métodos de pago que hayas configurado en el formulario de registro.
+    - Si tienes problemas siguiendo los pasos anteriores, envíanos un correo a reg@confuror.org para aclarar tus dudas.
+  vendor_registered_link_label: ¡Asistentes registrados aquí!
+  vendor_registered_link_url: https://confuror.account.webconnex.com/
+  vendor_unregistered_link_label: ¡Aspirantes sin registro aquí!
+  vendor_unregistered_link_url: https://confuror.regfox.com/confuror-2020-preregistro
 en:
   form_link: https://confuror.regfox.com/confuror-2020-preregistration
   register_now_label: Register yourself now!
@@ -44,3 +56,15 @@ en:
     - If you have any problems following these instructions, send us an email to reg@confuror.org
   upgrade_link_label: Manage your membership account
   upgrade_link_url: https://confuror.account.webconnex.com/
+  vendor_subtitle: Register an Artist or Vendor application
+  vendor_steps:
+    - Check out our Consulta nuestras <a href="/es/artistas-y-vendedores/" target="_blank">available categories</a> and choose the ones that suit you best.
+    - <strong>If you already have a convention membership</strong>, ollow the steps above to activate your administration account and once you have it (or if you already have it) edit your registration to indicate that you wish to participate as an Artist or Vendor and select your preferred options.
+    - <strong>If you have NOT pre-registered online</strong>, begin your registration <a href="https://confuror.regfox.com/confuror-2020-preregistration" target="_blank">here</a> and while completing the form, indicate that you want to participate as an Artist or Seller; then select your preffered options.
+    - By selecting the Artist or Seller options in the registration form, you will be placed on the waiting list. In the next few days you will receive an email with another form to fill out to complete your application, so you can include your portfolio and more information about your exhibition.
+    - Once your application is accepted, you will be charged for the corresponding fees to participate in the categories you have selected, using the payment methods you have configured in your registration form.
+    - If you have problems following the steps above, please send us an email to reg@confuror.org to clarify your doubts.
+  vendor_registered_link_label: Registered attendees, here!
+  vendor_registered_link_url: https://confuror.account.webconnex.com/
+  vendor_unregistered_link_label: Unregistered applicants here!
+  vendor_unregistered_link_url: https://confuror.regfox.com/confuror-2020-preregistration

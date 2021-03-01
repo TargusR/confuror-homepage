@@ -4,21 +4,26 @@ name: hotel
 title: Confuror is back to Fiesta Americana Guadalajara!
 label: Hotel
 description: >-
-  The great Fiesta Americana Guadalajara hotel is the venue for Confuror 2020. Keep reading to know more.
+  The great Fiesta Americana Guadalajara hotel is the venue for Confuror 2021. Keep reading to know more.
 lang: en
 category: cat_attend
-category_weight: 1
-featured: true
+category_weight: 2
+featured: false
 list_id: hotel_details
 list_weight: 0
+alert_heading: Fiesta Americana will be back for Confuror 2021!
+alert_message: >-
+  <b>Important note:</b> Due to the Covid-19 Pandemic, our on-site event was postponed to 2021. Fiesta Americana Guadalajara will be back in October 2021 and as soon as the official reservation block is open for those dates, we will be adding the information here.
+alert_mode: info
 # banner_src: /images/banners/nueva_sede_banner_en.png
 # banner_alt: Confuror 2019 new venue
+permalink: /en/hotel/
 ---
 
 {%
   include {{ site.formats.featured_paragraph }}
   size="sm"
-  content="Confuror 2020 will be held at the great <a href='https://www.fiestamericana.com/fiesta-americana-guadalajara' target='_blank'>Fiesta Americana Guadalajara</a> hotel, located right in front of the famous <i>La Minerva</i> roundabout and just a few blocks from the <i>paseo Chapultepec</i> night life, where the first Confuror edition took place."
+  content="Confuror is held at the great <a href='https://www.fiestamericana.com/fiesta-americana-guadalajara' target='_blank'>Fiesta Americana Guadalajara</a> hotel, located right in front of the famous <i>La Minerva</i> roundabout and just a few blocks from the <i>paseo Chapultepec</i> night life, where the first Confuror edition took place."
 %}
 
 <div class="container-overflow">

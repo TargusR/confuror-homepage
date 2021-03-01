@@ -1,0 +1,21 @@
+{%- assign homepage-ctas = site.data.homepage-cta[page.lang] -%}
+
+<div class="home-cta__wrapper">
+  <div class="home-cta">
+    <div class="home-cta__items-wrapper">
+      {%- for cta in homepage-ctas -%}
+      <div class="home-cta__item">
+        <div class="home-cta__header">
+          <h3 class="home-cta__title">{{ cta.title }}</h3>
+        </div>
+        <div class="home-cta__body">
+          {{ cta.body }}
+        </div>
+        <div class="home-cta__footer">
+          <a href="{{ cta.link_url }}" class="home-cta__button">{{ cta.link_label }}</a>
+        </div>
+      </div>
+      {%- endfor -%}
+    </div>
+  </div>
+</div>

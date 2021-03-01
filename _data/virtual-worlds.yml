@@ -1,0 +1,18 @@
+es:
+  cta: ¡Explora nuestros mundos virtuales!
+  worlds:
+    - name: Confuror VRChat World
+      link: /es/actividades/vrchat/
+      image: /images/pictures/vrchat_confuror.png
+    - name: Confuror Minecraft World
+      link: /es/actividades/minecraft/
+      image: /images/pictures/minecraft_confuror.png
+en:
+  cta: Explore our virtual worlds!
+  worlds:
+    - name: Confuror VRChat World
+      link: /en/activities/vrchat/
+      image: /images/pictures/vrchat_confuror.png
+    - name: Confuror Minecraft World
+      link: /en/activities/minecraft/
+      image: /images/pictures/minecraft_confuror.png

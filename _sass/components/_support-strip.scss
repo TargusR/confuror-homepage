@@ -1,0 +1,79 @@
+////////////////////////////
+//  Support strip styles  //
+////////////////////////////
+
+.support-strip__wrapper {
+  background-color: $ll-blue;
+}
+
+.support-strip {
+  @extend .container;
+  padding-top: $spacer-sm;
+  padding-bottom: $spacer-sm;
+}
+
+.support-strip__row {
+  @extend .row;
+  align-items: center;
+}
+
+.support-strip__icon {
+  @extend .col;
+  max-width: max-content;
+
+  i {
+    color: $ll-red;
+    font-size: $text-size-04;
+  }
+}
+
+.support-strip__body {
+  @extend .col;
+
+  span {
+    @extend .tag-text;
+    color: $ll-cream;
+  }
+}
+
+.support-strip__cta {
+  @extend .col;
+  max-width: max-content;
+
+  a {
+    @extend .cta-button-small;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: theme-color-level('primary', 5);
+    padding: $spacer-xs $spacer-sm;
+    font-size: $text-size-01;
+  }
+
+  img {
+    width: 32px;
+    height: auto;
+    margin-right: $spacer-sm;
+  }
+}
+
+@include media-breakpoint-down(sm) {
+  .support-strip__cta {
+    max-width: unset;
+    flex: 100%;
+    margin-top: $spacer-sm;
+  }
+}
+
+@include media-breakpoint-down(xs) {
+  .support-strip__icon {
+    max-width: unset;
+    flex: 100%;
+    text-align: center;
+    margin-bottom: $spacer-sm;
+  }
+
+  .support-strip__body {
+    text-align: center;
+  }
+}

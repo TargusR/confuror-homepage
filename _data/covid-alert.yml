@@ -1,0 +1,12 @@
+es:
+  alert: Información importante sobre COVID-19
+  body: >-
+    Debido a las medidas sanitarias requeridas, nuestro evento presencial se pospone a 2021. El registro se mantiene para las nuevas fechas y sigue abierto, <a href="/es/registro">regístrate aquí</a>.<br>También puedes participar en nuestro evento virtual gratuito este año, <a href="/es/online">más información aquí</a>.
+  cta_label: Lee el aviso completo
+  cta_link: /es/covid-19
+en:
+  alert: COVID-19 Important notice
+  body: >-
+    Due to the required sanitary measures, our presential convention is postponed to 2021. Registration is maintained for new dates and remains open, <a href="/es/registro">get registered here</a>.<br>You can also participate in our free virtual event this year, <a href="/es/online">more information here</a>.
+  cta_label: Read the full announcement
+  cta_link: /en/covid-19

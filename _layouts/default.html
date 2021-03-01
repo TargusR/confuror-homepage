@@ -17,7 +17,11 @@
         {{ content }}
       </div>
     </main>
+    
+    {% include components/covid-alert.html %}
 
+    {% include components/support-strip.html %}
+    
     {%- include components/footer.html -%}
 
     {%- include bottom.html -%}

@@ -1,24 +1,29 @@
 ---
 layout: document_index
 name: hotel
-title: Fiesta Americana Guadalajara, la sede de Confuror 2020
+title: ¡Confuror regresa al Fiesta Americana Guadalajara!
 label: Hotel
 description: >-
-  El hotel Fiesta Americana Guadalajara nos recibe de vuelta en 2020. Más detalles aquí.
+  El hotel Fiesta Americana Guadalajara nos recibe de vuelta en 2021. Más detalles aquí.
 lang: es
 category: cat_attend
-category_weight: 1
-featured: true
+category_weight: 2
+featured: false
 list_id: hotel_details
 list_weight: 0
+alert_heading: ¡Fiesta Americana estará de vuelta en Confuror 2021!
+alert_message: >-
+  <b>Comunicado Importante:</b> Debido a la Pandemia por Covid-19, nuestro evento presencial se pospuso a 2021. Fiesta Americana Guadalajara nos espera de vuelta en Octubre del 2021 y tan pronto esté abierto el bloque de reservas oficiales para esas fechas, lo pondremos aquí.
+alert_mode: info
 # banner_src: /images/banners/nueva_sede_banner_es.png
 # banner_alt: Nueva sede Confuror 2019
+permalink: /es/hotel/
 ---
 
 {%
   include {{ site.formats.featured_paragraph }}
   size="sm"
-  content="Confuror 2020 tiene como sede el hotel <a href='https://www.fiestamericana.com/fiesta-americana-guadalajara' target='_blank'>Fiesta Americana Guadalajara</a>, ubicado frente a la emblemática <i>glorieta de La Minerva</i> y a pocos minutos del <i>paseo Chapultepec</i>, área recreativa en dónde se llevó acabo la primera edición de Confuror."
+  content="Confuror tiene como sede el hotel <a href='https://www.fiestamericana.com/fiesta-americana-guadalajara' target='_blank'>Fiesta Americana Guadalajara</a>, ubicado frente a la emblemática <i>glorieta de La Minerva</i> y a pocos minutos del <i>paseo Chapultepec</i>, área recreativa en dónde se llevó acabo la primera edición de Confuror."
 %}
 
 <div class="container-overflow">

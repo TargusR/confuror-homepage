@@ -39,3 +39,11 @@ With all our hearts, let's show the value of our fandom!
   text="Learn more about Selva Teenek"
   url="http://www.selvateenek.com/"
 %}
+
+## Would you like to help in a different way?
+
+You can be a volunteer! Selva Teenek needs a lot of human help. If you are willing to provide such help, contact them through their social networks to request information about the requirements and the process.
+
+Contact information:
+- **Ena Buenfín**
+- [facebook page](https://www.facebook.com/selvateenek/)

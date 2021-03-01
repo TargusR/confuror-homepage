@@ -1,0 +1,17 @@
+{%- assign covid-alert = site.data.covid-alert[page.lang] -%}
+
+<div class="covid-alert__wrapper">
+  <div class="covid-alert">
+    <div class="covid-alert__row">
+      <div class="covid-alert__main-col">
+        <span class="covid-alert__alert">{{ covid-alert.alert }}</span>
+      </div>
+      <div class="covid-alert__body-col">
+        <div class="covid-alert__body">{{ covid-alert.body }}</div>
+      </div>
+      <div class="covid-alert__cta-col">
+        <a href="{{ covid-alert.cta_link }}" class="covid-alert__cta">{{ covid-alert.cta_label }}</a>
+      </div>
+    </div>
+  </div>
+</div>

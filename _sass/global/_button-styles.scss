@@ -18,3 +18,12 @@
   pointer-events: none;
   opacity: 0.5;
 }
+
+.cta-button-small {
+  @extend .btn, .btn-primary, .text-light;
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 0.06em;
+  padding-left: $spacer-sm * 2;
+  padding-right: $spacer-sm * 2;
+}

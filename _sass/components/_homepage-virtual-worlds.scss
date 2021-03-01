@@ -1,0 +1,45 @@
+//////////////////////////////////
+//  Home virtual worlds styles  //
+//////////////////////////////////
+
+.homepage-virtual-worlds__wrapper {
+  background-color: $ll-brown;
+  padding-top: $spacer-lg;
+  padding-bottom: $spacer-xl;
+}
+
+.homepage-virtual-worlds__header {
+  display: flex;
+  justify-content: center;
+  padding-bottom: $spacer-lg;
+}
+
+.homepage-virtual-worlds__cta {
+  @extend .title-md;
+  width: max-content;
+  background-color: $ll-cream;
+  color: $ll-brown;
+  padding: $spacer-xs $spacer-sm;
+}
+
+.homepage-virtual-worlds {
+  @extend .container;
+}
+
+.homepage-virtual-worlds__worlds {
+  @extend .row;
+}
+
+.homepage-virtual-worlds__world {
+  @extend .col-md-6;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+// .homepage-virtual-worlds__world-link {}
+
+.homepage-virtual-worlds__world-image {
+  @extend .img-fluid;
+  max-height: 240px;
+}

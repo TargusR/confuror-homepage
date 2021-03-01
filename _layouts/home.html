@@ -2,8 +2,6 @@
 layout: default
 ---
 
-<!-- {%- include components/greeting.html -%} -->
-
 <div class="home">
   <div class="home__wrapper">
     {%- if page.alert_message -%}
@@ -17,6 +15,12 @@ layout: default
     </div>
     {%- endif -%}
 
+    {% include components/homepage-cta-virtual.html %}
+
+    {% include components/homepage-cta.html %}
+
+    {% include components/homepage-virtual-worlds.html %}
+
     <div class="home__teaser">
       <div class="home__teaser-video">
         <iframe src="https://www.youtube.com/embed/6zadyz2wGXA" frameborder="0" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -27,8 +31,6 @@ layout: default
 
     <!--
     {# include components/guest-of-honor.html #}
-    
-    {# include components/home-cta.html #}
 
     {# include components/featured-artists.html #}
 

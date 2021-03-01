@@ -29,7 +29,7 @@ $(function() {
       $header.addClass('is-locked');
     } else {
       $header.removeClass('is-locked');
-      $header.addClass('is-shrinked');
+      // $header.addClass('is-shrinked');
     }
   }
 

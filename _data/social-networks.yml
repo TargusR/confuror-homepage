@@ -18,3 +18,13 @@
   weight: 2
   link: https://t.me/ConFurorOficialEng
   lang: [en]
+- label: Twitch
+  icon: twitch
+  weight: 3
+  link: https://www.twitch.tv/confuror
+  lang: [en, es]
+# - label: Picarto
+#   icon: picarto
+#   weight: 4
+#   link: https://picarto.tv/confuror
+#   lang: [en, es]

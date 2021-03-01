@@ -108,6 +108,11 @@ $title-text-size-correction:  0.8rem;
   font-size: $text-size-02;
 }
 
+.body-text-xs {
+  @extend .body-text;
+  font-size: $text-size-01;
+}
+
 .label-text {
   font-family: $font-main;
   font-size: $text-size-02;

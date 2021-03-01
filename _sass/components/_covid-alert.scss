@@ -1,0 +1,74 @@
+/////////////////////////////
+//  Covid-19 alert styles  //
+/////////////////////////////
+
+.covid-alert__wrapper {
+  background-color: $ll-red;
+  color: $ll-cream;
+  padding-top: $spacer-sm;
+  padding-bottom: $spacer-sm;
+}
+
+.covid-alert {
+  @extend .container;
+}
+
+.covid-alert__row {
+  @extend .row;
+}
+
+.covid-alert__main-col {
+  @extend .col-lg-3, .col-sm-12;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.covid-alert__body-col {
+  @extend .col-lg-6, .col-sm-8;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.covid-alert__cta-col {
+  @extend .col-lg-3, .col-sm-4;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.covid-alert__alert {
+  @extend .featured-text-sm;
+}
+
+.covid-alert__body {
+  @extend .body-text-xs;
+
+  a {
+    color: $ll-brown;
+  }
+
+  a:hover {
+    color: $ll-purple;
+  }
+}
+
+.covid-alert__cta {
+  @extend .cta-button-small;
+  white-space: unset;
+}
+
+@include media-breakpoint-down(md) {
+  .covid-alert__alert {
+    margin-bottom: $spacer-sm;
+  }
+}
+
+@include media-breakpoint-down(xs) {
+  .covid-alert__body {
+    margin-bottom: $spacer-sm;
+    padding-left: $spacer-sm;
+    padding-right: $spacer-sm;
+  }
+}

@@ -1,0 +1,20 @@
+{%- assign virtual-worlds = site.data.virtual-worlds[page.lang] -%}
+
+<div class="homepage-virtual-worlds__wrapper">
+  <div class="homepage-virtual-worlds">
+    <div class="homepage-virtual-worlds__header">
+      <h3 class="homepage-virtual-worlds__cta">
+        {{ virtual-worlds.cta }}
+      </h3>
+    </div>
+    <div class="homepage-virtual-worlds__worlds">
+      {%- for world in virtual-worlds.worlds -%}
+      <div class="homepage-virtual-worlds__world">
+        <a href="{{ world.link }}" class="homepage-virtual-worlds__world-link">
+          <img src="{{ world.image }}" alt="{{ world.name }}" class="homepage-virtual-worlds__world-image">
+        </a>
+      </div>
+      {%- endfor -%}
+    </div>
+  </div>
+</div>

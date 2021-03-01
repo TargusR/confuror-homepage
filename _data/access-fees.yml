@@ -3,8 +3,8 @@ general:
     es: General
     en: General
   description:
-    es: Obtén acceso a todas las actividades de Confuror 2020 durante el viernes, sábado y domingo, además de una copia de nuestro conbook y un kit de convención.
-    en: Attend every Confuror 2020 activities during friday, saturday and sunday, plus a copy of our Conbook and a convention kit.
+    es: Obtén acceso a todas las actividades de Confuror 2021 durante el viernes, sábado y domingo, además de una copia de nuestro conbook y un kit de convención.
+    en: Attend every Confuror 2021 activities during friday, saturday and sunday, plus a copy of our Conbook and a convention kit.
   content:
     es:
       - Acceso general al evento por 3 días
@@ -31,22 +31,22 @@ sponsor:
     es: Sponsor
     en: Sponsor
   description:
-    es: Ayudanos a realizar Confuror 2020 aportando un poco más por tu acceso y obtén a cambio beneficios adicionales, además de algunos souvenirs.
-    en: Become a patron for Confuror 2020 and get extra benefits and souvenirs with this membership.
+    es: Ayudanos a realizar Confuror 2021 aportando un poco más por tu acceso y obtén a cambio beneficios adicionales, además de algunos souvenirs.
+    en: Become a patron for Confuror 2021 and get extra benefits and souvenirs with this membership.
   content:
     es:
       - Todo lo incluido en entrada General
       - Reconocimiento por su patrocinio al evento
       - Acceso anticipado al área de ventas
       - Registro exprés
-      - Playera oficial de Confuror 2020
+      - Playera oficial de Confuror 2021
       - Regalos exclusivos para Sponsor
     en:
       - Everything included in General membership
       - Credits for sponsorship
       - Early access to vendors room
       - Express Check-in
-      - Confuror 2020 Official shirt
+      - Confuror 2021 Official shirt
       - Exclusive gifts for Sponsors
   prices:
     current:
@@ -69,12 +69,12 @@ super_sponsor:
     es:
       - Todo lo incluido en entrada Sponsor
       - Cena VIP Meet & Greet para Super Sponsor
-      - Sudadera oficial Confuror 2020
+      - Sudadera oficial Confuror 2021
       - Regalos exclusivos para Super Sponsor
     en:
       - Everything included in Sponsor membership
       - VIP Super Sponsor Meet & Greet dinner
-      - Confuror 2020 official hoodie
+      - Confuror 2021 official hoodie
       - Exclusive gifts for Super Sponsors
   prices:
     current:

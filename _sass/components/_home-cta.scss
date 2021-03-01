@@ -4,57 +4,102 @@
 
 
 .home-cta__wrapper {
-  background: linear-gradient(to top, $mm-purple, $mm-purple-dark);
+  @extend .bg-light;
+  position: relative;
+  border-top: $spacer-sm * 2 solid $ll-yellow;
+  border-bottom: $spacer-sm * 2 solid $ll-yellow;
+
+  &:before,
+  &:after {
+    content: "";
+    display: solid;
+    position: absolute;
+    width: 100%;
+    height: $spacer-md;
+    background-image: url("/assets/ui/separator_yellow.png");
+    background-position: center;
+    background-repeat: repeat-x;
+  }
+
+  &:before {
+    top: 0;
+  }
+
+  &:after {
+    bottom: 0;
+  }
 }
 
 .home-cta {
   @extend .container;
-  padding-top: 60px;
-  padding-bottom: 60px;
+  padding-top: $spacer-xl;
+  padding-bottom: $spacer-xl;
 }
 
-.home-cta__inner-wrapper {
+.home-cta__items-wrapper {
   @extend .row;
 }
 
-.home-cta__indicator-column {
+.home-cta__item {
   @extend .col-md-4;
+  text-align: center;
 }
 
-.home-cta__text-column {
-  @extend .col-md-8;
-  display: flex;
-  align-items: center;
-  
+.home-cta__header {
+  margin-bottom: $spacer-xs;
+  min-height: 70px;
 }
 
-.home-cta__picture {
-  width: 100%;
-  border-radius: 40px;
-  border: 6px solid $mm-yellow-light;
-  overflow: hidden;
+.home-cta__title {
+  @extend .title-sm, .text-primary;
+  margin: unset;
+  line-height: 0.8em;
 }
 
-.home-cta__picture-img {
-  @extend .img-fluid;
+.home-cta__body {
+  padding: 0 $spacer-sm;
+  min-height: 120px;
 }
 
-.home-cta__text-block {
-  @extend .text-light;
-  padding: 0 60px;
+.home-cta__footer {
+  margin-top: $spacer-sm;
+}
 
-  h3 {
-    margin-bottom: 1em;
-  }
+.home-cta__button {
+  @extend .cta-button-small;
+}
 
-  .cta-link {
-    @extend .btn, .btn-success, .btn-sm;
+@include media-breakpoint-down(md) {
+  .home-cta__body {
+    padding: 0;
   }
 }
 
 @include media-breakpoint-down(sm) {
-  .home-cta__indicator-column,
-  .home-cta__text-column {
-    margin-bottom: 30px;
+  .home-cta {
+    padding-top: $spacer-lg;
+    padding-bottom: $spacer-lg;
+  }
+
+  .home-cta__item {
+    margin-bottom: $spacer-lg;
+
+    &:last-child {
+      margin-bottom: unset;
+    }
+  }
+
+  .home-cta__header {
+    margin-bottom: $spacer-md;
+    min-height: unset;
+  }
+
+  .home-cta__body {
+    padding: 0 $spacer-lg;
+    min-height: unset;
+  }
+
+  .home-cta__footer {
+    margin-top: $spacer-md;
   }
 }

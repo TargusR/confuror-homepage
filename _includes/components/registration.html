@@ -42,7 +42,10 @@
   text=registration_data.register_now_label
   url=registration_data.form_link
   disabled=false
+  targetBlank=true
 %}
+
+<hr>
 
 <h4>{{ registration_data.upgrade_subtitle }}</h4>
 
@@ -57,4 +60,38 @@
   text=registration_data.upgrade_link_label
   url=registration_data.upgrade_link_url
   disabled=false
+  targetBlank=true
 %}
+
+<hr>
+
+<h4>{{ registration_data.vendor_subtitle }}</h4>
+
+<ol class="registration__step-list">
+  {%- for step in registration_data.vendor_steps -%}
+  <li class="registration__step-item">{{ step }}</li>
+  {%- endfor -%}
+</ol>
+
+<div class="container-overflow">
+  <div class="row">
+    <div class="col-md-6">
+      {%
+        include {{ site.formats.cta_button }}
+        text=registration_data.vendor_registered_link_label
+        url=registration_data.vendor_registered_link_url
+        disabled=false
+        targetBlank=true
+      %}
+    </div>
+    <div class="col-md-6">
+      {%
+        include {{ site.formats.cta_button }}
+        text=registration_data.vendor_unregistered_link_label
+        url=registration_data.vendor_unregistered_link_url
+        disabled=false
+        targetBlank=true
+      %}
+    </div>
+  </div>
+</div>
