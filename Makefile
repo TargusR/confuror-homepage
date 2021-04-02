@@ -53,6 +53,9 @@ build: install include-yarn-deps
 serve: install include-yarn-deps
 	$(JEKYLL) serve
 
+watch: install include-yarn-deps
+	$(JEKYLL) build -w
+
 sync:
 	rsync -e "ssh -i ~/.ssh/confuror/aws-targus-20181118.pem" -avz _site/ targus@confuror.org:/var/www/html
 
