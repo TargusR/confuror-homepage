@@ -13,8 +13,11 @@
 // Bootstrap
 @import "bootstrap/scss/bootstrap";
 // Fontawesome
-$fa-font-path: "/assets/vendor/fontawesome/fonts" !default;
-@import "font-awesome/scss/font-awesome";
+$fa-font-path: "/assets/vendor/fontawesome/webfonts" !default;
+@import "@fortawesome/fontawesome-free/scss/fontawesome";
+@import "@fortawesome/fontawesome-free/scss/brands";
+@import "@fortawesome/fontawesome-free/scss/regular";
+@import "@fortawesome/fontawesome-free/scss/solid";
 // Flag Icons
 $flag-icon-css-path: "/assets/vendor/flag-icon-css/flags" !default;
 @import "flag-icon-css/sass/flag-icon";
@@ -23,6 +26,7 @@ $flag-icon-css-path: "/assets/vendor/flag-icon-css/flags" !default;
 // User defined mixins
 @import "mixins/position";
 @import "mixins/theming";
+@import "mixins/animations";
 
 // Global styles
 @import "global/main-styles";
@@ -37,7 +41,9 @@ $flag-icon-css-path: "/assets/vendor/flag-icon-css/flags" !default;
 
 // Project layouts
 @import "layout/page";
+@import "layout/post";
 @import "layout/document-index";
+@import "layout/blog-mainpage";
 
 // Project components
 @import "components/header";
@@ -50,6 +56,7 @@ $flag-icon-css-path: "/assets/vendor/flag-icon-css/flags" !default;
 @import "components/social-network";
 @import "components/full-index";
 @import "components/homepage";
+@import "components/blog-full-index";
 // @import "components/guest-of-honor";
 // @import "components/featured-artists";
 // @import "components/featured-videos";

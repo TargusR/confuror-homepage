@@ -10,5 +10,3 @@ $fontPath: '/assets/fonts/';
 @include fontFace('Open Sans', $fontPath, 'OpenSans-RegularItalic', 400, italic);
 @include fontFace('Open Sans', $fontPath, 'OpenSans-ExtraBold', 800, normal);
 @include fontFace('Open Sans', $fontPath, 'OpenSans-ExtraBoldItalic', 800, italic);
-@include fontFace('Woodstamp', $fontPath, 'WoodStamp', 400, normal);
-@include fontFace('Woodstamp', $fontPath, 'WoodStamp', 400, italic);
