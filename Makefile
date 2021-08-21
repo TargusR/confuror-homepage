@@ -37,7 +37,7 @@ include-yarn-deps:
 	mkdir -p $(VENDOR_DIR)/bootstrap
 	cp $(NODE_MODULES)/bootstrap/dist/js/bootstrap.min.js $(VENDOR_DIR)/bootstrap
 	mkdir -p $(VENDOR_DIR)/fontawesome
-	cp -r $(NODE_MODULES)/font-awesome/fonts $(VENDOR_DIR)/fontawesome
+	cp -r $(NODE_MODULES)/@fortawesome/fontawesome-free/webfonts $(VENDOR_DIR)/fontawesome
 	mkdir -p $(VENDOR_DIR)/flag-icon-css
 	cp -r $(NODE_MODULES)/flag-icon-css/flags $(VENDOR_DIR)/flag-icon-css/
 	mkdir -p $(VENDOR_DIR)/slick
