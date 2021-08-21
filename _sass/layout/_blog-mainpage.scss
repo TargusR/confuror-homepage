@@ -1,0 +1,54 @@
+////////////////////////////
+//  Blog mainpage layout  //
+////////////////////////////
+
+.blog {
+  @extend .container;
+}
+
+.blog__wrapper {
+  padding-top: $spacer-xl;
+  padding-bottom: $spacer-xxl;
+}
+
+.blog__header {
+  @extend .row;
+  align-items: center;
+  margin-bottom: $spacer-xl;
+}
+
+.blog__header-icon-column {
+  @extend .col-sm-3;
+}
+
+.blog__header-content-column {
+  @extend .col-sm-9;
+}
+
+.blog__header-icon {
+  font-size: $text-size-07 * 1.5;
+  color: $dm-night;
+  text-align: center;
+}
+
+.blog__title {
+  &, * {
+    @extend .title-md;
+    color: $dm-night;
+    margin: 0;
+    line-height: initial;
+  }
+}
+
+.blog__description {
+  &, * {
+    @extend .featured-text-sm;
+    color: $dm-orange;
+    margin: 0;
+    line-height: initial;
+  }
+}
+
+.blog__content {
+  @extend .cfr-text-formatted;
+}

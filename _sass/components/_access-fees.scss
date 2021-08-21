@@ -15,37 +15,36 @@
 
 .access-fees__fee {
   @extend .col-md-6;
-  margin-bottom: $spacer-lg;
+  margin-bottom: $spacer-lg + 100px;
 }
 
 .access-fees__fee-header {
-  border-top-left-radius: $spacer-xs;
-  border-top-right-radius: $spacer-xs;
-  background-color: $ll-yellow;
   padding: $spacer-xs;
+  background-color: $dm-pink;
+  border: $spacer-xs dotted $dm-light;
+  outline: $spacer-xs solid $dm-pink;
   text-align: center;
 }
 
 .access-fees__fee-name {
-  @extend .title-md, .text-primary;
+  @extend .title-md;
   display: block;
-  color: $primary;
-  // margin-right: $spacer-sm;
+  color: $dm-light;
 }
 
 .access-fees__fee-stars {
-  @extend .featured-text-sm, .text-secondary;
-  // display: inline-block;
+  @extend .featured-text-sm;
+  color: $dm-light;
+  display: inline-block;
 }
 
 .access-fees__fee-body {
   @extend .text-light;
-  background-color: $ll-purple;
+  width: 95%;
   padding: $spacer-sm;
-  border-bottom-left-radius: $spacer-xs;
-  border-bottom-right-radius: $spacer-xs;
-  margin-top: $spacer-xs;
-  margin-bottom: $spacer-xs;
+  margin: $spacer-xs auto;
+  margin-top: 0;
+  background-color: $dm-night;
 }
 
 .access-fees__fee-description {
@@ -58,12 +57,27 @@
 }
 
 .access-fees__fee-footer {
-  padding: $spacer-sm;
-  background-color: $ll-cream;
-  border: 4px dashed $ll-brown;
-  border-radius: $spacer-lg;
-  transform: rotate(-5deg) translateY(-10px);
+  width: 95%;
+  margin: auto;
+  padding: $spacer-xs;
+  background-color: $dm-blue;
+  border: $spacer-xxs dotted $dm-light;
+  outline: $spacer-xs solid $dm-blue;
   text-align: center;
+  position: relative;
+
+  &:before {
+    content: "";
+    display: solid;
+    position: absolute;
+    width: 100%;
+    height: 100px;
+    background-position: center;
+    background-repeat: repeat-x;
+    left: 0;
+    bottom: -100px - $spacer-xs - $spacer-xxs;
+    background-image: url("/assets/ui/separador_picado_azul_oscuro.png");
+  }
 }
 
 .access-fees__fee-from {
@@ -75,17 +89,17 @@
 .access-fees__fee-to {
   @extend .featured-text-sm;
   display: block;
-  color: $ll-brown;
+  color: $dm-dark;
 }
 
 .access-fees__fee-date {
   @extend .tag-text;
-  color: $ll-blue;
+  color: $dm-night;
 }
 
 // .access-fees__fee--general {
 //   .access-fees__fee-body {
-//     border-top: 6px $ll-blue solid;
+//     border-top: 6px $dm-night solid;
 //   }
 // }
 
@@ -93,13 +107,13 @@
 
 // .access-fees__fee--sponsor {
 //   .access-fees__fee-body {
-//     border-top: 6px $ll-peach solid;
+//     border-top: 6px $dm-yellow solid;
 //   }
 // }
 
 // .access-fees__fee--super-sponsor {
 //   .access-fees__fee-body {
-//     border-top: 6px $ll-red solid;
+//     border-top: 6px $dm-orange solid;
 //   }
 // }
 

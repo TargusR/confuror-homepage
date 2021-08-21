@@ -3,7 +3,20 @@
 ////////////////////////////
 
 .support-strip__wrapper {
-  background-color: $ll-blue;
+  background-color: $dm-night;
+  position: relative;
+
+  &:before {
+    content: "";
+    display: solid;
+    position: absolute;
+    width: 100%;
+    height: 100px;
+    background-position: center;
+    background-repeat: repeat-x;
+    bottom: -100px;
+    background-image: url("/assets/ui/separador_picado_azul_oscuro.png"), linear-gradient(to bottom, $dm-dark, transparent);
+  }
 }
 
 .support-strip {
@@ -22,7 +35,7 @@
   max-width: max-content;
 
   i {
-    color: $ll-red;
+    color: $cf-red;
     font-size: $text-size-04;
   }
 }
@@ -32,7 +45,7 @@
 
   span {
     @extend .tag-text;
-    color: $ll-cream;
+    color: $dm-light;
   }
 }
 
@@ -45,7 +58,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: theme-color-level('primary', 5);
+    background-color: $cf-red;
+    outline-color: $cf-red;
     padding: $spacer-xs $spacer-sm;
     font-size: $text-size-01;
   }

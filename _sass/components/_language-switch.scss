@@ -27,10 +27,9 @@
 .language-switch__list {
   @extend .nav;
   overflow: hidden;
-  border: 1px solid rgba($ll-cream, 0.2);
-  border-top-color: $ll-cream;
-  border-right: 0;
-  background: linear-gradient(to bottom, $ll-blue, $ll-purple);
+  border: 0;
+  border-top: 2px solid rgba($dm-light, 0.4);
+  background-color: $dm-dark;
   padding: $spacer-sm * 2;
 }
 

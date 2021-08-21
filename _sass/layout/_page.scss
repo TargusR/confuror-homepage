@@ -13,6 +13,7 @@
 
   .container-overflow {
     @extend .wrapper-responsive-overflow-margin;
+    margin-bottom: $spacer-md;
   }
 }
 
@@ -23,18 +24,14 @@
 .page__title {
   &, * {
     @extend .title-lg;
-    color: $ll-blue;
-    margin: 0;
-    line-height: initial;
+    color: $dm-night;
   }
 }
 
 .page__description {
   &, * {
     @extend .title-sm;
-    color: $ll-red;
-    margin: 0;
-    line-height: initial;
+    color: $dm-orange;
   }
 }
 

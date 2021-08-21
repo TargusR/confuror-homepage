@@ -1,0 +1,54 @@
+///////////////////////
+//  Blog full index  //
+///////////////////////
+
+.blog-full-index {
+    @extend .container-fluid;
+}
+
+.blog-full-index__board {
+    @extend .row;
+}
+
+.blog-full-index__board-segment {
+    padding-bottom: $spacer-md;
+}
+
+.blog-full-index__board-segment--large {
+    @extend .col-12;
+}
+
+.blog-full-index__board-segment--short {
+    @extend .col-md-4, .col-sm-6;
+}
+
+.blog-full-index__card {
+    padding: $spacer-md;
+    background-color: $secondary;
+    color: $primary;
+}
+
+.blog-full-index__card-title {
+    @extend .title-sm;
+    color: $dm-blue;
+}
+
+.blog-full-index__card-date {
+    @extend .label-text;
+    margin-top: $spacer-xs * 2;
+}
+
+.blog-full-index__card-body {
+    margin-top: $spacer-xs * 2;
+    color: $dm-light;
+}
+
+.blog-full-index__card-cta {
+    @extend .tag-text;
+    text-align: right;
+    font-style: italic;
+}
+
+.blog-full-index__card--featured {
+    padding: $spacer-md;
+}

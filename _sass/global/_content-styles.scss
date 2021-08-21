@@ -19,14 +19,19 @@
         margin-bottom: 1em;
     }
 
-    h2, h3 {
+    h2 {
+        @extend .title-md;
+        color: $dm-orange;
+    }
+
+    h3 {
         @extend .title-sm;
-        color: $ll-red;
+        color: $dm-orange;
     }
     
     h4, h5, h6 {
         @extend .featured-text-sm;
-        color: $ll-blue;
+        color: $dm-night;
     }
 
     p {
@@ -45,14 +50,11 @@
     blockquote {
         margin-left: 3em;
         padding-left: 1em;
-        border-left: 10px solid $ll-blue;
+        border-left: 10px solid $dm-night;
     }
 
     li {
-        line-height: 1.6em;
-        letter-spacing: 0.04em;
-        padding-left: 1em;
-        margin-bottom: 1em;
+        padding-left: 0.5em;
     }
 
     .featured {

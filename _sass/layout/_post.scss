@@ -1,0 +1,122 @@
+///////////////////
+//  post layout  //
+///////////////////
+
+.post {
+  @extend .container;
+}
+
+.post__wrapper {
+  @extend .row;
+  padding-top: $spacer-xl;
+  padding-bottom: $spacer-xxl;
+}
+
+.post__content-column {
+  @extend .col-lg-9, .wrapper-responsive-padding--sm;
+
+  .container-overflow {
+    @extend .wrapper-responsive-overflow-margin--sm;
+    margin-bottom: $spacer-md;
+  }
+}
+
+.post__index-column {
+  @extend .col-lg-3;
+
+  .latest-news {
+    .post-idex__header {
+      background-color: $secondary;
+      padding: $spacer-xs * 2;
+      margin-bottom: $spacer-sm;
+    }
+
+    .post-idex__title {
+      @extend .title-sm;
+      color: $dm-light;
+      margin: 0;
+    }
+
+    .latest-news__list {
+      padding-left: 2em;
+    }
+
+    .latest-news__post-item {
+      margin-bottom: $spacer-xs;
+    }
+    
+    .latest-news__footer {
+      margin-top: $spacer-sm;
+      padding-top: $spacer-xs * 2;
+      border-top: 2px dotted $secondary;
+    }
+
+    .latest-news__return-link {
+      @extend .tag-text;
+      display: block;
+      text-align: center;
+    }
+  }
+}
+
+.post__header {
+  margin-bottom: $spacer-lg;
+}
+
+.post__title {
+  &, * {
+    @extend .title-md;
+    color: $dm-night;
+    line-height: initial;
+  }
+}
+
+.post__description {
+  &, * {
+    @extend .featured-text-sm;
+    color: $dm-orange;
+    line-height: initial;
+  }
+}
+
+.post__body {}
+
+.post__date {
+  margin-bottom: $spacer-sm;
+}
+
+.post__content {
+  @extend .cfr-text-formatted;
+}
+
+.post__footer {
+  margin-top: $spacer-md;
+  padding-top: $spacer-xs * 2;
+  border-top: 2px dashed $dark;
+}
+
+.post__next-prev {
+  @extend .row;
+  
+  .post__prev,
+  .post__next {
+    @extend .col-md-6;
+  }
+
+  .post__prev-link,
+  .post__next-link {
+    display: flex;
+    padding: $spacer-xs * 2;
+    background-color: rgba($secondary, 0);
+    transition: background-color 0.4s, color 0.2s;
+
+    &:hover {
+      background-color: rgba($secondary, 0.9);
+      color: $primary;
+    }
+  }
+
+  .post__next-prev-link-label {
+    padding: 0 $spacer-xs;
+  }
+}

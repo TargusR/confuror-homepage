@@ -12,11 +12,11 @@
 
 .header__brand-row {
   @extend .row;
-  background-color: theme-color('primary');
-  background-image: url("/assets/ui/header_bg.svg"), linear-gradient(to right, $ll-blue 50%, $ll-brown 50%);
+  background-color: theme-color('secondary');
+  background-image: url("/assets/ui/adorno_DiaDeMuertos.png"), radial-gradient(circle, $dm-dark, transparent), url("/assets/ui/fondo_DiaDeMuertos.png"), linear-gradient(to right, $dm-night, $dm-dark 70%, $dm-night);
   background-position: center;
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: contain, cover, cover, cover;
   height: 180px;
   transition: transform 0.3s;
 }
@@ -24,7 +24,7 @@
 .header__navigation-row {
   @extend .row;
   min-height: 50px;
-  background-color: $ll-red;
+  background: linear-gradient(to bottom, $dm-yellow, $dm-orange);
   transition: transform 0.3s;
 }
 
@@ -84,6 +84,10 @@
   @extend .text-light;
   text-align: right;
   margin-right: $spacer-sm;
+
+  span {
+    text-shadow: 0 1px 3px $dm-night;
+  }
 }
 
 .edition-info__place {
@@ -100,17 +104,17 @@
 
 
 // Responsive
-@include media-breakpoint-up(lg) {
-  .header__brand-row {
-    background-size: 100% 250px;
-  }
-}
+// @include media-breakpoint-up(lg) {
+//   .header__brand-row {
+//     background-size: 100% 250px;
+//   }
+// }
 
-@include media-breakpoint-up(xl) {
-  .header__brand-row {
-    background-size: 100% 400px;
-  }
-}
+// @include media-breakpoint-up(xl) {
+//   .header__brand-row {
+//     background-size: 100% 400px;
+//   }
+// }
 
 @include media-breakpoint-down(md) {
   .header.is-shrinked {

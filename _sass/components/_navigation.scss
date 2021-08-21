@@ -10,6 +10,7 @@
   @extend .navbar, .no-gutters, .navbar-expand-lg;
   height: 100%;
   position: relative;
+  @include addShadow();
 }
 
 .navigation__home {
@@ -18,7 +19,7 @@
   position: absolute;
   left: 0;
   top: 0;
-  background-color: $ll-blue;
+  background-color: $dm-night;
   transform: translateX(-$spacer-lg);
   transition: transform 0.3s;
 }
@@ -59,7 +60,7 @@
   position: absolute;
   right: 0;
   top: 0;
-  background-color: $ll-blue;
+  background: linear-gradient(to bottom, $dm-night, $dm-dark);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -94,10 +95,10 @@
 }
 
 .navigation__menu-link--featured {
-  color: $ll-peach;
+  color: $dm-bone;
   
   &:hover {
-    color: $ll-peach;
+    color: $dm-bone;
   }
 }
 

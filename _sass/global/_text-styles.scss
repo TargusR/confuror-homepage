@@ -15,20 +15,19 @@
 
 .title {
   font-family: $font-display;
+  text-transform: uppercase;
 }
 
-$title-text-size-correction:  0.8rem;
+$title-text-size-correction:  0rem;
 
 .title-lg {
   @extend .title;
   font-size: $text-size-07 + $title-text-size-correction;
-  letter-spacing: 0.01em;
 }
 
 .title-md {
   @extend .title;
   font-size: $text-size-05 + $title-text-size-correction;
-  letter-spacing: 0.01em;
 }
 
 .title-sm {

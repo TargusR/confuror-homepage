@@ -4,10 +4,11 @@
 
 
 .home-cta__wrapper {
-  @extend .bg-light;
+  background-color: $dm-bone;
+  background: linear-gradient(to bottom, $dm-light, $dm-bone);
   position: relative;
-  border-top: $spacer-sm * 2 solid $ll-yellow;
-  border-bottom: $spacer-sm * 2 solid $ll-yellow;
+  border-top: $spacer-xs + $spacer-xxs solid $dm-blue;
+  border-bottom: $spacer-xs + $spacer-xxs solid $dm-pink;
 
   &:before,
   &:after {
@@ -15,25 +16,26 @@
     display: solid;
     position: absolute;
     width: 100%;
-    height: $spacer-md;
-    background-image: url("/assets/ui/separator_yellow.png");
+    height: 100px;
     background-position: center;
     background-repeat: repeat-x;
   }
 
   &:before {
     top: 0;
+    background-image: url("/assets/ui/separador_picado_azul.png");
   }
 
   &:after {
+    background-image: url("/assets/ui/separador_picado_invertido_rosa.png");
     bottom: 0;
   }
 }
 
 .home-cta {
   @extend .container;
-  padding-top: $spacer-xl;
-  padding-bottom: $spacer-xl;
+  padding-top: $spacer-xxl - $spacer-md;
+  padding-bottom: $spacer-xxl;
 }
 
 .home-cta__items-wrapper {
@@ -46,18 +48,22 @@
 }
 
 .home-cta__header {
-  margin-bottom: $spacer-xs;
+  margin-bottom: $spacer-md;
   min-height: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
 }
 
 .home-cta__title {
-  @extend .title-sm, .text-primary;
+  @extend .title-sm;
+  color: $dm-brown;
   margin: unset;
-  line-height: 0.8em;
 }
 
 .home-cta__body {
   padding: 0 $spacer-sm;
+  color: $dm-night;
   min-height: 120px;
 }
 

@@ -33,7 +33,7 @@
 
 .document-index__link.is-active {
   @extend .active, .rounded, .text-light;
-  background-color: $ll-blue;
+  background-color: $dm-night;
 }
 
 .document-index__content {
@@ -41,6 +41,7 @@
 
   .container-overflow {
     @extend .wrapper-responsive-overflow-margin--sm;
+    margin-bottom: $spacer-md;
   }
 }
 
@@ -51,7 +52,7 @@
 .document-index__title {
   &, * {
     @extend .title-lg;
-    color: $ll-blue;
+    color: $dm-night;
     margin: 0;
     line-height: initial;
   }
@@ -60,7 +61,7 @@
 .document-index__description {
   &, * {
     @extend .title-sm;
-    color: $ll-red;
+    color: $dm-orange;
     margin: 0;
     line-height: initial;
   }
