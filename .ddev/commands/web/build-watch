@@ -1,3 +1,3 @@
 #!/bin/bash
 
-make -C /var/www/html build
+make -C /var/www/html watch
