@@ -24,8 +24,8 @@ general:
       es: $929 mxn
       en: $50 usd
     date:
-      es: Hasta Junio 30
-      en: Until June 30
+      es: Por tiempo limitado
+      en: For a limited time
 sponsor:
   label:
     es: Sponsor
@@ -56,8 +56,8 @@ sponsor:
       es: $1,649 mxn
       en: $88 usd
     date:
-      es: Hasta Junio 30
-      en: Until June 30
+      es: Por tiempo limitado
+      en: For a limited time
 super_sponsor:
   label:
     es: Super Sponsor
@@ -84,8 +84,8 @@ super_sponsor:
       es: $2,159 mxn
       en: $115 usd
     date:
-      es: Hasta Junio 30
-      en: Until June 30
+      es: Por tiempo limitado
+      en: For a limited time
 club_pass:
   label:
     es: Club Pass

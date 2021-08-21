@@ -9,19 +9,19 @@
     en: "Particpate"
     es: "Participar"
   weight: 1
-  hidden: true
+  hidden: false
 - id: cat_contents
   label:
     en: "Contents"
     es: "Contenidos"
   weight: 2
-  hidden: false
+  hidden: true
 - id: cat_vendors
   label:
     en: "Artists & Dealers"
     es: "Artistas y Vendedores"
   weight: 3
-  hidden: false
+  hidden: true
 - id: cat_about
   label:
     en: "About"

@@ -1,29 +1,39 @@
 es:
-  # - title: Covid-19
-  #   body: >-
-  #     Actualízate sobre los últimos detalles de Confuror 2020 con respecto a la situación sanitaria del COVID-19
-  #   link_label: Ver más
-  #   link_url: /es/covid-19
   # - title: Únete al fursuit parade
   #   body: >-
   #     Sube tu video y participa en el fursuit parade de Confuror virtual. Tienes hasta el 5 de Octubre para hacerlo.
   #   link_label: Ver más
   #   link_url: /es/actividades/fursuit-parade
-  - title: Descarga el Conbook Digital
+  # - title: Descarga el Conbook Digital
+  #   body: >-
+  #     Descarga el Conbook digital y ten a la mano toda la información que necesitas para Confuror Virtual 2020
+  #   link_label: Ver más
+  #   link_url: /es/conbook
+  # - title: ¡Regístrate hoy!
+  #   body: >-
+  #     Regístrate para asistir a Confuror 2021. Aprovecha las tarifas que congelamos de la primera etapa de preventa de 2020.
+  #   link_label: Ver más
+  #   link_url: /es/registro
+  - title: Únete al concurso de baile
     body: >-
-      Descarga el Conbook digital y ten a la mano toda la información que necesitas para Confuror Virtual 2020
+      Sube tu video y participa en el concurso de Baile de Confuror Online 2021. Tienes hasta el 4 de Octubre para hacerlo.
     link_label: Ver más
-    link_url: /es/conbook
-  - title: ¡Regístrate hoy!
+    link_url: /es/actividades/fursuit-dance
+  - title: Registro suspendido
     body: >-
-      Regístrate para asistir a Confuror 2021. Aprovecha las tarifas que congelamos de la primera etapa de preventa de 2020.
-    link_label: Ver más
-    link_url: /es/registro
-  - title: Galería Virtual
+      Debido a las circunstancias de la pandemia, hemos suspendido temporalmente el registro y movido el evento presencial a 2022.
+    link_label: Entérate más
+    link_url: /es/blog/2021-07-09-registro-suspendido/
+  - title: ¡Últimas noticias!
     body: >-
-      Participa enviando tus mejores obras y date a conocer en la comunidad.
-    link_label: Ver más
-    link_url: /es/galeria-virtual
+      Conoce las últimas novedades sobre la convención y su desarrollo.
+    link_label: Checa nuestro blog
+    link_url: /es/blog
+  # - title: Galería Virtual
+  #   body: >-
+  #     Participa enviando tus mejores obras y date a conocer en la comunidad.
+  #   link_label: Ver más
+  #   link_url: /es/galeria-virtual
   # - title: Artistas y Vendedores
   #   body: >-
   #     ¿Quieres participar como Artista o Vendedor en Confuror 2021? Conoce más detalles sobre nuestras convocatorias aquí.
@@ -34,37 +44,42 @@ es:
   #     Inscribe tu panel o actividad para la edición Virtual de Confuror 2020. Tienes hasta el 26 de Septiembre.
   #   link_label: Ver más
   #   link_url: /es/actividades/paneles
-  # - title: Únete al concurso de baile
-  #   body: >-
-  #     Sube tu video y participa en el concurso de Baile de Confuror virtual. Tienes hasta el 5 de Octubre para hacerlo.
-  #   link_label: Ver más
-  #   link_url: /es/actividades/fursuit-dance
 en:
-  # - title: Covid-19
-  #   body: >-
-  #     Stay up to date on the latest details from Confuror 2020 regarding the COVID-19 sanitary situation
-  #   link_label: Read more
-  #   link_url: /en/covid-19
   # - title: Join the Fursuit Parade
   #   body: >-
   #     Send your video and join us at our Virtual Fursuit parade.  You have until October 5th, hurry up!
   #   link_label: Read more
   #   link_url: /en/activities/fursuit-parade
-  - title: Download the Digital Conbook
+  # - title: Download the Digital Conbook
+  #   body: >-
+  #     Download the Digital Conbook and get all the information you need for Confuror 2020 Virtual Edition
+  #   link_label: Read more
+  #   link_url: /en/conbook
+  # - title: Get registered today!
+  #   body: >-
+  #     Online pre-registration for Confuror 2021 is open. Save on your membership with our freezed fees from the first 2020 pre-sale stage.
+  #   link_label: Read more
+  #   link_url: /en/registration
+  - title: Join the Dance Competition!
     body: >-
-      Download the Digital Conbook and get all the information you need for Confuror 2020 Virtual Edition
+      Submit your video and join us at our Online Dance Competition. You have until October 4th, hurry up!
     link_label: Read more
-    link_url: /en/conbook
-  - title: Get registered today!
+    link_url: /en/activities/fursuit-dance
+  - title: Registration Suspended
     body: >-
-      Online pre-registration for Confuror 2021 is open. Save on your membership with our freezed fees from the first 2020 pre-sale stage.
+      Due to the circumstances of the pandemic, we have temporarily suspended registration and moved the in-person event to 2022.
     link_label: Read more
-    link_url: /en/registration
-  - title: Virtual Gallery
+    link_url: /en/blog/2021-07-09-registration-suspended/
+  - title: Latest news!
     body: >-
-      Join the Virtual gallery by sending your best work and make yourself known in the community.
-    link_label: Read more
-    link_url: /en/virtual-gallery
+      Find out the latest news about the convention and its development.
+    link_label: Check our blog
+    link_url: /en/blog
+  # - title: Virtual Gallery
+  #   body: >-
+  #     Join the Virtual gallery by sending your best work and make yourself known in the community.
+  #   link_label: Read more
+  #   link_url: /en/virtual-gallery
   # - title: Artists & Dealers
   #   body: >-
   #     Do you want to attend Confuror 2021 as an Artist or Dealer? Find out more details here.
@@ -75,8 +90,3 @@ en:
   #     Register your panel or activities for Confuror 2020 Virtual Edition before september 26
   #   link_label: Read more
   #   link_url: /en/activities/panels
-  # - title: Join the Dance Competition
-  #   body: >-
-  #     Submit your video and join us at our Virtual Dance Competition. You have until October 5th, hurry up!
-  #   link_label: Read more
-  #   link_url: /en/activities/fursuit-dance
