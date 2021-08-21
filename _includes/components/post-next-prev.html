@@ -1,0 +1,26 @@
+{%- assign posts = site.posts | where: "lang", page.lang | sort: "date" -%}
+
+<div class="post__next-prev">
+  {% for post in posts %}
+    {% if post.name == page.name %}
+      {% assign prev = forloop.index0 | minus: 1 %}
+      {% assign next = forloop.index0 | plus: 1 %}
+      <div class="post__prev">
+        {% if prev >= 0 %}
+        <a href="{{ posts[prev].url }}" class="post__prev-link">
+          <span class="post__next-prev-link-icon"><i class="fas fa-arrow-left"></i></span>
+          <span class="post__next-prev-link-label">{{ posts[prev].title }}</span>
+        </a>
+        {% endif %}
+      </div>
+      <div class="post__next">
+        {% if posts[next] %}
+        <a href="{{ posts[next].url }}" class="post__next-link">
+          <span class="post__next-prev-link-icon">{{ posts[next].title }}</span>
+          <span class="post__next-prev-link-label"><i class="fas fa-arrow-right"></i></span>
+        </a>
+        {% endif %}
+      </div>
+    {% endif %}
+  {% endfor %}
+</div>

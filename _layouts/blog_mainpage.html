@@ -1,0 +1,45 @@
+---
+layout: default
+---
+
+<div class="blog">
+  <div class="blog__wrapper">
+    {%- if page.alert_message -%}
+    <div class="blog__alerts">
+      {%-
+        include components/alert.html
+        mode=page.alert_mode
+        heading=page.alert_heading
+        message=page.alert_message
+      -%}
+    </div>
+    {%- endif -%}
+    <div class="blog__header">
+      <div class="blog__header-icon-column">
+        <div class="blog__header-icon">
+          <i class="far fa-newspaper"></i>
+        </div>
+      </div>
+      <div class="blog__header-content-column">
+        {%- if page.title -%}
+        <div class="blog__title">
+          <h1>{{ page.title | escape }}</h1>
+        </div>
+        {%- endif -%}
+        {%- if page.description -%}
+        <div class="blog__description">
+          <span>{{ page.description | escape }}</span>
+        </div>
+        {%- endif -%}
+      </div>
+    </div>
+    <div class="blog__content">
+      <div class="blog__index">
+        {% include components/blog-full-index.html %}
+      </div>
+      <div class="blog__notes">
+        {{ content }}
+      </div>
+    </div>
+  </div>
+</div>

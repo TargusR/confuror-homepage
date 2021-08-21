@@ -1,5 +1,10 @@
 {%- assign languages = site.data.languages -%}
-{%- assign eq_pages = site.pages | where: "name", page.name -%}
+
+{%- if page.layout == "post" -%}
+  {%- assign eq_pages = site.posts | where: "name", page.name -%}
+{%- else -%}
+  {%- assign eq_pages = site.pages | where: "name", page.name -%}
+{%- endif -%}
 
 <div class="language-switch">
   <div class="language-switch__button" data-toggle="collapse" data-target="#language-switch-float" aria-expanded="false" aria-controls="language-switch-list">

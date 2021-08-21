@@ -5,7 +5,7 @@ layout: default
 <div class="home">
   <div class="home__wrapper">
     {%- if page.alert_message -%}
-    <div class="page__alerts">
+    <div class="home__alerts">
       {%-
         include components/alert.html
         mode=page.alert_mode
@@ -19,6 +19,7 @@ layout: default
 
     {% include components/homepage-cta.html %}
 
+    <!--
     {% include components/homepage-virtual-worlds.html %}
 
     <div class="home__teaser">
@@ -26,6 +27,7 @@ layout: default
         <iframe src="https://www.youtube.com/embed/6zadyz2wGXA" frameborder="0" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
       </div>
     </div>
+    -->
 
     {{ content }}
 

@@ -1,0 +1,47 @@
+---
+layout: default
+---
+
+<article class="post">
+  <div class="post__wrapper">
+    <div class="post__content-column">
+      <header class="post__header">
+        {%- if page.title -%}
+        <div class="post__title">
+          <h1>{{ page.title | escape }}</h1>
+        </div>
+        {%- endif -%}
+        {%- if page.description -%}
+        <div class="post__description">
+          <span>{{ page.description | escape }}</span>
+        </div>
+        {%- endif -%}
+      </header>
+  
+      {%- if page.alert_message -%}
+      <div class="post__alerts">
+        {%-
+          include components/alert.html
+          mode=page.alert_mode
+          heading=page.alert_heading
+          message=page.alert_message
+        -%}
+      </div>
+      {%- endif -%}
+  
+      <div class="post__body">
+        <div class="post__date">Guadalajara, México. {{ page.date | date: "%D" }}</div>
+        <div class="post__content">
+          {{ content }}
+        </div>
+      </div>
+
+      <div class="post__footer">
+        {% include components/post-next-prev.html %}  
+      </div>
+    </div>
+    <div class="post__index-column">
+      {% include components/latest-news.html %}
+    </div>
+  </div>
+</article>

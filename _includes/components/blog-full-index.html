@@ -1,0 +1,37 @@
+{%- assign blog-full-index = site.data.blog-full-index[page.lang] -%}
+{%- assign posts = site.posts | where: "lang", page.lang -%}
+
+<div class="blog-full-index">
+    <div class="blog-full-index__board">
+        {% for post in posts %}
+        {% if forloop.index == 1 %}
+        <div class="blog-full-index__board-segment blog-full-index__board-segment--large">
+            <a class="blog-full-index__card-link" href="{{ post.url }}">
+                <div class="blog-full-index__card blog-full-index__card--featured">
+                    <div class="blog-full-index__card-header">
+                        <div class="blog-full-index__card-title">{{ post.title }}</div>
+                        <div class="blog-full-index__card-date">{{ post.date | date: "%D" }}</div>
+                    </div>
+                    <div class="blog-full-index__card-body">
+                        {{ post.description }}
+                    </div>
+                    <div class="blog-full-index__card-cta">{{ blog-full-index.more }}</div>
+                </div>
+            </a>
+        </div>
+        {% else %}
+        <div class="blog-full-index__board-segment blog-full-index__board-segment--short">
+            <a class="blog-full-index__card-link" href="{{ post.url }}">
+                <div class="blog-full-index__card">
+                    <div class="blog-full-index__card-header">
+                        <div class="blog-full-index__card-title">{{ post.title }}</div>
+                        <div class="blog-full-index__card-date">{{ post.date | date: "%D" }}</div>
+                    </div>
+                    <div class="blog-full-index__card-cta">{{ blog-full-index.more }}</div>
+                </div>
+            </a>
+        </div>
+        {% endif %}
+        {% endfor %}
+    </div>
+</div>
