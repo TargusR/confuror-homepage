@@ -8,7 +8,7 @@ label: About
 lang: en
 list_id: vendors_details
 list_weight: 0
-# banner_src: /images/banners/nueva_sede_banner_esp.png
+# banner_src: /assets/banners/nueva_sede_banner_esp.png
 # banner_alt: Nueva sede Confuror 2019
 category: cat_vendors
 category_weight: 0
@@ -19,7 +19,7 @@ category_weight: 0
 Choose your best option! [Artist Alley](/en/vendors_room/artist_alley) or [Dealers Den](/en/vendors_room/dealers_den) have different features to offer, for different artist or vendors; pick the one right for you.
 
 <!-- <div class="container text-center">
-<img src="/images/pictures/mapa_area_ventas.png" alt="Room map, Confuror 2019" class="img-fluid">
+<img src="/assets/images/mapa_area_ventas.png" alt="Room map, Confuror 2019" class="img-fluid">
 <span>Vendors Room map, Confuror 2019</span>
 </div>
 <br>
@@ -28,7 +28,7 @@ Choose your best option! [Artist Alley](/en/vendors_room/artist_alley) or [Deale
 
 We have invested a lot of effort in providing a much larger and more comfortable space for our Artist Alley and Dealers Den this year. Better ventilated, better lit and in better location.
 
-<div class="container text-center"><img src="/images/pictures/salon_stelaris_promo.png" alt="Stelaris Room - Fiesta Americana Guadalajara" class="img-fluid"></div>
+<div class="container text-center"><img src="/assets/images/salon_stelaris_promo.png" alt="Stelaris Room - Fiesta Americana Guadalajara" class="img-fluid"></div>
 <br>
 
 The Stelaris room at the Fiesta Americana Guadalajara Hotel is a historic place and this year our guest artists and guests of honor will accompany you in this great exhibition of talent in the Furry community. -->

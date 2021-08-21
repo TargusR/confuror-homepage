@@ -1,22 +1,22 @@
 ---
 layout: page
 name: reg
-title: Registro Confuror 2021
-label: Registro 2021
+title: Registro Confuror
+label: Registro 2022
 description: >-
-  Conoce aquí los detalles para registrarte y asistir a Confuror 2021
+  Próximamente aquí los detalles para registrarte y asistir a Confuror en 2022
 lang: es
 featured: true
 category: cat_attend
 category_weight: 1
-alert_heading: ¡Registrate ahora para Confuror 2021!
+alert_heading: ¡Registro temporalmente suspendido!
 alert_message: >-
-  <b>Comunicado Importante:</b> Debido a la Pandemia por Covid-19, nuestro evento presencial se pospuso a 2021. Confuror 2020 se realizará en línea de forma abierta y gratuita, pero puedes registrarte desde hoy a Confuror 2021, aprovechando los precios que teníamos durante nuestra primera etapa del pre-registro en línea durante el resto del 2020. Lee el comunicado completo <a href='http://www.confuror.org/es/covid-19/'>aquí</a>
+  <b>Comunicado Importante, 9 Julio 2021:</b> Debido a la Pandemia por Covid-19, el registro a Confuror se encuentra temporalmente suspendido. El evento presencial será llevado a cabo hasta Octubre 2022. Todos los registros activos del 2020 y 2021 serán válidos en 2022. Lee el comunicado completo sobre Covid-19 para conocer los detalles más actualizados con respecto al evento <a href='http://www.confuror.org/es/covid-19/'>aquí</a>
 alert_mode: info
 permalink: /es/registro/
 ---
 
-Confuror 2021, se llevará a acabo del **28 al 31 de Octubre del 2021**. Todos los registrados a Confuror 2020 han sido transferidos a 2021. Si aún no tienes registro, puedes registrarte desde hoy a Confuror 2021 en esta página. Si tienes dudas sobre tu registro puedes contactarnos a **reg@confuror.org**.
+Confuror 2021 se llevará a acabo de manera virtual y no es necesario contar con registro pagado para participar. Todos los registrados originales para Confuror 2020 y 2021 que sigan estando activos serán válidos para Confuror 2022. En esta página se muestra información de los costos y beneficios planeados originalmente para el evento presencial de 2020 que por motivos sanitarios no pudo llevarse a cabo. El registro para el próximo evento de 2022 se abrirá proximamente con nueva información de costos, daremos a conocer las fechas de reapertura más adelante. Si tienes dudas sobre tu registro puedes contactarnos a **reg@confuror.org**.
 
 {% include components/access-fees.html %}
 

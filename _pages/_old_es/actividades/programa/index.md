@@ -9,7 +9,7 @@ lang: es
 featured: false
 category: cat_contents
 category_weight: 0
-banner_src: /images/ui/circus_pattern_1.png
+banner_src: /assets/images/ui/circus_pattern_1.png
 banner_alt: Circus pattern
 ---
 
@@ -28,15 +28,15 @@ Descarga el horario en PDF a continuación y consulta los mapas de la sede aquí
 #### Mapa de la planta Baja
 
 <div class="container">
-  <a href="/images/pictures/mapa_planta_baja.png" data-featherlight="image">
-    <img class="img-fluid" src="/images/pictures/mapa_planta_baja.png" alt="Confuror 2019 - Planta Baja">
+  <a href="/assets/images/mapa_planta_baja.png" data-featherlight="image">
+    <img class="img-fluid" src="/assets/images/mapa_planta_baja.png" alt="Confuror 2019 - Planta Baja">
   </a>
 </div>
 
 #### Mapa de la planta Superior
 
 <div class="container">
-  <a href="/images/pictures/mapa_planta_superior.png" data-featherlight="image">
-    <img class="img-fluid" src="/images/pictures/mapa_planta_superior.png" alt="Confuror 2019 - Planta Superior">
+  <a href="/assets/images/mapa_planta_superior.png" data-featherlight="image">
+    <img class="img-fluid" src="/assets/images/mapa_planta_superior.png" alt="Confuror 2019 - Planta Superior">
   </a>
 </div>

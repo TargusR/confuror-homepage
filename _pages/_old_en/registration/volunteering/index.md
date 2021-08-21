@@ -9,7 +9,7 @@ lang: en
 featured: true
 category: cat_about
 category_weight: 1
-banner_src: /images/banners/volunteers_banner_eng.png
+banner_src: /assets/banners/volunteers_banner_eng.png
 banner_alt: Confuror 2019 Volunteering
 alert_heading: Form in spanish only
 alert_message: >-

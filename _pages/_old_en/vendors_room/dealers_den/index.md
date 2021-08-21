@@ -8,7 +8,7 @@ label: Dealers Den
 lang: en
 list_id: vendors_details
 list_weight: 1
-# banner_src: /images/banners/nueva_sede_banner_esp.png
+# banner_src: /assets/banners/nueva_sede_banner_esp.png
 # banner_alt: Nueva sede Confuror 2019
 category: cat_vendors
 category_weight: 1
@@ -21,8 +21,8 @@ alert_mode: warning
 ## Dealers Den map and members list
 
 <div class="container">
-  <a href="/images/pictures/dealersden_web.jpg" data-featherlight="image">
-    <img class="img-fluid" src="/images/pictures/dealersden_web.jpg" alt="Confuror 2019 - Dealers Den map">
+  <a href="/assets/images/dealersden_web.jpg" data-featherlight="image">
+    <img class="img-fluid" src="/assets/images/dealersden_web.jpg" alt="Confuror 2019 - Dealers Den map">
   </a>
 </div>
 <br>

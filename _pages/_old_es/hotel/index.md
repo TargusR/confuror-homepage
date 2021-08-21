@@ -8,7 +8,7 @@ label: Hotel Sede
 lang: es
 list_id: hotel_details
 list_weight: 0
-banner_src: /images/banners/nueva_sede_banner_es.png
+banner_src: /assets/banners/nueva_sede_banner_es.png
 banner_alt: Nueva sede Confuror 2019
 category: cat_hotel
 category_weight: 0
@@ -37,10 +37,10 @@ Conoce más detalles sobre ambos métodos siguiendo los links a continuación:
 <div class="container">
   <div class="row">
     <div class="col-md-6">
-      <a href="/es/hotel/reserva/"><img class="img-fluid" src="/images/ui/btn_reserva.png" alt="Reservas en el Hotel"></a>
+      <a href="/es/hotel/reserva/"><img class="img-fluid" src="/assets/images/ui/btn_reserva.png" alt="Reservas en el Hotel"></a>
     </div>
     <div class="col-md-6">
-      <a href="/es/hotel/club_pass/"><img class="img-fluid" src="/images/ui/btn_club-pass.png" alt="Confuror Club Pass"></a>
+      <a href="/es/hotel/club_pass/"><img class="img-fluid" src="/assets/images/ui/btn_club-pass.png" alt="Confuror Club Pass"></a>
     </div>
   </div>
 </div>

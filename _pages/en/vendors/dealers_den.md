@@ -12,7 +12,7 @@ category_weight: 1
 list_id: vendors
 list_weight: 1
 permalink: /en/dealers-den/
-banner_src: /images/banners/vendors_web_banner.png
+banner_src: /assets/banners/vendors_web_banner.png
 banner_alt: Confuror 2021 Artists & Dealers
 alert_heading: Open requests!
 alert_message: All 2020 applications were transferred to 2021, spaces available for request. Ask for yours using the Confuror 2021 registration form or the Account Center page.
@@ -64,7 +64,7 @@ Double or Single tables. You can choose the space that suits you the best.
       <span><strong>$126 USD *</strong> if you are not registered to attend Confuror (this will cover your general registration fee).</span>
     </div>
     <div class="col-md-6">
-      <img src="/images/pictures/dealers_den_single.png" class="img-fluid">
+      <img src="/assets/images/dealers_den_single.png" class="img-fluid">
     </div>
   </div>
   <br>
@@ -83,7 +83,7 @@ Double or Single tables. You can choose the space that suits you the best.
       <span><strong>$184 USD *</strong> if you are not registered to attend Confuror (this will cover your general registration fee).</span>
     </div>
     <div class="col-md-6">
-      <img src="/images/pictures/dealers_den_double.png" class="img-fluid">
+      <img src="/assets/images/dealers_den_double.png" class="img-fluid">
     </div>
   </div>
   <br>

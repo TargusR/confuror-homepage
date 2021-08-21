@@ -9,7 +9,7 @@ lang: en
 featured: false
 category: cat_contents
 category_weight: 2
-banner_src: /images/banners/fursuit_dance_banner_eng.png
+banner_src: /assets/banners/fursuit_dance_banner_eng.png
 banner_alt: Fursuit Dance 2019
 ---
 

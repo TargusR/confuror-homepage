@@ -8,7 +8,7 @@ label: Drink & Draw
 lang: es
 list_id: drink_and_draw
 list_weight: 1
-banner_src: /images/banners/drink_and_draw_web_banner.png
+banner_src: /assets/banners/drink_and_draw_web_banner.png
 banner_alt: Confuror Drink and Draw 2019
 category: cat_contents
 category_weight: 4

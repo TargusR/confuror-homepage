@@ -37,7 +37,7 @@ We will be prepared to receive in the best conditions all those who can join us 
 Despite the fact that today we live in a situation that is not very suitable for the realization of an event like Confuror, the projections for the last quarter of the year **do not favor the alternative of changing dates or cancellation**. At the time of this writing, the [**phase 0 of the Jalisco Plan for Economic Reactivation**](https://reactivacioneconomica.jalisco.gob.mx/) published in May, remains in effect. This contemplates and promotes the realization of cultural and tourist events during the month of October in our state. This is a determining factor in negotiating a change in the contracts we have with our providers and prevents us from stopping the current flow of the event without assuming a loss of resources that would compromise the continuity of the event in the future.
 
 <div class="container" style="padding: 30px;">
-  <img class="img-fluid" src="/images/pictures/fase_0_octubre_pg70.png" alt="Fase 0 del Plan Jalisco para la reactivación económica, pg. 70">
+  <img class="img-fluid" src="/assets/images/fase_0_octubre_pg70.png" alt="Fase 0 del Plan Jalisco para la reactivación económica, pg. 70">
   <p style="text-align: center; font-size: smaller;">Page 70 of the Jalisco Plan for the
 Economic Recovery, Phase 0 (in spanish) <a href="https://reactivacioneconomica.jalisco.gob.mx/wp-content/uploads/2020/06/20200511_VF-Hacia-una-nueva-normalidad-1.pdf" target="_blank">[Click here to find the rest]</a></p>
 </div>
@@ -94,7 +94,7 @@ Your home awaits you.
 <p class="signature">Confuror 2020 direction board.</p>
 
 <div class="container">
-  <img class="img-fluid" src="/images/pictures/confuror_cubrebocas_web.png" alt="We want to see you in Confuror, picture by Nathaniel Ramirez">
+  <img class="img-fluid" src="/assets/images/confuror_cubrebocas_web.png" alt="We want to see you in Confuror, picture by Nathaniel Ramirez">
 </div>
 
 {%

@@ -8,7 +8,7 @@ label: About
 lang: en
 list_id: conbook
 list_weight: 0
-banner_src: /images/banners/conbook_banner_en.png
+banner_src: /assets/banners/conbook_banner_en.png
 banner_alt: Conbook Confuror 2019
 category: cat_conbook
 category_weight: 0

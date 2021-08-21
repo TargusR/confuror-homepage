@@ -6,7 +6,7 @@ label: Conoce más
 description: >-
   Conferencias, presentaciones, talleres, torneos, reuniones y más. Sigue leyendo para conocer más sobre los contenidos que podrás proponer en Confuror 2019.
 lang: es
-banner_src: /images/banners/panels_and_activities_banner_es.png
+banner_src: /assets/banners/panels_and_activities_banner_es.png
 banner_alt: Confuror paneles y tallers 2018
 list_id: panels_details
 list_weight: 0

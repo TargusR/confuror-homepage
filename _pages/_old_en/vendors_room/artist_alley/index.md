@@ -8,7 +8,7 @@ label: Artist Alley
 lang: en
 list_id: vendors_details
 list_weight: 2
-# banner_src: /images/banners/nueva_sede_banner_esp.png
+# banner_src: /assets/banners/nueva_sede_banner_esp.png
 # banner_alt: Nueva sede Confuror 2019
 category: cat_vendors
 category_weight: 2
@@ -21,8 +21,8 @@ alert_mode: warning
 ## Final artists list grouped by days
 
 <div class="container">
-  <a href="/images/pictures/artistalley_web.jpg" data-featherlight="image">
-    <img class="img-fluid" src="/images/pictures/artistalley_web.jpg" alt="Confuror 2019 - Artist Alley list">
+  <a href="/assets/images/artistalley_web.jpg" data-featherlight="image">
+    <img class="img-fluid" src="/assets/images/artistalley_web.jpg" alt="Confuror 2019 - Artist Alley list">
   </a>
 </div>
 <br>

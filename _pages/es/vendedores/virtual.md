@@ -12,7 +12,7 @@ category_weight: 5
 list_id: vendors
 list_weight: 5
 permalink: /es/virtual-alley/
-# banner_src: /images/banners/vendors_web_banner.png
+# banner_src: /assets/banners/vendors_web_banner.png
 # banner_alt: Espacios de venta en Confuror 2021
 alert_heading: ¡Solicitudes cerradas!
 alert_message: Todos los espacios disponibles se han ocupado. Gracias por tu participación. Estamos considerando abrir nuevas convocatorias en los próximos meses para mantener la interacción con los mundos virtuales. Sigue atento a nuestras redes para conocer más detalles una vez que concluya la convención.
@@ -42,12 +42,12 @@ Este es el aspecto que tienen los espacios de exhibición:
 <div class="container-overflow">
   <div class="row">
     <div class="col-md-6" style="text-align:center;">
-      <img src="/images/pictures/sample_vrchat.png" class="img-fluid">
+      <img src="/assets/images/sample_vrchat.png" class="img-fluid">
       <br>
       <span>VRChat</span>
     </div>
     <div class="col-md-6" style="text-align:center;">
-      <img src="/images/pictures/sample_minecraft.png" class="img-fluid">
+      <img src="/assets/images/sample_minecraft.png" class="img-fluid">
       <br>
       <span>Minecraft</span>
     </div>

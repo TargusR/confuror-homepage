@@ -6,7 +6,7 @@ label: VRChat
 description: >-
   It is not necessary to have a vr-headset, download VRChat for free and enter the virtual space that Confuror and Cyberwere have prepared for you
 lang: en
-# banner_src: /images/banners/panels_web_banner.png
+# banner_src: /assets/banners/panels_web_banner.png
 # banner_alt: Confuror paneles y actividades
 category: cat_contents
 category_weight: 4
@@ -33,7 +33,7 @@ Along with our broadcasting, you will be able to enter this virtual world and ex
 It is not necessary to have a virtual reality viewer to use the platform, you can log in from your computer, move your avatar and chat with other people. If you don't have the application installed yet, you may download it for free from its official site or Steam, sign up and get ready to enter Confuror VRChat World in the next few days.
 
 <div class="container" style="text-align: center;">
-  <img class="img-fluid" src="/images/pictures/vrchat_confuror.png" alt="Confuror VRChat World" style="margin: auto">
+  <img class="img-fluid" src="/assets/images/vrchat_confuror.png" alt="Confuror VRChat World" style="margin: auto">
 </div>
 
 More information about VRChat and how to download it at its official website

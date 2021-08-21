@@ -9,7 +9,7 @@ lang: en
 featured: false
 category: cat_about
 category_weight: 4
-banner_src: /images/banners/banner_caridad_eng.png
+banner_src: /assets/banners/banner_caridad_eng.png
 banner_alt: Nuestra caridad 2019
 ---
 
@@ -54,5 +54,5 @@ Wholeheartedly, let's show the value of our fandom!
 
 <br>
 <div class="container">
-  <img class="img-fluid" src="/images/pictures/uma_foto_1.jpg" alt="Lobo Mexicano - UMA Coatepec - Foto Paola Rivera">
+  <img class="img-fluid" src="/assets/images/uma_foto_1.jpg" alt="Lobo Mexicano - UMA Coatepec - Foto Paola Rivera">
 </div>

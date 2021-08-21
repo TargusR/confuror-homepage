@@ -12,7 +12,7 @@ category_weight: 1
 list_id: vendors
 list_weight: 1
 permalink: /es/dealers-den/
-banner_src: /images/banners/vendors_web_banner.png
+banner_src: /assets/banners/vendors_web_banner.png
 banner_alt: Espacios de venta en Confuror 2021
 alert_heading: ¡Solicitudes abiertas!
 alert_message: Todas las solicitudes de 2020 fueron transferidas a 2021 y la convocatoria sigue abierta. Podrás solicitar tu espacio al realizar tu registro a Confuror 2021, o si ya lo tienes, podrás hacerlo desde la administración de tu cuenta.
@@ -64,7 +64,7 @@ Espacios **Dobles** o **Sencillos**. Puedes elegir el espacio que mejor se adapt
       <span><strong>$2,359 MXN *</strong> si aún no cuentas con entrada a Confuror (este precio incluye tu entrada general al evento).</span>
     </div>
     <div class="col-md-6">
-      <img src="/images/pictures/dealers_den_single.png" class="img-fluid">
+      <img src="/assets/images/dealers_den_single.png" class="img-fluid">
     </div>
   </div>
   <br>
@@ -83,7 +83,7 @@ Espacios **Dobles** o **Sencillos**. Puedes elegir el espacio que mejor se adapt
       <span><strong>$3,459 MXN *</strong> si aún no cuentas con entrada a Confuror (este precio incluye tu entrada general al evento).</span>
     </div>
     <div class="col-md-6">
-      <img src="/images/pictures/dealers_den_double.png" class="img-fluid">
+      <img src="/assets/images/dealers_den_double.png" class="img-fluid">
     </div>
   </div>
   <br>

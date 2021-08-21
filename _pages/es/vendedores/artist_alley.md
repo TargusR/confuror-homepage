@@ -12,7 +12,7 @@ category_weight: 2
 list_id: vendors
 list_weight: 2
 permalink: /es/artist-alley/
-banner_src: /images/banners/vendors_web_banner.png
+banner_src: /assets/banners/vendors_web_banner.png
 banner_alt: Espacios de venta en Confuror 2021
 alert_heading: ¡Solicitudes abiertas!
 alert_message: Todas las solicitudes de 2020 fueron transferidas a 2021 y la convocatoria sigue abierta. Podrás solicitar tu espacio al realizar tu registro a Confuror 2021, o si ya lo tienes, podrás hacerlo desde la administración de tu cuenta.
@@ -46,7 +46,7 @@ alert_mode: info
 ## Tamaño y costos
 
 <div style="text-align: center;">
-  <img src="/images/pictures/artist_alley.png" class="img-fluid" style="max-width: 500px;">
+  <img src="/assets/images/artist_alley.png" class="img-fluid" style="max-width: 500px;">
 </div>
 
 <div class="container-overflow">

@@ -6,7 +6,7 @@ label: Fursuit Parade
 description: >-
   Follow the instructions and send your video to become part of our virtual fursuit parade
 lang: en
-# banner_src: /images/banners/panels_web_banner.png
+# banner_src: /assets/banners/panels_web_banner.png
 # banner_alt: Confuror paneles y actividades
 category: cat_contents
 category_weight: 2

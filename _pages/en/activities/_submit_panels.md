@@ -6,7 +6,7 @@ label: Panels and Activities
 description: >-
   Conferences, Workshops and Meetings. Confuror's content is yours and we want you to be on stage.
 lang: en
-banner_src: /images/banners/panels_web_banner.png
+banner_src: /assets/banners/panels_web_banner.png
 banner_alt: Confuror panels & activities
 category: cat_contents
 category_weight: 1

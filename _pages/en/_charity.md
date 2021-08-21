@@ -10,7 +10,7 @@ featured: true
 category: cat_contents
 category_weight: 0
 permalink: /en/charity/
-banner_src: /images/banners/charity_web_banner.png
+banner_src: /assets/banners/charity_web_banner.png
 banner_alt: Selva Teenek, our charity 2020
 ---
 
@@ -23,7 +23,7 @@ banner_alt: Selva Teenek, our charity 2020
 To support their conservation, **Confuror** will carry out different activities to raise funds during its 2020 edition which will be destined to [**Selva Teneek**](http://www.selvateenek.com/), a civil organization that maintains an Environmental Management Unit located in the **Huasteca Potosina** performing rescue, rehabilitation and release labors for all of these wild cats and other species of animals in the region.
 
 <div class="container" style="padding: 50px;">
-  <img class="img-fluid" src="/images/pictures/selva_teenek_logo.png" alt="Selva Teenek - Mexican wild cat EMU & Ecopark">
+  <img class="img-fluid" src="/assets/images/selva_teenek_logo.png" alt="Selva Teenek - Mexican wild cat EMU & Ecopark">
 </div>
 
 They are the first organization founded in the Huasteca Potosina to care for wildlife. Their strategy of combining environmental education with ecotourism has yielded many fruits, since they have two years in operation and **more than 100 specimens assisted**.

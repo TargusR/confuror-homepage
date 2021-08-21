@@ -1,22 +1,22 @@
 ---
 layout: page
 name: reg
-title: Confuror 2021 Registration
-label: 2021 Registration
+title: Confuror Registration
+label: 2022 Registration
 description: >-
-  Know more about how to register and attend Confuror 2021
+  Registration details to attend Confuror 2022 coming soon here
 lang: en
 featured: true
 category: cat_attend
 category_weight: 1
-alert_heading: Register today for Confuror 2021!
+alert_heading: Cofuror registration temporarily suspended!
 alert_message: >-
-  <b>Important note:</b> Due to the Covid-19 Pandemic, our on-site event was postponed to 2021. Confuror 2020 will be held online openly and free of charge, but you can register from today for Confuror 2021! Our first stage of online pre-registration membership costs will remain the same for the rest of 2020. Read more about Covid-19 related actions <a href='http://www.confuror.org/es/covid-19/'>here</a>
+  <b>Important note, 9 July 2021:</b> Due to the Covid-19 Pandemic, Confuror registration is temporarily suspended. The in-person event will be held until October 2022. All active registrations from 2020 and 2021 will be valid in 2022. Read the full Covid-19 status report for the most up-to-date details regarding the event <a href='http://www.confuror.org/en/covid-19/'>here</a>.
 alert_mode: info
 permalink: /en/registration/
 ---
 
-Confuror 2021, will take place from **28th to 31st October 2021**. All those registered to Confuror 2020 have been transferred to 2021. If you are not registered yet, you can register from today to Confuror 2021 in this page. If you have any questions about your registration you can contact us at **reg@confuror.org**.
+Confuror 2021 will be held virtually and no paid registration is required to participate. All original registrations for Confuror 2020 and 2021 that are still active will be valid for Confuror 2022. This page shows information on the costs and benefits originally planned for the 2020 in-person event that due to force majure could not be held. Registration for the next event in 2022 will open soon with fares updated, we will announce the reopening dates later. If you have any questions about your registration you can contact us at **reg@confuror.org**.
 
 {% include components/access-fees.html %}
 

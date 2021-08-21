@@ -6,7 +6,7 @@ label: About
 description: >-
   Conferences, Workshops and Meetings. Keep reading to know more details about panels available at Confuror and how to participate.
 lang: en
-banner_src: /images/banners/panels_and_activities_banner_en.png
+banner_src: /assets/banners/panels_and_activities_banner_en.png
 banner_alt: Confuror panels & workshosp 2018
 list_id: panels_details
 list_weight: 0

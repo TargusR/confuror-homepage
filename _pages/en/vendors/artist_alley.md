@@ -12,7 +12,7 @@ category_weight: 2
 list_id: vendors
 list_weight: 2
 permalink: /en/artist-alley/
-banner_src: /images/banners/vendors_web_banner.png
+banner_src: /assets/banners/vendors_web_banner.png
 banner_alt: Confuror 2021 Artists & Dealers
 alert_heading: Open requests!
 alert_message: All 2020 applications were transferred to 2021, spaces available for request. Ask for yours using the Confuror 2021 registration form or the Account Center page.
@@ -47,7 +47,7 @@ alert_mode: info
 ## Table size and fares
 
 <div style="text-align: center;">
-  <img src="/images/pictures/artist_alley.png" class="img-fluid" style="max-width: 500px;">
+  <img src="/assets/images/artist_alley.png" class="img-fluid" style="max-width: 500px;">
 </div>
 
 <div class="container-overflow">

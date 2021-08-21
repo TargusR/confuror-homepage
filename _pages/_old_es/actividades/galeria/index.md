@@ -9,7 +9,7 @@ lang: es
 featured: false
 category: cat_vendors
 category_weight: 3
-banner_src: /images/banners/gallery_banner_esp.png
+banner_src: /assets/banners/gallery_banner_esp.png
 banner_alt: Subasta y galería
 ---
 

@@ -28,7 +28,7 @@ Do you want your work to be recognized? Send us your best artwork, any of your p
 
 <br>
 <div class="container" style="text-align: center;">
-  <img class="img-fluid" src="/images/pictures/base_image.jpg" alt="Imagen de 900 x 1200 pixeles">
+  <img class="img-fluid" src="/assets/images/base_image.jpg" alt="Imagen de 900 x 1200 pixeles">
   <br><br>
   <span>Required frame size for image</span>
 </div>
@@ -40,12 +40,12 @@ You can participate with as many images as you wish, we will try to place them a
 <div class="container-overflow">
   <div class="row" style="align-items: center;">
     <div class="col-md-5" style="text-align:center;">
-      <img src="/images/pictures/hein_minecraft_sample.jpg" class="img-fluid">
+      <img src="/assets/images/hein_minecraft_sample.jpg" class="img-fluid">
       <br><br>
       <span>Vertical Example (Inu Hein's Art)</span>
     </div>
     <div class="col-md-7" style="text-align:center;">
-      <img src="/images/pictures/raya_lucha_example.jpg" class="img-fluid">
+      <img src="/assets/images/raya_lucha_example.jpg" class="img-fluid">
       <br><br>
       <span>Horizontal Example (Raya's Art)</span>
     </div>

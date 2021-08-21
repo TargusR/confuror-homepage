@@ -9,7 +9,7 @@ lang: es
 featured: true
 category: cat_about
 category_weight: 1
-banner_src: /images/banners/volunteers_banner_esp.png
+banner_src: /assets/banners/volunteers_banner_esp.png
 banner_alt: Voluntarios confuror 2019
 ---
 

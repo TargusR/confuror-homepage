@@ -37,7 +37,7 @@ Estaremos preparados para recibir en las mejores condiciones a todos los que pue
 A pesar de que hoy vivimos una situación que se nos presenta como poco apta para la realización de un evento como Confuror, las proyecciones que se tienen para el último cuatrimestre del año **no favorecen la alternativa de cambio de fechas o cancelación**. Al momento de redactar este comunicado, continúa vigente la [**fase 0 del Plan Jalisco para la reactivación económica**](https://reactivacioneconomica.jalisco.gob.mx/) publicada en mayo, que contempla e impulsa la realización de eventos culturales y turísticos durante el mes de Octubre en nuestro estado. Este factor es determinante para negociar un cambio en los contratos que tenemos con nuestros provedores y nos impide detener el flujo actual del evento sin asumir una pérdida de recursos que comprometería su continuidad en el futuro.
 
 <div class="container" style="padding: 30px;">
-  <img class="img-fluid" src="/images/pictures/fase_0_octubre_pg70.png" alt="Fase 0 del Plan Jalisco para la reactivación económica, pg. 70">
+  <img class="img-fluid" src="/assets/images/fase_0_octubre_pg70.png" alt="Fase 0 del Plan Jalisco para la reactivación económica, pg. 70">
   <p style="text-align: center; font-size: smaller;">Página 70 del Plan Jalisco para la
 Reactivación Económica, Fase 0 <a href="https://reactivacioneconomica.jalisco.gob.mx/wp-content/uploads/2020/06/20200511_VF-Hacia-una-nueva-normalidad-1.pdf" target="_blank">[Consultar aquí]</a></p>
 </div>
@@ -94,7 +94,7 @@ Tu casa te espera.
 <p class="signature">Comité organizador de Confuror 2020.</p>
 
 <div class="container">
-  <img class="img-fluid" src="/images/pictures/confuror_cubrebocas_web.png" alt="Queremos verte en Confuror, dibujo de Nathaniel Ramirez">
+  <img class="img-fluid" src="/assets/images/confuror_cubrebocas_web.png" alt="Queremos verte en Confuror, dibujo de Nathaniel Ramirez">
 </div>
 
 {%

@@ -15,7 +15,7 @@ alert_heading: ¡Fiesta Americana estará de vuelta en Confuror 2021!
 alert_message: >-
   <b>Comunicado Importante:</b> Debido a la Pandemia por Covid-19, nuestro evento presencial se pospuso a 2021. Fiesta Americana Guadalajara nos espera de vuelta en Octubre del 2021 y tan pronto esté abierto el bloque de reservas oficiales para esas fechas, lo pondremos aquí.
 alert_mode: info
-# banner_src: /images/banners/nueva_sede_banner_es.png
+# banner_src: /assets/banners/nueva_sede_banner_es.png
 # banner_alt: Nueva sede Confuror 2019
 permalink: /es/hotel/
 ---

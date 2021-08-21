@@ -12,7 +12,7 @@ category_weight: 3
 list_id: vendors
 list_weight: 3
 permalink: /en/night-market/
-banner_src: /images/banners/vendors_web_banner.png
+banner_src: /assets/banners/vendors_web_banner.png
 banner_alt: Confuror 2021 Artists & Dealers
 alert_heading: Open requests!
 alert_message: All 2020 applications were transferred to 2021, spaces available for request. Ask for yours using the Confuror 2021 registration form or the Account Center page.
@@ -65,7 +65,7 @@ alert_mode: info
       <span><strong>$56 USD *</strong> if you are not registered to attend Confuror (this will cover your general registration fee).</span>
     </div>
     <div class="col-md-6">
-      <img src="/images/pictures/night_market_single.png" class="img-fluid">
+      <img src="/assets/images/night_market_single.png" class="img-fluid">
     </div>
   </div>
   <br>
@@ -82,7 +82,7 @@ alert_mode: info
       <span><strong>$65 MXN *</strong> if you are not registered to attend Confuror (this will cover your general registration fee).</span>
     </div>
     <div class="col-md-6">
-      <img src="/images/pictures/night_market_double.png" class="img-fluid">
+      <img src="/assets/images/night_market_double.png" class="img-fluid">
     </div>
   </div>
   <br>

@@ -9,7 +9,7 @@ lang: en
 featured: false
 category: cat_contents
 category_weight: 6
-banner_src: /images/banners/rave_djs.png
+banner_src: /assets/banners/rave_djs.png
 banner_alt: Rave Parties 2019
 ---
 

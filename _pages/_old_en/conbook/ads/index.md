@@ -8,7 +8,7 @@ label: Advertisements
 lang: en
 list_id: conbook
 list_weight: 2
-banner_src: /images/banners/conbook_banner_en.png
+banner_src: /assets/banners/conbook_banner_en.png
 banner_alt: Conbook Confuror 2019
 category: cat_conbook
 category_weight: 2
@@ -25,7 +25,7 @@ All advertisements **should be within the G rating**. Please remember to proofre
 
 The conbook is printed on letter size (8.5" x 11"). Advertising is included within its pages interspersed with the contents. Ad costs for Confuror 2019 Conbook are:
 
-<div class="container text-center"><img src="/images/pictures/ad_size_diagram_en.png" alt="Tamaños de anuncios disponibles" class="img-fluid"></div>
+<div class="container text-center"><img src="/assets/images/ad_size_diagram_en.png" alt="Tamaños de anuncios disponibles" class="img-fluid"></div>
 
 |Size|Measures|Cost|
 |:--------|:-------:|--------:|

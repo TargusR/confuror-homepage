@@ -6,7 +6,7 @@ label: Minecraft
 description: >-
   Explora y juega en las distintas arenas que Confuror y un grupo muy especial de constructores han preparado para ti
 lang: es
-# banner_src: /images/banners/panels_web_banner.png
+# banner_src: /assets/banners/panels_web_banner.png
 # banner_alt: Confuror paneles y actividades
 category: cat_contents
 category_weight: 5
@@ -34,7 +34,7 @@ De forma simultanea a nuestras transmisiones, podrás entrar a este mundo virtua
 Nuestro servidor da la bienvenida a todos los jugadores de Minecraft. Si no tienes un usuario, puedes conseguir la aplicación desde su sitio oficial. Regístrate y prepárate para ingresar a Confuror Minecraft World en los próximos días.
 
 <div class="container" style="text-align: center;">
-  <img class="img-fluid" src="/images/pictures/minecraft_confuror.png" alt="Confuror Minecraft World" style="margin: auto">
+  <img class="img-fluid" src="/assets/images/minecraft_confuror.png" alt="Confuror Minecraft World" style="margin: auto">
 </div>
 
 Más información sobre Minecraft y cómo obtenerlo en su página oficial:

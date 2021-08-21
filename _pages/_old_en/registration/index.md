@@ -9,7 +9,7 @@ lang: en
 featured: true
 category: cat_about
 category_weight: 0
-banner_src: /images/ui/circus_pattern_1.png
+banner_src: /assets/images/ui/circus_pattern_1.png
 banner_alt: Circus pattern
 alert_heading: Online registration closed!
 alert_message: We have completed the online registration. If you want to attend Confuror 2019 check the <strong>"At-con registration"</strong> section.

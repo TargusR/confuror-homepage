@@ -6,7 +6,7 @@ label: Paneles y Actividades
 description: >-
   Conferencias, presentaciones, talleres, torneos, reuniones y más. El contenido de Confuror es tuyo y queremos presentarlo a la comunidad.
 lang: es
-banner_src: /images/banners/panels_web_banner.png
+banner_src: /assets/banners/panels_web_banner.png
 banner_alt: Confuror paneles y actividades
 category: cat_contents
 category_weight: 1

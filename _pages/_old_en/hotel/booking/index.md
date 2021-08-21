@@ -8,7 +8,7 @@ label: Room Booking
 lang: en
 list_id: hotel_details
 list_weight: 1
-banner_src: /images/banners/nueva_sede_banner_en.png
+banner_src: /assets/banners/nueva_sede_banner_en.png
 banner_alt: Confuror 2019 new venue
 category: cat_hotel
 category_weight: 1

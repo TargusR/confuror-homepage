@@ -12,7 +12,7 @@ category_weight: 4
 list_id: vendors
 list_weight: 4
 permalink: /es/reglamento-de-venta/
-banner_src: /images/banners/vendors_web_banner.png
+banner_src: /assets/banners/vendors_web_banner.png
 banner_alt: Espacios de venta en Confuror 2021
 alert_heading: ¡Solicitudes abiertas!
 alert_message: Todas las solicitudes de 2020 fueron transferidas a 2021 y la convocatoria sigue abierta. Podrás solicitar tu espacio al realizar tu registro a Confuror 2021, o si ya lo tienes, podrás hacerlo desde la administración de tu cuenta.

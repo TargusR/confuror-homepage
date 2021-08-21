@@ -9,7 +9,7 @@ lang: es
 featured: true
 category: cat_about
 category_weight: 0
-banner_src: /images/ui/circus_pattern_1.png
+banner_src: /assets/images/ui/circus_pattern_1.png
 banner_alt: Circus pattern
 alert_heading: ¡Registro en línea cerrado!
 alert_message: Hemos concluído el registro en línea. Si deseas asistir a Confuror 2019, consulta el apartado de <strong>"Registro en el evento"</strong> para conocer como.

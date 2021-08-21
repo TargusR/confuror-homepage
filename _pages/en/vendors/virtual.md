@@ -12,7 +12,7 @@ category_weight: 5
 list_id: vendors
 list_weight: 5
 permalink: /en/virtual-alley/
-# banner_src: /images/banners/vendors_web_banner.png
+# banner_src: /assets/banners/vendors_web_banner.png
 # banner_alt: Espacios de venta en Confuror 2021
 alert_heading: Applications closed!
 alert_message: All room for virtual booths is full now. Thank you for your participation. We are planning to shift vendors in further months as long as we maintain the virtuar worlds online. Keep tunned for more information after the weekend.
@@ -42,12 +42,12 @@ This is how the virtual booths will look like:
 <div class="container-overflow">
   <div class="row">
     <div class="col-md-6" style="text-align:center;">
-      <img src="/images/pictures/sample_vrchat.png" class="img-fluid">
+      <img src="/assets/images/sample_vrchat.png" class="img-fluid">
       <br>
       <span>VRChat</span>
     </div>
     <div class="col-md-6" style="text-align:center;">
-      <img src="/images/pictures/sample_minecraft.png" class="img-fluid">
+      <img src="/assets/images/sample_minecraft.png" class="img-fluid">
       <br>
       <span>Minecraft</span>
     </div>

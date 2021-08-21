@@ -8,7 +8,7 @@ label: Reservas
 lang: es
 list_id: hotel_details
 list_weight: 1
-banner_src: /images/banners/nueva_sede_banner_es.png
+banner_src: /assets/banners/nueva_sede_banner_es.png
 banner_alt: Nueva sede Confuror 2019
 category: cat_hotel
 category_weight: 1

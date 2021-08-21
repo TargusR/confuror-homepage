@@ -9,7 +9,7 @@ lang: es
 featured: false
 category: cat_contents
 category_weight: 3
-banner_src: /images/banners/talent_show_banner_esp.png
+banner_src: /assets/banners/talent_show_banner_esp.png
 banner_alt: Talent Show 2019
 ---
 

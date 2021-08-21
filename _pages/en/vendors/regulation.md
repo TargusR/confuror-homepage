@@ -12,7 +12,7 @@ category_weight: 4
 list_id: vendors
 list_weight: 4
 permalink: /en/sales-regulation/
-banner_src: /images/banners/vendors_web_banner.png
+banner_src: /assets/banners/vendors_web_banner.png
 banner_alt: Confuror 2021 Artists & Dealers
 alert_heading: Open requests!
 alert_message: All 2020 applications were transferred to 2021, spaces available for request. Ask for yours using the Confuror 2021 registration form or the Account Center page.

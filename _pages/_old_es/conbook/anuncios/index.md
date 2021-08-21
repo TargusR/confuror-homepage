@@ -8,7 +8,7 @@ label: Anuncios
 lang: es
 list_id: conbook
 list_weight: 2
-banner_src: /images/banners/conbook_banner_es.png
+banner_src: /assets/banners/conbook_banner_es.png
 banner_alt: Conbook Confuror 2019
 category: cat_conbook
 category_weight: 2
@@ -25,7 +25,7 @@ El material gráfico y textual de tu publicidad **deberá ser apto para todo pú
 
 El tamaño de impresión del Conbook es carta (8.5 x 11 pulgadas). La publicidad se incluye intercalada con los contenidos. Los precios por anuncio varían según el tamaño a elegir, existiendo los siguientes disponibles:
 
-<div class="container text-center"><img src="/images/pictures/ad_size_diagram_es.png" alt="Tamaños de anuncios disponibles" class="img-fluid"></div>
+<div class="container text-center"><img src="/assets/images/ad_size_diagram_es.png" alt="Tamaños de anuncios disponibles" class="img-fluid"></div>
 
 |Tamaño|Medidas|Precio|
 |:--------|:-------:|--------:|

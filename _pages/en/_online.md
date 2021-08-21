@@ -9,7 +9,7 @@ lang: en
 category: cat_attend
 category_weight: 0
 featured: true
-banner_src: /images/banners/confuror_virtual_web_bg.png
+banner_src: /assets/banners/confuror_virtual_web_bg.png
 banner_alt: Confuror 2020 edición virtual
 permalink: /en/online/
 ---
@@ -52,7 +52,7 @@ Soon we will be announcing the details and schedules for our activities on this 
 
 <br>
 <div class="container">
-  <img class="img-fluid" src="/images/pictures/confuror_virtual.png" alt="Virtual Confuror 2020, art by Raya">
+  <img class="img-fluid" src="/assets/images/confuror_virtual.png" alt="Virtual Confuror 2020, art by Raya">
 </div>
 
 ## Event program
@@ -60,18 +60,18 @@ Soon we will be announcing the details and schedules for our activities on this 
 <div class="container-overflow">
   <div class="row">
     <div class="col-md-4">
-      <a href="/images/pictures/01_viernes_web.png" data-featherlight="image">
-        <img src="/images/pictures/01_viernes_web.png" class="img-fluid">
+      <a href="/assets/images/01_viernes_web.png" data-featherlight="image">
+        <img src="/assets/images/01_viernes_web.png" class="img-fluid">
       </a>
     </div>
     <div class="col-md-4">
-      <a href="/images/pictures/02_sabado_web.png" data-featherlight="image">
-        <img src="/images/pictures/02_sabado_web.png" class="img-fluid">
+      <a href="/assets/images/02_sabado_web.png" data-featherlight="image">
+        <img src="/assets/images/02_sabado_web.png" class="img-fluid">
       </a>
     </div>
     <div class="col-md-4">
-      <a href="/images/pictures/03_domingo_web.png" data-featherlight="image">
-        <img src="/images/pictures/03_domingo_web.png" class="img-fluid">
+      <a href="/assets/images/03_domingo_web.png" data-featherlight="image">
+        <img src="/assets/images/03_domingo_web.png" class="img-fluid">
       </a>
     </div>
   </div>

@@ -12,7 +12,7 @@ category_weight: 0
 list_id: vendors
 list_weight: 0
 permalink: /en/artists-and-dealers/
-banner_src: /images/banners/vendors_web_banner.png
+banner_src: /assets/banners/vendors_web_banner.png
 banner_alt: Confuror 2020 Artists & Dealers
 ---
 

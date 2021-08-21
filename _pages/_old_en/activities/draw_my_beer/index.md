@@ -8,7 +8,7 @@ label: Draw my beer
 lang: en
 list_id: drink_and_draw
 list_weight: 2
-banner_src: /images/banners/drink_and_draw_web_concurso_banner.png
+banner_src: /assets/banners/drink_and_draw_web_concurso_banner.png
 banner_alt: Drink and Draw 2019 - Draw my beer
 category: cat_contents
 category_weight: 5
@@ -31,7 +31,7 @@ Todas las propuestas deberán enviarse al correo electrónico [murrrtvshow@gmail
 
 ### ¡Descarga la plantilla y participa!
 
-![Draw my beer template](/images/pictures/beer_template.png)
+![Draw my beer template](/assets/images/beer_template.png)
 
 <br>
 <div class="container text-center">

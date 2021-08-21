@@ -6,7 +6,7 @@ label: VRChat
 description: >-
   No es necesario tener un visor, descarga la aplicación gratuita y entra al espacio virtual que Confuror y Cyberwere han preparado para ti
 lang: es
-# banner_src: /images/banners/panels_web_banner.png
+# banner_src: /assets/banners/panels_web_banner.png
 # banner_alt: Confuror paneles y actividades
 category: cat_contents
 category_weight: 4
@@ -34,7 +34,7 @@ De forma simultanea a nuestras transmisiones, podrás entrar a este mundo virtua
 No es necesario tener un visor de realidad virtual para usar la plataforma, podrás ingresar desde tu computadora, mover tu avatar y conversar con otras personas. Si aún no tienes instalada la aplicación, descárgala de forma gratuita desde su sitio oficial o Steam, regístrate y prepárate para ingresar a Confuror VRChat World en los próximos días.
 
 <div class="container" style="text-align: center;">
-  <img class="img-fluid" src="/images/pictures/vrchat_confuror.png" alt="Confuror VRChat World" style="margin: auto">
+  <img class="img-fluid" src="/assets/images/vrchat_confuror.png" alt="Confuror VRChat World" style="margin: auto">
 </div>
 
 Más información sobre VRChat y cómo descargarlo en su página oficial:
