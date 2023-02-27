@@ -12,41 +12,58 @@
 %}
 {% endif %}
 
-<!--
-{%
-  include {{ site.formats.inline_alert }}
-  mode="info"
-  message=registration_data.upgrade_alert
-%}
--->
-
 <ol class="registration__step-list">
   {%- for step in registration_data.steps -%}
   <li class="registration__step-item">{{ step }}</li>
   {%- endfor -%}
 </ol>
 
-<!--
 <div class="clock-counter__container">
-  <span class="clock-counter__intro">OWO!! *notices counter*</span>
-  <span class="clock-counter" data-limit="1579572000000"></span>
+  <span class="clock-counter__intro">OWO!! *notices countdown*</span>
+  <span class="clock-counter" data-limit="1664416800000"></span>
   <div class="clock-counter__hide clock-counter__outro">
+    {%
+      include {{ site.formats.cta_button }}
+      text=registration_data.register_now_label
+      url=registration_data.form_link
+      disabled=false
+      targetBlank=true
+    %}
   </div>
 </div>
--->
-<!-- 1579572000000 -->
-<!-- 1579140000000 -->
+<!-- 1651381200 -->
+<!-- 1651363200000 -->
 
-{%
+<!-- {%
   include {{ site.formats.cta_button }}
   text=registration_data.register_now_label
   url=registration_data.form_link
+  disabled=false
+  targetBlank=true
+%} -->
+
+<hr>
+
+<a name="verify"></a>
+<h4>{{ registration_data.verify_subtitle }}</h4>
+
+<ol class="registration__step-list">
+  {%- for step in registration_data.verify_steps -%}
+  <li class="registration__step-item">{{ step }}</li>
+  {%- endfor -%}
+</ol>
+
+{%
+  include {{ site.formats.cta_button }}
+  text=registration_data.verify_link_label
+  url=registration_data.verify_link_url
   disabled=false
   targetBlank=true
 %}
 
 <hr>
 
+<a name="upgrade"></a>
 <h4>{{ registration_data.upgrade_subtitle }}</h4>
 
 <ol class="registration__step-list">
@@ -63,8 +80,15 @@
   targetBlank=true
 %}
 
+{%
+  include {{ site.formats.inline_alert }}
+  mode="info"
+  message=registration_data.upgrade_alert
+%}
+
 <hr>
 
+<!--
 <h4>{{ registration_data.vendor_subtitle }}</h4>
 
 <ol class="registration__step-list">
@@ -94,4 +118,4 @@
       %}
     </div>
   </div>
-</div>
+</div> -->

@@ -1,0 +1,27 @@
+make --dry-run --always-make --keep-going --print-directory
+make: Entering directory `/Users/josue/sites/confuror/confuror_homepage'
+bundle install --path vendor/bundler
+yarn install
+rm -rf assets/vendor
+mkdir -p assets/vendor
+mkdir -p assets/vendor/jquery
+cp node_modules/jquery/dist/jquery.min.js assets/vendor/jquery
+mkdir -p assets/vendor/popper
+cp node_modules/popper.js/dist/umd/popper.min.js assets/vendor/popper
+mkdir -p assets/vendor/bootstrap
+cp node_modules/bootstrap/dist/js/bootstrap.min.js assets/vendor/bootstrap
+mkdir -p assets/vendor/fontawesome
+cp -r node_modules/@fortawesome/fontawesome-free/webfonts assets/vendor/fontawesome
+mkdir -p assets/vendor/flag-icon-css
+cp -r node_modules/flag-icon-css/flags assets/vendor/flag-icon-css/
+mkdir -p assets/vendor/slick
+cp node_modules/slick-carousel/slick/slick.min.js assets/vendor/slick/
+cp node_modules/slick-carousel/slick/slick.css assets/vendor/slick/
+mkdir -p assets/vendor/featherlight
+cp node_modules/featherlight/release/featherlight.min.js assets/vendor/featherlight/
+cp node_modules/featherlight/release/featherlight.min.css assets/vendor/featherlight/
+# vue
+cp _vue/calendar/dist/assets/index.js js/calendar.js
+bundle exec jekyll serve
+make: Leaving directory `/Users/josue/sites/confuror/confuror_homepage'
+ 

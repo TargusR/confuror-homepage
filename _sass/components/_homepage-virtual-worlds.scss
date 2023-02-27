@@ -11,15 +11,15 @@
 .homepage-virtual-worlds__header {
   display: flex;
   justify-content: center;
-  padding-bottom: $spacer-lg;
+  padding-bottom: $spacer-md;
 }
 
 .homepage-virtual-worlds__cta {
   @extend .title-md;
   width: max-content;
-  background-color: $dm-light;
-  color: $dm-dark;
+  color: $dm-light;
   padding: $spacer-xs $spacer-sm;
+  text-align: center;
 }
 
 .homepage-virtual-worlds {
@@ -31,7 +31,7 @@
 }
 
 .homepage-virtual-worlds__world {
-  @extend .col-md-6;
+  @extend .col-md-4;
   display: flex;
   align-items: center;
   justify-content: center;

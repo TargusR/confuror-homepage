@@ -1,0 +1,38 @@
+es:
+  title: Preguntas frecuentes sobre el registro
+  list:
+    - question: Si me registré en 2020 o 2021, ¿Mi entrada sigue siendo válida?
+      answer: ¡Sí! Siempre y cuando no solicitaras un reembolso (y se realizara) o hayas donado tu entrada, sigue estando activa y con todos su beneficios para este año. Puedes verificar tus entradas mediante la <a href="#verify">plataforma de administración</a>.
+    - question: Si ya cuento con una entrada, ¿puedo subirla de nivel?
+      answer: ¡Sí puedes! Podrás solicitar tu upgrade mediante el <a href="#upgrade">formulario de solicitud de cambios o upgrades</a>.
+    - question: ¿Qué significa "hasta agotar existencias" en el Early Bird?
+      answer: El Early Bird es nuestro lanzamiento promocional de registro. Las entradas se ofrecen a un precio con descuento y por lo mismo, la cantidad disponible es limitada. Para 2022 es de aproximádamente 150 entradas en cada nivel. Historicamente se han agotado en breve, por lo que sugerimos reservar a tiempo. Las entradas al precio anunciado para Early Bird permanecerán disponibles hasta que se agoten o a más tardar hasta el 2 de Mayo.
+    # - question: ¿Cuando estarán disponibles los precios y descripción de los paquetes?
+    #   answer: Estamos trabajando en actualizar esta información lo más pronto posible, estimamos tenerla lista durante la semana de cierre de abril. Las características de los paquetes serán las mismas que las mostradas para 2020/2021; es sobre los costos que estamos trabajando para reducir los cambios.
+    - question: ¿Cuando me podré registrar para una mesa de ventas/exposición (Artist Alley, Dealers Den o Night Market)?
+      answer: Contemplamos que los registros para estas dinámicas se rehabiliten durante la segunda mitad del mes de mayo. Por lo tanto no estarán disponibles durante el Early Bird. Sin embargo, podrás registrarte durante el Early Bird y solicitar tu espacio después.
+    - question: ¿Qué necesito para registrarme y participar como vendedor/expositor (Artist Alley, Dealers Den o Night Market)?
+      answer: Necesitas contar con un registro activo para la convención, ya sea que te hayas registrado en 2020 o 2021, o te registres durante 2022. Desde el mismo formulario de registro (una vez que esté disponible) podrás solicitar un espacio. Una vez aprobado tu espacio, deberás liquidar el monto correspondiente a este para poder participar. El pago se podrá realizar con los mismos métodos que ofrece el formulario. Recomendamos seguir únicamente las indicaciones de esta página para registrarte o pagar en un espacio de ventas/exposición. Si te coordinarás con otras personas para montar un espacio en conjunto, verifica muy bien que tengan todo en orden. Siempre que tengas dudas sobre algún proceso, puedes aclararlas con nosotros a travez de nuestras redes sociales o nuestro correo de atención info@confuror.org.
+    - question: ¿Qué pasa con mi registro si mi solicitud de espacio para venta/exposición no se aprueba?
+      answer:  Nos esforzamos al máximo en brindar espacio a cada persona interesada en el evento, sin embargo, la capacidad de la sede es limitada. En caso de que no podamos aceptar tu solicitud de espacio para venta/exposición y de que no desees asistir al evento únicamente con los beneficios de tu entrada. Podrás solicitar un reembolso de tu la misma siguiendo nuestros términos y condiciones de uso.
+    - question: ¿Volverá a estar disponible Club Pass?
+      answer: Los paquetes disponibles (con base en el número de habitaciones) se reservaron en 2020 antes de la pandemia. Estamos evaluando la posibilidad de expander el espacio de Club Pass. En caso de que podamos incluir más lugares (incluyendo a quienes quedaron en lista de espera durante el 2020), publicaremos una fecha para poder reservarlos. Si para entonces ya cuentas con un registro y estás interesado en hacer upgrade a CLub Pass, podrás contactarnos para este proceso.
+en:
+  title: Registration Frequently Asked Questions
+  list:
+    - question: If I registered in 2020 or 2021, am I still valid to attend the con?
+      answer: Yes, as long as you did not request a refund (and it was made) or you donated your ticket, it is still active and with all its benefits for this year. You can verify your memberships available trough your <a href="#verify">membership account</a>
+    - question: If I already have a membership, can I opt for an upgrade?
+      answer: Yes you can! You can request for an uograde trough the <a href="#upgrade">Updates and Uogrades request form</a>.
+    - question: What does "stock limited" mean in Early Bird?
+      answer: Early Bird is our promotional registration launch. Tickets are offered at a discounted price and therefore the number of tickets available is limited. For 2022 it is approximately 150 tickets at each level. Historically they have sold out very quickly, so we suggest you book early. Tickets at the advertised Early Bird price will remain available until sold out or until May 2 at the latest.
+    # - question: When will the prices and description of the registrartion levels be available?
+    #   answer: We are working on updating this information as soon as possible, we estimate to have it ready during April's closing week. The features of the registration levels will be the same as those shown for 2020/2021; it is on the costs that we are working to reduce the changes.
+    - question: When will I be able to register for a sales/exhibition table (Artist Alley, Dealers Den or Night Market)?
+      answer: We anticipate that registrations for these dynamics will be available during the second half of May. Therefore, they will not be available during the Early Bird. However, you will be able to register during Early Bird and request your space afterwards.
+    - question: What do I need to register and participate as a vendor/exhibitor (Artist Alley, Dealers Den or Night Market)?
+      answer: You need to have an active registration for the convention, whether you registered in 2020 or 2021, or you get registered during 2022. From the same registration form (once available) you will be able to submit a space request. Once your space is approved, you will have to pay the corresponding fee in order to participate. Payment can be made using the same methods offered in the form. We recommend that you only follow the instructions on this page to register or pay for a sales/exhibition space. If you will coordinate with other people to set up a space together, make sure they have everything in order. Whenever you have doubts about any process, you can clarify them with us through our social networks or through our support email info@confuror.org.
+    - question: What happens to my registration if my application for sales/exhibit space is not approved?
+      answer:  We make every effort to provide space for every person interested in the event, however, venue capacity is limited. In the event that we are unable to accept your request for sales/exhibit space and you do not wish to attend the event with your registration level features only. You may request a refund of your ticket by following our terms and conditions of use.
+    - question: Will Club Pass be available again?
+      answer: Available Club Pass spots (based on number of rooms) were booked in 2020 prior to the pandemic. We are evaluating the possibility of expanding the Club Pass space. If we are able to include more slots (including those who were waitlisted during 2020), we will publish a date when they could be reserved. If by then you already have registered and are interested in upgrading to CLub Pass, you would be able to contact us for this process.

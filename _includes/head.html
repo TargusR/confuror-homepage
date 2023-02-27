@@ -20,8 +20,10 @@
 <!-- :: Open graph settings :: -->
 {%- if page.banner_src -%}
 <meta property="og:image" content="{{ page.banner_src }}">
+{%- else if page.featured_picture -%}
+<meta property="og:image" content="{{ page.featured_picture }}">
 {%- else -%}
-<meta property="og:image" content="/og_preview.png">
+<meta property="og:image" content="/og_preview_2022.png">
 {%- endif -%}
 <meta property="og:title" content="{{ page.title }}">
 {%- if page.description -%}

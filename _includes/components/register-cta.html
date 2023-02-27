@@ -1,0 +1,17 @@
+{%- assign register-cta = site.data.register-cta[page.lang] -%}
+
+<div class="register-cta__wrapper">
+  <div class="register-cta">
+    <div class="register-cta__row">
+      <div class="register-cta__main-col">
+        <span class="register-cta__alert">{{ register-cta.alert }}</span>
+      </div>
+      <div class="register-cta__body-col">
+        <div class="register-cta__body">{{ register-cta.body }}</div>
+      </div>
+      <div class="register-cta__cta-col">
+        <a href="{{ register-cta.cta_link }}" class="register-cta__cta">{{ register-cta.cta_label }}</a>
+      </div>
+    </div>
+  </div>
+</div>

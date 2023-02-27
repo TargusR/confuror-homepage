@@ -4,7 +4,7 @@ name: vendors
 title: Convocatorias para Artistas y Vendedores
 label: Convocatorias
 description: >-
-  Conoce más detalles sobre como participar en nuestros espacios de venta y exhibición dentro de Confuror 2021.
+  Conoce más detalles sobre como participar en nuestros espacios de venta y exhibición dentro de Confuror 2022.
 lang: es
 featured: false
 category: cat_vendors
@@ -13,13 +13,13 @@ list_id: vendors
 list_weight: 0
 permalink: /es/artistas-y-vendedores/
 banner_src: /assets/banners/vendors_web_banner.png
-banner_alt: Espacios de venta en Confuror 2021
+banner_alt: Espacios de venta en Confuror 2022
 ---
 
 {%
   include {{ site.formats.featured_paragraph }}
   size="sm"
-  content="¡Confuror 2021 está listo para ti! Si eres un artista plástico, un ilustrador o perteneces a un colectivo de creadores enfocados en el Furry Fandom, puedes traer tu trabajo a Confuror para exhibirlo y tener la oportunidad de venderlo."
+  content="¡Confuror 2022 está listo para ti! Si eres un artista plástico, un ilustrador o perteneces a un colectivo de creadores enfocados en el Furry Fandom, puedes traer tu trabajo a Confuror para exhibirlo y tener la oportunidad de venderlo."
 %}
 
 ¡Tenemos varios espacios y dinámicas disponibles! Elige la que mejor se adapte a tus necesidades. Sigue leyendo para conocer más detalles y saber cómo puedes registrarte para participar.
@@ -28,8 +28,8 @@ banner_alt: Espacios de venta en Confuror 2021
 
 Nuestro mayor espacio de exhibición y ventas es el **Dealers Den**. Si estás buscando un espacio grande para exhibir lo que produces, o colaboras con varias personas desarrollando tus obras y proyectos, este es tu espacio ideal.
 
-- Exhibición por los tres días del evento.
-- Montaje permanente por lo que dure el evento.
+- Exhibición durante tres días del evento.
+- Montaje permanente de Viernes a Domingo.
 - Dos tamaños a elegir, espacios para múltiples personas.
 
 {%
@@ -59,7 +59,8 @@ Por primera vez en Confuror, el mercado nocturno abre sus puertas por una noche 
 - Reglas de exhibición abiertas al contenido para adultos.
 - Evento de una noche con ambientación.
 - Espacios individuales o dobles de costo accesible.
-- Exclusivo para mayores de 18 años.
+- Exclusivo para mayores de 18 años. Se requerirá que los asistentes muestren al ingresar una identificación oficial con fecha de nacimiento para comprobarlo.
+- Se puede participar al mismo tiempo que en el Artist Alley o Dealers Den al manejar un horario distinto.
 
 {%
   include {{ site.formats.cta_button }}
@@ -67,32 +68,23 @@ Por primera vez en Confuror, el mercado nocturno abre sus puertas por una noche 
   url="/es/night-market"
 %}
 
-## Pabellón Virtual
-
-Confuror Virtual 2020 llega con la primera edición del Pabellón Virtual. Instalado en nuestros mundos virtuales de VRChat y Minecraft.
-
-- Espacio gratuito para vincular a tus galerías o sitios web.
-- No requiere de tu intervención o presencia en el stand.
-
-{%
-  include {{ site.formats.cta_button }}
-  text="Conoce más sobre el Pabellón Virtual"
-  url="/es/virtual-alley"
-%}
-
 ## Inscripción y Reglamento
 
-Las solicitudes comenzarán a recibirse el 1ro de mayo. Podrás solicitar tu espacio al realizar tu registro a Confuror 2021, o si ya lo tienes, podrás hacerlo desde la **página de administración de tu cuenta**. Más detalles de las instrucciones se encuentran en [nuestra página de registro](/es/registro).
+Las solicitudes para nuevos aspirantes comenzarán a recibirse desde el **1ro de Julio**; a partir de esa fecha solo se considerarán solicitudes nuevas que se hagan a través del formulario que hay a continuación. Al llenar tu solicitud confirmas que has leído nuestro [reglamento actualizado de Ventas](/es/reglamento-de-venta/).
 
 {%
   include {{ site.formats.cta_button }}
-  text="Consulta el reglamento actualizado de Ventas"
-  url="/es/reglamento-de-venta"
+  text="¡Registra tu solicitud ahora!"
+  url="https://forms.gle/PRU6LSzuYMdMFSMJ7"
+  disabled=false
+  targetBlank=true
 %}
+
+El primer dictamen de seleccionados se publicará el 15 de Julio. Para poder solicitar tu espacio es necesario que cuentes con un registro a Confuror 2022, si aún no lo tienes, puedes obtenerlo desde [nuestra página de registro](/es/registro).
 
 {%
   include {{ site.formats.inline_alert }}
   mode="info"
   heading="¡Crecemos para ti!"
-  message="Confuror 2021 llega con grandes mejoras en nuestros espacios y dinámicas de ventas. Hemos escuchado todas sus opiniones y tenemos grandes sorpresas. Agradecemos a nuestros participantes de 2019 por contestar la encuesta de retroalimentación. Su opinión y apoyo nos hace crecer. Esperamos verlos en 2021."
+  message="Confuror 2022 llega con grandes mejoras en nuestros espacios y dinámicas de ventas. Hemos escuchado todas sus opiniones y tenemos grandes sorpresas. Agradecemos a nuestros participantes de 2019 por contestar la encuesta de retroalimentación. Su opinión y apoyo nos hace crecer. Esperamos verlos en Octubre."
 %}

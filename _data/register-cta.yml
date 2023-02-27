@@ -1,0 +1,12 @@
+es:
+  alert: ¡Registro cerrado!
+  body: >-
+    El registro en línea está cerrado. Si quieres asistir a Confuror 2022 y no te alcanzaste a registrar, aún puedes hacerlo mediante los One Day pass. Consulta más información en nuestra página de registro.
+  cta_label: Ir al Registro
+  cta_link: /es/registro#day-pass
+en:
+  alert: Pre-Register Closed!
+  body: >-
+    Online pre-registration is now closed. If you want to attend Confuror 2022 and did not pre-registered online, you can still attend with the One Day passess. Get more information at our registration page.
+  cta_label: Go to Registration
+  cta_link: /en/register#day-pass

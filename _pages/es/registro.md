@@ -1,28 +1,93 @@
 ---
 layout: page
 name: reg
-title: Registro Confuror
+title: Registro Confuror 2022
 label: Registro 2022
 description: >-
-  Próximamente aquí los detalles para registrarte y asistir a Confuror en 2022
+  Consigue tu entrada para Confuror 2022 siguiendo las instrucciones de esta página.
 lang: es
 featured: true
 category: cat_attend
 category_weight: 1
-alert_heading: ¡Registro temporalmente suspendido!
+alert_heading: ¡Registro cerrado!
 alert_message: >-
-  <b>Comunicado Importante, 9 Julio 2021:</b> Debido a la Pandemia por Covid-19, el registro a Confuror se encuentra temporalmente suspendido. El evento presencial será llevado a cabo hasta Octubre 2022. Todos los registros activos del 2020 y 2021 serán válidos en 2022. Lee el comunicado completo sobre Covid-19 para conocer los detalles más actualizados con respecto al evento <a href='http://www.confuror.org/es/covid-19/'>aquí</a>
-alert_mode: info
+  El registro en línea está cerrado. Si quieres asistir a Confuror 2022 y no te alcanzaste a registrar, aún puedes hacerlo mediante los One Day pass.
+alert_mode: warning
 permalink: /es/registro/
 ---
 
-Confuror 2021 se llevará a acabo de manera virtual y no es necesario contar con registro pagado para participar. Todos los registrados originales para Confuror 2020 y 2021 que sigan estando activos serán válidos para Confuror 2022. En esta página se muestra información de los costos y beneficios planeados originalmente para el evento presencial de 2020 que por motivos sanitarios no pudo llevarse a cabo. El registro para el próximo evento de 2022 se abrirá proximamente con nueva información de costos, daremos a conocer las fechas de reapertura más adelante. Si tienes dudas sobre tu registro puedes contactarnos a **reg@confuror.org**.
+## ¡El pre-registro para Confuror 2022 está en línea!
+
+Registráte hoy mismo para asistir a Confuror 2022 si no lo has hecho antes. Recuerda que todos los registros activos del 2020 y 2021 serán válidos en 2022. Si tienes dudas sobre tu registro puedes contactarnos a **reg@confuror.org**.
 
 {% include components/access-fees.html %}
 
-#### Pre-registro en línea
+{% include components/access-fees--table.html %}
+
+<a name="day-pass"/>
+
+## One day Pass
+
+Si no cuentas con pre-registro en línea, aún puedes asistir a Confuror 2022. Podrás adquirir pase por un día según los siguientes precios:
+
+- Jueves: **$250 mxn**
+- Viernes, Sábado o Domingo: **$450 mxn** (por día).
+
+El One day Pass no incluye badge o kit de convención. Cada pase da acceso al día especificado, el costo es por día. Se te entregará una pulsera que te permitirá acceder a las actividades disponibles ese día. Solo estará disponible en el puesto de registro o en **Con-Ops** durante la convención. La disponibilidad podrá estar limitada por el aforo.
+
+## Pre-registro en línea
 
 {% include components/registration.html %}
+
+<a name="schedule"/>
+
+## Horarios de registro en el evento
+
+El registro duranre Confuror 2022 (Check In) estará disponible en los siguientes horarios:
+
+<div class="container-overflow">
+  <table>
+    <tr>
+      <th>Día</th>
+      <th>Horario</th>
+      <th>Lugar</th>
+    </tr>
+    <tr>
+      <td><strong>Miércoles 19</strong><br>(Exclusivo para Sponsors y Super Sponsors)</td>
+      <td>6:00pm a 9:00pm</td>
+      <td>“La Madriguera” (Sala Galería Fiesta, detrás de recepción)</td>
+    </tr>
+    <tr>
+      <td><strong>Jueves 20</strong></td>
+      <td>10:00am a 9:00pm</td>
+      <td>“La Madriguera” (Sala Galería Fiesta, detrás de recepción)</td>
+    </tr>
+    <tr>
+      <td rowspan="2"><strong>Viernes  21</strong></td>
+      <td>9:00am a 4:00pm</td>
+      <td>“La Madriguera” (Sala Galería Fiesta, detrás de recepción)</td>
+    </tr>
+    <tr>
+      <td>4:30pm a 10:00pm</td>
+      <td>Con-Ops (Afuera de Main Stage)</td>
+    </tr>
+    <tr>
+      <td><strong>Sábado 22</strong></td>
+      <td>9:00am a 10:00pm</td>
+      <td>Con-Ops (Afuera de Main Stage)</td>
+    </tr>
+    <tr>
+      <td><strong>Domingo 23</strong></td>
+      <td>9:00am a 8:00pm</td>
+      <td>Con-Ops (Afuera de Main Stage)</td>
+    </tr>
+  </table>
+</div>
+
+{%
+  include {{ site.formats.inline_faq }}
+  faq_id="register-faq"
+%}
 
 {%
   include {{ site.formats.inline_alert }}

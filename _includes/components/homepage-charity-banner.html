@@ -1,0 +1,18 @@
+{%- assign charity = site.data.charity[page.lang] -%}
+
+<a title="{{ charity.name }}" href="{{ charity.link }}">
+  <div class="homepage-charity-banner__wrapper" style="background-image: url('{{ charity.background }}');">
+    <div class="homepage-charity-banner">
+      <div class="homepage-charity-banner__header">
+        <h2 class="homepage-charity-banner__cta">
+          {{ charity.cta }}
+        </h2>
+      </div>
+      <div class="homepage-charity-banner__scene">
+        <div class="homepage-charity-banner__mascot">
+          <img src="{{ charity.mascot }}" alt="Yuri and Sharks">
+        </div>
+      </div>
+    </div>
+  </div>
+</a>

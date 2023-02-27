@@ -11,9 +11,11 @@
         <div class="home-cta__body">
           {{ cta.body }}
         </div>
+        {%- if cta.link_disabled == false -%}
         <div class="home-cta__footer">
           <a href="{{ cta.link_url }}" class="home-cta__button">{{ cta.link_label }}</a>
         </div>
+        {%- endif -%}
       </div>
       {%- endfor -%}
     </div>

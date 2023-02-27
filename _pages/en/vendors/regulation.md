@@ -1,10 +1,10 @@
 ---
 layout: document_index
 name: sales_reg
-title: Regulation for exhibition and sales, 2021
+title: Regulation for exhibition and sales, 2022
 label: Sales regulation
 description: >-
-  If you want to apply for any of our sale or exhibition categories, you should read carefully this regulation to be prepared. Last revision April 2021.
+  If you want to apply for any of our sale or exhibition categories, you should read carefully this regulation to be prepared. Last revision June 2022.
 lang: en
 featured: false
 category: cat_vendors
@@ -13,10 +13,10 @@ list_id: vendors
 list_weight: 4
 permalink: /en/sales-regulation/
 banner_src: /assets/banners/vendors_web_banner.png
-banner_alt: Confuror 2021 Artists & Dealers
-alert_heading: Open requests!
-alert_message: All 2020 applications were transferred to 2021, spaces available for request. Ask for yours using the Confuror 2021 registration form or the Account Center page.
-alert_mode: info
+banner_alt: Confuror 2022 Artists & Dealers
+# alert_heading: Open requests!
+# alert_message: All 2020/2021 applications were transferred to 2022, spaces available for request. Ask for yours using the Confuror 2022 registration form or the Account Center page.
+# alert_mode: info
 ---
 
 {%
@@ -43,7 +43,7 @@ The rules and guidelines here exposed have been written with the intention of pr
 
 - **1.1** All aspirants to any of the sales or exhibition Confuror activities must submit an application in a timely manner according to the guidelines of the corresponding categories, **using complete and verifiable data**. The acceptance of such application will be subject to the terms of these rules and regulations and to the staff evaluation. Confuror reserves the right to admit or reject any application according to its nature, presented materials, or the convention convenience. The decision of the committee responsible for this evaluation will be unappealable.
 
-- **1.2** All aspirants to any of the sales or exhibition Confuror activities with an accepted application must cover their corresponding registration fee as soon as possible and and within the dates indicated, in order to become a "Participant". Otherwise, their application may be cancelled and they may lose their assigned place.
+- **1.2** All aspirants to any of the sales or exhibition Confuror activities with an accepted application must cover their corresponding registration fee within the dates indicated and trough the established payment method, in order to become a "Participant". Otherwise, their application may be cancelled and they may lose their assigned place.
 
 - **1.3** Participants should report themselves during the agreed days and times. As well as to comply in the best way with any offer or agreement made to our convention attendees. The noncompliance of this could imply a lifetime suspension of their participation in future sales or exhibition activities.
 
@@ -77,7 +77,7 @@ The rules and guidelines here exposed have been written with the intention of pr
 
 - **3.1** All content that includes total or partial nudity, as well as erotic elements, explicit sexuality, extreme violence or drug use, is considered sensitive in nature.
 - **3.2** Graphic material used in the exhibition decoration or displayed on the exhibition items must be suitable for the entire public and **not** be of a sensitive nature, as described above.
-- **3.3** It will not be permitted to promote the availability of commissions with sensitive content. Commissions requested to include content of this nature must be dealt privately and must not be produced while bein at the main spaces of the convention.
+- **3.3** It will not be permitted to promote the availability of commissions with sensitive content by displaying samples of the same or describing them explicitly. Details for requested commissions of this nature must be dealt privately and must not be produced while bein at the main spaces of the convention.
 - **3.4** In order to allow its exhibition, any printed items of a sensitive nature must be contained in a folder clearly labelled as *"for adults only "* or *"+18"* and superficially censored, so that when leafing through the folder the sensitive elements are not directly exposed. If the form or composition of the items does not allow it to be contained in a folder, it must remain hidden and may not be displayed; its promotion or sale must be carried out as discreetly as possible.
 - **3.5** Publications such as books, comics, fanzines or magazines whose content is focused on adults or is considered of a sensitive nature may be exhibited only if the front and back covers of these works do not show sensitive content, or it is censored in their entirety.
 - **3.6** Permission for reviewing or acquiring printed items with sensitive content should be conditional upon verification of the attendees' age of majority. Exhibitors shall be responsible for requesting official identification that proves their age before granting access to these materials or carrying out any transaction involving them. The omission of this verification will be considered a serious fault and may mean the definitive suspension of the exhibition.
@@ -96,15 +96,15 @@ The following rules only apply for their corresponding category.
   - **4.1.a** In order to submit an application to the Dealers Den and hold the exhibition, you must be registered as a convention attendee and **be over 18 years old**. In case the application is not accepted and the applicant wishes to cancel his registration to the event, he may do so under the conditions of our current terms of service.
   - **4.1.b** The "Sales Assistant" badges will be given out at the beginning of the event. They will grant access to the sales space only and cannot be used to visit other areas of the convention. In case of theft or loss, the replacement of these badges will have an extra cost.
   - **4.1.c** The maximum number of operators allowed per display is 3 for a single table and 6 for a double table. This includes any person behind the counter, whether the table owner, a registered member of the collective or a temporary assistant.
-  - **4.1.d** At the end of the day, operators may dismantle their display in whole or in part. The room will be locked and no one will be granted access until the next day. It is allowed to store items in each one of the booths, but Confuror does not take responsibility for them.
+  - **4.1.d** At the end of the day, operators may dismantle their display in whole or partially. The room will be locked and no one will be granted access until the next day. It will be allowed to store items in each one of the booths, but Confuror does not take responsibility for them.
 - **4.2** Artist Alley:
   - **4.2.a** In order to submit an application to the Artist Alley and hold the exhibition, you must be registered as a convention attendee. In case the application is not accepted and the applicant wishes to cancel his registration to the event, he may do so under the conditions of our current terms of service.
   - **4.2.b** The spaces offered in the Artist Alley are individual. Therefore, only one operator will be allowed to stay per space, except for applicants who are under 18 years old, as they may be accompanied by their guardian.
   - **4.2.c** If the applicant is a minor, he must present a letter in which his guardian authorizes his participation in the Artist Alley and undertakes to accompany him as his representative. The format of this letter will be provided with the application confirmation.
   - **4.2.d** Exhibits will only be allowed on days assigned. The two-day participations are divided into three groups: Group A (Friday and Saturday); Group B (Saturday and Sunday); Group C (Friday and Sunday). The group will be assigned randomly after the application is confirmed. Exhibits mounted on unauthorized days will be withdrawn.
   - **4.2.e** If the three-day extension fee has been covered they will automatically be assigned to group D (Friday, Saturday and Sunday). Group D members may keep the same space during the three days, while Group A, B and C members must choose their space upon arrival. Availability of space is guaranteed for everyone on each day.
-  - **4.2.f** Groups A, B and C, as well as Group D must completely dismantle their exhibitions at the end of the day and remove all their items, as the Artist Alley room may be used for a different activity during the night.
+  - **4.2.f** Groups A, B and C, as well as Group D must completely dismantle their exhibitions at the end of the day and remove all their items, as the Artist Alley room may be used for a different activity during the night. No items would be allowed to be stored in this space.
 - **4.3** Night Market:
   - **4.3.a** In order to submit an application to the Night Market and hold the exhibition, you must be registered as a convention attendee and **be over 18 years old**. In case the application is not accepted and the applicant wishes to cancel his registration to the event, he may do so under the conditions of our current terms of service.
   - **4.3.b** Booths offered at the Night Market has single or double seats. Therefore, only one or two operators will be allowed to stay per booth.
-  - **4.3.c** Exhibiting content of a sensitive nature, offering or producing commissions with sensitive content; as well as exhibiting or offering accessories or artifacts that have a sexual or erotic purpose will be permitted.
+  - **4.3.c** Exhibiting content of a sensitive nature, offering or producing commissions with sensitive content; as well as exhibiting or offering accessories or artifacts that have a sexual or erotic purpose will be permitted in this space.

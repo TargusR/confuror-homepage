@@ -1,64 +1,67 @@
 general:
+  enabled: true
   label:
     es: General
     en: General
   description:
-    es: Obtén acceso a todas las actividades de Confuror 2021 durante el viernes, sábado y domingo, además de una copia de nuestro conbook y un kit de convención.
-    en: Attend every Confuror 2021 activities during friday, saturday and sunday, plus a copy of our Conbook and a convention kit.
+    es: Obtén acceso a las actividades de Confuror 2022 durante el jueves, viernes, sábado y domingo, además de una copia de nuestro conbook y un kit de convención.
+    en: Attend every Confuror 2022 activities during friday, saturday and sunday, plus a copy of our Conbook and a convention kit.
   content:
     es:
-      - Acceso general al evento por 3 días
-      - Conbook
+      - Acceso general al evento por todos los días
+      - "Conbook (Disponibilidad Limitada para registrados en etapa Extra: 28 Septiembre - 7 Octubre)"
       - Tríptico con mapa
       - Kit de Convención
     en:
       - General access for the whole weekend
-      - Conbook
+      - "Conbook (Limited availability for Bonus Stage registrants: September 28 - October 7)"
       - Handy convention map
       - Basic convention kit
   prices:
     current:
-      es: $779 mxn
-      en: $42 usd
+      es: $1,159 mxn
+      en: $57 usd
     original:
-      es: $929 mxn
-      en: $50 usd
+      es: $1,159 mxn
+      en: $57 usd
     date:
-      es: Por tiempo limitado
-      en: For a limited time
+      es: 28 Septiembre - 7 Octubre
+      en: September 28 - October 7
 sponsor:
+  enabled: true
   label:
     es: Sponsor
     en: Sponsor
   description:
-    es: Ayudanos a realizar Confuror 2021 aportando un poco más por tu acceso y obtén a cambio beneficios adicionales, además de algunos souvenirs.
-    en: Become a patron for Confuror 2021 and get extra benefits and souvenirs with this membership.
+    es: Ayudanos a realizar Confuror 2022 aportando un poco más por tu acceso y obtén a cambio beneficios adicionales, además de algunos souvenirs.
+    en: Become a patron for Confuror 2022 and get extra benefits and souvenirs with this membership.
   content:
     es:
       - Todo lo incluido en entrada General
       - Reconocimiento por su patrocinio al evento
       - Acceso anticipado al área de ventas
       - Registro exprés
-      - Playera oficial de Confuror 2021
+      - Playera oficial de Confuror 2022
       - Regalos exclusivos para Sponsor
     en:
       - Everything included in General membership
       - Credits for sponsorship
       - Early access to vendors room
       - Express Check-in
-      - Confuror 2021 Official shirt
+      - Confuror 2022 Official shirt
       - Exclusive gifts for Sponsors
   prices:
     current:
-      es: $1,399 mxn
-      en: $75 usd
+      es: $1,879.99 mxn
+      en: $92 usd
     original:
-      es: $1,649 mxn
-      en: $88 usd
+      es: $1,879.99 mxn
+      en: $92 usd
     date:
-      es: Por tiempo limitado
-      en: For a limited time
+      es: 28 Septiembre - 7 Octubre
+      en: September 28 - October 7
 super_sponsor:
+  enabled: true
   label:
     es: Super Sponsor
     en: Super Sponsor
@@ -69,24 +72,25 @@ super_sponsor:
     es:
       - Todo lo incluido en entrada Sponsor
       - Cena VIP Meet & Greet para Super Sponsor
-      - Sudadera oficial Confuror 2021
+      - Sudadera oficial Confuror 2022
       - Regalos exclusivos para Super Sponsor
     en:
       - Everything included in Sponsor membership
       - VIP Super Sponsor Meet & Greet dinner
-      - Confuror 2021 official hoodie
+      - Confuror 2022 official hoodie
       - Exclusive gifts for Super Sponsors
   prices:
     current:
-      es: $1,829 mxn
-      en: $98 usd
+      es: $2,499.99 mxn
+      en: $122 usd
     original:
-      es: $2,159 mxn
-      en: $115 usd
+      es: $2,499.99 mxn
+      en: $122 usd
     date:
-      es: Por tiempo limitado
-      en: For a limited time
+      es: 28 Septiembre - 7 Octubre
+      en: September 28 - October 7
 club_pass:
+  enabled: false
   label:
     es: Club Pass
     en: Club Pass

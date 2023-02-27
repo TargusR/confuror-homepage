@@ -4,16 +4,18 @@
 
 .header__wrapper {
   @extend .position-sticky, .sticky-top;
+  pointer-events: none;
 }
 
 .header {
   @extend .container-fluid;
+  pointer-events: all;
 }
 
 .header__brand-row {
   @extend .row;
   background-color: theme-color('secondary');
-  background-image: url("/assets/ui/adorno_DiaDeMuertos.png"), radial-gradient(circle, $dm-dark, transparent), url("/assets/ui/fondo_DiaDeMuertos.png"), linear-gradient(to right, $dm-night, $dm-dark 70%, $dm-night);
+  background-image: url("/assets/ui/adorno_DiaDeMuertos_22.png"), radial-gradient(circle, $dm-dark, transparent), url("/assets/ui/fondo_DiaDeMuertos.png"), linear-gradient(to right, $dm-night, $dm-dark 70%, $dm-night);
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain, cover, cover, cover;
@@ -43,9 +45,12 @@
 }
 
 .header.is-shrinked {
+  pointer-events: none;
+
   .header__brand-row,
   .header__navigation-row {
     transform: translateY(-180px);
+    pointer-events: all;
 
     .navigation__home,
     .navigation__featured-links {

@@ -3,7 +3,7 @@ layout: document_index
 name: conduct_code
 title: Attende Code of Conduct
 label: Code of conduct
-description: Last update January 2020
+description: Last update September 2022
 lang: en
 list_id: about_documents
 list_weight: 1
@@ -12,134 +12,77 @@ category_weight: 1
 permalink: /en/code_of_conduct/
 ---
 
-Every member of Confuror agrees to abide by the Confuror Code of Conduct as a condition of attending the event and receiving a badge. Following the policies below ensures that you and the people around you have a safe and enjoyable convention experience. This code of conduct applies to members of the convention at all event premises, regardless of whether the convention has officially begun or ended. Confuror welcomes all parties with an interest in anthropomorphic animals; however, the convention's management reserves the right to deny or revoke the membership of any individual at any time for any reason. Confuror also reserves the right to amend these rules at any time without prior or posted notice and reserves the sole right of interpretation.
+{%
+  include {{ site.formats.featured_paragraph }}
+  size="sm"
+  content="Each Confuror attendee agrees to abide by these measures and recommendations as a condition for maintaining their presence at the convention."
+%}
 
-Confuror’s events and function spaces are for the exclusive enjoyment of our members.  Badges shall be worn at all times and are required for event admission. A badge is valid only for the person to whom it was issued and may not be shared under any circumstance. Convention badges are the property of Confuror for the duration of the convention and must be presented and/or surrendered to any Confuror staff member upon request.
+Adherence to this code of conduct ensures that you, your companions and friends have the best possible experience during the convention. Maintaining these guidelines benefits us all.
 
-Daytime programming content is intended for all ages.  During evening hours, some events may contain strong language or adult themes and will be restricted to mature audiences only; attendees under the age of 18 will not be admitted to these events without a parent or guardian.
+The Organizing Committee reserves the right to deny or revoke access to the convention to any individual at any time at its discretion and in the interest of the safety or well-being of all participants.
 
-* * *
+## 1) You must wear your official convention badge at all times. It is your pass to enter the halls and events.
+- **1.1)** If you are a minor you must be accompanied at all times by a parent or guardian; or have their explicit authorization for someone else to escort you; or have their explicit authorization for you to attend unaccompanied. The only way to verify this is through the [parent or guardian consent forms](/en/minors/).
+- **1.2)** If requested by the staff, you must show and make evident the badge. As well as any additional identification or validation that may be requested.
+- **1.3)** The possession and validity of the badge is subject to compliance with the rules in this document. The Organizing Committee reserves the right to invalidate or destroy a badge if it considers that the holder has misused it, if their actions have compromised the safety of the event and its attendees, or if their behavior is not conducive to good coexistence.
 
-## Personal Conduct
+## 2) Always wear appropriate clothing! Remember that Confuror is an event for everyone.
+- **2.1)** The garments you wear must not reveal, highlight or simulate genitalia or nipples, regardless of the person's sex or gender.
+- **2.2)** The use of accessories such as masks, harnesses or necklaces, whether part of a complementary costume for a fursuit or any other type of costume, is permitted at any time as long as they are worn over appropriate clothing or fursuit.
+- **2.3)** Accessories such as: straps or items that facilitate being dragged or led by the neck; or items that project a specifically sexual use; or items or symbols that promote hate speech or illegal practices may not be included in the costumes.
+- **2.4)** The parameters of acceptable attire may be modified under specific conditions and during singular activities only under explicit indication of the staff or the instructions of a given activity. In no case will a change in the parameters of acceptable attire will allow for changes in the appropriate behavior of the attendees.
 
-Though Confuror is a private event, attendees are expected to conduct themselves in common areas in a manner appropriate for public spaces. Please consider how your actions reﬂect on the convention and how they may impact or affect others. 
+## 3) It is strictly forbidden to carry any weapon or illegal item. As well as any object that can be used to harm someone.
+- **3.1)** It is forbidden to throw objects at assistants, even if they are wearing fursuits or the objects are considered soft.
+- **3.2)** You must take care that the accessories of your fursuit or costume are not capable of causing cuts or punctures to you or other attendees. If the staff asks you to put away something that in their opinion could be dangerous, you must comply.
+- **3.3)** Carrying, offering or consuming illegal substances is prohibited. Any detection of illegal substances will be referred to the corresponding authorities.
+- **3.4)** The carrying of illegal substances, harmful substances, weapons or artifacts that can be used to harm others will be taken as a serious offense that will be referred to the appropriate authorities and taken to its ultimate consequences. It is worth mentioning that such incidence will represent a lifetime denial of access to the event in any future edition, even if no evidence of use is presented; the offense will be committed by possession.
 
-Keep in mind that there are always other guests of the hotels and convention areas, especially on the ﬁrst ﬂoor and lobby areas. Offending other hotel’s guests is inappropriate; impressing them with how much fun and enthusiasm we have for our fandom is appropriate. 
+## 4) Be respectful of other attendees and their privacy. Don't be a "creeper" and remember that NO means NO.
+- **4.1)** Seek good social interaction practices when meeting new people. Introduce yourself by name, be respectful at all times, don't make rash requests or ask questions, and don't insist upon any refusals.
+- **4.2)** Respect people's right to request distance, solitude or silence. Some people are more sociable than others, try not to pressure those who are introverted and protect their space.
+- **4.3)** If someone has made you uncomfortable or distrustful, communicate this as gently as possible; make your boundaries clear and walk away. Depending on the seriousness of the situation or recurrence, you can approach any staff member for assistance.
+- **4.4)** Respect the dress and identity of others. Their cultural origins, their background and their person in general. If during the event you feel discriminated by any mean, report the situation to the staff. Help us to create a space for all people.
+- **4.5)** If you wish to take photos in general spaces or record video, be sure to let everyone aware of this. Before recording or taking a photo of someone specific, whether a fursuiter or not, explicitly ask for their consent. Do not assume that everyone wants to be filmed or photographed at all times.
+- **4.6)** Hugs or other gestures of physical interaction should be expressed to your friends and relations only with their explicit consent. Do not invade the personal space of strangers or engage in physical gestures with anyone who has not given you their explicit and enthusiastic consent.
 
-Footwear is required in all convention spaces. Individuals not in Full-body costume are required to wear shirts,pants/shorts/skirts or their equivalents. Clothing and costumes must not be overly revealing, lewd, suggestive, or likely to draw reasonable complaint or offense. Collars are acceptable attire, however leashes may not be held by another person. Fursuiters must respect the policies of hotels and other venues regarding areas where costumes are not allowed, which may include restaurants and hotel swimming pools.
+## 5) Take care of your behavior in the public spaces of the convention. Make sure that your fun does not involve excesses that may harm or inconvenience others.
+- **5.1)** Moderate the noise you can generate, try not to carry instruments or devices that produce excessive noise.
+- **5.2)** Behavior that insinuates or manifests a sexual act is not permitted in public spaces. This includes jokes or sexual allusions for the purpose of mockery.
+- **5.3)** If someone exhibits bad behavior or initiates verbal aggression, report it immediately to the event staff. Do not respond or escalate the conflict or allow it to escalate to greater severity.
 
-Public displays of affection beyond what is appropriate for polite company are frowned upon. Please express your devotion to your significant other either in less conspicuous ways, or in private.
+## 6) Smoking, including electronic cigarettes and vaporizers, is not permitted in the common areas of the event or in the rooms.
+- **6.1)** If you wish to smoke, you may do so in the designated smoking areas of the hotel.
+- **6.2)** Cigarettes or vaporizer cartridges must not contain illegal substances; in case of detection of illegal substances, they will be referred to the corresponding authorities.
 
-* * *
+## 7) Alcohol consumption is allowed only in authorized areas and only for people over 18 years old. Be responsible with your consumption and that of those around you.
+- **7.1)** Minors are not allowed in areas where alcohol consumption is authorized.
+- **7.2)** Identification proving age of majority must be presented at the entrance to these areas.
+- **7.3)** Be careful not to exceed your limits. Your convention experience and that of those accompanying you may be at stake. If you exceed your alcohol consumption limits, you may take home a bad experience and put your health and physical integrity at risk.
 
-## The following is expressly prohibited at Confuror:​
+## 8) You must not carry or use elements or materials that may damage the venue facilities.
+- **8.1)** No elements may be glued or nailed, or fixed by any method to the floor, walls or furniture of the hotel. Before installing anything you need, ask for assistance from the staff, they are here to help and advise you.
+- **8.2)** It is forbidden to stay overnight in common areas or convention spaces at the end of the convention hours.
+- **8.3)** The entrance of pets or companion animals is conditioned under the hotel's policies. If due to a clinical condition there is an authorization and need to be accompanied by a service animal, special permission must be requested from the hotel management. Confuror cannot intervene or manage this process.
 
-* Sleeping in common spaces; please return to your hotel room or home.
-* Open display of adult artwork.
-* Throwing items from any elevated space.
-* Water pistols, silly string, or any thrown, flown, or projectile item.
-* Affixing any material to walls, elevators, hotel room doors or convention signage
-* Indoor or outdoor drone operation.
-* Lighter-than-air balloons.
-​
-Confuror attendees must abide by instructions given by Confuror Security staff. Failure to do so will result in loss of membership privileges. If the convention becomes aware of any of our attendees engaging in illegal activities, either in convention space or in private hotel rooms, we will be forced to inform the proper authorities.
+## 9) Be hospitable to our international attendees. Make them feel welcome in our country. Respect their language or accent, and if you cannot communicate well with them, try to let them know politely.
+- **9.1)** If you detect that a foreigner requires assistance and you are unable to provide it, direct them to staff members who can assist them.
+- **9.2)** Confuror is your home and also the home of all those who visit us from far away. Let's make sure that this meeting point is suitable and pleasant for everyone.
 
-* * *
+## 10) 6-2-1 rule to enjoy your convention to the fullest: 6 hours of sleep minimum; 2 or more meals a day. At least 1 shower per day.
+- **10.1)** Seriously, take care of your sleeping hours and your meals. Avoid bad habits that can have consequences on your health.
+- **10.2)** Maintain as much as possible the hygiene of your body and the spaces of the event. For the health and comfort of all.
+- **10.3)** Try to use masks whenever possible. As well as gel and hand washing. Beyond the pandemic, it can help us prevent the spread of diseases that we do not want to take home.
+- **10.4)** If you are staying at the venue, take the greatest possible care in the cleanliness of your room. Convention days increase the workload of the hotel's cleaning and housekeeping staff, so help us to leave a good impression.
+- **10.5)** Health tip: Take care of yourself and your loved ones. If you have an active sex life, be responsible with it, use condoms and try to get tested periodically, especially if you have sex with different people.
 
-## Sales of goods and services
+<br/>
 
-The offering for sale of any goods or services at the convention may be undertaken only in appropriate and authorized areas; in all cases the sale will be governed by the rules applicable to those areas. Sales may only be made at authorized times, and by registered, authorized Dealerships. It is not permitted to sell goods or services in any other areas.
+{%
+  include {{ site.formats.featured_paragraph }}
+  size="sm"
+  content="The recommendations issued in the code of conduct are adapted to the different expressions of identity and age ranges at the convention. They also address practices identified as common in the different expressions of the community; however, the organizing committee is aware that not all recommendations or rules will apply simultaneously to all attendees or profiles."
+%}
 
-* * *
-
-# Minors attendees
-
-While our attendee demographic generally consists of young adults and older, Confuror is an all-ages event. If you are not 18 years of age or older (or fail to provide a photo ID with your birthdate at registration), your badge will be marked as a minor, and you will only be allowed admittance to general-audience programming. Please be prepared to show your badge at any time you need access to convention space or events—it identiﬁes you as a fully-paid attendee of the convention.
-
-Minors are not permitted under any circumstances to enter areas designated for mature audiences.
-
-Anyone providing false documentation of identity or age will be denied membership and reported to the police.
-
-* * *
-
-## Harassment and Assault
-
-Harassment is any behavior that intentionally annoys or alarms another person. Unintentional or misinterpreted behaviors may also cause feelings of harassment. This includes unwanted physical or verbal contact, following someone in a public area without a legitimate reason, or threatening physical violence. Offenders may lose their badges and the matter may be referred to the proper law enforcement authorities.
-
-Confuror is dedicated to providing a harassment-free environment for all, regardless of age, race, gender, gender identity or expression, sexual orientation, disability, physical appearance, or personal beliefs. We do not tolerate harassment of any kind of convention attendees, volunteers, staff, or guests; harassment is considered a serious breach of this code of conduct.  This policy applies equally to attendees, staff, contractors, and agents of Confuror. If someone requests to be left alone, respect their wishes.  Individuals experiencing harassment should contact any member of Confuror staff as soon as possible.
-​
-Wearing or displaying garments, costumes, or signage that are deemed by Confuror to communicate hostile messaging or sentiment is not permitted anywhere in Confuror spaces. Individuals in violation of this policy will be required to remove such items.
-
-If people tell you "no" or ask you to leave them alone, your business with them is done. The act of wearing a costume or fursuit does not grant license for anybody to make inappropriate or suggestive comments, gestures, or unwanted physical contact with costumed attendees. If you continue to attempt to have contact with those people, you may be removed from the premises. Remember: "A costume does not imply consent."
-
-* * *
-
-## Hotel Party Policy
-
-Gatherings in hotel rooms must not generate any noise that can be heard in neighboring rooms during nighttime hours. Hotel doors must be kept shut during such gatherings and guests are not permitted to congregate in the hotel corridors.
-
-Loud parties will be given a single warning to remain quiet. No second warnings will be given before action is taken by the hotel to remove the offending individuals.
-
-Hotel guests who host any gathering are responsible for cleaning up afterward. Excessive amounts of unbagged trash must not be left for housekeeping staff to clean up (it's just plain rude).
-
-* * *
-
-## Other Hotel Matters
-
-Any act of vandalism, deliberate or excessive damage to hotel property, or interference with  hotel or Convention Center workers in the performance of their duties will result in permanent revocation of Confuror membership, criminal prosecution, fines, or any combination thereof.
-
-The person in whose name a room is rented is solely responsible for the conduct of all individuals in the room as well as for the condition of the room. Excessive trash, soiling or other damage to hotel property, or any circumstance that may present a hazard to hotel housekeeping staff may result in permanent loss of Confuror membership privileges.
-
-Requests for room amenities such as towels and pillows beyond the number that is reasonable and customary for a single room will not be honored. Kindly bring such extra items from home if you anticipate the need.
-
-* * *
-
-## Smoking, Alcohol and Substance Abuse
-
-Attendees must comply with venue smoking policies.  Smoking or use of electronic cigarettes is prohibited in any area within Confuror hotel event space, common areas, non-smoking guest rooms, or the convention areas.  Smokers must use designated smoking areas, and cigarette butts must be disposed of properly.
-
-Confuror asks that any bottled alcoholic beverages be brought promptly to hotel rooms for storage or responsible consumption. No alcoholic beverages may be brought into nor consumed in convention space, except during designated programming events.
-
-Confuror does not tolerate serving of alcohol to minors. Alcohol service at parties is permitted only if the party is closed (private). It is the responsibility of the host and registered guests of a room where alcohol is being served at a party to ensure that all persons are over the age of 18, regardless of whether or not those individuals are consuming alcohol. You should also designate someone not to drink, so that there is a fully competent person present to deal with any emergencies that might arise.
-
-The sale, distribution, or use of any illegal or controlled substances is not welcome at Confuror. Any individual found to be distributing such substances will be removed and reported directly to the authorities. Public intoxication is not permitted. Those deemed intoxicated or impaired may be asked to retire to their private hotel room or may be removed from the premises.
-
-* * *
-
-## Weapons policy
-
-No functioning or realistic appearing firearm may be carried or displayed in convention space at any time.  Projectile devices or props, which may cause annoyance to others, are not allowed.
-​
-Edged weapons may be worn as a costume accessory only if they are covered by a sheath that covers all sharp edges and points. The weapon must be secured from removal by a cord or tie (often referred to as “peace bonding”) that is applied or approved by convention security. 
-​
-Brandishing any weapon for any reason is not allowed, and will result in the confiscation of the weapon for the duration of the convention.
-​
-Any questions about this regarding the weapons policy should be directed to convention security.
-Photography, Video Recording, Media Relations and Use of Confuror’s Images or Footage
-
-Confuror wants you to have great memories from a fantastic convention. Photography, film, and video recording by convention members for personal use is generally allowed in all common areas of the convention with the exception of some events or areas where filming or photography is disallowed. Please consult the program guide at the convention for information relating to speciﬁc events.
-
-Attendees are reminded to be courteous when photographing or filming individuals or costumes — ask permission first. If an individual does not wish to be photographed or filmed, respect their wishes.
-
-All journalists, media photographers, and any other members of the press are required to display an official Confuror’s Press Badge or be accompanied by a senior Confuror staff member at all times while in convention space. Members of the press who have not been issued a Press Badge may not conduct interviews or take photographs, audio or video footage without an escort.
-
-If members of the media are present, attendees must act responsibly. Media representatives who do not have Press Badges and are not escorted by an Confuror staff member should be reported to Confuror Security staff or to Convention Operations immediately. Do not speak to any unbadged and unescorted members of the press!
-
-Confuror members should be aware that audio and/or video recordings are frequently made in convention space and that their likenesses may appear in those recordings. Individual members agree to assign without compensation the use of their likeness(es) at Confuror for the use of promotional material such as the highlights videos.
-
-The name "Confuror" and the Confuror logo are registered service marks of Vidafur A.C., and must not be used in any fashion that disparages or dilutes that mark. Members agree to remove from circulation or publication any image or recording that in the sole opinion of Vidafur A.C. misrepresents or defames its service mark.
-
-* * *
-
-## Pet policy
-
-Animals, except service animals are prohibited in hotel common areas. Emotional Support Animals do not fall under this definition.
-
-* * *
-
-## Have a Fun
-
-Please be reminded that these rules involve "worst-case" scenarios and are put into place to ensure the safety and comfort of our members. 
-This Code of Conduct is effective as of 2018-01-01.  Vidafur A.C.. reserves the right to change, amend, or modify these rules at any time without prior notice. The most current version of the Code of Conduct may always be viewed at www.confuror.org/en/code_of_conduct
-
-If you have questions or comments regarding Confuror policies, please send an email to vidafur.info@gmail.com.
+This code of conduct is not exhaustive. Having fun is important but use common sense: if something is not present in the text it does not mean that it is consequently allowed. Take care of those around you, have fun and enjoy being at home.

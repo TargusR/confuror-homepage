@@ -1,0 +1,71 @@
+//////////////////////////////////
+//  Home charity banner styles  //
+//////////////////////////////////
+
+.homepage-charity-banner__wrapper {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.homepage-charity-banner {
+  @extend .container;
+  position: relative;
+  height: 380px;
+}
+
+.homepage-charity-banner__scene {
+  img {
+    @extend .img-fluid;
+  }
+}
+
+.homepage-charity-banner__mascot {
+  @extend .do-diagonal-oscilation;
+  position: absolute;
+  top: 0;
+  z-index: 1;
+  left: 20%;
+  width: 70%;
+  pointer-events: none;
+}
+
+.homepage-charity-banner__header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 50px 60px;
+}
+
+.homepage-charity-banner__cta {
+  color: $dm-light;
+  font-family: "Arbutus", cursive;
+  text-transform: uppercase;
+  max-width: 300px;
+  font-size: $text-size-06;
+}
+
+@include media-breakpoint-down(sm) {
+  .homepage-charity-banner {
+    max-width: unset;
+    padding: 0;
+  }
+}
+
+@include media-breakpoint-down(xs) {
+  .homepage-charity-banner__mascot {
+    left: 0;
+    width: 100%;
+  }
+
+  .homepage-charity-banner__header {
+    padding: $spacer-sm;
+    top: 100px;
+  }
+
+  .homepage-charity-banner__cta {
+    font-size: $text-size-05;
+    max-width: unset;
+  }
+}

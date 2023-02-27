@@ -15,13 +15,13 @@
     en: "Contents"
     es: "Contenidos"
   weight: 2
-  hidden: true
+  hidden: false
 - id: cat_vendors
   label:
     en: "Artists & Dealers"
     es: "Artistas y Vendedores"
   weight: 3
-  hidden: true
+  hidden: false
 - id: cat_about
   label:
     en: "About"

@@ -1,97 +1,94 @@
 ---
-layout: page
+layout: document_index
 name: fursuit_dance
-title: Fursuit Dance Competition for Confuror Online 2021.
-label: Fursuit dance
+title: Fursuit Dance Competition for Confuror 2022.
+label: Dance Competition
 description: >-
-  It is time to move your body and succeed! Follow the instructions below and send your video to participate.
+  It's time to show off your best moves!
 lang: en
-banner_src: /assets/banners/confuror_virtual_dance_bg.png
-banner_alt: Confuror 2021 Fursuit Dance Competition
-category: cat_participate
-category_weight: 1
 featured: false
+category: cat_participate
+category_weight: 5
+list_id: dance_comps
+list_weight: 1
 permalink: /en/activities/fursuit-dance/
+banner_src: /assets/banners/confuror_virtual_dance_bg.png
+banner_alt: Confuror 2022 Fursuit Dance Competition
 ---
 
-<div class="container-overflow">
-<iframe src="https://www.youtube.com/embed/oU3F26dtuBM" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="width: 100%; height: 500px;"></iframe>
-</div>
+This competition is suitable for all ages. No fursuit dancing or performance experience is required. **Contestant applications will be receveid until October 14th**. Let's all get moving!
 
-This competition is suitable for all ages and open for everyone to participate. No fursuit dancing or performance experience is required. **Contestant applications will be receveid until October 4th**. Let's all get moving!
+{%
+  include {{ site.formats.cta_button }}
+  text="Sign up for the Dance Competition!"
+  url="https://forms.gle/woUhbdmg3Hi4iSPr6"
+  targetBlank=true
+%}
 
 ## How will it be carried out?
 
 Following categories are available:
-- **Partial Fursuit Solo**: 1 contestant - Head, Hands/Paws, Feet and/or tail as minimum fursuit pieces.
+- **Partial Fursuit Solo**: 1 contestant - Head, Hands/Paws and tail as minimum fursuit pieces.
 - **Full Fursuit Solo**: 1 contestant - Full Fursuit.
 - **Group**: 2 to 5 participants per group, either Full or Partial Fursuit.
 
-It will be divided into two stages. In the first stage, participants will send us their dance routine on video following the instructions described on this page. An internal jury will evaluate the entries to ensure that they comply with all the points requested, a selection of the best ones will be made according to our available transmission time.
-
-Selected entries will be notified and will move on to the second stage, which will be broadcast during Confuror Online 2021 where a public jury will evaluate them to determine a winner!
+It will be divided into two stages. A face-to-face closed-door elimination and the final competition in front of the public where only the 5 best participants in each category will participate.
 
 
-## Participation requirements
+## Requirements and participation guidelines
+
+### Requirements:
+1. Be registered for Confuror 2022. The registration ID will be required. The application will be cancelled if this information cannot be verified.
+2. Carefully fill out the application form **before October 14**. No new applications will be accepted after this deadline.
+3. For the "Group" category, a representative or leader must fill out the registration form (only one form per group), providing the members' information and the name of the team.
+4. Provide a music track through a download link (dropbox, Google drive or public link), it must comply with the requirements mentioned in the section "Characteristics of the music track".
+5. Present yourself on the assigned pre-elimination date; Friday, October 21st. See the Pre-elimination section below.
+7. Contestants must show up at least 10 minutes in advance at the corresponding room and time, wearing the full or partial fursuit they will use to participate.
+
+A participant will only be considered officially registered if they meet all the requirements and present themselves at the face-to-face elimination.
 
 ### Previous steps:
-1. Record the dance routine on video. Either with a cell phone, a webcam or a professional camera, as long as it complies with the characteristics requested here.
-2. Record an introduction video that also complies with the characteristics described below.
-3. Save the audio track of the dance routine in an audio file according to the characteristics described below.
-4. Complete the application in the corresponding category with all required fields **before October 4, 2021**. For the group category, only one representative is required to fill out the application and include the information of the other participants.
+1. Prepare your dance routine, selecting your track or mix and cutting it to the required length (2:30 min for Individuals; 3:00 min for groups). Save it according to the required characteristics below.
+2. Upload your track file to any cloud storage service and verify that the download link is publicly accessible.
+3. Fill out your application using the form provided, including the link to your track. For the group category, only one representative is required to fill out the application and include the information of the other participants.
 
-### Dance routine video guidelines
-- It must have a duration between 2 to 3 minutes for the categories **"Partial Fursuit Solo"** and **Full Fursuit Solo**; and between 3 to 5 minutes for the **"Group"** category. To avoid disqualification, the duration may not be longer or shorter than that indicated in their respective rank.
-- It must be recorded in horizontal format (landscape) and the shot must show the full body of the participants, including full visibility of the extremities.
-- Digital editing (overlapping elements, visual effects, etc.) should be kept to a minimum, focusing the video on the dance routine and not on the participant's multimedia production capabilities. The use of digital editing is not restricted as long as participants keep in mind that it is the routine what will be evaluated.
-- Following the previous point, the use of props or background scenery is also allowed, considering that the evaluation will be based on the dance routine.
-- It will not be allowed to include social media promotion or to announce any personal projects visually or audibly.
-
-### Dance routine audio track guidelines:
+### Characteristics of the music track:
 - Any musical genre is welcome. You may use a mix of music with no limit to the number of songs, as long as it complies with the assigned length per category.
-- The audio track must be censored in case it includes words not suitable for all ages.
-- The audio track must match perfectly with the video track, it must be verified before submission.
-- The names of the songs included in the track must be specified in the application for accreditation.
-
-### Introduction video guidelines:
-- It should not exceed one minute in length.
-- For the group category, it must include all participants.
-- The editing of the cut is free and may contain as many scenes as fit within the allowed length. When recording yourself, you may mention your name, your likes, your motivations or whatever you wish to be identified to the audience.
-- You may not include promotion to follow social networks or announce personal projects visually or audibly.
-- The images captured and language used in this video must be suitable for all ages.
-
-### File and formats guidelines:
-- Video files must be in MP4, MOV, AVI, FLV or WMV format.
-- Audio files must be in MP3 or WAV format.
-- You must upload your files to any storage platform of your choice (Google Drive, One Drive, Dropbox, Mega, Etc). In the case of videos, they can be uploaded to Youtube, Vimeo or any other platform that allows you to keep videos "Unlisted". Try to keep your videos private until the contest is over.
-- You must provide the direct link to each audio or video file without using URL shorteners.
-- Any required changes to the files must be notified before the deadline for the contest at **program@confuror.org**.
-
+- The audio of the track must be censored in case it includes words not suitable for all ages.
+- The files must be in MP3 or WAV format.
+- You must upload your file to any storage platform of your choice (Google Drive, One Drive, Dropbox, Mega, Etc) and provide the public link to your audio file without using URL shorteners.
+- Any required changes to the track must be notified before the application deadline to **program@confuror.org**.
 
 ## Contest Rules
-In order to guarantee a successful participation and proceed to the final stage, which will be broadcast live, the following rules must be complied with:
+In order to guarantee participation and qualify for the final stage, the following rules must be complied with:
 
-1. This contest is exclusive for **Fursuiters**, other costumes will not be accepted.  The minimum pieces to participate are head and hand/paws in the **Partial Fursuit Solo** category. In the **Group** category, Partial and Full Fursuits may participate together.
-2. The contest is for all ages; the videos provided, dance steps, visual elements presented and/or the music track used must adhere to this and not contain vulgar words, references or insinuations of a sexual nature.
-3. The use of accessories or props such as: Dance sticks, hats, small toys or stuffed animals, etc. is permitted as long as they do not violate the rule above or the [Confuror code of conduct]('/en/code_of_conduct/').
-4. Any rude and/or malicious action during the execution is prohibited and leads to disqualification.
+1. This contest is exclusively for **Fursuiters**, other costumes will not be accepted. The minimum pieces required to participate are head and gloves in the **Individual Partial Fursuit** category. In the **Group** category, both Partial and Complete Fursuits may participate.
+2. The contest is for all ages; the dance steps, visual elements presented and/or the musical track used must adhere to this and not contain vulgar words, references or insinuations of a sexual nature.
+3. The use of props such as dance sticks, hats, small toys or stuffed animals, etc. is allowed as long as they do not violate the above rule or the [Confuror code of conduct]('/en/code_of_conduct/').
+4. Any rude and/or malicious action during the performance leads to disqualification.
 
 The staff reserves the right to discard any entries that do not comply with the rules herein.
 
+## Scoring points
+- **Performance:** The quality of the dance and acting. Emphasis on the steps and movements of the participant.
+- **Originality:** Creativity and variety of dance steps according to the rhythm.
+- **Stage Presence:** Energy, confidence and fluency on stage, as well as the audience's reaction.
 
-## Scoring Criteria
-- **Performance:** The quality of the acting, dancing and framing in the shot.
-- **Originality:** Creativity in the choice of music, variety of dance steps and character characteristics.
-- **Stage Presence:** Energy, confidence and body expression in accordance with the music chosen.
+## Pre-elimination rounds for individual categories:
+All participants must compete in a pre-eliminatory stage during the on-site event, scheduled on Friday, October 21st from 2:00pm to 4:00pm. **Participation in the pre-eliminatory is a requirement to qualify for the final competition, only the top 5 participants in each category will participate in the final competition**.
+
+1. The pre-eliminatory stage will be held privately, without access to the general public. Only the handlers of the participants may be present, **maximum two per participant**.
+2. The track will be the same as the one you would dance in the final competition in case of qualifying.
+3. It will be evaluated based on the same criteria of the competition (see "Scoring points"); except for the audience factor on "Stage Prescence".
+4. If you qualify, you will be able to participate in the final competition of your category **Sunday, October 23rd from 2:00pm to 5:00pm**.
+
+With all this in mind, are you ready to shine on stage?
+
+We look forward to your submissions and see you at the 2022 edition of this dance competition.
 
 {%
   include {{ site.formats.cta_button }}
-  text="Sign up for the Dance Contest!"
-  url="https://forms.gle/EuuZkC6anbkK1nZo8"
-%}
-
-{%
-    include {{ site.formats.inline_alert }}
-    mode="info"
-    message="Deadline for registration <strong>October 4th, 2021.</strong> Register today!"
+  text="Sign up for the Dance Competition!"
+  url="https://forms.gle/woUhbdmg3Hi4iSPr6"
+  targetBlank=true
 %}

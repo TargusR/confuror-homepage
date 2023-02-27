@@ -1,26 +1,37 @@
 es:
-  form_link: https://confuror.regfox.com/confuror-2020-preregistro
+  form_link: https://confuror.regfox.com/confuror-2022-preregistro
   register_now_label: ¡Registrate ahora!
   intro: >-
     Sigue estas instrucciones para pre-registrarte en línea. Podrás pagar con tarjeta de crédito o débito, u optar por realizar un depósito, transferencia bancaria o pago con Paypal.
-  upgrade_alert: Si ya estás registrado y deseas hacer un upgrade, sigue los pasos al final de esta página. <strong>Fecha límite para hacer upgrades 31 de agosto de 2020</strong>.
-  early_bird_alert: false
-  early_bird_alert: Early bird disponible <strong>15 enero 8:00pm (GTM-6)</strong>, revisa el contador más abajo. Al finalizar la cuenta aparecerá el botón al formulario.
+  upgrade_alert: ¡Solicita tu upgrade hoy! Solicita tu upgrade antes del 7 de Octubre para aplicar a Sponsor o Super Sponsor. No se podrá hacer Upgrade después.
+  early_bird_state: false
+  early_bird_alert: Early bird disponible <strong>1ro de Mayo 0:00 (GTM-5)</strong>, revisa el contador más abajo. Al finalizar la cuenta aparecerá el botón al formulario.
   steps:
-    - Llena cuidadosamente el formulario que se muestra en el link al final de esta página. Si deseas registrar a más de una persona, usa la opción "Add Registrant" después de guardar los datos del primer asistente. Deberás ingresar información real para todos los asistentes. Se ignorarán los registros duplicados.
+    # - Llena cuidadosamente el formulario que se muestra después de estas instrucciones (si se muestra el contador, aún no está disponible). Si deseas registrar a más de una persona, usa la opción "Add Registrant" después de guardar los datos del primer asistente. Deberás ingresar información real para todos los asistentes. Se ignorarán los registros duplicados.
+    - Llena cuidadosamente el formulario que se muestra después de estas instrucciones (si se muestra el contador, aún no está disponible). Si deseas registrar a más de una persona comopleta el pago de la primera y después repite el formulario para las siguientes. Deberás ingresar información real para todos los asistentes. Se ignorarán los registros duplicados.
     - Una vez completado el formulario selecciona "Continuar al pago" para pasar a la pantalla de pago. Podrás pagar al instante con tarjeta de crédito o débito, o pagar offline mediante depósito, transferencia bancara o invoice de Paypal.
     - Si pagas por depósito o transferencia, deberás enviar tu comprobante a reg@confuror.org en un lapso no mayor a 2 días hábiles o el registro se cancelará. Instrucciones más avanzadas sobre cómo enviar tu comprobante aparecerán en el formulario al seleccionar esta opción de pago. Una vez que validemos el pago, tu ficha de registro llegará a tu correo.
     - Si pagas al instante con tarjeta de crédito o débito, el sistema te mostrará de inmediato tu ficha de registro con un ID de asistente y un QR para que hagas Check In en el evento en Octubre.
     - Preséntate al evento con tu ficha de registro y una identificación para validar tu nombre y fecha de nacimiento. Si eres menor de edad, lleva además tu carta de consentimiento de padres según el caso que aplique. Más información sobre este documento te llegará por correo.
-  upgrade_subtitle: Actualiza tus datos o realiza un Upgrade
-  upgrade_steps:
-    - Entra a la <a href="https://confuror.account.webconnex.com/" target="_blank">plataforma de administración de tu registro</a>.
+  verify_subtitle: Verifica si tienes un registro vigente para Confuror 2022
+  verify_steps:
+    - Entra a la <a href="https://confuror.account.webconnex.com/" target="_blank">plataforma de administración de tus entradas</a>.
     - Solicita tu acceso por correo ingresando tu email; deberás usar el mismo email que colocaste en la referencia de pago cuando te registraste.
     - La primera vez que inicies sesión, se te pedirá configurar una contraseña. Recuerda muy bien esta contraseña, te servirá para iniciar sesión después.
-    - Una vez que hayas iniciado sesión, podrás editar la información de tu registro para corregir algún dato o realizar un Upgrade seleccionando un paquete más alto.
+    - Una vez que hayas iniciado sesión, podrás verificar la información de los registros que has adquirido para ti u otras personas y sabrás si están vigentes para este año.
+    - Si necesitas hacer alguna modificación a los registros, sigue los pasos de la sección "Actualizaciones y Upgrades"
+    - Si tienes problemas siguiendo los pasos anteriores envíanos un correo a reg@confuror.org
+  verify_link_label: Ir a la página de administración
+  verify_link_url: https://confuror.account.webconnex.com/
+  upgrade_subtitle: Actualizaciones y Upgrades
+  upgrade_steps:
+    - Entra al formulario de <a href="https://forms.gle/sYL33GeBki31xRB29" target="_blank">Solicitud de actualización o Upgrade</a>.
+    - Llena tus datos de identificación y selecciona la operación a solicitar
+    - Si buscas actualizar o cambiar tus datos, detállalos en la sección correspondiente y espera un correo de confirmación.
+    - Si buscas hacer un upgrade, indica los detalles que se te soliciten y espera un correo de seguimiento de (y únicamente de) reg@confuror.org
     - Si tienes problemas siguiendo los pasos anteriores, envíanos un correo a reg@confuror.org
-  upgrade_link_label: Administra tu registro
-  upgrade_link_url: https://confuror.account.webconnex.com/
+  upgrade_link_label: Solicitar un cambio o Upgrade
+  upgrade_link_url: https://forms.gle/sYL33GeBki31xRB29
   vendor_subtitle: Regístrate como Artista o Vendedor
   vendor_steps:
     - Consulta nuestras <a href="/es/artistas-y-vendedores/" target="_blank">categorías disponibles</a> y elige las que más te convengan.
@@ -34,28 +45,39 @@ es:
   vendor_unregistered_link_label: ¡Aspirantes sin registro aquí!
   vendor_unregistered_link_url: https://confuror.regfox.com/confuror-2020-preregistro
 en:
-  form_link: https://confuror.regfox.com/confuror-2020-preregistration
+  form_link: https://confuror.regfox.com/confuror-2022-preregistration
   register_now_label: Register yourself now!
   intro: >-
     To set your pre-registration up follow the instructions on this page.
-  upgrade_alert: If you wish to upgrade your memberships, follow the instructions at the bottom of this page. <strong>Deadline for membership upgrades is August 31, 2020</strong>.
-  early_bird_alert: false
-  early_bird_alert: Early bird available on <strong>January 15 8:00pm (GTM-6)</strong>, check the counter below. Form button will appear when time reaches zero.
+  upgrade_alert: Request your upgrade today and keep the current fare on your request date! Request your upgrade before August 12 to maintain Phase 1 fares and pay later, within the dates indicated in your follow-up email.
+  early_bird_state: false
+  early_bird_alert: Early bird available on <strong>May first 00:00 (GTM-5)</strong>, check the countdown below. Form button will appear when time reaches zero.
   steps:
-    - Fill out the form behind the link bellow this text. If you meant to register more than one attendee, use the "Add Registrant" option after saving the data of the first attendee. You must enter verifiable information for all attendees. Duplicate records will be ignored.
+    # - Fill out the form behind the link bellow this text (might be hidden under a countdown count if not available yet). If you meant to register more than one attendee, use the "Add Registrant" option after saving the data of the first attendee. You must enter verifiable information for all attendees. Duplicate records will be ignored.
+    - Fill out the form behind the link bellow this text (might be hidden under a countdown count if not available yet). If you meant to register more than one attendee, complete your payment and later fill out the form back with the next registrant data. You must enter verifiable information for all attendees. Duplicate records will be ignored.
     - Once the form is completed, select "Proceed to billing" to go to the payment screen. You can pay instantly with a credit or debit card, or pay offline requesting a PayPal invoice.
     - If you select to request a PayPal invoice, you must complete your payment in no more than 2 business days or the registrations will be canceled (acounting once invoice is received). Once we validate the payment, your registration card will reach your email.
     - If you pay instantly with a credit or debit card, the system will instantly display your registration card with an assistant ID and a QR code so you can check in at the event in October.
     - Check in at the convention with your registration card and a personal ID to validate your name and date of birth. If you are a minor, you will also be required to present your parental consent letter. More information about this document will arrive by email.
-  upgrade_subtitle: Update your data or Upgrade your membership
-  upgrade_steps:
+  verify_subtitle: Update your data or Upgrade your membership
+  verify_steps:
     - Enter the <a href="https://confuror.account.webconnex.com/">Confuror account center</a>.
     - Request for access via email, you will get the access link to your account on the email address you entered as refference when you paid your membership
     - Once you log in for the first time, you will be asked to set a password. Rember that password and the mail address you are using, them will help you to log-in back.
-    - Once logged in, you will be able to update your data and upgrade your membership level if desired.
+    - Once logged in, you will be able to check the list of membership you have purchased for you or other people and you will know if they are available for this year.
+    - If you need to moodify any of these memberships, follow the steps in the section "Updates & Upgrades"
     - If you have any problems following these instructions, send us an email to reg@confuror.org
-  upgrade_link_label: Manage your membership account
-  upgrade_link_url: https://confuror.account.webconnex.com/
+  verify_link_label: Manage your membership account
+  verify_link_url: https://confuror.account.webconnex.com/
+  upgrade_subtitle: Updates & Upgrades
+  upgrade_steps:
+    - Enter the <a href="https://forms.gle/sYL33GeBki31xRB29" target="_blank">Updates & Upgrades request form</a>.
+    - Fill your ID data and choose the operation you want us to perform on your registration.
+    - If you seek to change or update your data, list them in the corresponding section and wait for a confirmation mail.
+    - If you seek to request for an upgrade, fill up the selected questions and wait for a follow up mail from (and only from) reg@confuror.org
+    - If you have any problems following these instructions, send us an email to reg@confuror.org
+  upgrade_link_label: Request for an Update or Upgrade
+  upgrade_link_url: https://forms.gle/sYL33GeBki31xRB29
   vendor_subtitle: Register an Artist or Vendor application
   vendor_steps:
     - Check out our Consulta nuestras <a href="/es/artistas-y-vendedores/" target="_blank">available categories</a> and choose the ones that suit you best.

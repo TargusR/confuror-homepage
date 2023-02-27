@@ -1,0 +1,24 @@
+{%- assign fees_table = site.data.access-fees-table -%}
+
+<div class="access-fees-table__wrapper">
+  <table class="access-fees-table">
+    <tr>
+      <th></th>
+      {% for level in fees_table.levels %}
+      <th>{{ level }}</th>
+      {% endfor %}
+    </tr>
+    {% for step in fees_table.steps %}
+    <tr>
+      <td>
+        <span class="access-fee-step__label">{{ step[page.lang].label }}</span>
+        <br>
+        <span class="access-fee-step__date">{{ step[page.lang].date }}</span>
+      </td>
+      <td>{{ step[page.lang].general }}</td>
+      <td>{{ step[page.lang].sponsor }}</td>
+      <td>{{ step[page.lang].super }}</td>
+    </tr>
+    {% endfor %}
+    </table>
+</div>

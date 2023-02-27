@@ -4,7 +4,7 @@ name: vendors
 title: Exhibitions for Artists and Dealers
 label: Exhibitions
 description: >-
-  Learn more about how to join our sales and exhibition spaces in Confuror 2020.
+  Learn more about how to join our sales and exhibition spaces in Confuror 2022.
 lang: en
 featured: false
 category: cat_vendors
@@ -13,13 +13,13 @@ list_id: vendors
 list_weight: 0
 permalink: /en/artists-and-dealers/
 banner_src: /assets/banners/vendors_web_banner.png
-banner_alt: Confuror 2020 Artists & Dealers
+banner_alt: Confuror 2022 Artists & Dealers
 ---
 
 {%
   include {{ site.formats.featured_paragraph }}
   size="sm"
-  content="Confuor 2020 is ready for you! If you are a visual artist, an illustrator or you belong to a collective of creators producing things for the Furry Fandom, bring your work to Confuror exhibition spaces."
+  content="Confuor 2022 is ready for you! If you are a visual artist, an illustrator or you belong to a collective of creators producing things for the Furry Fandom, bring your work to Confuror exhibition spaces."
 %}
 
 Choose the exhibition space that best suit your needs. Keep reading to find out more details and how you to submit an application.
@@ -29,7 +29,7 @@ Choose the exhibition space that best suit your needs. Keep reading to find out 
 The **Dealers Den** is our biggest exhibition and sales space. If you are looking for a large exhibit for your art, or you collaborate with a team developing your projects, this is your space.
 
 - Three day exhibition.
-- Permanent installation.
+- Permanent installation trough Friday to Sunday.
 - Two available table sizes.
 
 {%
@@ -60,6 +60,7 @@ For the first time ever in Confuror, we open the Night Market doors for a specia
 - One night event with an special atmosphere.
 - Single or double booths affordable.
 - Exclusive for people over 18 years old.
+- You can participate alongside the Artist Alley or Dealers Den as they have a different schedule.
 
 {%
   include {{ site.formats.cta_button }}
@@ -67,32 +68,23 @@ For the first time ever in Confuror, we open the Night Market doors for a specia
   url="/en/night-market"
 %}
 
-## Virtual Alley
-
-Confuror Virtual 2020 arrives with the first edition of the Virtual Alley. Installed in our virtual worlds of VRChat and Minecraft.
-
-- Link your galleries or websites completely free.
-- It does not require your intervention or presence in the stand.
-
-{%
-  include {{ site.formats.cta_button }}
-  text="Conoce más sobre el Pabellón Virtual"
-  url="/en/virtual-alley"
-%}
-
 ## Registration and Regulations
 
-Application submission will begin on May 1st. Requests will be done using the Confuror 2020 registration form or the **Account Center page**. More detailed instructions can be found at our [registration page](/en/registration).
+New application submissions will begin on **July 1st**; after that date, only new applications made through the form below will be accepted. By filling out your application you confirm that you have read our [updated sales regulations](/en/sales-regulation/).
 
 {%
   include {{ site.formats.cta_button }}
-  text="Read the updated Regulation for exhibition and sales"
-  url="/es/reglamento-de-venta"
+  text="Apply now!"
+  url="https://forms.gle/eMtpQj678yHMs9Yv8"
+  disabled=false
+  targetBlank=true
 %}
+
+The first list of selected participants will be published on July 15. In order to apply for a vendor/exhibitor space you must have a Confuror 2022 valid registration, if you do not have one yet, you can obtain it from [our registration page](/en/registration).
 
 {%
   include {{ site.formats.inline_alert }}
   mode="info"
   heading="We grow for you!"
-  message="Confuror 2020 arrives with great improvements in our exhibition spaces and dynamics. We have listened to you all and we have great surprises. We thank our 2019 participants for answering the feedback survey. Your opinion and support makes us grow. We look forward to seeing you in 2020."
+  message="Confuror 2022 arrives with great improvements in our exhibition spaces. We have listened to you all and we have great surprises. We thank our 2019 participants for answering the feedback survey. Your opinion and support makes us grow. We look forward to seeing you October."
 %}

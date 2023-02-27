@@ -1,0 +1,12 @@
+es:
+  cta: ¡Los tiburones nos necesitan!
+  name: Desmitificando Tiburones
+  background: /assets/images/shark_cta_bg.jpg
+  mascot: /assets/images/shark_cta_mascot.png
+  link: /es/caridad/
+en:
+  cta: Sharks need our help!
+  name: Desmitificando Tiburones
+  background: /assets/images/shark_cta_bg.jpg
+  mascot: /assets/images/shark_cta_mascot.png
+  link: /en/charity/

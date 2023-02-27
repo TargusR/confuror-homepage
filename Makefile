@@ -3,6 +3,8 @@ BUNDLE := bundle
 YARN := yarn
 VENDOR_DIR = assets/vendor
 NODE_MODULES := node_modules
+VUE_DIR = _vue
+JS_DIR = js
 JEKYLL := $(BUNDLE) exec jekyll
 
 PROJECT_DEPS := Gemfile package.json
@@ -46,8 +48,13 @@ include-yarn-deps:
 	mkdir -p $(VENDOR_DIR)/featherlight
 	cp $(NODE_MODULES)/featherlight/release/featherlight.min.js $(VENDOR_DIR)/featherlight/
 	cp $(NODE_MODULES)/featherlight/release/featherlight.min.css $(VENDOR_DIR)/featherlight/
+	# vue
+	cp $(VUE_DIR)/calendar/dist/assets/index.js $(JS_DIR)/calendar.js
 
-build: install include-yarn-deps
+build_old: install include-yarn-deps
+	JEKYLL_ENV=production $(JEKYLL) build
+
+build: include-yarn-deps
 	JEKYLL_ENV=production $(JEKYLL) build
 
 serve: install include-yarn-deps

@@ -4,29 +4,23 @@ name: minecraft
 title: Enter our virtual world in Minecraft
 label: Minecraft
 description: >-
-  Explore and play in the different arenas that Confuror and a very special group of builders have prepared for you
+  Explore and play in the different zones that Confuror and a very special group of builders have prepared for you.
 lang: en
-# banner_src: /assets/banners/panels_web_banner.png
-# banner_alt: Confuror paneles y actividades
 category: cat_contents
-category_weight: 5
+category_weight: 1
 featured: false
-# alert_heading: ¡Inscribe tu panel o actividad!
-# alert_message: >-
-#   ¡El contenido de Confuror lo pones tú! Inscribe tu panel o actividad para la edición de Confuror 2020 que se llevará a cabo en línea. Tienes hasta el 26 de septiembre para inscribir tu propuesta.
-# alert_mode: info
 permalink: /en/activities/minecraft/
 ---
 
 <div class="container-overflow">
-<iframe src="https://www.youtube.com/embed/Cb9UcBNLxxY" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="width: 100%; height: 500px;"></iframe>
+<iframe src="https://www.youtube.com/embed/Yz6-zk2BoOo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="width: 100%; height: 500px;"></iframe>
 </div>
 <br>
 
 {%
   include {{ site.formats.featured_paragraph }}
   size="sm"
-  content="Thanks to our selected team of builders, this year Confuror is able to launch its virtual Minecraft world."
+  content="Thanks to our selected team of builders, this year Confuror is able to launch its second virtual Minecraft world."
 %}
 
 Alongside our webcasts, you will be able to enter this virtual world and explore the entire Confuror venue hotel and its surroundings, find the hidden cameras and play in the game area in the different arenas that have been prepared.
@@ -34,7 +28,7 @@ Alongside our webcasts, you will be able to enter this virtual world and explore
 Our server is pleased to welcome all Minecraft players. If you don't have a user, you can get the application from its official site. Register and get ready to enter Confuror Minecraft World in the next days.
 
 <div class="container" style="text-align: center;">
-  <img class="img-fluid" src="/assets/images/minecraft_confuror.png" alt="Confuror Minecraft World" style="margin: auto">
+  <img class="img-fluid" src="/assets/images/minecraft_confuror_mictlan.png" alt="Confuror Minecraft World" style="margin: auto">
 </div>
 
 More information about Minecraft and how to get it at its official website:
@@ -48,19 +42,31 @@ More information about Minecraft and how to get it at its official website:
 
 Special thanks to all our server builders and support team:
 
-- **Arthy Wolfire**
+- **Arthy Wolfire 149**
 - **Dukk Vulpes**
-- **Ricius Teck**
-- **Rockey Pawsy**
+- **Rockey Pawsey**
 - **Rom Howler**
-- **Snarty Fox Paws**
+- **Ricius Teck**
+- **Seluzkion**
+- **Snarty Fox**
 
 Thank you for making this experience possible.
 
+## Beta access
+
+Sign up in this form to join the beta-test of the server. It will be exclusive for the first 40 people to register.
+
+{%
+  include {{ site.formats.cta_button }}
+  text="Sign up for the beta-test!"
+  url="https://forms.gle/JV64Q2jHhpB3bWLY8"
+%}
+
+<!--
 ## Connection requirements
 
 - Lanucher Premium or non Premium
-- Minecraft Java: 1.15.2
+- Minecraft Java: 1.16.4
 - Access to multiplayer option
 - Add the **minecraft-tails.confuror.com** server
 - Or the mirror server **minecraft-belly.confuror.com**
@@ -73,3 +79,4 @@ For detailed information, check out the tutorial video that our friend Snarty Fo
 <iframe src="https://www.youtube.com/embed/eM5BlvlMSfo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="width: 100%; height: 500px;"></iframe>
 </div>
 <br>
+-->

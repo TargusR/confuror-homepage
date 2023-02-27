@@ -1,21 +1,21 @@
-title: Confuror 2021
+title: Confuror 2022
 email: info@confuror.org
 description:
   en: >-
     Confuror is a furry convention based in Mexico, hosted in the city of Guadalajara, Jalisco.
-    Is the annual main event supported by the furry local comunity Vidafur. It's comming back this 2021 with it's fourth edition in October 29 - 31.
+    Is the annual main event supported by the furry local comunity Vidafur. It's comming back this 2022 with it's fifth edition in October 20 - 23.
   es: >-
-    Confuror es una convención furry con sede en Guadalajara Jalisco, México; organizado por la comunidad furry de Vidafur de forma anual. Llega en 2021 con su cuarta edición del 29 al 31 de Octubre.
+    Confuror es una convención furry con sede en Guadalajara Jalisco, México; organizado por la comunidad furry de Vidafur de forma anual. Llega en 2022 con su quinta edición del 20 al 23 de Octubre.
 edition_label:
-  en: October 29 - 31 2021 | Guadalajara, México
-  es: 29 - 31 de Octubre 2021 | Guadalajara, México
+  en: October 20 - 23 2022 | Guadalajara, México
+  es: 20 - 23 de Octubre 2022 | Guadalajara, México
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 
 # Build settings
 markdown: kramdown
 theme: minima
-version: 4.0.1
+version: 5.0.3
 
 # Sass configuration
 sass:

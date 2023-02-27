@@ -1,0 +1,1 @@
+{"buildTargets":["all","build","build_old","check","clean","include-yarn-deps","install","push","serve","sync","update","watch"],"launchTargets":[],"customConfigurationProvider":{"workspaceBrowse":{"browsePath":[],"compilerArgs":[]},"fileIndex":[]}}

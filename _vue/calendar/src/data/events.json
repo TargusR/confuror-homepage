@@ -1,0 +1,14 @@
+{
+  "events": [
+    {
+      "es": {
+        "title": "¡Peludos a La Lucha!",
+        "description": "Principios básicos de la lucha libre, practicaremos algunas llaves y pines para derrotar a tu enemigo."
+      },
+      "en": {
+        "title": "¡Peludos a La Lucha!",
+        "description": "Basic principles of wrestling, we will practice some keys and pins to defeat your enemy."
+      }
+    }
+  ]
+}

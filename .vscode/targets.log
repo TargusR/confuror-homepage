@@ -1,0 +1,392 @@
+make all --print-data-base --no-builtin-variables --no-builtin-rules --question
+# GNU Make 3.81
+# Copyright (C) 2006  Free Software Foundation, Inc.
+# This is free software; see the source for copying conditions.
+# There is NO warranty; not even for MERCHANTABILITY or FITNESS FOR A
+# PARTICULAR PURPOSE.
+
+# This program built for i386-apple-darwin11.3.0
+ 
+
+# Make data base, printed on Sun Feb 26 17:23:26 2023
+
+# Variables
+
+# automatic
+<D = $(patsubst %/,%,$(dir $<))
+# automatic
+?F = $(notdir $?)
+# environment
+ELECTRON_NO_ATTACH_CONSOLE = 1
+# environment
+LC_CTYPE = UTF-8
+# automatic
+?D = $(patsubst %/,%,$(dir $?))
+# makefile (from `Makefile', line 4)
+VENDOR_DIR = assets/vendor
+# automatic
+@D = $(patsubst %/,%,$(dir $@))
+# automatic
+@F = $(notdir $@)
+# makefile
+CURDIR := /Users/josue/sites/confuror/confuror_homepage
+# makefile (from `Makefile', line 1)
+SHELL := /bin/bash
+# environment
+VSCODE_NLS_CONFIG = {"locale":"es-419","availableLanguages":{},"_languagePackSupport":true}
+# environment
+_ = /usr/bin/make
+# makefile (from `Makefile', line 1)
+MAKEFILE_LIST :=  Makefile
+# makefile (from `Makefile', line 6)
+VUE_DIR = _vue
+# environment
+__CFBundleIdentifier = com.microsoft.VSCode
+# environment
+INFOPATH = /opt/homebrew/share/info:
+# environment
+VSCODE_CWD = /Users/josue/sites/confuror/confuror_homepage
+# environment
+PATH = /opt/homebrew/bin:/opt/homebrew/sbin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin
+# environment
+ELECTRON_RUN_AS_NODE = 1
+# default
+.FEATURES := target-specific order-only second-expansion else-if archives jobserver check-symlink
+# environment
+SSH_AUTH_SOCK = /private/tmp/com.apple.launchd.vcnpmmkVAM/Listeners
+# automatic
+%F = $(notdir $%)
+# environment
+PWD = /Users/josue/sites/confuror/confuror_homepage
+# makefile (from `Makefile', line 7)
+JS_DIR = js
+# environment
+HOMEBREW_CELLAR = /opt/homebrew/Cellar
+# environment
+ORIGINAL_XDG_CURRENT_DESKTOP = undefined
+# environment
+MANPATH = /opt/homebrew/share/man::
+# environment
+VSCODE_AMD_ENTRYPOINT = vs/workbench/api/node/extensionHostProcess
+# environment
+HOME = /Users/josue
+# default
+MAKEFILEPATH = $(shell /usr/bin/xcode-select -print-path 2>/dev/null || echo /Developer)/Makefiles
+# environment
+VSCODE_CLI = 1
+# environment
+VSCODE_CODE_CACHE_PATH = /Users/josue/Library/Application Support/Code/CachedData/441438abd1ac652551dbe4d408dfcec8a499b8bf
+# environment
+LOGNAME = josue
+# makefile (from `Makefile', line 3)
+YARN := yarn
+# environment
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = 1
+# environment
+VSCODE_HANDLES_UNCAUGHT_ERRORS = true
+# automatic
+^D = $(patsubst %/,%,$(dir $^))
+# environment
+XPC_FLAGS = 0x0
+# default
+MAKE = $(MAKE_COMMAND)
+# default
+MAKECMDGOALS := all
+# environment
+SHLVL = 3
+# makefile (from `Makefile', line 10)
+PROJECT_DEPS := Gemfile package.json
+# default
+MAKE_VERSION := 3.81
+# environment
+USER = josue
+# makefile
+.DEFAULT_GOAL := all
+# environment
+TERM_SESSION_ID = 68969221-5062-41A6-A279-23A9DE73E04C
+# automatic
+%D = $(patsubst %/,%,$(dir $%))
+# default
+MAKE_COMMAND := /Library/Developer/CommandLineTools/usr/bin/make
+# environment
+TERM_PROGRAM = Apple_Terminal
+# default
+.VARIABLES := 
+# environment
+TMPDIR = /var/folders/3g/7h2366zn4zq943yszyqbx2fh0000gn/T/
+# automatic
+*F = $(notdir $*)
+# environment
+VSCODE_IPC_HOOK = /Users/josue/Library/Application Support/Code/1.75.1-main.sock
+# environment
+MallocNanoZone = 0
+# makefile (from `Makefile', line 5)
+NODE_MODULES := node_modules
+# makefile
+MAKEFLAGS = Rrqp
+# environment
+MFLAGS = -Rrqp
+# automatic
+*D = $(patsubst %/,%,$(dir $*))
+# environment
+TERM_PROGRAM_VERSION = 445
+# environment
+XPC_SERVICE_NAME = application.com.microsoft.VSCode.20349230.20349236.8F8E8F7C-C079-490A-A1FF-4280B6EA41E2
+# environment
+HOMEBREW_PREFIX = /opt/homebrew
+# automatic
++D = $(patsubst %/,%,$(dir $+))
+# automatic
++F = $(notdir $+)
+# environment
+HOMEBREW_REPOSITORY = /opt/homebrew
+# environment
+__CF_USER_TEXT_ENCODING = 0x1F5:0:86
+# environment
+COMMAND_MODE = unix2003
+# default
+MAKEFILES := 
+# automatic
+<F = $(notdir $<)
+# makefile (from `Makefile', line 2)
+BUNDLE := bundle
+# environment
+LC_ALL = C
+# makefile (from `Makefile', line 8)
+JEKYLL := bundle exec jekyll
+# automatic
+^F = $(notdir $^)
+# default
+SUFFIXES := 
+# environment
+MAKELEVEL := 0
+# environment
+LANG = C
+# environment
+TERM = xterm-256color
+# environment
+VSCODE_PID = 1109
+# variable set hash-table stats:
+# Load=77/1024=8%, Rehash=0, Collisions=5/108=5%
+
+# Pattern-specific Variable Values
+
+# No pattern-specific variable values.
+
+# Directories
+
+# . (device 16777234, inode 576628): 32 files, no impossibilities.
+
+# 32 files, no impossibilities in 1 directories.
+
+# Implicit Rules
+
+# No implicit rules.
+
+# Files
+
+build_old: install include-yarn-deps
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `Makefile', line 55):
+	JEKYLL_ENV=production $(JEKYLL) build
+	
+
+all: serve
+#  Phony target (prerequisite of .PHONY).
+#  Command-line target.
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has been updated.
+#  Needs to be updated (-q is set).
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/4=0%
+
+.PHONY: all clean install update
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+include-yarn-deps:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `Makefile', line 33):
+	rm -rf $(VENDOR_DIR)
+	mkdir -p $(VENDOR_DIR)
+	mkdir -p $(VENDOR_DIR)/jquery
+	cp $(NODE_MODULES)/jquery/dist/jquery.min.js $(VENDOR_DIR)/jquery
+	mkdir -p $(VENDOR_DIR)/popper
+	cp $(NODE_MODULES)/popper.js/dist/umd/popper.min.js $(VENDOR_DIR)/popper
+	mkdir -p $(VENDOR_DIR)/bootstrap
+	cp $(NODE_MODULES)/bootstrap/dist/js/bootstrap.min.js $(VENDOR_DIR)/bootstrap
+	mkdir -p $(VENDOR_DIR)/fontawesome
+	cp -r $(NODE_MODULES)/@fortawesome/fontawesome-free/webfonts $(VENDOR_DIR)/fontawesome
+	mkdir -p $(VENDOR_DIR)/flag-icon-css
+	cp -r $(NODE_MODULES)/flag-icon-css/flags $(VENDOR_DIR)/flag-icon-css/
+	mkdir -p $(VENDOR_DIR)/slick
+	cp $(NODE_MODULES)/slick-carousel/slick/slick.min.js $(VENDOR_DIR)/slick/
+	cp $(NODE_MODULES)/slick-carousel/slick/slick.css $(VENDOR_DIR)/slick/
+	mkdir -p $(VENDOR_DIR)/featherlight
+	cp $(NODE_MODULES)/featherlight/release/featherlight.min.js $(VENDOR_DIR)/featherlight/
+	cp $(NODE_MODULES)/featherlight/release/featherlight.min.css $(VENDOR_DIR)/featherlight/
+	# vue
+	cp $(VUE_DIR)/calendar/dist/assets/index.js $(JS_DIR)/calendar.js
+	
+
+# Not a target:
+.SUFFIXES:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+push: build sync
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Makefile:
+#  Implicit rule search has been done.
+#  Last modified 2022-10-07 01:32:58
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+update: Gemfile package.json
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  commands to execute (from `Makefile', line 29):
+	$(BUNDLE) update
+	$(YARN) upgrade
+	
+
+build: include-yarn-deps
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `Makefile', line 58):
+	JEKYLL_ENV=production $(JEKYLL) build
+	
+
+sync:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `Makefile', line 67):
+	rsync -e "ssh -i ~/.ssh/confuror/aws-targus-20181118.pem" -avz _site/ targus@confuror.org:/var/www/html
+	
+
+# Not a target:
+package.json:
+#  Implicit rule search has been done.
+#  Last modified 2021-04-30 22:20:31
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+# Not a target:
+Gemfile:
+#  Implicit rule search has been done.
+#  Last modified 2020-10-07 02:01:34
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+watch: install include-yarn-deps
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `Makefile', line 64):
+	$(JEKYLL) build -w
+	
+
+# Not a target:
+.DEFAULT:
+ 
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+clean:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+
+check:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `Makefile', line 17):
+	$(JEKYLL) doctor
+	$(HTMLPROOF) --check-html \
+	--http-status-ignore 999 \
+	--internal-domains localhost:4000 \
+	--assume-extension \
+	_site
+	
+
+serve: install include-yarn-deps
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has been updated.
+#  Needs to be updated (-q is set).
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/4=0%
+#  commands to execute (from `Makefile', line 61):
+	$(JEKYLL) serve
+	
+
+install: Gemfile package.json
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: `'
+#  File does not exist.
+#  File has been updated.
+#  Needs to be updated (-q is set).
+# automatic
+# @ := install
+# automatic
+# % := 
+# automatic
+# * := 
+# automatic
+# + := Gemfile package.json
+# automatic
+# | := 
+# automatic
+# < := Gemfile
+# automatic
+# ^ := Gemfile package.json
+# automatic
+# ? := Gemfile package.json
+# variable set hash-table stats:
+# Load=8/32=25%, Rehash=0, Collisions=3/12=25%
+#  commands to execute (from `Makefile', line 25):
+	$(BUNDLE) install --path vendor/bundler
+	$(YARN) install
+	
+
+# files hash-table stats:
+# Load=18/1024=2%, Rehash=0, Collisions=0/50=0%
+# VPATH Search Paths
+
+# No `vpath' search paths.
+
+# No general (`VPATH' variable) search path.
+
+# # of strings in strcache: 1
+# # of strcache buffers: 1
+# strcache size: total = 4096 / max = 4096 / min = 4096 / avg = 4096
+# strcache free: total = 4087 / max = 4087 / min = 4087 / avg = 4087
+
+# Finished Make data base on Sun Feb 26 17:23:26 2023
+
+ 

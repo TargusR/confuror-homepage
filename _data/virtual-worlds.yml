@@ -1,18 +1,24 @@
 es:
   cta: ¡Explora nuestros mundos virtuales!
   worlds:
-    - name: Confuror VRChat World
+    - name: Confuror VRChat World & Furry Family Ofrenda
       link: /es/actividades/vrchat/
-      image: /assets/images/vrchat_confuror.png
+      image: /assets/images/vrchat_confuror_ofrenda.png
+    - name: Confuror Fortnite World
+      link: 
+      image: /assets/images/fortnite_confuror.png
     - name: Confuror Minecraft World
       link: /es/actividades/minecraft/
-      image: /assets/images/minecraft_confuror.png
+      image: /assets/images/minecraft_confuror_mictlan.png
 en:
   cta: Explore our virtual worlds!
   worlds:
-    - name: Confuror VRChat World
+    - name: Confuror VRChat World & Furry Family Ofrenda
       link: /en/activities/vrchat/
-      image: /assets/images/vrchat_confuror.png
+      image: /assets/images/vrchat_confuror_ofrenda.png
+    - name: Confuror Fortnite World
+      link: 
+      image: /assets/images/fortnite_confuror.png
     - name: Confuror Minecraft World
       link: /en/activities/minecraft/
-      image: /assets/images/minecraft_confuror.png
+      image: /assets/images/minecraft_confuror_mictlan.png
