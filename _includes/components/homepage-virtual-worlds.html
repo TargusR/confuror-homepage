@@ -11,7 +11,7 @@
       {%- for world in virtual-worlds.worlds -%}
       <div class="homepage-virtual-worlds__world">
         <a href="{{ world.link }}" class="homepage-virtual-worlds__world-link">
-          <img src="{{ world.image }}" alt="{{ world.name }}" class="homepage-virtual-worlds__world-image">
+          <img src="{{ world.image }}" alt="{{ world.name }}" class="homepage-virtual-worlds__world-image" loading="lazy">
         </a>
       </div>
       {%- endfor -%}

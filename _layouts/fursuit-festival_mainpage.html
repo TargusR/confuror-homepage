@@ -1,0 +1,38 @@
+---
+layout: default
+---
+
+<div class="fursuit-festival">
+  <div class="fursuit-festival__wrapper">
+    {%- if page.alert_message -%}
+    <div class="fursuit-festival__alerts">
+      {%-
+        include components/alert.html
+        mode=page.alert_mode
+        heading=page.alert_heading
+        message=page.alert_message
+      -%}
+    </div>
+    {%- endif -%}
+    <div class="fursuit-festival__header">
+      {%- if page.title -%}
+      <div class="fursuit-festival__title">
+        <h1>{{ page.title | escape }}</h1>
+      </div>
+      {%- endif -%}
+      {%- if page.description -%}
+      <div class="fursuit-festival__description">
+        <span>{{ page.description | escape }}</span>
+      </div>
+      {%- endif -%}
+    </div>
+    <div class="fursuit-festival__content">
+      <div class="fursuit-festival__index">
+        {% include components/fursuit-festival-index.html %}
+      </div>
+      <div class="fursuit-festival__notes">
+        {{ content }}
+      </div>
+    </div>
+  </div>
+</div>

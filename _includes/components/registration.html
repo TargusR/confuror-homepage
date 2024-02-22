@@ -1,5 +1,8 @@
 {%- assign registration_data = site.data.registration[page.lang] -%}
 
+<a name="registration"></a>
+{% if not(registration_data.day_pass_state) %}
+
 <div class="registration__intro">
   <p>{{ registration_data.intro }}</p>
 </div>
@@ -12,15 +15,32 @@
 %}
 {% endif %}
 
+{% if registration_data.last_chance_state %}
+{%
+  include {{ site.formats.inline_alert }}
+  mode="info"
+  message=registration_data.last_chance_alert
+%}
+{% endif %}
+
 <ol class="registration__step-list">
   {%- for step in registration_data.steps -%}
   <li class="registration__step-item">{{ step }}</li>
   {%- endfor -%}
 </ol>
 
-<div class="clock-counter__container">
+{%
+  include {{ site.formats.cta_button }}
+  text=registration_data.register_now_label
+  url=registration_data.form_link
+  disabled=false
+  targetBlank=true
+  classes='registration__form-button'
+%}
+
+<!-- <div class="clock-counter__container">
   <span class="clock-counter__intro">OWO!! *notices countdown*</span>
-  <span class="clock-counter" data-limit="1664416800000"></span>
+  <span class="clock-counter" data-limit="1681783200000"></span>
   <div class="clock-counter__hide clock-counter__outro">
     {%
       include {{ site.formats.cta_button }}
@@ -30,7 +50,7 @@
       targetBlank=true
     %}
   </div>
-</div>
+</div> -->
 <!-- 1651381200 -->
 <!-- 1651363200000 -->
 
@@ -42,24 +62,37 @@
   targetBlank=true
 %} -->
 
-<hr>
+{% else %}
 
-<a name="verify"></a>
-<h4>{{ registration_data.verify_subtitle }}</h4>
+{%
+  include {{ site.formats.inline_alert }}
+  mode="info"
+  message=registration_data.day_pass_alert
+%}
 
-<ol class="registration__step-list">
-  {%- for step in registration_data.verify_steps -%}
-  <li class="registration__step-item">{{ step }}</li>
-  {%- endfor -%}
-</ol>
+<h3>{{ registration_data.day_pass_header }}</h3>
+
+<p>{{ registration_data.day_pass_intro }}</p>
+
+<div class="day-pass-costs">
+{% for day in registration_data.day_pass_table %}
+  <div class="day-pass-costs__item">
+    <div class="day-pass-costs__label">{{ day.label }}</div>
+    <div class="day-pass-costs__fare">{{ day.fare }}</div>
+  </div>
+{% endfor %}
+</div>
 
 {%
   include {{ site.formats.cta_button }}
-  text=registration_data.verify_link_label
-  url=registration_data.verify_link_url
+  text=registration_data.day_pass_cta
+  url=registration_data.day_pass_link
   disabled=false
   targetBlank=true
+  classes='registration__form-button'
 %}
+
+{% endif %}
 
 <hr>
 
@@ -78,6 +111,7 @@
   url=registration_data.upgrade_link_url
   disabled=false
   targetBlank=true
+  classes=''
 %}
 
 {%
@@ -88,7 +122,7 @@
 
 <hr>
 
-<!--
+{% if false %}
 <h4>{{ registration_data.vendor_subtitle }}</h4>
 
 <ol class="registration__step-list">
@@ -118,4 +152,4 @@
       %}
     </div>
   </div>
-</div> -->
+{% endif %}

@@ -1,0 +1,15 @@
+{%- assign pictures = page.pictures -%}
+
+<div class="fursuit-festival-gallery">
+    <div class="fursuit-festival-gallery__board">
+        {% for picture in pictures %}
+        <div class="fursuit-festival-gallery__picture">
+            <a class="fursuit-festival-gallery__card-link" href="{{ page.base_path }}/{{ picture.filename }}">
+                <div class="fursuit-festival-gallery__card">
+                    <img src="{{ page.base_path }}/{{ picture.thumbnail }}/{{ picture.filename }}" alt="{{ picture.description }}">
+                </div>
+            </a>
+        </div>
+        {% endfor %}
+    </div>
+</div>

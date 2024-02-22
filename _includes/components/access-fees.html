@@ -5,26 +5,35 @@
     {% for fee in fees_data %}
       {%- if fee[1].enabled -%}
       <div class="access-fees__fee access-fees__fee--{{ fee[0] }}">
-        <div class="access-fees__fee-header">
-          <span class="access-fees__fee-name">{{ fee[1].label[page.lang] }}</span>
-          <span class="access-fees__fee-stars">
-            <i class="fas fa-skull"></i>
-          </span>
-        </div>
-        <div class="access-fees__fee-body">
-          <p class="access-fees__fee-description">
-            {{ fee[1].description[page.lang] }}
-          </p>
-          <ul class="access-fees__fee-includes">
-            {% for item in fee[1].content[page.lang] %}
-              <li class="access-fees__fee-item">{{ item }}</li>
-            {% endfor %}
-          </ul>
-        </div>
-        <div class="access-fees__fee-footer">
-          <!-- <span class="access-fees__fee-from">{{ fee[1].prices.original[page.lang] }}</span> -->
-          <span class="access-fees__fee-to">{{ fee[1].prices.current[page.lang] }}</span>
-          <span class="access-fees__fee-date">({{ fee[1].prices.date[page.lang] }})</span>
+        <div class="access-fees__fee-card">
+          <div class="access-fees__fee-header">
+            <span class="access-fees__fee-name">{{ fee[1].label[page.lang] }}</span>
+            <span class="access-fees__fee-stars">
+              {%- for i in (1..forloop.index) -%}
+                <i class="fas fa-flask"></i>
+              {%- endfor -%}
+            </span>
+          </div>
+          <div class="access-fees__fee-body">
+            <p class="access-fees__fee-description">
+              {{ fee[1].description[page.lang] }}
+            </p>
+            <ul class="access-fees__fee-includes">
+              {% for item in fee[1].content[page.lang] %}
+                <li class="access-fees__fee-item">{{ item }}</li>
+              {% endfor %}
+            </ul>
+          </div>
+          <div class="access-fees__fee-footer">
+            {% if fee[1].is_final %}
+              <span class="access-fees__fee-to">{{ fee[1].prices.final[page.lang] }}</span>
+              <span class="access-fees__fee-date">({{ fee[1].prices.date[page.lang] }})</span>
+            {% else %}
+              <span class="access-fees__fee-from">{{ fee[1].prices.original[page.lang] }}</span>
+              <span class="access-fees__fee-to">{{ fee[1].prices.current[page.lang] }}</span>
+              <span class="access-fees__fee-date">({{ fee[1].prices.date[page.lang] }})</span>
+            {% endif %}
+          </div>
         </div>
       </div>
       {%- endif -%}

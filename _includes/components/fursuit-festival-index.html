@@ -1,0 +1,18 @@
+{%- assign fursuit-festival-index = page.index -%}
+
+<div class="fursuit-festival-index">
+    <div class="fursuit-festival-index__board">
+        {% for edition in fursuit-festival-index %}
+        <div class="fursuit-festival-index__edition">
+            <a class="fursuit-festival-index__card-link" href="{{ edition.url }}">
+                <div class="fursuit-festival-index__card">
+                    <div class="fursuit-festival-index__card-header">
+                        <div class="fursuit-festival-index__card-title">{{ edition.label }}</div>
+                        <img src="{{ edition.thumbnail }}" alt="">
+                    </div>
+                </div>
+            </a>
+        </div>
+        {% endfor %}
+    </div>
+</div>

@@ -1,6 +1,9 @@
 {%- if include.disabled -%}
   {%- assign isDisabled = "is-disabled" -%}
 {%- endif -%}
+{%- if include.classes -%}
+  {%- assign classes = include.classes -%}
+{%- endif -%}
 {%- if include.targetBlank -%}
   {%- assign targetBlank = 'target="_blank"' -%}
 {%- else -%}
@@ -8,5 +11,5 @@
 {%- endif -%}
 
 <div class="cta-button-container">
-  <a href="{{ include.url }}" class="cta-button-container__button {{ include.aditional_class }} {{ isDisabled }}" {{ targetBlank }}>{{ include.text }}</a>
+  <a href="{{ include.url }}" class="cta-button-container__button {{ classes }} {{ isDisabled }}" {{ targetBlank }}>{{ include.text }}</a>
 </div>

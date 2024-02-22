@@ -5,17 +5,19 @@
     <div class="home-cta__items-wrapper">
       {%- for cta in homepage-ctas -%}
       <div class="home-cta__item">
-        <div class="home-cta__header">
-          <h3 class="home-cta__title">{{ cta.title }}</h3>
+        <div class="home-cta__item-card">
+          <div class="home-cta__header">
+            <h3 class="home-cta__title">{{ cta.title }}</h3>
+          </div>
+          <div class="home-cta__body">
+            {{ cta.body }}
+          </div>
+          {%- if cta.link_disabled == false -%}
+          <div class="home-cta__footer">
+            <a href="{{ cta.link_url }}" class="home-cta__button">{{ cta.link_label }}</a>
+          </div>
+          {%- endif -%}
         </div>
-        <div class="home-cta__body">
-          {{ cta.body }}
-        </div>
-        {%- if cta.link_disabled == false -%}
-        <div class="home-cta__footer">
-          <a href="{{ cta.link_url }}" class="home-cta__button">{{ cta.link_label }}</a>
-        </div>
-        {%- endif -%}
       </div>
       {%- endfor -%}
     </div>

@@ -15,7 +15,11 @@
                     <div class="blog-full-index__card-body">
                         {{ post.description }}
                     </div>
-                    <div class="blog-full-index__card-cta">{{ blog-full-index.more }}</div>
+                    <div class="blog-full-index__card-cta">
+                        <span class="blog-full-index__card-cta-pill">
+                            {{ blog-full-index.more }}
+                        </span>
+                    </div>
                 </div>
             </a>
         </div>
@@ -27,7 +31,11 @@
                         <div class="blog-full-index__card-title">{{ post.title }}</div>
                         <div class="blog-full-index__card-date">{{ post.date | date: "%D" }}</div>
                     </div>
-                    <div class="blog-full-index__card-cta">{{ blog-full-index.more }}</div>
+                    <div class="blog-full-index__card-cta">
+                        <span class="blog-full-index__card-cta-pill">
+                            {{ blog-full-index.more }}
+                        </span>
+                    </div>
                 </div>
             </a>
         </div>
