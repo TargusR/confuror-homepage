@@ -1,43 +1,50 @@
 ---
 layout: document_index
 name: conbook_ads
-title: ¡Anunciate en el Conbook!
+title: ¡Anúnciate en el Conbook!
 label: Anúnciate en el Conbook
 description: >-
-  Presenta tu anuncio en nuestro Conbook y llega a todo el público de la convención.
+  Presenta tu anuncio en nuestro conbook y llega a todo el público de la convención.
 lang: es
 featured: false
 category: cat_participate
-category_weight: 1
+category_weight: 3
 list_id: conbook
 list_weight: 2
 permalink: /es/conbook/anuncios/
+banner_src: /assets/banners/conbook_web_banner__ads.jpg
+banner_alt: Anuncios Conbook Confuror 2023
 alert_heading: ¡Solicitudes cerradas!
 alert_message: >-
-  Las solicitudes de anuncios ya están cerradas. Nuestro Conbook 2022 está listo y en proceso de impresión. Muchas gracias por tu participación y/o interés.
+  Las solicitudes de anuncios ya están cerradas. Muchas gracias por tu participación y/o interés.
 alert_mode: warning
-banner_src: /assets/banners/conbook_web_banner.png
-banner_alt: Conbook Confuror 2022
 ---
 
-Si tienes algún proyecto creado para la comunidad furry que te gustaría difundir en Confuror, puedes anunciarlo en nuestro Conbook. ¡Todos los asistentes de la Convención reciben una copia!
+{%
+  include {{ site.formats.featured_paragraph }}
+  size="sm"
+  content="Si tienes algún proyecto creado para la comunidad furry que te gustaría difundir en Confuror, puedes anunciarlo en nuestro Conbook. ¡Todos los asistentes de la convención reciben una copia!"
+%}
 
-Los anuncios en el Conbook se recomiendan para artistas y creativos que ofrezcan sus servicios, sitios web de interés furry, comics, revistas o proyectos en crowdfunding. ¡También para anunciar otros eventos para la comunidad furry!
+Los anuncios en el Conbook se recomiendan para artistas y creativos que ofrezcan sus servicios, sitios web de interés furry, comics, revistas o proyectos en crowfunding. También para anunciar otros eventos para la comunidad Furry, como convenciones, furmeets, campamentos, mercados furry, entre otros.
 
 
 ## Reglas sobre contenidos y tamaños
 
-El material gráfico y textual de tu publicidad **deberá ser apto para todo público**. Revisa el contenido de tu anuncio muy bien antes de enviarlo, el equipo de edición del Conbook no realizará correcciones de ningún tipo a los archivos entregados.
+El material gráfico y textual de tu publicidad **deberá ser apto para todo público**, sin excepción ni excusas por lo que se busque anunciar. 
 
-El tamaño de impresión del Conbook es carta (8.5 x 11 pulgadas). La publicidad se incluye intercalada con los contenidos. Los precios por anuncio varían según el tamaño a elegir, existiendo los siguientes disponibles:
+Revisa el contenido de tu anuncio muy bien antes de enviarlo, el equipo de edición del Conbook no realizará correcciones de ningún tipo a los archivos entregados.
 
 <div class="container text-center"><img src="/assets/images/ad_size_diagram_es.png" alt="Tamaños de anuncios disponibles" class="img-fluid"></div>
 
+El tamaño de impresión del Conbook es Carta (8.5 x 11 pulgadas). La publicidad se incluye intercalada con los contenidos de la publicación. Los precios por anuncio varían según el tamaño a elegir, existiendo los siguientes disponibles:
+
+
 |Tamaño|Medidas|Precio|
 |:--------|:-------:|--------:|
-|1/4 de página|4.25 x 5.5 pulgadas|$800 MXN|
-|1/2 página|8.5 x 5.5 pulgadas|$1,550 MXN|
-|Página completa|8.5 x 11 pulgadas|$3,000 MXN|
+|1/4 de página|4.25 x 5.5 pulgadas (10.8 x 14 cm)|$1,200 MXN|
+|1/2 página|8.5 x 5.5 pulgadas (21.5 x 14 cm)|$2,325 MXN|
+|Página completa|8.5 x 11 pulgadas (21.5 x 28 cm)|$4,500 MXN|
 
 
 {%
@@ -49,25 +56,29 @@ El tamaño de impresión del Conbook es carta (8.5 x 11 pulgadas). La publicidad
 
 ## ¿Cómo solicitar un anuncio?
 
-Para solicitar un espacio publicitario deberás llenar una solicitud en el formulario que indicamos a continuación. Deberás rellenar toda la información que se solicite de manera correcta. Una vez que envíes deberás esperar la confirmación de la misma (procuraremos responder en un plazo no mayor a 15 días). Si tu anuncio resulta aceptado, recibirás una confirmación por correo indicando los pasos a seguir para realizar el pago; recomendamos liquidar el pago a la brevedad para no perder el espacio. Todas las comunicaciones por correo relacionadas con tu anuncio deberán llegar desde las direcciones **info@confuror.org** o **conbook@confuror.org**
+Para solicitar un espacio publicitario deberás llenar una solicitud en el formulario que indicamos a continuación.
+
+Una vez que la envíes, deberás esperar la confirmación de la misma, y a más tardar el 31 de Julio del 2023 recibirás una confirmación por correo electrónico indicando los pasos a seguir para realizar el pago; recomendamos liquidar el pago apenas y recibas la confirmación para no perder el espacio, ya que los espacios de anuncios en el Conbook son limitados.
+
+Todas las comunicaciones relacionadas con tu anuncio deberán llegar desde las direcciones *info@confuror.org* o *conbook@confuror.org*. No enviaremos ninguna indicación fuera de esos correos ni por mensajes privados.
 
 {%
   include {{ site.formats.cta_button }}
   text="¡Solicita tu anuncio ahora!"
-  url="https://forms.gle/dcZL9z8nwK5BcTpn6"
+  url="https://forms.gle/Ff3ewt3T4FRaGiVw5"
   disabled=true
   targetBlank=true
 %}
 
-Cualquier duda que surja con respecto a tu anuncio o a como solicitar un espacio, puedes resolverlas escribiendo a **conbook@confuror.org**
+Cualquier duda con respecto a tu anuncio o a cómo solicitar un espacio, puedes escribirnos a **conbook@confuror.org**.
 
-¡La convocatoria cierra el 31 de agosto!
+¡La convocatoria cierra el 31 de Julio!
 
 
 ### Características de los anuncios
 
-- Los archivos que envíes deberán tener el tamaño y resolución adecuadas (300 dpi como mínimo).
-- Deberás subirlos a cualquier sistema de almacenamiento en la nube y colocar el link con acceso habilitado para descarga en el formulario.
-- La imagen del anuncio deberá ser apta para todo el público.
-- La imagen del anuncio deberá contener todos los datos que desees publicitar sobre tu proyecto (nombre, links o detalles). No se harán modificaciones ni se agregará texto adicional en la publicación.
-- Se recomienda considerar un margen de al menos medio centimetro para la colocación de texto o elementos de lectura.
+- Los archivos que envíes deberán tener el tamaño y resolución adecuadas (300 dpi como mínimo)
+- Aceptamos únicamente archivos: JPEG, PNG, PDF o TIFF.
+- Importante incluir al menos media pulgada (1 cm) de sangrado de cada lado para la colocación de texto o elementos importantes en tu anuncio.
+- La imagen y el contenido escrito del anuncio deberá ser apta para todo público, sin excepciones.
+- La imagen del anuncio deberá contener todos los datos que desees publicitar sobre tu proyecto (título, links, detalles, etc.). No se harán modificaciones ni se agregará texto adicional de la publicación.

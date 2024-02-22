@@ -1,10 +1,10 @@
 ---
 layout: document_index
 name: drink_and_draw
-title: ¡Confuror Drink and Draw 2022!
+title: ¡Confuror Drink and Draw 2023!
 label: Drink & Draw
 description: >-
-  Sé parte de este evento exclusivo dentro de Confuror 2022, arte y bebida en un mismo lugar.
+  Sé parte de este evento exclusivo dentro de Confuror 2023, arte y bebida en un mismo lugar.
 lang: es
 featured: false
 category: cat_contents
@@ -12,11 +12,15 @@ category_weight: 3
 list_id: drink_and_draw
 list_weight: 1
 permalink: /es/drink-and-draw/
-banner_src: /assets/banners/drink_and_draw_web_banner.png
-banner_alt: Drink and Draw 2022
+banner_src: /assets/banners/drink_and_draw_web_banner.jpg
+banner_alt: Drink and Draw 2023
+alert_heading: ¡Entradas agotadas!
+alert_message: >-
+  Todos los pases al Drink And draw se han agotado. Muchas gracias a todos los que compraron su pase. ¡Nos vemos en el Drink and Draw!
+alert_mode: info
 ---
 
-Recibe la primera noche de **Confuror 2022** en un salón acondicionado como bar en dónde tendrémos servicio de barra libre y cerveza artesanal para degustar; una fiesta de bienvenida exclusiva para mayores de 18 años, presentada por [RadiOso](https://radioso.carrd.co/) y [RudderButts](https://rudderbutts.shop/).
+Recibe la primera noche de **Confuror 2023** con barra libre y cerveza artesanal para degustar; una fiesta de bienvenida exclusiva para mayores de 18 años, presentada por [RadiOso](https://radioso.carrd.co/) y [RudderButts](https://rudderbutts.shop/).
 
 <br>
 <div class="container-overflow">
@@ -37,64 +41,53 @@ Recibe la primera noche de **Confuror 2022** en un salón acondicionado como bar
 
 ¡Más de 5 horas de actividades junto a nuestros invitados! Nuestros presentadores tendrán entrevistas con artistas, retos de dibujo, concurso de ilustración, Drink games, recaudación para la caridad y más. No hace falta estar registrado en Confuror para participar. **El Drink and Draw es un evento exclusivo con costo independiente**.
 
-<!-- {%
-  include {{ site.formats.inline_alert }}
-  mode="info"
-  heading="¡Boletos a la venta el 30 de septiembre!"
-  message="Mantente al pendiente de nuestras redes para conocer el costo y el medio para registrarte."
-%} -->
-
 ## Detalles
 
-- Fecha: Jueves 20 de Octubre, de 7:00 pm a 1:00 am. Salón Caballo Negro del Fiesta Americana Guadalajara.
+- Fecha: Jueves 19 de Octubre, de 7:00 pm a 1:00 am. en el Hotel Barceló Guadalajara.
 - Actividades enfocadas a la ilustración y convivencia.
 - Barra libre con variedad de alcohol, Cerveza artesanal y algunas opciones no alcohólicas.
 - Exclusivo para mayores de 18 años, cupo limitado.
 
+## ¡Registrate ahora!
 
-## Llegan las Black Horse Happy Hours
+- Acceso al Drink and Draw día Jueves 19 de Octubre con su paquete de bienvenida.
+- Actividades exclusivas durante el evento patrocinadas por los host.
+- Barra libre durante el evento con cerveza artesanal.
 
-El salón caballo negro tendrá varias actividades para a los asistentes de Confuror durante Viernes y Sábado. Y en los horarios de 7:00pm a 12:00am se abrirá nuevamente la barra para aquellos que tengan su pase de las Happy Hours del caballo negro. Si no alcanzaste tu lugar en el Drink and Draw, puedes adquirir este pase y degustar las cervezas exclusivas que tendremos para ofrecer en este espacio de convivencia exclusivo para mayores de 18.
-
-
-## Costos
-
-<div class="container-overflow">
-  <div class="row">
-    <div class="col-md-6">
-      <h3>Drink and Draw</h3>
-      <ul>
-        <li>Acceso al Drink and Draw día Jueves 20 de Octubre.</li>
-        <li>Barra libre por ese día.</li>
-      </ul>
-      <span style="font-size: larger;">Costo:<strong class="text-secondary">$749 MXN</strong></span>
-    </div>
-    <div class="col-md-6">
-      <h3>Black Horse Happy Hours</h3>
-      <ul>
-        <li>Acceso a la barra libre de salón Caballo negro el Viernes 21 y Sábado 22 de Octubre</li>
-        <li>Horario de la barra de 7:00pm a 12:00pm</li>
-      </ul>
-      <span style="font-size: larger;">Costo: <strong class="text-secondary">$649 MXN</strong></span>
-    </div>
-  </div>
+<br>
+<div class="container-overflow" style="text-align: center;">
+  <span style="font-size: larger;">Todo por: <strong class="text-secondary">$550.00 MXN</strong></span>
 </div>
 
+{%
+  include {{ site.formats.inline_alert }}
+  mode="info"
+  message="Registro disponible a partir del día Miércoles 11 de Octubre desde las 10:00pm (GMT-6)."
+%}
+
+<!--
 <div class="clock-counter__container">
   <span class="clock-counter__intro">OWO!! *notices countdown*</span>
-  <span class="clock-counter" data-limit="1664593200000"></span>
+  <span class="clock-counter" data-limit="1697083200000"></span>
   <div class="clock-counter__hide clock-counter__outro">
     {%
       include {{ site.formats.cta_button }}
       text="Regístrate ahora al Drink and Draw"
-      url="https://confuror.regfox.com/confuror-drink-and-draw"
+      url="https://confuror.regfox.com/drink-and-draw-2023"
       disabled=false
       targetBlank=true
     %}
   </div>
 </div>
-<!-- 1651381200 -->
-<!-- 1651363200000 -->
+-->
+
+{%
+  include {{ site.formats.cta_button }}
+  text="Regístrate ahora al Drink and Draw"
+  url="https://confuror.regfox.com/drink-and-draw-2023"
+  disabled=true
+  targetBlank=true
+%}
 
 ## ¡Gana una entrada!
 

@@ -1,10 +1,10 @@
 ---
 layout: document_index
 name: conbook_contents
-title: Contribute to the conbook!
+title: Be part of our Conbook!
 label: Conbook contents
 description: >-
-  Do you want your work to be featured in the Conbook? Here's how to participate.
+  Do you want your work featured in our Conbook? Here’s how!
 lang: en
 featured: false
 category: cat_participate
@@ -12,56 +12,94 @@ category_weight: 2
 list_id: conbook
 list_weight: 3
 permalink: /en/conbook/contents/
+banner_src: /assets/banners/conbook_web_banner.jpg
+banner_alt: Conbook Confuror 2023
 alert_heading: Submissions closed!
 alert_message: >-
-  Submissions for content are now closed. Our 2022 Conbook is ready and on it's printing stage. Thank you so much for your participation and/or interest.
+  Content submissions are closed now. Thank you so much for your participation and/or interest.
 alert_mode: warning
-banner_src: /assets/banners/conbook_web_banner.png
-banner_alt: Conbook Confuror 2022
 ---
 
-Confuror is looking for artists who would like to see their artwork printed in this edition's conbook.
+{%
+  include {{ site.formats.featured_paragraph }}
+  size="sm"
+  content="First off, thank you for your interest in participating in our Conbook for our sixth Confuror edition!"
+%}
 
-The Conbook is yours!
+Confuror is looking for your artwork, photographs, stories, and articles for publication in our 2023 Conbook.
 
-Selected works  will be published with non-exclusive printing rights. Wich means that the artists or authors can publish their submitted works at any other time or medium, since they keep all the rights and accreditation of their work.
+We are asking for non-exclusive print rights for your submitted works. You, the artist or author, may publish your submitted works in any other fashion, at any time.
 
-## Submission requirements and instructions
 
-In order to participate, send your artwork files **before August 31, 2022**. Our convention theme is **"Día de Muertos" (Day of the death)** so we welcome all pieces that make reference to this Mexican tradition or its similar in other countries. Sumitted pieces that comply with this theme will have priority to appear in the Conbook.
+## General information
 
-All submissions should be in the "G" to "PG-13" rating.
+Conbook submissions must be received no later than August 15, 2023. The theme of our 2023 convention is “Science Madness.” It represents science in general, science fiction, mad scientists, crazy experiments, monstrous creations, bizarre machines, and more- all mixed with furry fandom.
 
-### Illustrations or photographs:
+All submissions should be rated "G" to "PG-13."
 
-- Files must be on high resolution at 300 dpi or higher, in formats JPEG, PNG, PDF or TIFF.
-- It must be original art of your own authorship.
-- No fanarts.
-- They must not contain direct references to products or projects, nor advertising links.
-- Sketches will not be approved - We may accept grayscale pictures as long as they look as a finished piece of work.
-- Illustrations of characters without background are acceptable and preferable, as they facilitate the arrangement of text.
+All submissions should include a title, the creator’s real name, and their nickname (if desired).
 
-## Required data and submission mail address
+While not required, we would appreciate it if you include “Yuri, the Opossum,” Confuror’s beloved mascot, in your works.
 
-You should attach all files you wish to be considered in an email that includes the following information:
+Linked here is the Artists Guide for this year’s convention, which we hope will be useful to you in producing your works:
 
-- Your real name.
-- Your name to display with the submission(s) (if you desire to use your real name, please specify).
-- Social network, gallery or web page where you'd want people to contact you.
-- An image that can be used as an Icon or Avatar to represent you in the credits page of the Conbook.
-- Attached file names.
-- Submission Title(s).
+{%
+  include {{ site.formats.cta_button }}
+  text="Check the style guide"
+  url="https://www.dropbox.com/s/t58l6iotixcf03x/Art_Guide_Conbook_ENG.pdf?dl=0"
+  disabled=false
+  targetBlank=true
+%}
 
-And you must send it to [conbook@confuror.org](mailto:conbook@confuror.org) with the subject **"Contents for the Conbook Confuror 2022"**. Although you can participate with more than one piece, each one is subject to individual selection. 
+Most importantly though, have fun creating your pieces!
+
+### File submissions:
+
+## Artwork and photography.
+
+- Acceptable file formats: JPEG, PNG, PDF or TIFF.
+- Must be high resolution at 300 dpi or higher.
+- Must be original work of your own creation.
+- No fanart or copyrighted characters.
+- Sketches will not be approved. We may accept grayscale pictures, but they must look like finished works.
+- Must not contain advertising links or direct references to real products or projects.
+- Artwork of characters with transparent backgrounds will be highly appreciated. While not mandatory, these are easier for us to accommodate within the Conbook. If your art does have a transparent background, be sure to send it as a PNG or PSD.
+- While not required, we would appreciate it if you include “Yuri, the Opossum”, Confuror’s beloved mascot, in your works.
+- Include your signature. We are very appreciate of your work, but above all else we need to be able to acknowledge you as the creator.
+
+## Stories and articles.
+
+- Acceptable file formats: TXT, PAGES, DOC or PDF.
+- Must be no more than 1200 words.
+- English or Spanish.
+
+
+## File submission
+
+Fill out this survey to submit your files:
+
+{%
+  include {{ site.formats.cta_button }}
+  text="Submit Files"
+  url="https://forms.gle/hCiA21gZFRbbTEmv8"
+  disabled=true
+  targetBlank=true
+  classes='registration__form-button'
+%} 
+
+You will be asked for:
+
+- Your real name
+- A nickname to display beside your submission(s) (if different from your real name)
+- Your submission files
+- A title for each of your works
+- A social network, gallery, or web page where you'd want people to find you
 
 {%
   include {{ site.formats.inline_alert }}
   mode="info"
-  message="Remember that your submission with files and data must be sent no later than <strong>August 31, 2022</strong>."
+  message="Remember that your submission with files and data must be sent no later than <strong>August 15, 2023</strong>."
 %}
 
-Thank you for your interest in participating in our Conbook, good luck!
 
-<br>
-
-> **By submitting your files and data, you agree to the terms of our invitation and to allow the use of your files for the Confuror 2022 Conbook publication, on a non-profit basis and with non-exclusive printing rights.**
+> **By submitting your files and completing this survey, you agree to the terms and conditions as stated in the Confuror 2023 Conbook Submission Guidelines and hereby grant Confuror non-exclusive rights to publish your submissions in accordance with those guidelines.**

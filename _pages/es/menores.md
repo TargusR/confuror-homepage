@@ -3,7 +3,7 @@ layout: document_index
 name: minors
 title: Asistencia de menores de edad
 label: Menores de edad
-description: Última actualización Octubre 2022
+description: Última actualización Octubre 2023
 lang: es
 featured: false
 list_id: about_documents
@@ -30,7 +30,7 @@ Aplica cuando un menor es autorizado directamente por sus padres o tutores legal
 {%
   include {{ site.formats.cta_button }}
   text='Descargar Formato 1'
-  url='/assets/files/menores/consentimiento_menor_caso_1-sin_acompañante_2022.pdf'
+  url='/assets/files/menores/consentimiento_menor_caso_1-sin_acompañante_2023.pdf'
   disabled=false
   targetBlank=true
 %}
@@ -42,7 +42,7 @@ Aplica cuando el padre o tutor legal de un menor interesado en asistir al evento
 {%
   include {{ site.formats.cta_button }}
   text='Descargar Formato 2'
-  url='/assets/files/menores/consentimiento_menor_caso_2-con_acompañante_designado_2022.pdf'
+  url='/assets/files/menores/consentimiento_menor_caso_2-con_acompañante_designado_2023.pdf'
   disabled=false
   targetBlank=true
 %}
@@ -54,7 +54,7 @@ Aplica cuando el padre o tutor legal de un menor interesado en asistir al evento
 {%
   include {{ site.formats.cta_button }}
   text='Descargar Formato 3'
-  url='/assets/files/menores/consentimiento_menor_caso_3-acompañados_por_su_tutor_directo_2022.pdf'
+  url='/assets/files/menores/consentimiento_menor_caso_3-acompañados_por_su_tutor_directo_2023.pdf'
   disabled=false
   targetBlank=true
 %}

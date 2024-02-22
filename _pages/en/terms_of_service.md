@@ -3,7 +3,7 @@ layout: document_index
 name: tos
 title: Terms of Service
 label: Terms of Service
-description: Last update January 2020
+description: Last update March 2023
 lang: en
 list_id: about_documents
 list_weight: 3

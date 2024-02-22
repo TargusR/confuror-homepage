@@ -3,7 +3,7 @@ layout: document_index
 name: minors
 title: Attendance of minors
 label: Minors
-description: Last update October 2022
+description: Last update October 2023
 lang: en
 featured: false
 list_id: about_documents
@@ -30,7 +30,7 @@ Applies when a minor is authorized directly by his/her parents or legal guardian
 {%
   include {{ site.formats.cta_button }}
   text='Download Format 1'
-  url='/assets/files/menores/consentimiento_menor_caso_1-sin_acompañante_2022.pdf'
+  url='/assets/files/menores/consentimiento_menor_caso_1-sin_acompañante_2023.pdf'
   disabled=false
   targetBlank=true
 %}
@@ -42,7 +42,7 @@ Applies when the parent or legal guardian of a minor seeking to attend the event
 {%
   include {{ site.formats.cta_button }}
   text='Download Format 2'
-  url='/assets/files/menores/consentimiento_menor_caso_2-con_acompañante_designado_2022.pdf'
+  url='/assets/files/menores/consentimiento_menor_caso_2-con_acompañante_designado_2023.pdf'
   disabled=false
   targetBlank=true
 %}
@@ -54,7 +54,7 @@ Applies when the parent or legal guardian of a minor seeking to attend the event
 {%
   include {{ site.formats.cta_button }}
   text='Download Format 3'
-  url='/assets/files/menores/consentimiento_menor_caso_3-acompañados_por_su_tutor_directo_2022.pdf'
+  url='/assets/files/menores/consentimiento_menor_caso_3-acompañados_por_su_tutor_directo_2023.pdf'
   disabled=false
   targetBlank=true
 %}

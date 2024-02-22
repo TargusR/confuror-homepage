@@ -1,7 +1,7 @@
 ---
 layout: document_index
 name: fursuit_dance
-title: Competencia de baile en Fursuit Confuror 2022
+title: Competencia de baile en Fursuit Confuror 2023
 label: Competencia de baile
 description: >-
   ¡Llegó la hora de mostrar tus mejores pasos! 
@@ -9,11 +9,11 @@ lang: es
 featured: false
 category: cat_participate
 category_weight: 5
-list_id: dance_comps
-list_weight: 1
+list_id: main_stage
+list_weight: 0
 permalink: /es/actividades/fursuit-dance/
-banner_src: /assets/banners/confuror_virtual_dance_bg.png
-banner_alt: Confuror 2022 Fursuit Dance Competition
+banner_src: /assets/banners/dance_comp_web_banner.jpg
+banner_alt: Confuror 2023 Fursuit Dance Competition
 ---
 
 Este concurso es apto para todas las edades. No se requiere experiencia bailando o realizando performance en fursuit. **Las inscripciones permanecerán abiertas hasta el 14 de Octubre**. ¡A moverse todos!
@@ -21,7 +21,7 @@ Este concurso es apto para todas las edades. No se requiere experiencia bailando
 {%
   include {{ site.formats.cta_button }}
   text="¡Inscríbete al Concurso de baile!"
-  url="https://forms.gle/RkQdL8ktCNM24T717"
+  url="https://forms.gle/3xfw5HRaVBJsvSMn8"
   targetBlank=true
 %}
 
@@ -37,11 +37,11 @@ Constará de dos etapas durante la convención. Una eliminatoria presencial a pu
 ## Requisitos y bases de participación
 
 ### Requisitos:
-1. Estar registrado en Confuror 2022. Será requerido el ID de registro. La inscripción se anulará en caso de que no se pueda comprobar este dato.
+1. Estar registrado en Confuror 2023. Será requerido el ID de registro. La inscripción se anulará en caso de que no se pueda comprobar este dato.
 2. Llenar cuidadosamente el formulario de inscripción **antes del 14 de octubre**. Una vez cerradas las inscripciones no se podrán aceptar nuevos registros.
 3. Para categoría “Grupal” un representante o líder deberá llenar el formulario de registro (solo un formulario por grupo), proporcionando los datos de los integrantes y el nombre que llevarán como equipo.
 4. Proporcionar una pista musical mediante un link de descarga (dropbox, Google drive o link público), deberá cumplir con los requisitos mencionados en el apartado de “Características de la pista musical”.
-5. Presentarte en la fecha asignada de pre-eliminatoria; el viernes 21 de Octubre. Consulta el apartado de Pre-eliminatorias más abajo.
+5. Presentarte en la fecha asignada de pre-eliminatoria; el viernes 20 de Octubre. Consulta el apartado de Pre-eliminatorias más abajo.
 7. Los concursantes deberá presentarse con mínimo 10 minutos de anticipación en el salón y horario correspondientes, ya portando el fursuit completo o parcial que usarán para participar.
 
 Solo se considerará que un participante está oficialmente inscrito si cumple con todos los requisitos y se presenta a la eliminatoria presencial.
@@ -74,20 +74,20 @@ El staff se reserva el derecho para descartar las participaciones que a su consi
 - **Presencia Escénica:** La energía, seguridad y soltura en el escenario, así como la reacción del público ante la ejecución.
 
 ## Pre-eliminatorias para las categorías individuales:
-Todos los participantes deberán concursar en una etapa pre-eliminatoria durante el evento presencial, programada el Viernes 21 de Octubre de 2:00pm a 4:00pm. **La participación en las pre-eliminatorias es un requisito para resultar seleccionado en la competencia final, solo los mejores 5 participantes de cada categoría competirán en la final**.
+Todos los participantes deberán concursar en una etapa pre-eliminatoria durante el evento presencial, programada el Viernes 20 de Octubre (horario por confirmar). **La participación en las pre-eliminatorias es un requisito para resultar seleccionado en la competencia final, solo los mejores 5 participantes de cada categoría competirán en la final**.
 
 1. Las pre-eliminatorias se realizarán a puerta cerrada, sin acceso al público. Solo los handlers de los participantes podrán estar presentes, **máximo dos por participante**.
 2. La pista o canción será la misma que bailarías en la final en caso de resultar finalista.
 3. Se evaluará con base a los mismos criterios del concurso (ver “Puntos a Calificar”); con excepción del factor de audiencia en "Presencia Escénica".
-4. Si resultas elegido, podrás participar en la competencia final de tu categoría **el Domingo 23 de Octubre de 2:00pm a 5:00pm**.
+4. Si resultas elegido, podrás participar en la competencia final de tu categoría **el Domingo 22 de Octubre de (horario por confirmar)**.
 
 Con todo esto en cuenta ¿estás listo para brillar sobre el escenario?
 
-Esperamos con ansias sus propuestas y nos vemos en la edición 2022 de esta competencia de baile.
+Esperamos con ansias sus propuestas y nos vemos en la edición 2023 de esta competencia de baile.
 
 {%
   include {{ site.formats.cta_button }}
   text="¡Inscríbete al Concurso de baile!"
-  url="https://forms.gle/RkQdL8ktCNM24T717"
+  url="https://forms.gle/3xfw5HRaVBJsvSMn8"
   targetBlank=true
 %}

@@ -1,43 +1,49 @@
 ---
 layout: document_index
 name: conbook_ads
-title: Advertise in the Conbook!
-label: Advertise in the Conbook
+title: Advertising in the Conbook!
+label: Advertising in the Conbook
 description: >-
-  Display your ad in our Conbook and reach the entire audience of the convention.
+  Show off your project in our conbook for the entire convention to see.
 lang: en
 featured: false
 category: cat_participate
-category_weight: 1
+category_weight: 3
 list_id: conbook
 list_weight: 2
 permalink: /en/conbook/advertisements/
+banner_src: /assets/banners/conbook_web_banner__ads.jpg
+banner_alt: Conbook Ads Confuror 2023
 alert_heading: Submissions closed!
 alert_message: >-
-  Submissions for ad requests are now closed. Our 2022 Conbook is ready and on it's printing stage. Thank you so much for your participation and/or interest.
+  Submissions for ad requests are now closed. Thank you so much for your participation and/or interest.
 alert_mode: warning
-banner_src: /assets/banners/conbook_web_banner.png
-banner_alt: Conbook Confuror 2022
 ---
 
-If you have a project built for the furry community that you would like to promote at Confuror, you can advertise it in our Conbook - all convention attendees receive a copy!
+{%
+  include {{ site.formats.featured_paragraph }}
+  size="sm"
+  content="If you have a project created for the furry community that you would like to show at Confuror, you can advertise it in our Conbook. All convention attendees receive a copy!"
+%}
 
-Ads in the Conbook are recommended for artists and creatives offering their services, websites of furry interest, comics, magazines or crowdfunding projects, as well as to advertise other events for the furry community!
+Ads in the Conbook are recommended for furry artists and creators offering their services, websites, comics, magazines, crowdfunding projects, and more. They can also be used to announce other events for the furry community, such as conventions, furmeets, camps, and markets, among others.
 
 
-## Content and size rules
+## Rules about content and sizes
 
-All advertisements **should be within the G rating**. Please remember to proofread your advertisement before submitting it. We can not correct typographical errors in your files.
+The material contained in your ad *must be suitable for all audiences*, without exception to what you are advertising.
 
-The conbook is printed on letter size (8.5" x 11"). Advertising is included within its pages interspersed with the contents. Ad costs for Confuror 2019 Conbook are:
+Review the content of your ad very carefully before submitting it. The Conbook team will not make changes of any kind to your files.
 
 <div class="container text-center"><img src="/assets/images/ad_size_diagram_en.png" alt="Tamaños de anuncios disponibles" class="img-fluid"></div>
 
+The Conbook will be printed on letter-size paper (8.5 x 11 inches). Ads will be printed alongside other content in the Conbook. Ad pricing varies depending on the page size chosen:
+
 |Size|Measures|Cost|
 |:--------|:-------:|--------:|
-|1/4 page|4.25 x 5.5 inches|$800 MXN ($40 USD, approx)|
-|1/2 page|8.5 x 5.5 inches|$1,550 MXN ($77 USD, approx)|
-|Full page|8.5 x 11 inches|$3,000 MXN ($150 USD, approx)|
+|1/4 de página|4.25 x 5.5 pulgadas (10.8 x 14 cm)|$1,200 MXN|
+|1/2 página|8.5 x 5.5 pulgadas (21.5 x 14 cm)|$2,325 MXN|
+|Página completa|8.5 x 11 pulgadas (21.5 x 28 cm)|$4,500 MXN|
 
 
 {%
@@ -47,27 +53,31 @@ The conbook is printed on letter size (8.5" x 11"). Advertising is included with
 %}
 
 
-## How to request for an ad?
+## How to request an ad?
 
-To request for an advertising space you must fill out an application in the form below. Fill in all the information requested correctly. Once submitted, wait for the ad's confirmation (we will try to respond within 15 days). If your ad is accepted, you will receive a mail notification indicating the steps to follow to make the payment; we recommend paying as soon as possible in order to avoid losing the space. All communications by mail related to your ad should arrive from **info@confuror.org** or **conbook@confuror.org** addresses.
+To request advertising space, please fill out the form linked below.
+
+Once submitted, you will receive a confirmation email no later than July 31 regarding your form. If your ad is accepted, you will also receive payment instructions, which we recommend completing as soon as possible to avoid losing your slot, since ad space in the Conbook is limited.
+
+All communications related to your ad will come from either info@confuror.org or conbook@confuror.org. We will not send any correspondence or confirmation of payment outside of these emails or by private messages.
 
 {%
   include {{ site.formats.cta_button }}
   text="Request your ad now!"
-  url="https://forms.gle/1EsnjmFn17AVUjaJA"
+  url="https://forms.gle/Ff3ewt3T4FRaGiVw5"
   disabled=true
   targetBlank=true
 %}
 
-Any questions regarding your ad or how to apply for a space, you can resolve them by writing to **conbook@confuror.org**.
+Any questions regarding your ad or how to request ad space should be sent to **conbook@confuror.org**.
 
-The deadline for applications is August 31!
+The deadline for submitting your ad is on July 31!
 
 
-### Ad requirements
+### Advertising Requirements
 
-- The files submitted must have the appropriate size and resolution (300 dpi minimum).
-- The files must be uploaded to any cloud storage system and the link with access enabled for downloading must be included in the form.
-- The image of the advertisement must be suitable for the general public.
-- The image of the advertisement must contain all the information you want to advertise about your project (name, links or details). No modifications will be made and no additional text will be added to the publication.
-- It is recommended to keep a margin of at least half a centimeter for the placement of text or reading elements.
+- The files you send must be the appropriate size and resolution (300 dpi minimum).
+- Acceptable file formats: JPEG, PNG, PDF or TIFF.
+- Be sure to account for at least half an inch (1 cm) of bleed on each side for the placement of text or other important elements in your ad.
+- The imagery and text contained in your ad must be suitable for all audiences, without exception.
+- The ad must contain all the information you want to advertise (title, links, details, etc.). No modifications or additional text will be added.

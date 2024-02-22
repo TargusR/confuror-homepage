@@ -1,7 +1,7 @@
 ---
 layout: document_index
 name: fursuit_dance
-title: Fursuit Dance Competition for Confuror 2022.
+title: Fursuit Dance Competition for Confuror 2023.
 label: Dance Competition
 description: >-
   It's time to show off your best moves!
@@ -9,11 +9,11 @@ lang: en
 featured: false
 category: cat_participate
 category_weight: 5
-list_id: dance_comps
-list_weight: 1
+list_id: main_stage
+list_weight: 0
 permalink: /en/activities/fursuit-dance/
-banner_src: /assets/banners/confuror_virtual_dance_bg.png
-banner_alt: Confuror 2022 Fursuit Dance Competition
+banner_src: /assets/banners/dance_comp_web_banner.jpg
+banner_alt: Confuror 2023 Fursuit Dance Competition
 ---
 
 This competition is suitable for all ages. No fursuit dancing or performance experience is required. **Contestant applications will be receveid until October 14th**. Let's all get moving!
@@ -21,7 +21,7 @@ This competition is suitable for all ages. No fursuit dancing or performance exp
 {%
   include {{ site.formats.cta_button }}
   text="Sign up for the Dance Competition!"
-  url="https://forms.gle/woUhbdmg3Hi4iSPr6"
+  url="https://forms.gle/3xfw5HRaVBJsvSMn8"
   targetBlank=true
 %}
 
@@ -38,11 +38,11 @@ It will be divided into two stages. A face-to-face closed-door elimination and t
 ## Requirements and participation guidelines
 
 ### Requirements:
-1. Be registered for Confuror 2022. The registration ID will be required. The application will be cancelled if this information cannot be verified.
-2. Carefully fill out the application form **before October 14**. No new applications will be accepted after this deadline.
+1. Be registered for Confuror 2023. The registration ID will be required. The application will be cancelled if this information cannot be verified.
+2. Carefully fill out the application form **before October 14th**. No new applications will be accepted after this deadline.
 3. For the "Group" category, a representative or leader must fill out the registration form (only one form per group), providing the members' information and the name of the team.
 4. Provide a music track through a download link (dropbox, Google drive or public link), it must comply with the requirements mentioned in the section "Characteristics of the music track".
-5. Present yourself on the assigned pre-elimination date; Friday, October 21st. See the Pre-elimination section below.
+5. Present yourself on the assigned pre-elimination date; Friday, October 20st. See the Pre-elimination section below.
 7. Contestants must show up at least 10 minutes in advance at the corresponding room and time, wearing the full or partial fursuit they will use to participate.
 
 A participant will only be considered officially registered if they meet all the requirements and present themselves at the face-to-face elimination.
@@ -75,20 +75,20 @@ The staff reserves the right to discard any entries that do not comply with the 
 - **Stage Presence:** Energy, confidence and fluency on stage, as well as the audience's reaction.
 
 ## Pre-elimination rounds for individual categories:
-All participants must compete in a pre-eliminatory stage during the on-site event, scheduled on Friday, October 21st from 2:00pm to 4:00pm. **Participation in the pre-eliminatory is a requirement to qualify for the final competition, only the top 5 participants in each category will participate in the final competition**.
+All participants must compete in a pre-eliminatory stage during the on-site event, scheduled on Friday, October 20st (time to be confirmed). **Participation in the pre-eliminatory is a requirement to qualify for the final competition, only the top 5 participants in each category will participate in the final competition**.
 
 1. The pre-eliminatory stage will be held privately, without access to the general public. Only the handlers of the participants may be present, **maximum two per participant**.
 2. The track will be the same as the one you would dance in the final competition in case of qualifying.
 3. It will be evaluated based on the same criteria of the competition (see "Scoring points"); except for the audience factor on "Stage Prescence".
-4. If you qualify, you will be able to participate in the final competition of your category **Sunday, October 23rd from 2:00pm to 5:00pm**.
+4. If you qualify, you will be able to participate in the final competition of your category **Sunday, October 22rd (time to be confirmed)**.
 
 With all this in mind, are you ready to shine on stage?
 
-We look forward to your submissions and see you at the 2022 edition of this dance competition.
+We look forward to your submissions and see you at the 2023 edition of this dance competition.
 
 {%
   include {{ site.formats.cta_button }}
   text="Sign up for the Dance Competition!"
-  url="https://forms.gle/woUhbdmg3Hi4iSPr6"
+  url="https://forms.gle/3xfw5HRaVBJsvSMn8"
   targetBlank=true
 %}

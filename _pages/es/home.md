@@ -1,7 +1,7 @@
 ---
 layout: home
 name: home
-title: Confuror 2022 - Inicio
+title: Confuror 2023 - Inicio
 lang: es
 permalink: /es/
 redirect_from:

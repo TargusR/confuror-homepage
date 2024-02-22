@@ -3,7 +3,7 @@ layout: document_index
 name: tos
 title: Términos de servicio
 label: Términos de servicio
-description: Última actualización Julio 2021
+description: Última actualización Marzo 2023
 lang: es
 list_id: about_documents
 list_weight: 3
@@ -26,7 +26,7 @@ Al registrarte en Confuror aceptas los siguientes términos de servicio mediante
 
 - **2.3)** La fecha límite para solicitar reembolsos en efectivo o como saldo a favor es el día 1ro de Septiembre a las 00:00 hrs (GMT-06:00) del año correspondiente al de la adquisión de la entrada. Posterior a esa fecha, no se podrán emitir reembolsos debido a los costos operativos ya cubiertos.
 
-- **2.4)** Si el asistente no pudiera presentarse al evento y no solicitó un reembolso antes del 1ro de septiembre, podrá solicitar el envío de los artículos incluídos en su paquete de acceso (Playera u otros regalos, según se especificara) a la dirección que se indique, sin cargos adicionales para el interior de la república Mexicana y con un tope de cobertura máximo de $300 mxn para envíos internacionales. Los articulos se podrán solicitar entre el 1ro de Septiembre y el 31 de diciembre del año correspondiente, siempre y cuando el evento haya sido ejecutado. No se garantiza disponibilidad de tallas o modelos para aquellos que lo soliciten después de concluído el evento, se entregará lo más aproximado disponible. Después del 31 de diciembre no se garantiza la disponibilidad de los artículos en absoluto. El periodo de envío podrá ser hasta de un mes después de que se soliciten los artículos, todos los envíos se realizarán después del evento.
+- **2.4)** Si el asistente no pudiera presentarse al evento y no solicitó un reembolso antes del 1ro de septiembre del año en curso, podrá solicitar el envío de los artículos incluídos en su paquete de acceso (Playera u otros regalos, según se especificara) a la dirección que se indique, sin cargos adicionales para el interior de la república Mexicana y con un tope de cobertura máximo de $300 mxn para envíos internacionales. Los articulos se podrán solicitar entre el 1ro de Septiembre y el 31 de diciembre del año correspondiente, siempre y cuando el evento haya sido ejecutado. No se garantiza disponibilidad de tallas o modelos para aquellos que lo soliciten después de concluído el evento, se entregará lo más aproximado disponible. Después del 31 de diciembre no se garantiza la disponibilidad de los artículos en absoluto. El periodo de envío podrá ser hasta de un mes después de que se soliciten los artículos, todos los envíos se realizarán después del evento.
 
 - **2.5)** Cualquier transacción se procesará según el tipo de cambio vigente. Confuror no se hace responsable por las fluctuaciones en el tipo de cambio que se presenten.
 

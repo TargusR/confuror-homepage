@@ -1,19 +1,19 @@
 ---
 layout: document_index
 name: info_panels
-title: Panels and Activities at Confuror 2022
+title: Panels and Activities at Confuror 2023
 label: Panels and Activities
 description: >-
   Conferences, Workshops and Meetings. Confuror's content is yours and we want you to be on stage.
 lang: en
 featured: false
 category: cat_contents
-category_weight: 2
+category_weight: 1
 list_id: panels
-list_weight: 1
+list_weight: 0
 permalink: /en/panels/
-banner_src: /assets/banners/panels_web_banner.png
-banner_alt: Confuror paneles y actividades
+banner_src: /assets/banners/panels_web_banner.jpg
+banner_alt: Confuror panels and activities
 ---
 
 ## What is a panel?
@@ -23,6 +23,7 @@ One of the main features of a furry convention are the **panels**. Any content p
 - Conferences or talks
 - Meetings
 - Releases and work presentations
+- Concert
 - Round tables and discussions
 - Workshops
 - Group games or activities
@@ -36,6 +37,12 @@ Although panels are housed in the convention space, **attendants are the ones wh
   url='/en/panels/submit/'
   disabled=false
   targetBlank=false
+%}
+
+{%
+  include {{ site.formats.inline_alert }}
+  mode="info"
+  message="Applications will be open until <strong>July 31</strong>; selection of contents will be carried out after this deadline, register your panel now!"
 %}
 
 
@@ -64,6 +71,22 @@ Examples:
 - Book or publication presentation.
 - Event presentation.
 - Videogame or development presentation.
+
+### Concert:
+A musician or a musical group of any genre goes on stage and plays for the audience; to do so, they will have the necessary time for testing and preparation*.
+
+Examples:
+- Solo musicians.
+- Musical groups.
+- Live performance of music for dancing.
+
+{%
+  include {{ site.formats.inline_alert }}
+  mode="info"
+  message="If you are considering applying as a DJ, you will have to do it through its own application form, which you can check <a href='/en/activities/party-djs/'>here</a>."
+%}
+
+> *Any technical or time requirements should be carefully detailed in order to be considered by Confuror staff.
 
 ### Round tables and discussions:
 There is no speaker but a host or moderator who invites a group of people interested in listening and sharing their opinion on a proposed topic.
@@ -96,7 +119,9 @@ Examples:
 - Dancing challenges.
 - Table top tournaments.
 
-If the above has caught your interest and you have any idea you could turn into a panel, submit your proposal now following the instructions below this link:
+<br/>
+
+If the above has caught your interest and you have any idea you could turn into a panel, submit your application now following the instructions below this link:
 
 {%
   include {{ site.formats.cta_button }}
@@ -106,23 +131,22 @@ If the above has caught your interest and you have any idea you could turn into 
   targetBlank=false
 %}
 
-<!--
-## Paneles y actividades en Confuror Online 2021
+---
 
-Durante Confuror 2021 podrás ser anfitrión de dos diferentes tipos de actividades:
+## DJ's and Night Parties
 
-- Paneles: transmisión pública en vivo
-- Room parties: transmisión en sala limitada
-
-Los **Paneles** son transmisiónes en vivo que enlazaremos desde donde estés para emitir por nuestros canales de streaming a toda la audiencia de **Confuror 2021**. La transmisión se realizará en un horario asignado en bloques de una hora de duración mínima, con incrementos de media hora. Si tu contenido propuesto es de naturaleza sensible o contiene temas para adultos, se transmitirá por un medio alternativo con audiencia limitada por edad, pero que estará enlazado en nuestras redes y anunciado en el programa.
-
-Las **Room parties** de Confuror 2021 son salas de voz que se habilitarían para actividades de convivencia o interacción. Puedes proponer partidas amistosas de videojuegos, temas de charla o encuentros. Si tu actividad propuesta es candidata para funcionar como **Room party** serás el anfitrión de la sala y cualquier asistente de Confuror podrá unirse mientras haya cupo (el límite es de 50 personas por sala). El tiempo que dure habilitada la sala dependerá de tu disponibilidad como anfitrión de la actividad.
-
-Si crees que tu idea de actividad puede quedar en cualquiera de las categorías anteriores, sube tu propuesta al formulario que aparece dándo clic en el siguiente botón. Tienes hasta el 4 de Octubre para enviarnos tu propuesta:
+During Confuror's nights the stage turns into a dance floor and you can be the one who sets the rhythm. If you are interested in participating as a DJ in one of our night parties, sign up by following these steps:
 
 {%
-    include {{ site.formats.inline_alert }}
-    mode="info"
-    message="Fecha límite para inscribirte <strong>4 de Octubre del 2021.</strong> ¡Manda tu propuesta hoy mismo!"
+  include {{ site.formats.cta_button }}
+  text='Register as a DJ'
+  url='/en/activities/party-djs/'
+  disabled=false
+  targetBlank=false
 %}
--->
+
+{%
+  include {{ site.formats.inline_alert }}
+  mode="info"
+  message="Applications will be open until <strong>July 31</strong>; selection of DJs will be carried out after this deadline, register your application now!"
+%}
