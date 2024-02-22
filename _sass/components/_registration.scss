@@ -2,25 +2,30 @@
 //  Registration  //
 ////////////////////
 
-
-.registration__intro {}
-
-.registration__form-button-container {
-  @extend .container-fluid;
-  text-align: center;
+.registration__form-button {
+  padding: $spacer-sm $spacer-md;
+  background-color: $sm-red;
+  font-size: $text-size-05;
 }
 
-.registration__form-button {
-  @extend .btn;
-  @extend .btn-primary;
-  @extend .mx-auto;
-  @extend .text-secondary;
-  @extend .border-info;
-  // font-family: 'Bebas Neue', arial !important;
-  font-size: 2em;
-  letter-spacing: 0.1em;
-  padding-left: 20px;
-  padding-right: 20px;
-  margin-bottom: 20px;
-  text-decoration: none !important;
+.day-pass-costs {
+  display: flex;
+}
+
+.day-pass-costs__item {
+  border: 2px solid $sm-gray;
+  text-align: center;
+  border-radius: 12px;
+  overflow: hidden;
+  margin: 5px;
+}
+
+.day-pass-costs__label {
+  padding: 12px;
+  background-color: $sm-gray;
+  color: $sm-light;
+}
+
+.day-pass-costs__fare {
+  padding: 12px;
 }

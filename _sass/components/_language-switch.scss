@@ -8,7 +8,7 @@
   @extend .nav-link, .tag-text;
   padding: 0;
   text-align: center;
-  color: theme-color('light');
+  color: $sm-yellow;
   cursor: pointer;
 }
 
@@ -28,8 +28,8 @@
   @extend .nav;
   overflow: hidden;
   border: 0;
-  border-top: 2px solid rgba($dm-light, 0.4);
-  background-color: $dm-dark;
+  border-top: 2px solid rgba($sm-light, 0.4);
+  background-color: $sm-dark;
   padding: $spacer-sm * 2;
 }
 

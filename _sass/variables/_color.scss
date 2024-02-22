@@ -2,52 +2,16 @@
 //  Color variables and overrides  //
 /////////////////////////////////////
 
-// Howling Gala theme colors
-// $hg-paper: #FFFBE9;
-// $hg-ink: #3A3831;
-// $hg-paper-shadow: #A8A394;
-// $hg-golden: #A57D2D;
-// $hg-golden-light: #C89F3E;
-// $hg-golden-shadow: #764B16;
-// $hg-blue: #0D2B69;
-// $hg-blue-shadow: #04103A;
-
-// Carnival colors
-// $mm-red: #E50514;
-// $mm-red-light: #DC3535;
-// $mm-red-dark: #720103;
-// $mm-aqua: #02958E;
-// $mm-aqua-light: #7EB29C;
-// $mm-blue: #0D384A;
-// $mm-blue-light: #7EA5B2;
-// $mm-purple-light: #971739;
-// $mm-purple: #3B1F2F;
-// $mm-purple-dark: #20091C;
-// $mm-yellow: #ECCF96;
-// $mm-yellow-light: rgb(255, 246, 233);
-
-// Lucha libre colors
-// $ll-purple: #332265;
-// $ll-blue: #212b5A;
-// $ll-brown: #2A0E06;
-// $ll-yellow: #E4C14B;
-// $ll-red: #B72027;
-// $ll-peach: #E6B77F;
-// $ll-cream: #E2DEC0;
-// $ll-black: #000000;
-
-// Dia de Muertos Colors
-$dm-yellow: #EB9A3C;
-$dm-orange: #C85D35;
-$dm-pink: #D128F3;
-$dm-green: #7BD37B;
-$dm-night: #283D5A;
-$dm-blue: #3DCEE9;
-$dm-brown: #510708;
-$dm-bone: #E6DFC0;
-$dm-dark: #120907;
-$dm-light: #FBF1EB;
-
+// Science Madness Colors
+$sm-tint: #331a2f;
+$sm-purple: #5c5aa5;
+$sm-yellow: #e5cc4b;
+$sm-red: #d8365f;
+$sm-blue: #6fa6bb;
+$sm-gray: #857e85;
+$sm-green: #e2eddd;
+$sm-dark: #1c181b;
+$sm-light: #f4f9f2;
 
 
 // Generic Confuror colors
@@ -68,11 +32,11 @@ $cf-dark: #4d4d4d;
 
 
 // Override bootstrap default colors
-$primary:       $dm-yellow !default;
-$secondary:     $dm-night !default;
-$success:       $dm-green !default;
-$info:          $dm-blue !default;
+$primary:       $sm-tint !default;
+$secondary:     $sm-red !default;
+$success:       $sm-green !default;
+$info:          $sm-blue !default;
 $warning:       $cf-yellow !default;
 $danger:        $cf-red !default;
-$light:         $dm-light !default;
-$dark:          $dm-dark !default;
+$light:         $sm-light !default;
+$dark:          $sm-dark !default;

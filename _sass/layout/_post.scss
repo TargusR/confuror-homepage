@@ -26,14 +26,16 @@
 
   .latest-news {
     .post-idex__header {
+      @include roundBorders($spacer-sm);
       background-color: $secondary;
       padding: $spacer-xs * 2;
-      margin-bottom: $spacer-sm;
+      margin-bottom: $spacer-sm; 
+      text-align: center;
     }
 
     .post-idex__title {
       @extend .title-sm;
-      color: $dm-light;
+      color: $sm-light;
       margin: 0;
     }
 
@@ -66,7 +68,7 @@
 .post__title {
   &, * {
     @extend .title-md;
-    color: $dm-night;
+    color: $sm-red;
     line-height: initial;
   }
 }
@@ -74,7 +76,7 @@
 .post__description {
   &, * {
     @extend .featured-text-sm;
-    color: $dm-orange;
+    color: $sm-purple;
     line-height: initial;
   }
 }

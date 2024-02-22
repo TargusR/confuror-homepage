@@ -3,7 +3,7 @@
 //////////////////////////////////
 
 .homepage-virtual-worlds__wrapper {
-  background-color: $dm-dark;
+  background-color: $sm-dark;
   padding-top: $spacer-lg;
   padding-bottom: $spacer-xl;
 }
@@ -17,7 +17,7 @@
 .homepage-virtual-worlds__cta {
   @extend .title-md;
   width: max-content;
-  color: $dm-light;
+  color: $sm-light;
   padding: $spacer-xs $spacer-sm;
   text-align: center;
 }

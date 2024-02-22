@@ -3,20 +3,8 @@
 ////////////////////////////
 
 .support-strip__wrapper {
-  background-color: $dm-night;
+  background-color: $sm-blue;
   position: relative;
-
-  &:before {
-    content: "";
-    display: solid;
-    position: absolute;
-    width: 100%;
-    height: 100px;
-    background-position: center;
-    background-repeat: repeat-x;
-    bottom: -100px;
-    background-image: url("/assets/ui/separador_picado_azul_oscuro.png"), linear-gradient(to bottom, $dm-dark, transparent);
-  }
 }
 
 .support-strip {
@@ -45,7 +33,7 @@
 
   span {
     @extend .tag-text;
-    color: $dm-light;
+    color: $sm-light;
   }
 }
 

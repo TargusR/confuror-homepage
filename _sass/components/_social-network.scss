@@ -15,6 +15,6 @@
 }
 
 .social-network-bar__link {
-  @extend .text-dark;
+  color: $sm-red;
   font-size: $text-size-04;
 }

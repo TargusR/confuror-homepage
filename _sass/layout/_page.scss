@@ -24,14 +24,14 @@
 .page__title {
   &, * {
     @extend .title-lg;
-    color: $dm-night;
+    color: $sm-red;
   }
 }
 
 .page__description {
   &, * {
     @extend .title-sm;
-    color: $dm-orange;
+    color: $sm-purple;
   }
 }
 

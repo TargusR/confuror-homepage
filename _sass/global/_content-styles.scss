@@ -21,17 +21,17 @@
 
     h2 {
         @extend .title-md;
-        color: $dm-orange;
+        color: $sm-purple;
     }
 
     h3 {
         @extend .title-sm;
-        color: $dm-orange;
+        color: $sm-purple;
     }
     
     h4, h5, h6 {
         @extend .featured-text-sm;
-        color: $dm-night;
+        color: $sm-red;
     }
 
     p {
@@ -50,7 +50,7 @@
     blockquote {
         margin-left: 3em;
         padding-left: 1em;
-        border-left: 10px solid $dm-night;
+        border-left: 10px solid $sm-red;
     }
 
     li {

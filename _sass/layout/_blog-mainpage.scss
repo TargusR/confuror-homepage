@@ -27,14 +27,14 @@
 
 .blog__header-icon {
   font-size: $text-size-07 * 1.5;
-  color: $dm-night;
+  color: $sm-red;
   text-align: center;
 }
 
 .blog__title {
   &, * {
     @extend .title-md;
-    color: $dm-night;
+    color: $sm-red;
     margin: 0;
     line-height: initial;
   }
@@ -43,7 +43,7 @@
 .blog__description {
   &, * {
     @extend .featured-text-sm;
-    color: $dm-orange;
+    color: $sm-purple;
     margin: 0;
     line-height: initial;
   }

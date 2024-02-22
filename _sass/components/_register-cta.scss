@@ -3,8 +3,8 @@
 /////////////////////////////
 
 .register-cta__wrapper {
-  background-color: $dm-blue;
-  color: $dm-dark;
+  background-color: $sm-purple;
+  color: $sm-light;
   padding-top: $spacer-lg;
   padding-bottom: $spacer-lg;
 }
@@ -46,11 +46,11 @@
   @extend .body-text-xs;
 
   a {
-    color: $dm-dark;
+    color: $sm-dark;
   }
 
   a:hover {
-    color: $dm-night;
+    color: $sm-red;
   }
 }
 

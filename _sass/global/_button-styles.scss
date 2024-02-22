@@ -24,17 +24,13 @@
   text-transform: uppercase;
   font-weight: bold;
   letter-spacing: 0.06em;
-  padding-left: $spacer-sm * 2;
-  padding-right: $spacer-sm * 2;
-  color: $dm-light;
-  border-color: $dm-light;
-  border-width: 3px;
-  border-style: dotted;
-  outline: 3px solid $dm-night;
-  border-radius: 0px;
+  padding: $spacer-xs $spacer-md;
+  color: $sm-light;
+  border-radius: $spacer-sm;
+  border: none;
 
   &:hover {
-    background-color: $dm-blue;
-    outline-color: $dm-blue;
+    background-color: $sm-purple;
+    border: none;
   }
 }

@@ -4,14 +4,14 @@
 
 .footer {
   @extend .container-fluid, .text-light;
-  background-image: url("/assets/ui/dia_de_muertos_fondo.jpg");
+  background-image: url("/assets/ui/background.jpg");
   background-size: cover;
   background-position: center bottom;
 }
 
 .footer__wrapper {
   @extend .container;
-  padding-top: $spacer-xxl + 100px;
+  padding-top: $spacer-xxl;
 }
 
 .footer__index-row {
@@ -20,12 +20,14 @@
 
 .footer__signature-row {
   @extend .row, .text-dark;
-  background-color: $dm-yellow;
+  @include roundBorders($spacer-sm, $spacer-sm, 0, 0);
+  background-color: $sm-tint;
   padding: $spacer-sm;
   padding-bottom: 0;
-  outline: $spacer-sm solid $dm-yellow;
-  border: 6px dotted $dm-dark;
+  outline: $spacer-sm solid $sm-tint;
+  border: 8px solid $sm-red;
   border-bottom: 0;
+  color: $sm-yellow;
 }
 
 .footer__contact-column {
@@ -39,21 +41,25 @@
 .footer__contact-heading {
   @extend .title-sm;
   margin-bottom: $spacer-xs;
+  color: $sm-red;
 }
 
 .footer__contact-email {
-  @extend .tag-text, .text-dark;
+  @extend .tag-text;
+  color: $sm-light;
 }
 
 .footer__description {
   @extend .tag-text;
   text-align: justify;
   line-height: 1.6em;
+  color: $sm-light;
 }
 
 .footer__copyright {
   @extend .tag-text;
   text-align: right;
+  color: $sm-red;
 }
 
 @media (min-width: 1650px) {

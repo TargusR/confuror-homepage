@@ -2,6 +2,15 @@
 //  Content Image layout styles  //
 ///////////////////////////////////
 
+.image-footer {
+  margin-top: $spacer-sm;
+  p {
+    text-align: center;
+    font-size: $text-size-01 !important;
+    padding: 0 $spacer-sm;
+  }
+}
+
 .cfr-text-formatted-images {
   figure {
     margin: 20px;

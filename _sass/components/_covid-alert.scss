@@ -3,8 +3,8 @@
 /////////////////////////////
 
 .covid-alert__wrapper {
-  background-color: $dm-orange;
-  color: $dm-light;
+  background-color: $sm-purple;
+  color: $sm-light;
   padding-top: $spacer-sm;
   padding-bottom: $spacer-sm;
 }
@@ -46,11 +46,11 @@
   @extend .body-text-xs;
 
   a {
-    color: $dm-dark;
+    color: $sm-dark;
   }
 
   a:hover {
-    color: $dm-night;
+    color: $sm-red;
   }
 }
 

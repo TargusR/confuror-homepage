@@ -4,37 +4,15 @@
 
 
 .home-cta__wrapper {
-  background-color: $dm-bone;
-  background: linear-gradient(to bottom, $dm-light, $dm-bone);
+  background-color: $sm-tint;
+  border-top: solid $spacer-xs $sm-red;
+  border-bottom: solid $spacer-xs $sm-red;
   position: relative;
-  border-top: $spacer-xs + $spacer-xxs solid $dm-blue;
-  border-bottom: $spacer-xs + $spacer-xxs solid $dm-pink;
-
-  &:before,
-  &:after {
-    content: "";
-    display: solid;
-    position: absolute;
-    width: 100%;
-    height: 100px;
-    background-position: center;
-    background-repeat: repeat-x;
-  }
-
-  &:before {
-    top: 0;
-    background-image: url("/assets/ui/separador_picado_azul.png");
-  }
-
-  &:after {
-    background-image: url("/assets/ui/separador_picado_invertido_rosa.png");
-    bottom: 0;
-  }
 }
 
 .home-cta {
   @extend .container;
-  padding-top: $spacer-xxl - $spacer-md;
+  padding-top: $spacer-xxl;
   padding-bottom: $spacer-xxl;
 }
 
@@ -47,23 +25,32 @@
   text-align: center;
 }
 
+.home-cta__item-card {
+  @include roundBorders($spacer-sm);
+  background: linear-gradient(to bottom, $sm-light, $sm-green);
+  padding: $spacer-xxs;
+  padding-bottom: $spacer-sm;
+}
+
 .home-cta__header {
+  @include roundBorders($spacer-sm);
   margin-bottom: $spacer-md;
   min-height: 70px;
   display: flex;
   justify-content: center;
-  align-items: flex-end;
+  align-items: center;
+  background-color: $sm-purple;
 }
 
 .home-cta__title {
   @extend .title-sm;
-  color: $dm-brown;
+  color: $sm-light;
   margin: unset;
 }
 
 .home-cta__body {
-  padding: 0 $spacer-sm;
-  color: $dm-night;
+  padding: 0 $spacer-sm + $spacer-xs;
+  color: $sm-tint;
   min-height: 120px;
 }
 

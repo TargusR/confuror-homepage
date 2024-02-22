@@ -33,7 +33,7 @@
 
 .document-index__link.is-active {
   @extend .active, .rounded, .text-light;
-  background-color: $dm-night;
+  background-color: $sm-red;
 }
 
 .document-index__content {
@@ -52,7 +52,7 @@
 .document-index__title {
   &, * {
     @extend .title-lg;
-    color: $dm-night;
+    color: $sm-red;
     margin: 0;
     line-height: initial;
   }
@@ -61,7 +61,7 @@
 .document-index__description {
   &, * {
     @extend .title-sm;
-    color: $dm-orange;
+    color: $sm-purple;
     margin: 0;
     line-height: initial;
   }
