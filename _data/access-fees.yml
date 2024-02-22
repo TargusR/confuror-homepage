@@ -1,67 +1,76 @@
 general:
   enabled: true
+  is_final: true
   label:
     es: General
     en: General
   description:
-    es: Obtén acceso a las actividades de Confuror 2022 durante el jueves, viernes, sábado y domingo, además de una copia de nuestro conbook y un kit de convención.
-    en: Attend every Confuror 2022 activities during friday, saturday and sunday, plus a copy of our Conbook and a convention kit.
+    es: Obtén acceso a las actividades de Confuror 2023 durante el jueves, viernes, sábado y domingo, además de una copia de nuestro conbook y un kit de convención.
+    en: Attend every Confuror 2023 activities during friday, saturday and sunday, plus a copy of our Conbook and a convention kit.
   content:
     es:
       - Acceso general al evento por todos los días
-      - "Conbook (Disponibilidad Limitada para registrados en etapa Extra: 28 Septiembre - 7 Octubre)"
+      - Conbook
       - Tríptico con mapa
       - Kit de Convención
     en:
       - General access for the whole weekend
-      - "Conbook (Limited availability for Bonus Stage registrants: September 28 - October 7)"
-      - Handy convention map
+      - Conbook
+      - Trifold brochure with convention map
       - Basic convention kit
   prices:
     current:
-      es: $1,159 mxn
-      en: $57 usd
+      es: $1,189.90 mxn
+      en: $67 usd
     original:
-      es: $1,159 mxn
-      en: $57 usd
+      es: $1,499.90 mxn
+      en: $84 usd
+    final: 
+      es: No disponible
+      en: Not Available
     date:
-      es: 28 Septiembre - 7 Octubre
-      en: September 28 - October 7
+      es: Registro General cerrado
+      en: General registration closed
 sponsor:
   enabled: true
+  is_final: true
   label:
     es: Sponsor
     en: Sponsor
   description:
-    es: Ayudanos a realizar Confuror 2022 aportando un poco más por tu acceso y obtén a cambio beneficios adicionales, además de algunos souvenirs.
-    en: Become a patron for Confuror 2022 and get extra benefits and souvenirs with this membership.
+    es: Ayudanos a realizar Confuror 2023 aportando un poco más por tu acceso y obtén a cambio beneficios adicionales, además de algunos souvenirs.
+    en: Become a patron for Confuror 2023 and get extra benefits and souvenirs with this membership.
   content:
     es:
       - Todo lo incluido en entrada General
-      - Reconocimiento por su patrocinio al evento
+      - Reconocimiento por su apoyo al evento como "Sponsor"
       - Acceso anticipado al área de ventas
       - Registro exprés
-      - Playera oficial de Confuror 2022
+      - Playera oficial de Confuror 2023
       - Regalos exclusivos para Sponsor
     en:
       - Everything included in General membership
-      - Credits for sponsorship
+      - Recognition for your "Sponsor" support level
       - Early access to vendors room
       - Express Check-in
-      - Confuror 2022 Official shirt
+      - Confuror 2023 Official shirt
       - Exclusive gifts for Sponsors
   prices:
     current:
-      es: $1,879.99 mxn
-      en: $92 usd
+      es: $2,464.90 mxn
+      en: $137 usd
     original:
-      es: $1,879.99 mxn
-      en: $92 usd
+      es: $2,999.90 mxn
+      en: $167 usd
+    final: 
+      es: No disponible
+      en: Not Available
     date:
-      es: 28 Septiembre - 7 Octubre
-      en: September 28 - October 7
+      es: Registro Sponsor cerrado
+      en: Sponsor registration closed
 super_sponsor:
   enabled: true
+  is_final: true
   label:
     es: Super Sponsor
     en: Super Sponsor
@@ -71,56 +80,28 @@ super_sponsor:
   content:
     es:
       - Todo lo incluido en entrada Sponsor
+      - Reconocimiento por su apoyo al evento como "Super Sponsor"
       - Cena VIP Meet & Greet para Super Sponsor
-      - Sudadera oficial Confuror 2022
+      - Sudadera oficial Confuror 2023
       - Regalos exclusivos para Super Sponsor
+      - Desayuno Buffet (Viernes, Sábado y Domingo)
     en:
       - Everything included in Sponsor membership
+      - Recognition for your "Super Sponsor" support level
       - VIP Super Sponsor Meet & Greet dinner
-      - Confuror 2022 official hoodie
+      - Confuror 2023 official hoodie
       - Exclusive gifts for Super Sponsors
+      - Buffet Breakfast (Friday, Saturday & Sunday)
   prices:
     current:
-      es: $2,499.99 mxn
-      en: $122 usd
+      es: $3,499.90 mxn
+      en: $195 usd
     original:
-      es: $2,499.99 mxn
-      en: $122 usd
+      es: $3999.90 mxn
+      en: $223 usd
+    final: 
+      es: No disponible
+      en: Not Available
     date:
-      es: 28 Septiembre - 7 Octubre
-      en: September 28 - October 7
-club_pass:
-  enabled: false
-  label:
-    es: Club Pass
-    en: Club Pass
-  description:
-    es: ¡Super Sponsor y lo que le sigue! Únete al club y hóspedate con un acompañante en nuestro piso reservado del hotel sede por tres noches. Podrás invitar a un amigo o a esa persona especial a la convención y llevarlo a todos los eventos VIP a los que tendrás acceso como miembro Club Pass.
-    en: Much more than just a Super Sponsor patron! Join the club and get a room for two guests at our private floor in the hotel venue, three nights included. Also bring a friend or that special someone to the convention and VIP events with the aditional General membership and extra tickets included in your Club Pass membership.
-  content:
-    es:
-      - Todo lo incluido en entrada Super Sponsor
-      - Entrada general extra para un acompañante
-      - Boleto extra para la cena VIP Meet & Greet de Super Sponsor para el acompañante
-      - Acceso al Drink and Draw con barra libre para dos personas (Jueves)
-      - Hospedaje por tres noches en el hotel sede para dos personas
-      - Cupones para desayuno durante los días de la convención
-      - Regalos exclusivos en kit de bienvenida Club Pass
-    en:
-      - Everything included in Super Sponsor membership
-      - Extra general membership coupon for a guest
-      - Extra ticket for the VIP Super Sponsor Meet & Greet dinner
-      - 2 tickets for the Drink and Draw night (Thursday)
-      - 3 night lodging room (2 guests)
-      - Breakfast coupons
-      - Mexican welcome kit and exclusive Club Pass gifts
-  prices:
-    current:
-      es: $12,499 mxn
-      en: $655 usd
-    original:
-      es: $12,499 mxn
-      en: $655 usd
-    date:
-      es: Hasta agotar existencias
-      en: Limited stock
+      es: Registro Super Sponsor cerrado
+      en: Super Sponsor registration closed

@@ -5,30 +5,36 @@ es:
   #   link_disabled: false
   #   link_label: Leer más
   #   link_url: /es/blog/2022-03-23-estamos-de-vuelta/
-  - title: ¡Regístrate hoy!
+  # - title: ¡Regístrate hoy!
+  #   body: >-
+  #     Últimos días para registrarse, Sponsor y Super Sponsor solo disponibles hasta el 7 de Octubre.
+  #   link_disabled: false
+  #   link_label: Ir al registro
+  #   link_url: /es/registro
+  - title: ¡Actualización importante!
     body: >-
-      Últimos días para registrarse, Sponsor y Super Sponsor solo disponibles hasta el 7 de Octubre.
+      ¡Confuror tiene nuevas fechas y sede! Octubre, 19 al 22, 2023; Hotel Barceló Guadalajara.
     link_disabled: false
-    link_label: Ir al registro
-    link_url: /es/registro
+    link_label: Conoce más
+    link_url: /es/blog/2023-03-09-cambio-sede-fechas/
   - title: ¡Últimas noticias!
     body: >-
       Conoce las últimas novedades sobre la convención y su desarrollo.
     link_disabled: false
     link_label: Checa nuestro blog
     link_url: /es/blog
-  - title: Participa en nuestros Concursos de Baile
-    body: >-
-      ¡Concurso de Baile en Fursuit y Floor Wars disponibles este año!
-    link_disabled: false
-    link_label: Conoce más
-    link_url: /es/actividades/fursuit-dance/
-  # - title: Reserva tu hospedaje
+  # - title: Participa en nuestros Concursos de Baile
   #   body: >-
-  #     Conoce más información sobre el Hotel sede y reserva una habitación para estar más cerca del evento.
+  #     ¡Concurso de Baile en Fursuit y Floor Wars disponibles este año!
   #   link_disabled: false
-  #   link_label: Información de Hospedaje
-  #   link_url: /es/hotel
+  #   link_label: Conoce más
+  #   link_url: /es/actividades/fursuit-dance/
+  - title: Reserva tu hospedaje
+    body: >-
+      Conoce más información sobre nuestro nuevo Hotel sede y reserva una habitación para estar más cerca del evento.
+    link_disabled: false
+    link_label: Sobre el Hotel
+    link_url: /es/hotel
   # - title: ¡Registro disponible próximamente!
   #   body: >-
   #     Estamos listos para volver con evento presencial en 2022. Daremos detalles de las medidas a tomar en cuenta y las fechas de registro muy pronto.
@@ -70,30 +76,36 @@ en:
   #   link_disabled: false
   #   link_label: Read more
   #   link_url: /en/blog/2022-03-23-we-are-back/
-  - title: Get registered today!
+  # - title: Get registered today!
+  #   body: >-
+  #     Online pre-registration for Confuror 2022 is open. Register today and save on your membership! Current discounts available until August 11.
+  #   link_disabled: false
+  #   link_label: Go to registration
+  #   link_url: /en/registration
+  - title: Important Update!
     body: >-
-      Online pre-registration for Confuror 2022 is open. Register today and save on your membership! Current discounts available until August 11.
+      Confuror has new venue and dates! October, 19 to 22, 2023; Hotel Barceló Guadalajara.
     link_disabled: false
-    link_label: Go to registration
-    link_url: /en/registration
+    link_label: Know more
+    link_url: /en/blog/2023-03-09-venue-and-dates-update/
   - title: Latest news!
     body: >-
       Find out the latest news about the convention and its development.
     link_disabled: false
     link_label: Check our blog
     link_url: /en/blog
-  - title: Join our Dance Contests
-    body: >-
-      Fursuit Dance Contest and Floor Wars available this year!
-    link_disabled: false
-    link_label: Know more
-    link_url: /en/actividades/fursuit-dance/
-  # - title: Book a room
+  # - title: Join our Dance Contests
   #   body: >-
-  #     Get more information about our venue and book your room withing our special fare block.
+  #     Fursuit Dance Contest and Floor Wars available this year!
   #   link_disabled: false
-  #   link_label: Booking and Venue information
-  #   link_url: /en/hotel
+  #   link_label: Know more
+  #   link_url: /en/actividades/fursuit-dance/
+  - title: Book a room!
+    body: >-
+      Get more information about our new venue and book your room within our special fare block.
+    link_disabled: false
+    link_label: Venue information
+    link_url: /en/hotel
   # - title: Registration coming soon!
   #   body: >-
   #     We are ready to hold an in-person event in 2022 and soon our pre-registration forms will be open again. More information about healt measures and pre-reg opening dates is on the way!

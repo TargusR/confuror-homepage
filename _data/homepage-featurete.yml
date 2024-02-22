@@ -1,8 +1,8 @@
 es:
   link_label: Únete hoy
   link_url: /es/online
-  background: /assets/banners/ddm_web_home_22_esp.png
+  background: /assets/banners/web_home_esp.png
 en:
   link_label: Join today
   link_url: /en/online
-  background: /assets/banners/ddm_web_home_22_eng.png
+  background: /assets/banners/web_home_eng.png

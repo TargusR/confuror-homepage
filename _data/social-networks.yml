@@ -23,6 +23,16 @@
   weight: 3
   link: https://www.twitch.tv/confuror
   lang: [en, es]
+- label: Youtube
+  icon: youtube
+  weight: 4
+  link: https://www.youtube.com/@Vidafur
+  lang: [en, es]
+- label: Discord
+  icon: discord
+  weight: 5
+  link: https://discord.gg/Eb6enZ4
+  lang: [en, es]
 # - label: Picarto
 #   icon: picarto
 #   weight: 4

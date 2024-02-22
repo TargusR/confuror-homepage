@@ -6,49 +6,61 @@ levels:
 steps:
   - es:
       label: Early Bird
-      date: 1ro Mayo, 00:00 (GMT-5)
-      general: $629.99 mxn
-      sponsor: $1,129.99 mxn
-      super: $1,569.99 mxn
+      date: 22 Marzo, 20:00 (GMT-6)
+      general: $799.90 mxn
+      sponsor: $1,829.90 mxn
+      super: $2,699.90 mxn
     en:
       label: Early Bird
-      date: May 1st, 00:00 (GMT-5)
-      general: $31 usd
-      sponsor: $56 usd
-      super: $77 usd
+      date: March 22, 20:00 (GMT-6)
+      general: $45 usd
+      sponsor: $102 usd
+      super: $150 usd
   - es:
-      label: Pre-Registro (Etapa 1)
-      date: 2 de Mayo al 16 de Agosto
-      general: $849.99 mxn
-      sponsor: $1,499.99 mxn
-      super: $1,949.99 mxn
+      label: Pre-Registro (Etapa I)
+      date: 17 de Abril al 16 de Junio
+      general: $999.90 mxn
+      sponsor: $2,099.90 mxn
+      super: $3,099.90 mxn
     en:
-      label: Pre-registration (Phase 1)
-      date: May 2 to August 16
-      general: $42 usd
-      sponsor: $74 usd
-      super: $96 usd
+      label: Pre-registration (Phase I)
+      date: April 17 to June 16
+      general: $56 usd
+      sponsor: $117 usd
+      super: $173 usd
   - es:
-      label: Pre-Registro (Etapa 2)
-      date: 17 de Agosto al 16 de Septiembre
-      general: $1159.99 mxn
-      sponsor: $1,879.99 mxn
-      super: $2,499.99 mxn
+      label: Pre-Registro (Etapa II)
+      date: 17 de Junio al 4 de Agosto
+      general: $1,189.90 mxn
+      sponsor: $2,464.90 mxn
+      super: $3,499.90 mxn
     en:
-      label: Pre-registration (Phase 2)
-      date: August 17 to September 16
-      general: $57 usd
-      sponsor: $92 usd
-      super: $122 usd
+      label: Pre-registration (Phase II)
+      date: June 17 to August 4
+      general: $67 usd
+      sponsor: $137 usd
+      super: $195 usd
   - es:
-      label: Pre-Registro (Etapa Extra)
-      date: 28 de septiembre al 7 de Octubre (O hasta agotar existencias)
-      general: $1159.99 mxn
-      sponsor: $1,879.99 mxn
-      super: $2,499.99 mxn
+      label: Pre-Registro (Etapa III)
+      date: 5 de Agosto al 20 de Agosto
+      general: $1499.90 mxn
+      sponsor: $2,999.90 mxn
+      super: $3,999.90 mxn
     en:
-      label: Pre-registration (Bonus Stage)
-      date: September 28 to Octiber 7 (Limited availability)
-      general: $57 usd
-      sponsor: $92 usd
-      super: $122 usd
+      label: Pre-registration (Phase III)
+      date: August 5 to August 20
+      general: $84 usd
+      sponsor: $167 usd
+      super: $223 usd
+  - es:
+      label: Última oportunidad
+      date: 21 de Agosto al 30 de Septiembre
+      general: $1499.90 mxn
+      sponsor: No disponible
+      super: No disponible
+    en:
+      label: Last chance
+      date: August 21 to September 30
+      general: $84 usd
+      sponsor: Not Available
+      super: Not Available

@@ -6,7 +6,7 @@
   hidden: false
 - id: cat_participate
   label:
-    en: "Particpate"
+    en: "Participate"
     es: "Participar"
   weight: 1
   hidden: false
@@ -18,8 +18,8 @@
   hidden: false
 - id: cat_vendors
   label:
-    en: "Artists & Dealers"
-    es: "Artistas y Vendedores"
+    en: "Artists & Exhibitors"
+    es: "Artistas y Expositores"
   weight: 3
   hidden: false
 - id: cat_about
